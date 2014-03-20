@@ -55,6 +55,15 @@
 			return;
 		}
 
+		var match = hash.match(controllUrl);
+		if (match) {
+			var controll = new ControllView(controllTpl);
+			controll.getData(function(tplData) {
+				slider.slidePage(controll.render(tplData).el);
+			});
+			return;
+		}
+
 	}
 
 }());
