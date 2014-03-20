@@ -10,18 +10,6 @@ var PlenaryView = function(template) {
         return this;
     };
 
-    this.addLocation = function(event) {
-        event.preventDefault();
-        navigator.geolocation.getCurrentPosition(
-            function(position) {
-                alert(position.coords.latitude + ',' + position.coords.longitude);
-            },
-            function() {
-                alert('Error getting location');
-            });
-        return false;
-    };
-
 	this.getData = function(callback) {
 		$.ajax({
 			type: 'GET',

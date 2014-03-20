@@ -40,6 +40,7 @@
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/config.xml \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/config1.xml \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/controll.rss.xml \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/cordova.js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/cordova_plugins.js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/index.html \
@@ -115,6 +116,7 @@
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/topcoat/img/spinner2x.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/adapters \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/app.js \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/ControllView.js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/EmployeeView.js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/HomeView.js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/PlenaryView.js \
