@@ -38,6 +38,7 @@
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/_where-is-www.txt \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/committee.rss.xml \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/config.xml \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/config1.xml \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/controll.rss.xml \
@@ -46,6 +47,7 @@
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/index.html \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/lib \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/News.rss.xml \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/plugins \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/css \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/pics \
@@ -116,9 +118,11 @@
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/topcoat/img/spinner2x.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/adapters \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/app.js \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/CommitteeView.js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/ControllView.js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/EmployeeView.js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/HomeView.js \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/NewsView.js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/PlenaryView.js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/tools.js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/adapters/jsonp-adapter.js \

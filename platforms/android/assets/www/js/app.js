@@ -5,6 +5,8 @@
     var homeTpl = Handlebars.compile($("#home-tpl").html());
     var plenaryTpl = Handlebars.compile($("#plenary-tpl").html());
     var controllTpl = Handlebars.compile($("#controll-tpl").html());
+    var committeeTpl = Handlebars.compile($("#committee-tpl").html());
+    var newsTpl = Handlebars.compile($("#news-tpl").html());
 
     var homeUrl = "#home";
     var plenaryUrl = "#plenary";
@@ -60,6 +62,24 @@
 			var controll = new ControllView(controllTpl);
 			controll.getData(function(tplData) {
 				slider.slidePage(controll.render(tplData).el);
+			});
+			return;
+		}
+
+		var match = hash.match(committeeUrl);
+		if (match) {
+			var committee = new CommitteeView(committeeTpl);
+			committee.getData(function(tplData) {
+				slider.slidePage(committee.render(tplData).el);
+			});
+			return;
+		}
+
+		var match = hash.match(newsUrl);
+		if (match) {
+			var news = new NewsView(newsTpl);
+			news.getData(function(tplData) {
+				slider.slidePage(news.render(tplData).el);
 			});
 			return;
 		}
