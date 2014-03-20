@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:6
+-keep class bg.parliament.activities.ParliamentActivities { <init>(...); }
+

@@ -3,3 +3,8 @@
 2014-03-20 00:19:04.406 Parliament Activities[9179:70b] Resetting plugins due to page load.
 2014-03-20 00:19:04.561 Parliament Activities[9179:70b] Finished load of: file:///Users/mom/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/669C97D6-71CF-4A30-BDE0-EF61DCFFF999/Parliament%20Activities.app/www/index.html
 2014-03-20 00:19:04.622 Parliament Activities[9179:70b] Received Event: deviceready
+2014-03-20 20:57:44.274 Parliament Activities[10421:70b] Multi-tasking -> Device: YES, App: YES
+2014-03-20 20:57:44.311 Parliament Activities[10421:70b] Unlimited access to network resources
+2014-03-20 20:57:44.743 Parliament Activities[10421:70b] Resetting plugins due to page load.
+2014-03-20 20:57:45.061 Parliament Activities[10421:70b] Finished load of: file:///Users/mom/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/669C97D6-71CF-4A30-BDE0-EF61DCFFF999/Parliament%20Activities.app/www/index.html
+2014-03-20 20:57:58.257 Parliament Activities[10421:70b] THREAD WARNING: ['InAppBrowser'] took '245.199951' ms. Plugin should use a background thread.
