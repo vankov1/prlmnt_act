@@ -1,3 +1,12 @@
+var rssDataPath = "parliament.bg_activities";
+var plenaryDataFile = "plenary.rss.xml";
+var controllDataFile = 'controll.rss.xml';
+var committeeDataFile = 'committee.xml.rss';
+var newsDataFile = 'news.xml.rss';
+var dataFiles = [plenaryDataFile, controllDataFile, committeeDataFile, newsDataFile];
+
+var dataFileAgeToDownload = 86400; //one day in seconds
+
 // We use an "Immediate Function" to initialize the application to avoid leaving anything behind in the global scope
 (function () {
 
@@ -16,10 +25,15 @@
 
     var slider = new PageSlider($('body'));
 
-    var adapter = new MemoryAdapter();
-    adapter.initialize().done(function () {
+    var adapters = [];
+    for (i in dataFiles ) {
+    	adapters[i] = new FileStorage(dataFiles[i]);
+    	adapters[i].initialize();
+    }
+    route();
+    /*adapter.initialize().done(function () {
         route();
-    });
+    });*/
 
     /* --------------------------------- Event Registration -------------------------------- */
     $(window).on('hashchange', route);
@@ -38,6 +52,12 @@
                 );
             };
         }
+        
+        //Check for downloaded RSS files and if they are missing or too old download them
+        for (i in adapters) {
+        	adapters[i].checkDataFile();
+    	}
+        
     }, false);
 
     /* ---------------------------------- Local Functions ---------------------------------- */
