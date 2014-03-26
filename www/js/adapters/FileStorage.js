@@ -1,4 +1,5 @@
 var FileStorage = function(dataFileName) {
+	var self = this;
 	
 	this.dataFile = dataFileName;
 	console.log('data file: ' + this.dataFile);
@@ -14,30 +15,30 @@ var FileStorage = function(dataFileName) {
 		window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, gotFs, fail);
 	};
 
-	gotFs = function(fileSystem) {
+	var gotFs = function(fileSystem) {
 		//console.log('got FS');
 		fileSystem.root.getDirectory(rssDataPath, {create : true, exclusive : false}, gotDirEntry, fail);
 	};
 	
-	gotDirEntry = function(dirEntry) {
+	var gotDirEntry = function(dirEntry) {
 		//console.log('got dir entry');
-		dirEntry.getFile(plenaryDataFile, {create : true, exclusive : false}, gotFileEntry, fail);
+		dirEntry.getFile(self.dataFile, {create : true, exclusive : false}, gotFileEntry, fail);
 	};
 	
-	gotFileEntry = function(fileEntry) {
+	var gotFileEntry = function(fileEntry) {
 		//console.log('got file entry');
 		fileEntry.file(gotFile, fail);
 	};
 	
-	gotFile = function(file) {
+	var gotFile = function(file) {
 		//console.log('got file');
 		var age = (new Date()).getTime() - file.lastModifiedDate;
 		if ( (age / 1000) > dataFileAgeToDownload || file.size <= 0) {
-			console.log('Refresh data from RSS ' + this.dataFile);
+			console.log('Refresh data from RSS ' + self.dataFile);
 		}
 	};
 	
-	fail = function(error) {
+	var fail = function(error) {
 		console.log("GotError:" + error);
 	};
 

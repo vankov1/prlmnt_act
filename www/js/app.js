@@ -56,6 +56,7 @@ var dataFileAgeToDownload = 86400; //one day in seconds
         //Check for downloaded RSS files and if they are missing or too old download them
         for (i in adapters) {
         	adapters[i].checkDataFile();
+        	console.log(adapters[i].dataFile);
     	}
         
     }, false);
