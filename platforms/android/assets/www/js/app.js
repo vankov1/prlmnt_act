@@ -7,6 +7,20 @@ var dataFiles = [plenaryDataFile, controllDataFile, committeeDataFile, newsDataF
 
 var dataFileAgeToDownload = 86400; //one day in seconds
 
+function getRssUrlByFileName(fileName) {
+	var url = '';
+	if (fileName == plenaryDataFile) {
+		url = "http://www.parliament.bg/rss.php?feed=plenary&lng=bg";
+	} else if (fileName == controllDataFile) {
+		url = "http://www.parliament.bg/rss.php?feed=plcontrol&lng=bg";
+	} else if (fileName == committeeDataFile) {
+		url = "http://www.parliament.bg/rss.php?feed=cmeetings&lng=bg";
+	} else if (fileName == newsDataFile) {
+		url = "http://www.parliament.bg/rss.php?feed=news&lng=bg";
+	}
+	return url;
+}
+
 // We use an "Immediate Function" to initialize the application to avoid leaving anything behind in the global scope
 (function () {
 
@@ -56,7 +70,7 @@ var dataFileAgeToDownload = 86400; //one day in seconds
         //Check for downloaded RSS files and if they are missing or too old download them
         for (i in adapters) {
         	adapters[i].checkDataFile();
-        	console.log(adapters[i].dataFile);
+        	//console.log(adapters[i].dataFile);
     	}
         
     }, false);
