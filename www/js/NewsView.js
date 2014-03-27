@@ -11,35 +11,30 @@ var NewsView = function(template) {
     };
 
 	this.getData = function(callback) {
-		$.ajax({
-			type: 'GET',
-			url: "http://www.parliament.bg/rss.php?feed=news&lng=bg",
-			dataType: 'xml',
-			success: function(data, testStatus, jqXHR) {
-				//data is a XML DOM object
-				var newsList = data.getElementsByTagName('item');
-				
-				var news = [];
-				for (var pi = 0; pi < newsList.length; pi++) {
-					news[pi] = {
-						title: newsList[pi].getElementsByTagName('title')[0].textContent,
-						dscr: newsList[pi].getElementsByTagName('description')[0].textContent,
-						pubDate: newsList[pi].getElementsByTagName('pubDate')[0].textContent,
-						link: newsList[pi].getElementsByTagName('link')[0].textContent
-					};
-				}
-				
-				tplData = {
-					news: news
-				};
-				
-				if (callback) {
-					callback(tplData);
-				}
-			},
-			error: function() {
-			}
-		});
+		var adapter = getAdapter(newsDataFile);
+		console.log('got adapter: ' + adapter.dataFile);
+		var parser = new DOMParser();
+		var data = parser.parseFromString(adapter.rssData, "text/xml");
+		
+		var newsList = data.getElementsByTagName('item');
+		
+		var news = [];
+		for (var pi = 0; pi < newsList.length; pi++) {
+			news[pi] = {
+				title: newsList[pi].getElementsByTagName('title')[0].textContent,
+				dscr: newsList[pi].getElementsByTagName('description')[0].textContent,
+				pubDate: newsList[pi].getElementsByTagName('pubDate')[0].textContent,
+				link: newsList[pi].getElementsByTagName('link')[0].textContent
+			};
+		}
+		
+		tplData = {
+			news: news
+		};
+		
+		if (callback) {
+			callback(tplData);
+		}
 	};
 
     this.initialize();
