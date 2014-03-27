@@ -5,28 +5,30 @@
 		<link>http://www.parliament.bg</link>
 		<description></description>
 		<language>bg-BG</language>
-		
+		<item>
+			<title>Парламентарен контрол</title>
+			<description><![CDATA[<i>Програмата ще бъде публикувана след 18:00 на 27/03/2014 </i>]]></description>
+			<link>http://www.parliament.bg/bg/parliamentarycontrol/ID/541</link>
+			<pubDate>Fri, 28 Mar 2014 00:00:00 +0200</pubDate>
+		</item>
 		<item>
 			<title>Парламентарен контрол</title>
 			<description><![CDATA[<i>Програмата ще бъде публикувана след 18:00 на 20/03/2014 </i>]]></description>
 			<link>http://www.parliament.bg/bg/parliamentarycontrol/ID/540</link>
 			<pubDate>Fri, 21 Mar 2014 00:00:00 +0200</pubDate>
 		</item>
-		
 		<item>
 			<title>Парламентарен контрол</title>
 			<description><![CDATA[<i>Програмата ще бъде публикувана след 18:00 на 13/03/2014 </i>]]></description>
 			<link>http://www.parliament.bg/bg/parliamentarycontrol/ID/539</link>
 			<pubDate>Fri, 14 Mar 2014 00:00:00 +0200</pubDate>
 		</item>
-		
 		<item>
 			<title>Парламентарен контрол</title>
 			<description><![CDATA[Във връзка с писмо № 402-00-12 от 06.03.2014 г. на заместник министър-председателя Даниела Бобева, предстои след гласуване в пленарна зала, отпадане като точка от дневния ред за петък (7.03.2014 г.) на парламентарния контрол.]]></description>
 			<link>http://www.parliament.bg/bg/parliamentarycontrol/ID/538</link>
 			<pubDate>Fri, 07 Mar 2014 00:00:00 +0200</pubDate>
 		</item>
-		
 		<item>
 			<title>Парламентарен контрол</title>
 			<description><![CDATA[<i>Програмата ще бъде публикувана след 18:00 на 27/02/2014 </i>]]></description>
@@ -122,12 +124,6 @@
 			<description><![CDATA[<i>Програмата ще бъде публикувана след 18:00 на 17/10/2013 </i>]]></description>
 			<link>http://www.parliament.bg/bg/parliamentarycontrol/ID/518</link>
 			<pubDate>Fri, 18 Oct 2013 00:00:00 +0300</pubDate>
-		</item>
-		<item>
-			<title>Парламентарен контрол</title>
-			<description><![CDATA[<i>Програмата ще бъде публикувана след 18:00 на 10/10/2013 </i>]]></description>
-			<link>http://www.parliament.bg/bg/parliamentarycontrol/ID/517</link>
-			<pubDate>Fri, 11 Oct 2013 00:00:00 +0300</pubDate>
 		</item>
 	</channel>
 </rss>
