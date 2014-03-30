@@ -1,3 +1,38 @@
+var rssDataPath = "parliament.bg_activities";
+var plenaryDataFile = "plenary.rss.xml";
+var controllDataFile = 'controll.rss.xml';
+var committeeDataFile = 'committee.xml.rss';
+var newsDataFile = 'news.xml.rss';
+var dataFiles = [plenaryDataFile, controllDataFile, committeeDataFile, newsDataFile];
+var adapters = [];
+
+var dataFileAgeToDownload = 86400; //one day in seconds
+
+function getRssUrlByFileName(fileName) {
+	var url = '';
+	if (fileName == plenaryDataFile) {
+		url = "http://www.parliament.bg/rss.php?feed=plenary&lng=bg";
+	} else if (fileName == controllDataFile) {
+		url = "http://www.parliament.bg/rss.php?feed=plcontrol&lng=bg";
+	} else if (fileName == committeeDataFile) {
+		url = "http://www.parliament.bg/rss.php?feed=cmeetings&lng=bg";
+	} else if (fileName == newsDataFile) {
+		url = "http://www.parliament.bg/rss.php?feed=news&lng=bg";
+	}
+	return url;
+}
+
+function getAdapter(dataFileName) {
+	var adapterIndex = 0;
+	for (var i = 0; i < dataFiles.length; i++) {
+		if (dataFiles[i] == dataFileName) {
+			adapterIndex = i;
+			break;
+		}
+	}
+	return adapters[adapterIndex];
+}
+
 // We use an "Immediate Function" to initialize the application to avoid leaving anything behind in the global scope
 (function () {
 
@@ -16,10 +51,14 @@
 
     var slider = new PageSlider($('body'));
 
-    var adapter = new MemoryAdapter();
-    adapter.initialize().done(function () {
+    for (var i = 0; i < dataFiles.length; i++) {
+    	adapters[i] = new FileStorage(dataFiles[i]);
+    	adapters[i].initialize();
+    }
+    route();
+    /*adapter.initialize().done(function () {
         route();
-    });
+    });*/
 
     /* --------------------------------- Event Registration -------------------------------- */
     $(window).on('hashchange', route);
@@ -38,6 +77,13 @@
                 );
             };
         }
+        
+        //Check for downloaded RSS files and if they are missing or too old download them
+        for (var i = 0; i < adapters.length; i++) {
+        	adapters[i].checkDataFile();
+        	//console.log(adapters[i].dataFile);
+    	}
+        
     }, false);
 
     /* ---------------------------------- Local Functions ---------------------------------- */

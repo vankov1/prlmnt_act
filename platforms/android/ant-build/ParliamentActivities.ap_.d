@@ -40,7 +40,6 @@
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/committee.rss.xml \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/config.xml \
-/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/config1.xml \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/controll.rss.xml \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/cordova.js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/cordova_plugins.js \
@@ -48,6 +47,7 @@
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/lib \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/News.rss.xml \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/plenary.rss.xml \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/plugins \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/css \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/pics \
