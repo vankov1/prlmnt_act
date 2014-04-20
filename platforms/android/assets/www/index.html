@@ -1,39 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-    <link href="assets/topcoat/css/topcoat-mobile-light.css" rel="stylesheet">
-    <link href="assets/css/styles.css" rel="stylesheet">
-    <link href="assets/css/pageslider.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	
+	<link href="assets/topcoat/css/topcoat-mobile-light.css" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/ionic.min.css">
+	<link href="assets/css/styles.css" rel="stylesheet">
+	<link href="assets/css/pageslider.css" rel="stylesheet">
 </head>
 <body>
 
 <script id="home-tpl" type="text/x-handlebars-template">
-	<div class="topcoat-navigation-bar" style="height: 80px;">
-		<div class="topcoat-navigation-bar__item center full" style="line-height: 40px;">
-			<h1 class="topcoat-navigation-bar__title">Народно събрание<br />Дейности</h1>
+   	<div class="home-tpl">
+		<div class="row armorial-wrapper">
+			<div class="col">
+				<img src="assets/img/bulgarian-armorial.svg" class="armorial">
+				<h1 class="title">
+				<span>Народно събрание на</span></br>
+				Република България
+				</h1>
+			</div>
 		</div>
-	</div>
-	<div class="topcoat-list">
-		<ul class="topcoat-list__container">
-			<li class="topcoat-list__item"><a class="topcoat-button--quiet" href="#plenary">Пленарни заседания</a></li>
-			<li class="topcoat-list__item"><a class="topcoat-button--quiet" href="#controll">Парламентарен контрол</a></li>
-			<li class="topcoat-list__item"><a class="topcoat-button--quiet" href="#committee">Заседания на комисии</a></li>
-			<li class="topcoat-list__item"><a class="topcoat-button--quiet" href="#news">Новини</a></li>
-		</ul>
+		<div class="row">
+			<div class="col center">
+				<a href="#plenary" class="default-btn plenary-btn">
+					<img src="assets/img/plenary-ico-light.svg" alt="ico" class="ico">
+					<span class="txt">Пленарни заседания</span>
+				</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col center">
+				<a href="#controll" class="default-btn controll-btn">
+					<img src="assets/img/controll-ico-light.svg" alt="ico" class="ico">
+					<span class="txt">Парламентарен контрол</span>
+				</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col center">
+				<a href="#committee" class="default-btn committee-btn">
+					<img src="assets/img/committee-ico-light.svg" alt="ico" class="ico">
+					<span class="txt">Заседания на</br> парламентарни комисии</span>
+				</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col center">
+				<a href="#news" class="default-btn news-btn">
+					<img src="assets/img/news-ico-light.svg" alt="ico" class="ico">
+					<span class="txt">Новини</span>
+				</a>
+			</div>
+		</div>
 	</div>
 </script>
 
-		<script id="plenary-tpl" type="text/x-handlebars-template">
-			<div class="topcoat-navigation-bar" style="height: 80px;">
-				<div class="topcoat-navigation-bar__item center full" style="line-height: 40px;">
-					<button class="topcoat-icon-button" onclick="javascript:history.back(1)" style="float: left; margin-top: 15px;">
-						<span class="topcoat-icon" style="background-color:#A5A7A7;"></span>
-					</button>
-					<h1 class="topcoat-navigation-bar__title">Народно събрание<br />Пленарни заседания</h1>
-				</div>
-			</div>
+<script id="plenary-tpl" type="text/x-handlebars-template">
+	<div class="plenary-tpl">
+		<div class="bar bar-header">
+			<button class="back-btn button button-icon" onclick="javascript:history.back(1)">
+				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
+			</button>
+			<h1 class="title">Пленарни заседания</h1>
+			<button class="button button-icon ion-ios7-search"></button>
+		</div>
 			<div class="plenary-content">
 				{{#each plenary}}
 				<div class="topcoat-list">
@@ -49,7 +82,8 @@
 				</div>
 				{{/each}}
 			</div>
-		</script>
+	</div>
+</script>
 	
 		<script id="controll-tpl" type="text/x-handlebars-template">
 			<div class="topcoat-navigation-bar" style="height: 80px;">
