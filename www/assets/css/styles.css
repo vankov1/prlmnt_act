@@ -5,6 +5,9 @@ body {
 .center {
   text-align: center;
 }
+.hidden {
+  display: none;
+}
 .default-btn {
   display: inline-block;
   width: 80%;
@@ -49,10 +52,25 @@ body {
   line-height: 26px;
   font-weight: bold;
   text-transform: uppercase;
+  text-shadow: 1px 1px 0px #414141;
+  letter-spacing: 0.1px;
+}
+.back-btn {
+  padding-top: 10px !important;
+}
+.back-btn img {
+  width: 25px;
+}
+.bar-header {
+  height: 55px;
+  color: #5c5c5c !important;
+}
+.bar-header .title {
+  line-height: 55px;
 }
 /* === END Global Elements === */
 /* ===== Home Screen ===== */
-#home-tpl {
+.home-tpl {
   width: 100%;
   height: 100%;
   padding-top: 8%;
@@ -61,23 +79,25 @@ body {
   color: #ffffff;
   background: url("../img/home-screen-bg.jpg") no-repeat fixed center bottom / cover rgba(0, 0, 0, 0);
 }
-#home-tpl .armorial-wrapper {
+.home-tpl .armorial-wrapper {
   width: 100%;
   overflow: hidden;
   text-align: center;
 }
-#home-tpl .armorial-wrapper .armorial {
+.home-tpl .armorial-wrapper .armorial {
   width: 100px;
   display: inline-block;
 }
-#home-tpl .armorial-wrapper .title {
+.home-tpl .armorial-wrapper .title {
   color: #ffffff;
   font-size: 25px;
 }
-#home-tpl .armorial-wrapper .title span {
+.home-tpl .armorial-wrapper .title span {
   font-size: 20px;
 }
 /* ===== END Home Screen ===== */
+/* ===== Plenary Screen ===== */
+/* ===== END Plenary Screen ===== */
 /* ======= PLAIN CSS ======== */
 .scroller {
   overflow: auto;
