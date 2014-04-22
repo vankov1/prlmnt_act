@@ -1,6 +1,8 @@
 /* ===== Global Elements ===== */
 body {
   background: #dfdfdf;
+  position: relative !important;
+  overflow: auto !important;
 }
 .center {
   text-align: center;
@@ -110,6 +112,9 @@ body {
   height: 55px;
   border-bottom: 1px solid #cfcfcf;
   background: #fafafa;
+  position: fixed;
+  top: 0px;
+  left: 0px;
 }
 .bar-header .title {
   line-height: 55px;

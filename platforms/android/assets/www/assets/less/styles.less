@@ -2,6 +2,8 @@
 
 body {
     background: #dfdfdf;
+    position: relative !important;
+    overflow: auto !important;
 }
 
 .border-radiuses (@topright: 0, @bottomright: 0, @bottomleft: 0, @topleft: 0) {
@@ -131,6 +133,9 @@ body {
     height: 55px;
     border-bottom: 1px solid #cfcfcf;
     background: #fafafa;
+    position: fixed;
+    top: 0px;
+    left: 0px;
     .title {
         line-height: 55px;
         font-size: 18px;

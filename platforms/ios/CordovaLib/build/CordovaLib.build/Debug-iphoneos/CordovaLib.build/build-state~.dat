@@ -1,0 +1,1184 @@
+TCordovaLib
+v6
+r1
+cCheck dependencies
+cCpHeader Classes/NSDictionary+Extensions.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
+cCpHeader Classes/CDVInvokedUrlCommand.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+cCpHeader Classes/NSData+Base64.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSData+Base64.h
+cCpHeader Classes/CDVPluginResult.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+cCpHeader Classes/CDVDebug.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVDebug.h
+cCpHeader Classes/CDVPlugin.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+cCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+cCpHeader Classes/CDVWhitelist.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+cCpHeader Classes/CDVViewController.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVViewController.h
+cCpHeader Classes/CDVURLProtocol.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
+cCpHeader Classes/CDVCommandDelegate.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+cCpHeader Classes/CDV.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDV.h
+cCpHeader Classes/CDVAvailability.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+cCpHeader Classes/CDVLocalStorage.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
+cCpHeader Classes/UIDevice+Extensions.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
+cCpHeader Classes/NSArray+Comparisons.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
+cCpHeader Classes/CDVCommandQueue.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+cCpHeader Classes/CDVCommandDelegateImpl.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+cCpHeader Classes/CDVShared.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVShared.h
+cCpHeader Classes/CDVScreenOrientationDelegate.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+cCpHeader Classes/CDVConfigParser.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVConfigParser.h
+cCpHeader Classes/CDVJSON.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVJSON.h
+cCpHeader Classes/CDVWebViewDelegate.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h
+cCpHeader Classes/CDVUserAgentUtil.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h
+cCpHeader Classes/CDVTimer.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVTimer.h
+cProcessPCH /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVTimer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVShared.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/libCordova.a normal armv7
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053119F860000000000000132
+t1393663878
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c000000005320C04D000000000000036B
+t1394655309
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005320C04E000000000000019E
+t1394655310
+s414
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDV.h
+c00000000532A175B0000000000000516
+t1395267419
+s1302
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+c00000000532A175B0000000000000CDD
+t1395267419
+s3293
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+c00000000532A175B00000000000008BA
+t1395267419
+s2234
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+c00000000532A175B00000000000004B5
+t1395267419
+s1205
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+c00000000532A175B0000000000001491
+t1395267419
+s5265
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+c00000000532A175B0000000000000503
+t1395267419
+s1283
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+c00000000532A175B0000000000001EB7
+t1395267419
+s7863
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+c00000000532A175B00000000000004CB
+t1395267419
+s1227
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+c00000000532A175B0000000000000EB2
+t1395267419
+s3762
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVDebug.h
+c00000000532A175B0000000000000401
+t1395267419
+s1025
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+c00000000532A175B00000000000007E6
+t1395267419
+s2022
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+c00000000532A175B0000000000000DDE
+t1395267419
+s3550
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVJSON.h
+c00000000532A175B00000000000003DA
+t1395267419
+s986
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVJSON.m
+c00000000532A175B00000000000009A1
+t1395267419
+s2465
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+c00000000532A175B00000000000006CF
+t1395267419
+s1743
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+c00000000532A175B0000000000004C7E
+t1395267419
+s19582
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+c00000000532A175B0000000000000892
+t1395267419
+s2194
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+c00000000532A175B00000000000016AE
+t1395267419
+s5806
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+c00000000532A175B0000000000000C13
+t1395267419
+s3091
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+c00000000532A175B0000000000001B29
+t1395267419
+s6953
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+c00000000532A175B0000000000000408
+t1395267419
+s1032
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVShared.h
+c00000000532A175B00000000000003E6
+t1395267419
+s998
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVShared.m
+c00000000532A175B00000000000006B6
+t1395267419
+s1718
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVTimer.h
+c00000000532A175B000000000000038D
+t1395267419
+s909
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVTimer.m
+c00000000532A175B0000000000000AA2
+t1395267419
+s2722
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+c00000000532A175B000000000000041C
+t1395267419
+s1052
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+c00000000532A175B000000000000259E
+t1395267419
+s9630
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+c00000000532A175B0000000000000421
+t1395267419
+s1057
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+c00000000532A175B000000000000133E
+t1395267419
+s4926
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVViewController.h
+c00000000532A175B0000000000000ACC
+t1395267419
+s2764
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVViewController.m
+c00000000532A175B0000000000008FB3
+t1395267419
+s36787
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+c00000000532A175B00000000000005A2
+t1395267419
+s1442
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+c00000000532A175B0000000000003764
+t1395267419
+s14180
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+c00000000532A175B00000000000004B4
+t1395267419
+s1204
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+c00000000532A175B0000000000002814
+t1395267419
+s10260
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+c00000000532A175B0000000000000392
+t1395267419
+s914
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+c00000000532A175B00000000000004D8
+t1395267419
+s1240
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+c00000000532A175B000000000000037D
+t1395267419
+s893
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+c00000000532A175B00000000000022CC
+t1395267419
+s8908
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+c00000000532A175B00000000000005DA
+t1395267419
+s1498
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+c00000000532A175B0000000000001059
+t1395267419
+s4185
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+c00000000532A175B00000000000003A0
+t1395267419
+s928
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+c00000000532A175B0000000000000584
+t1395267419
+s1412
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+c00000000532A175B0000000000000476
+t1395267419
+s1142
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+c00000000532A175B0000000000000620
+t1395267419
+s1568
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
+c00000000532A175B0000000000000346
+t1395267419
+s838
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o
+t1397414041
+s62220
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o
+t1397414040
+s62000
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o
+t1397414040
+s29080
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o
+t1397414040
+s18260
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o
+t1397414040
+s10892
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o
+t1397414040
+s109412
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o
+t1397414040
+s56756
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o
+t1397414040
+s36532
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o
+t1397414041
+s9116
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o
+t1397414041
+s22860
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o
+t1397414040
+s70696
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o
+t1397414041
+s52528
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o
+t1397414040
+s178676
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o
+t1397414041
+s70308
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o
+t1397414040
+s44900
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/Cordova.LinkFileList
+c00000000534AD8970000000000000C53
+t1397414039
+s3155
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o
+t1397414040
+s7344
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o
+t1397414040
+s10484
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o
+t1397414040
+s17108
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o
+t1397414040
+s6900
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o
+t1397414040
+s9380
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDV.h
+t2
+s0
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+t2
+s0
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+t2
+s0
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+t2
+s0
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+t2
+s0
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVConfigParser.h
+t2
+s0
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVDebug.h
+t2
+s0
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+t2
+s0
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVJSON.h
+t2
+s0
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
+t2
+s0
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+t2
+s0
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+t2
+s0
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+t2
+s0
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVShared.h
+t2
+s0
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVTimer.h
+t2
+s0
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
+t2
+s0
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h
+t2
+s0
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVViewController.h
+t2
+s0
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h
+t2
+s0
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+t2
+s0
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
+t2
+s0
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSData+Base64.h
+t2
+s0
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
+t2
+s0
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+t2
+s0
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
+t2
+s0
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/libCordova.a
+t2
+s0
+
+N/var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch.pch
+t1397414040
+s3179828
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies6abf5d1710fbb841^52f18b1710fbb841^---0#1#1#--18"Check dependencies36"67BDB5A1-03C0-4C5F-BC72-6C1EFB160FB7-
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419106840.765733
+e419106841.004883
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m227"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o [1mClasses/CDVCommandDelegateImpl.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilera92ec41810fbb841^ff40011910fbb841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m0000000000000000^3837"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o [1mClasses/CDVCommandDelegateImpl.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=178 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device -DDEBUG -include /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.d --serialize-diagnostics /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.dia -c /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m -o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o36"710C8B54-2A05-4780-B13C-629F9A397A3F-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419106840.738851
+e419106840.991091
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDV.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m213"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o [1mClasses/CDVCommandQueue.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler404dbd1810fbb841^c9e7fd1810fbb841^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m0000000000000000^3795"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o [1mClasses/CDVCommandQueue.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=178 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device -DDEBUG -include /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.d --serialize-diagnostics /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.dia -c /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m -o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandQueue.o36"6E28F5CE-4A15-4F3A-9429-CA98AB098477-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419106840.811550
+e419106840.868183
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVConfigParser.m213"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o [1mClasses/CDVConfigParser.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler2deacf1810fbb841^4e41de1810fbb841^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVConfigParser.m0000000000000000^3795"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o [1mClasses/CDVConfigParser.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=178 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device -DDEBUG -include /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.d --serialize-diagnostics /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.dia -c /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVConfigParser.m -o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConfigParser.o36"4306D396-EEEE-4696-887D-183A8088F32C-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419106840.146946
+e419106840.327684
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m223"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o [1mClasses/CDVInvokedUrlCommand.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler19ca251810fbb841^2ee6531810fbb841^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m0000000000000000^3825"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o [1mClasses/CDVInvokedUrlCommand.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=178 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device -DDEBUG -include /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.d --serialize-diagnostics /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.dia -c /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m -o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o36"C62C5DF2-9494-455A-84D5-6E96CB188B09-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419106840.868922
+e419106840.905627
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVJSON.m
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVJSON.m197"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o [1mClasses/CDVJSON.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerc899de1810fbb841^06d8e71810fbb841^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVJSON.m0000000000000000^3747"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o [1mClasses/CDVJSON.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=178 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device -DDEBUG -include /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.d --serialize-diagnostics /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.dia -c /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVJSON.m -o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVJSON.o36"6FE21E39-4929-42BA-8FE7-71406470DB50-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419106840.429423
+e419106840.764705
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDV.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m213"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o [1mClasses/CDVLocalStorage.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilera0176e1810fbb841^f4c4c31810fbb841^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m0000000000000000^3795"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o [1mClasses/CDVLocalStorage.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=178 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device -DDEBUG -include /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.d --serialize-diagnostics /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.dia -c /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m -o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o36"271E5F59-5993-4F0C-8581-6C34757AC631-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419106840.322306
+e419106840.618924
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPlugin.m201"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o [1mClasses/CDVPlugin.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler9bab521810fbb841^ef719e1810fbb841^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPlugin.m0000000000000000^3759"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o [1mClasses/CDVPlugin.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=178 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device -DDEBUG -include /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.d --serialize-diagnostics /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.dia -c /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPlugin.m -o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o36"50A901B5-3313-4D74-9917-907120E1828C-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419106840.148489
+e419106840.346802
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPluginResult.m213"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o [1mClasses/CDVPluginResult.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler1230261810fbb841^d120591810fbb841^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPluginResult.m0000000000000000^3795"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o [1mClasses/CDVPluginResult.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=178 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device -DDEBUG -include /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.d --serialize-diagnostics /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.dia -c /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPluginResult.m -o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o36"DF30FD81-CC99-4811-9759-E508A2E9843A-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVShared.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419106841.005779
+e419106841.061669
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVShared.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVShared.m
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVShared.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVShared.m201"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o [1mClasses/CDVShared.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler33a5011910fbb841^79c90f1910fbb841^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVShared.m0000000000000000^3759"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o [1mClasses/CDVShared.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=178 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device -DDEBUG -include /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.d --serialize-diagnostics /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.dia -c /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVShared.m -o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVShared.o36"CAB0623D-A196-4791-8623-70E714836769-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVTimer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419106840.991772
+e419106841.054491
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVTimer.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVTimer.m
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVTimer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVTimer.m199"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o [1mClasses/CDVTimer.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler2e3dfe1810fbb841^ab090e1910fbb841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVTimer.m0000000000000000^3753"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o [1mClasses/CDVTimer.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=178 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device -DDEBUG -include /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.d --serialize-diagnostics /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.dia -c /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVTimer.m -o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVTimer.o36"06B849F4-0A8D-4E71-89EF-CCAE6FAB6BA5-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419106840.347407
+e419106840.698562
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m211"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o [1mClasses/CDVURLProtocol.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilera417591810fbb841^45dab21810fbb841^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m0000000000000000^3789"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o [1mClasses/CDVURLProtocol.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=178 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device -DDEBUG -include /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.d --serialize-diagnostics /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.dia -c /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m -o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o36"19CCB2B8-2AAF-4EFF-B947-04CBDC1C60C6-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419106840.905905
+e419106841.102322
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m215"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o [1mClasses/CDVUserAgentUtil.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerec2ee81810fbb841^d7311a1910fbb841^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m0000000000000000^3801"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o [1mClasses/CDVUserAgentUtil.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=178 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device -DDEBUG -include /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.d --serialize-diagnostics /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.dia -c /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m -o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVUserAgentUtil.o36"98CD6F05-90D9-49A2-A93A-1CD665D6307C-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419106840.362616
+e419106840.974532
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVViewController.m
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDV.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVViewController.m217"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o [1mClasses/CDVViewController.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler83fc5c1810fbb841^6dc6f91810fbb841^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVViewController.m0000000000000000^3807"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o [1mClasses/CDVViewController.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=178 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device -DDEBUG -include /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.d --serialize-diagnostics /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.dia -c /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVViewController.m -o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o36"DFFF67E9-B574-4C3E-998F-48D1D8D93454-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419106840.974937
+e419106841.156703
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m219"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o [1mClasses/CDVWebViewDelegate.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler0ebdf91810fbb841^541f281910fbb841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m0000000000000000^3813"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o [1mClasses/CDVWebViewDelegate.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=178 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device -DDEBUG -include /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.d --serialize-diagnostics /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.dia -c /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m -o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWebViewDelegate.o36"894C7EA0-06FB-486A-9EA4-DD8C10DAB656-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419106840.328350
+e419106840.429103
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWhitelist.m207"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o [1mClasses/CDVWhitelist.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler3f71541810fbb841^87df6d1810fbb841^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWhitelist.m0000000000000000^3777"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o [1mClasses/CDVWhitelist.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=178 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device -DDEBUG -include /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.d --serialize-diagnostics /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.dia -c /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWhitelist.m -o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o36"EC732C7C-26F8-4351-946E-5C8CBA7A1479-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419106840.698919
+e419106840.737300
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m221"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o [1mClasses/NSArray+Comparisons.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler0114b31810fbb841^92cebc1810fbb841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m0000000000000000^3819"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o [1mClasses/NSArray+Comparisons.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=178 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device -DDEBUG -include /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.d --serialize-diagnostics /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.dia -c /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m -o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o36"DCA3CF29-1430-4E54-9969-9FB8DC086DDD-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419106840.147232
+e419106840.321801
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSData+Base64.m209"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o [1mClasses/NSData+Base64.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler13f2251810fbb841^f773521810fbb841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSData+Base64.m0000000000000000^3783"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o [1mClasses/NSData+Base64.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=178 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device -DDEBUG -include /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.d --serialize-diagnostics /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.dia -c /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSData+Base64.m -o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o36"BF8BE396-2A6B-4453-B449-D48DC093536C-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419106840.146700
+e419106840.326474
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m229"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o [1mClasses/NSDictionary+Extensions.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler89b4251810fbb841^1497531810fbb841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m0000000000000000^3843"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o [1mClasses/NSDictionary+Extensions.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=178 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device -DDEBUG -include /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.d --serialize-diagnostics /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.dia -c /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m -o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o36"788028B6-2A30-4A44-9444-A103BA705288-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419106840.327071
+e419106840.362252
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m241"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o [1mClasses/NSMutableArray+QueueAdditions.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerff22541810fbb841^6b4a5e1810fbb841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m0000000000000000^3879"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o [1mClasses/NSMutableArray+QueueAdditions.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=178 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device -DDEBUG -include /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.d --serialize-diagnostics /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.dia -c /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m -o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o36"49FBD7CA-8740-48C2-8891-736E8DAB870C-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419106840.619325
+e419106840.811167
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m221"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o [1mClasses/UIDevice+Extensions.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerfb3b9f1810fbb841^6bf3cf1810fbb841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m0000000000000000^3819"[1mCompileC[0m build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o [1mClasses/UIDevice+Extensions.m[0m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=178 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device -DDEBUG -include /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.d --serialize-diagnostics /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.dia -c /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m -o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o36"5C5A1183-0C9D-4600-B8BF-1521CF983691-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCpHeader Classes/CDV.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDV.h
+s419106839.576155
+e419106839.578495
+r1
+xCpHeader
+xClasses/CDV.h
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDV.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Copy /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDV.h125"[1mCpHeader[0m Classes/CDV.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDV.h[0m1ac0931710fbb841^aa64941710fbb841^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDV.h0034b0ccddffdf42^872"[1mCpHeader[0m Classes/CDV.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDV.h[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDV.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova36"28F8D825-C30E-4E62-AF1C-376CCFCD8ED1-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCpHeader Classes/CDVAvailability.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+s419106839.576803
+e419106839.578528
+r1
+xCpHeader
+xClasses/CDVAvailability.h
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVAvailability.h149"[1mCpHeader[0m Classes/CDVAvailability.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVAvailability.h[0m90d7931710fbb841^7973941710fbb841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVAvailability.h0034b0ccddffdf42^908"[1mCpHeader[0m Classes/CDVAvailability.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVAvailability.h[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVAvailability.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova36"02487A72-12C8-4C37-8AD6-264800CFEF32-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCpHeader Classes/CDVCommandDelegate.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+s419106839.574645
+e419106839.578448
+r1
+xCpHeader
+xClasses/CDVCommandDelegate.h
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Copy /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h155"[1mCpHeader[0m Classes/CDVCommandDelegate.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h[0mc077931710fbb841^b134941710fbb841^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h0034b0ccddffdf42^917"[1mCpHeader[0m Classes/CDVCommandDelegate.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova36"862CE77E-53CE-45AE-8DDA-8B107D0DA8B5-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCpHeader Classes/CDVCommandDelegateImpl.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+s419106839.584127
+e419106839.591911
+r1
+xCpHeader
+xClasses/CDVCommandDelegateImpl.h
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Copy /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h163"[1mCpHeader[0m Classes/CDVCommandDelegateImpl.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h[0m8c65961710fbb841^f9d6971710fbb841^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h0034b0ccddffdf42^929"[1mCpHeader[0m Classes/CDVCommandDelegateImpl.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova36"4C2EC21B-FA70-46A0-B558-8373990893B7-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCpHeader Classes/CDVCommandQueue.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+s419106839.581824
+e419106839.588203
+r1
+xCpHeader
+xClasses/CDVCommandQueue.h
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h149"[1mCpHeader[0m Classes/CDVCommandQueue.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h[0me198951710fbb841^d78a961710fbb841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h0034b0ccddffdf42^908"[1mCpHeader[0m Classes/CDVCommandQueue.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova36"C33E0E2B-FF72-499C-8328-B596609A4DC2-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCpHeader Classes/CDVConfigParser.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVConfigParser.h
+s419106839.591394
+e419106839.596802
+r1
+xCpHeader
+xClasses/CDVConfigParser.h
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVConfigParser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVConfigParser.h149"[1mCpHeader[0m Classes/CDVConfigParser.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVConfigParser.h[0maa80971710fbb841^46b5981710fbb841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVConfigParser.h0034b0ccddffdf42^908"[1mCpHeader[0m Classes/CDVConfigParser.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVConfigParser.h[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVConfigParser.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova36"EF0A878A-4C95-4FAB-99CD-C14FADEF6610-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCpHeader Classes/CDVDebug.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVDebug.h
+s419106839.570395
+e419106839.573576
+r1
+xCpHeader
+xClasses/CDVDebug.h
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVDebug.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVDebug.h135"[1mCpHeader[0m Classes/CDVDebug.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVDebug.h[0m0d54921710fbb841^ebe6921710fbb841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVDebug.h0034b0ccddffdf42^887"[1mCpHeader[0m Classes/CDVDebug.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVDebug.h[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVDebug.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova36"D07B5459-0203-4875-A9E3-01AB7B306ABB-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCpHeader Classes/CDVInvokedUrlCommand.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+s419106839.550908
+e419106839.569368
+r1
+xCpHeader
+xClasses/CDVInvokedUrlCommand.h
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h159"[1mCpHeader[0m Classes/CDVInvokedUrlCommand.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h[0m73648d1710fbb841^3cf4911710fbb841^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h0034b0ccddffdf42^923"[1mCpHeader[0m Classes/CDVInvokedUrlCommand.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova36"9EEDC4D0-DBC4-4316-A921-89617CBA14B1-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCpHeader Classes/CDVJSON.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVJSON.h
+s419106839.592131
+e419106839.596199
+r1
+xCpHeader
+xClasses/CDVJSON.h
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVJSON.h133"[1mCpHeader[0m Classes/CDVJSON.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVJSON.h[0mf2b5971710fbb841^16c0981710fbb841^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVJSON.h0034b0ccddffdf42^884"[1mCpHeader[0m Classes/CDVJSON.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVJSON.h[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVJSON.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova36"BE45DD5F-AA24-4F7D-B872-2025708B9B0A-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCpHeader Classes/CDVLocalStorage.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
+s419106839.579000
+e419106839.582348
+r1
+xCpHeader
+xClasses/CDVLocalStorage.h
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h149"[1mCpHeader[0m Classes/CDVLocalStorage.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h[0m145c941710fbb841^a532951710fbb841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h0034b0ccddffdf42^908"[1mCpHeader[0m Classes/CDVLocalStorage.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova36"97018D77-6188-46B4-A0D7-7EB91718631B-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCpHeader Classes/CDVPlugin.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+s419106839.570335
+e419106839.573083
+r1
+xCpHeader
+xClasses/CDVPlugin.h
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Copy /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVPlugin.h137"[1mCpHeader[0m Classes/CDVPlugin.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVPlugin.h[0m5453921710fbb841^cfbe921710fbb841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVPlugin.h0034b0ccddffdf42^890"[1mCpHeader[0m Classes/CDVPlugin.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVPlugin.h[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPlugin.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova36"92A1433A-999A-414B-8EE4-3D3205907388-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCpHeader Classes/CDVPluginResult.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+s419106839.552833
+e419106839.569349
+r1
+xCpHeader
+xClasses/CDVPluginResult.h
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVPluginResult.h149"[1mCpHeader[0m Classes/CDVPluginResult.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVPluginResult.h[0m64968d1710fbb841^35ee911710fbb841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVPluginResult.h0034b0ccddffdf42^908"[1mCpHeader[0m Classes/CDVPluginResult.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVPluginResult.h[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVPluginResult.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova36"C23F3D29-BE9D-40EB-8944-A087A53E8E12-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCpHeader Classes/CDVScreenOrientationDelegate.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+s419106839.590222
+e419106839.596951
+r1
+xCpHeader
+xClasses/CDVScreenOrientationDelegate.h
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Copy /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h175"[1mCpHeader[0m Classes/CDVScreenOrientationDelegate.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h[0m2e38971710fbb841^b0e6981710fbb841^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h0034b0ccddffdf42^947"[1mCpHeader[0m Classes/CDVScreenOrientationDelegate.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova36"34FBFE84-22DE-4502-A5F6-76F756D799B7-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCpHeader Classes/CDVShared.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVShared.h
+s419106839.587966
+e419106839.595171
+r1
+xCpHeader
+xClasses/CDVShared.h
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVShared.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Copy /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVShared.h137"[1mCpHeader[0m Classes/CDVShared.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVShared.h[0mb805971710fbb841^f984981710fbb841^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVShared.h0034b0ccddffdf42^890"[1mCpHeader[0m Classes/CDVShared.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVShared.h[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVShared.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova36"2EFF33EF-E4DC-43CC-A760-9E5A9D178C63-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCpHeader Classes/CDVTimer.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVTimer.h
+s419106839.597700
+e419106839.599798
+r1
+xCpHeader
+xClasses/CDVTimer.h
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVTimer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVTimer.h135"[1mCpHeader[0m Classes/CDVTimer.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVTimer.h[0m3a24991710fbb841^0890991710fbb841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVTimer.h0034b0ccddffdf42^887"[1mCpHeader[0m Classes/CDVTimer.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVTimer.h[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVTimer.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova36"8DB4A53E-6AF6-4549-B63C-FF702116318C-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCpHeader Classes/CDVURLProtocol.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
+s419106839.574027
+e419106839.578358
+r1
+xCpHeader
+xClasses/CDVURLProtocol.h
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Copy /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h147"[1mCpHeader[0m Classes/CDVURLProtocol.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h[0m4337931710fbb841^ba13941710fbb841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h0034b0ccddffdf42^905"[1mCpHeader[0m Classes/CDVURLProtocol.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova36"50230D95-E159-48F8-B1F6-576DCE050EB5-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCpHeader Classes/CDVUserAgentUtil.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h
+s419106839.597048
+e419106839.598743
+r1
+xCpHeader
+xClasses/CDVUserAgentUtil.h
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Copy /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h151"[1mCpHeader[0m Classes/CDVUserAgentUtil.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h[0m4df5981710fbb841^774c991710fbb841^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h0034b0ccddffdf42^911"[1mCpHeader[0m Classes/CDVUserAgentUtil.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova36"557E28A3-AB2C-4989-A582-C7026F1BE8D3-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCpHeader Classes/CDVViewController.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVViewController.h
+s419106839.574020
+e419106839.576130
+r1
+xCpHeader
+xClasses/CDVViewController.h
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVViewController.h153"[1mCpHeader[0m Classes/CDVViewController.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVViewController.h[0m0e15931710fbb841^419c931710fbb841^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVViewController.h0034b0ccddffdf42^914"[1mCpHeader[0m Classes/CDVViewController.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVViewController.h[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVViewController.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova36"B2623248-B7CE-4167-97B8-5C6BF5F78F21-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCpHeader Classes/CDVWebViewDelegate.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h
+s419106839.596801
+e419106839.600424
+r1
+xCpHeader
+xClasses/CDVWebViewDelegate.h
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Copy /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h155"[1mCpHeader[0m Classes/CDVWebViewDelegate.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h[0m6a6a991710fbb841^c7b9991710fbb841^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h0034b0ccddffdf42^917"[1mCpHeader[0m Classes/CDVWebViewDelegate.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova36"0575B645-26B6-41A4-8527-FCFA54E2D05C-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCpHeader Classes/CDVWhitelist.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+s419106839.571542
+e419106839.573665
+r1
+xCpHeader
+xClasses/CDVWhitelist.h
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Copy /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVWhitelist.h143"[1mCpHeader[0m Classes/CDVWhitelist.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVWhitelist.h[0mec6a921710fbb841^f303931710fbb841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVWhitelist.h0034b0ccddffdf42^899"[1mCpHeader[0m Classes/CDVWhitelist.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVWhitelist.h[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVWhitelist.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova36"ED4F710E-4C13-43F9-8D5D-F804DA9F09A5-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCpHeader Classes/NSArray+Comparisons.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
+s419106839.579997
+e419106839.585799
+r1
+xCpHeader
+xClasses/NSArray+Comparisons.h
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h157"[1mCpHeader[0m Classes/NSArray+Comparisons.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h[0m849f941710fbb841^23a1951710fbb841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h0034b0ccddffdf42^920"[1mCpHeader[0m Classes/NSArray+Comparisons.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova36"1C74252F-198C-4F74-A760-DAA98CCBFB94-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCpHeader Classes/NSData+Base64.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSData+Base64.h
+s419106839.551125
+e419106839.569953
+r1
+xCpHeader
+xClasses/NSData+Base64.h
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Copy /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSData+Base64.h145"[1mCpHeader[0m Classes/NSData+Base64.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSData+Base64.h[0m2c658d1710fbb841^960a921710fbb841^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSData+Base64.h0034b0ccddffdf42^902"[1mCpHeader[0m Classes/NSData+Base64.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSData+Base64.h[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSData+Base64.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova36"731A024E-799A-4DCE-8DFA-43907689545A-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCpHeader Classes/NSDictionary+Extensions.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
+s419106839.550761
+e419106839.569352
+r1
+xCpHeader
+xClasses/NSDictionary+Extensions.h
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h165"[1mCpHeader[0m Classes/NSDictionary+Extensions.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h[0md4658d1710fbb841^4eb6911710fbb841^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h0034b0ccddffdf42^932"[1mCpHeader[0m Classes/NSDictionary+Extensions.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova36"01F670F5-0CBC-4718-9C92-BC448149B55D-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+s419106839.570973
+e419106839.574038
+r1
+xCpHeader
+xClasses/NSMutableArray+QueueAdditions.h
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Copy /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h177"[1mCpHeader[0m Classes/NSMutableArray+QueueAdditions.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h[0m726f921710fbb841^815b931710fbb841^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h0034b0ccddffdf42^950"[1mCpHeader[0m Classes/NSMutableArray+QueueAdditions.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova36"5D6A6F78-4DBF-45F9-99F7-2B4DF8CA0BD1-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CCpHeader Classes/UIDevice+Extensions.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
+s419106839.579126
+e419106839.582551
+r1
+xCpHeader
+xClasses/UIDevice+Extensions.h
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h157"[1mCpHeader[0m Classes/UIDevice+Extensions.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h[0mf06b941710fbb841^753d951710fbb841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h0034b0ccddffdf42^920"[1mCpHeader[0m Classes/UIDevice+Extensions.h [1m/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova36"F7F44E8B-598E-4BD8-9973-B5006BF6C895-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CLibtool /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/libCordova.a normal armv7
+s419106841.158293
+e419106841.178070
+r1
+xLibtool
+x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/libCordova.a
+xnormal
+xarmv7
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"[1mLibtool[0m /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/libCordova.a normal armv7106"[1mLibtool[0m /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/libCordova.a normal armv7a298281910fbb841^a2972d1910fbb841^---0#0#1#--1181"[1mLibtool[0m /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/libCordova.a normal armv7    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export IPHONEOS_DEPLOYMENT_TARGET=5.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device -filelist /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/Cordova.LinkFileList -o /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/libCordova.a36"E554731A-FA2F-4B6E-8553-F2B72A6B4A05-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
+CProcessPCH /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419106839.601612
+e419106840.145898
+r1
+xProcessPCH
+x/var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch.pch
+xCordovaLib_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Precompile CordovaLib_Prefix.pch298"[1mProcessPCH[0m /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler902e9a1710fbb841^c559251810fbb841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/CordovaLib_Prefix.pch0000000000000000^3781"[1mProcessPCH[0m /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=178 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device -DDEBUG --serialize-diagnostics /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch.d -c /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/CordovaLib_Prefix.pch -o /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch.pch36"859EBAE3-E199-426D-9800-4B1E1F612EE7-
+b4151A642-E31F-4F22-B32F-1CE0C0093B38
+
