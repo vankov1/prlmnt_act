@@ -20,17 +20,39 @@ var PlenaryView = function(template) {
 		
 		var plenary = [];
 		for (var pi = 0; pi < plenariesList.length; pi++) {
-			var dscrNode = plenariesList[pi].getElementsByTagName('description')[0];
-			var dscr = [];
-			for (var i = 0; i < dscrNode.childNodes.length; i++) {
-				dscr[i] = dscrNode.childNodes[i].textContent.replace("<br />", "");
+			var agendaItems = [];
+			var agendaItemsNodes = plenariesList[pi].getElementsByTagName('agenda_item');
+			var shortDscr = '';
+			for (var ai = 0; ai < agendaItemsNodes.length; ai++) {
+				agendaItems[ai] = {
+					itemText: agendaItemsNodes[ai].getElementsByTagName('item_text')[0] ? agendaItemsNodes[ai].getElementsByTagName('item_text')[0].textContent : '',
+					isBill: agendaItemsNodes[ai].getElementsByTagName('is_bill')[0] ? agendaItemsNodes[ai].getElementsByTagName('is_bill')[0].textContent : 0,
+					billLink: agendaItemsNodes[ai].getElementsByTagName('bill_link')[0] ? agendaItemsNodes[ai].getElementsByTagName('bill_link')[0].textContent : ''
+				};
+				if (shortDscr.length < 255) {
+					shortDscr += agendaItems[ai].itemText;
+				}
+			}
+			if (shortDscr.length > 255) {
+				shortDscr = shortDscr.substring(0, 255);
 			}
 			
+			
 			plenary[pi] = {
-				title: plenariesList[pi].getElementsByTagName('title')[0].textContent,
+				type: plenariesList[pi].getElementsByTagName('type')[0] ? plenariesList[pi].getElementsByTagName('type')[0].textContent : 0,
+				status: plenariesList[pi].getElementsByTagName('status')[0] ? plenariesList[pi].getElementsByTagName('status')[0].textContent : 0,
+				startDate: plenariesList[pi].getElementsByTagName('start_date')[0] ? plenariesList[pi].getElementsByTagName('start_date')[0].textContent : 'n/a',
+				endDate: plenariesList[pi].getElementsByTagName('end_date')[0] ? plenariesList[pi].getElementsByTagName('end_date')[0].textContent : 'n/a',
+				startTime: plenariesList[pi].getElementsByTagName('start_time')[0] ? plenariesList[pi].getElementsByTagName('start_time')[0].textContent : 'n/a',
+				link: plenariesList[pi].getElementsByTagName('item_link')[0] ? plenariesList[pi].getElementsByTagName('item_link')[0].textContent : 'javascript:void(0)',
+				pubDate: plenariesList[pi].getElementsByTagName('pubDate')[0] ? plenariesList[pi].getElementsByTagName('pubDate')[0].textContent : 'n/a',
+				agenda: agendaItems,
+				dscrShort: shortDscr
+				
+				/*title: plenariesList[pi].getElementsByTagName('title')[0].textContent,
 				dscr: dscr,
-				pubDate: plenariesList[pi].getElementsByTagName('pubDate')[0].textContent,
-				link: plenariesList[pi].getElementsByTagName('link')[0].textContent
+				dscrShort: dscr[1].substr(0, 255),*/
+				
 			};
 		}
 		

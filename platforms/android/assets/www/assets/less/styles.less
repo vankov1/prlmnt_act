@@ -86,18 +86,115 @@ body {
 }
 
 .back-btn {
-    padding-top: 10px !important;
+    padding-top: 11px !important;
     img {
         width: 25px;
     }
 }
 
+.search-btn {
+    padding-top: 9px !important;
+    img {
+        width: 20px;
+    }
+}
+
+
+.preview-btn {
+    float: right;
+    padding-left: 7px !important;
+    .border-radiuses (0px,0px,0px,0px);
+    min-height: 25px !important;
+    line-height: 22px !important;
+    background: #43c364 !important;
+    border: none !important;
+    color: #ffffff;
+    &::before {
+        line-height: 27px !important;
+        font-size: 15px !important;
+        padding-right: .4em !important;
+    }
+    &:active,
+    &:hover {
+        color: #ffffff;
+        background: #49d06c !important;
+    }
+
+    .txt {
+        font-size: 10px;
+        font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        text-transform: uppercase;
+    }
+}
 
 .bar-header {
     height: 55px;
-    color: #5c5c5c !important;
+    border-bottom: 1px solid #cfcfcf;
+    background: #fafafa;
     .title {
         line-height: 55px;
+        font-size: 18px;
+        color: #5c5c5c;
+    }
+    .ion-ios7-search {
+        color: #5c5c5c;
+    }
+}
+
+.search-row {
+    margin-top: 55px;
+    padding: 0px !important;
+    .col {
+        padding: 0px;
+        .search-wrapper {
+            .search-field {
+                height: 40px;
+                padding-left: 47px;
+                font-size: 16px;
+                color: #5c5c5c;
+                border-bottom: 1px solid #cfcfcf;
+                background-image: url("../img/search-icon.png");
+                background-color: #f1f1f1;
+                background-size: 20px 20px;
+                background-repeat: no-repeat;
+                background-position: 15px center;
+                letter-spacing: 0.2px;
+            }
+        }
+    }
+}
+
+.content-wrapper {
+    padding-top: 4% !important;
+    overflow-y: auto !important;
+}
+
+.short-preview {
+    width: 100%;
+    padding: 10px !important;
+    margin-bottom: 4%;
+    background: #ffffff;
+    border-bottom: 2px solid #b4b4b4;
+    .description {
+        font-size: 10px;
+        line-height: 14px;
+        color: #707070;
+    }
+    .col-33 {
+        padding-left: 2%;
+    }
+    .date {
+        float: right;
+        height: 20px;
+        padding-left: 23px;
+        margin-bottom: 10px;
+        font-size: 12px;
+        line-height: 22px;
+        color: #535353;
+        background-image: url("../img/date-icon.png");
+        background-size: 18px 18px;
+        background-repeat: no-repeat;
+        background-position: 0px center;
     }
 }
 

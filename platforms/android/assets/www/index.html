@@ -59,30 +59,45 @@
 </script>
 
 <script id="plenary-tpl" type="text/x-handlebars-template">
-	<div class="plenary-tpl">
-		<div class="bar bar-header">
-			<button class="back-btn button button-icon" onclick="javascript:history.back(1)">
-				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
-			</button>
-			<h1 class="title">Пленарни заседания</h1>
-			<button class="button button-icon ion-ios7-search"></button>
-		</div>
-			<div class="plenary-content">
-				{{#each plenary}}
-				<div class="topcoat-list">
-					<h3 class="topcoat-list__header">
-						<a href='javascript:' onclick="openUrlInExternal('{{link}}')">{{title}}</a>
-					</h3>
-					<ul class="topcoat-list__container">
-						{{#each dscr}}
-							<li class="topcoat-list__item">{{this}}</li>
-						{{/each}}
-					</ul>
-					<h3 class="topcoat-list__header">{{pubDate}}</h3>
-				</div>
-				{{/each}}
+		<div class="plenary-tpl">
+			<div class="bar bar-header">
+				<button class="back-btn button button-icon" onclick="javascript:history.back(1)">
+					<img src="assets/img/back-arrow.png" alt="ico" class="ico">
+				</button>
+				<h1 class="title">Пленарни заседания</h1>
+				<button class="search-btn button button-icon">
+					<img src="assets/img/search-icon.png" alt="ico" class="ico">
+				</button>
 			</div>
-	</div>
+
+			<div class="row search-row">
+				<div class="col">
+					<div class="search-wrapper">
+						<input type="text" placeholder="Търси заседание" class="search-field" />
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col content-wrapper">
+					{{#each plenary}}
+					<div class="row short-preview">
+						<div class=".col-67 description">
+							{{dscrShort}}
+						</div>
+						<div class="col-33">
+							<div class="date">{{startDate}}-{{endDate}} от {{startTime}}</div>
+							<button class="button icon-left ion-eye preview-btn" onclick="openUrlInExternal('{{link}}')">
+								<span class="txt">Преглед</span>
+							</button>
+						</div>
+					</div>
+					{{/each}}
+				</div>
+			</div>
+
+		</div>
+
 </script>
 	
 		<script id="controll-tpl" type="text/x-handlebars-template">

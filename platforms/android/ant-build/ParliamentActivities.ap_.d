@@ -48,7 +48,9 @@
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/lib \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/News.rss.xml \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/plenary.rss.xml \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/plenary_new.rss.xml \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/plugins \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/snippets.html \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/staticHTML.html \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/css \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/fonts \
@@ -74,6 +76,7 @@
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/controll-ico-dark.svg \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/controll-ico-light.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/controll-ico-light.svg \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/date-icon.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/home-screen-bg.jpg \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/news-ico-dark.svg \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/news-ico-light.png \
@@ -81,6 +84,7 @@
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/plenary-ico-dark.svg \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/plenary-ico-light.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/plenary-ico-light.svg \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/search-icon.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/section-icons-black.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/section-icons-white.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/less/styles.less \
