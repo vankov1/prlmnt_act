@@ -40,8 +40,20 @@ body {
 .default-btn.plenary-btn .ico {
   width: 20px;
 }
+.default-btn.controll-btn {
+  padding: 10px 7px 10px 12px;
+}
 .default-btn.controll-btn .ico {
   width: 25px;
+}
+.default-btn.committee-btn {
+  padding: 10px 7px 10px 12px;
+}
+.default-btn.committee-btn .ico {
+  width: 25px;
+}
+.default-btn.committee-btn .txt {
+  line-height: 20px;
 }
 .default-btn .ico {
   float: left;
