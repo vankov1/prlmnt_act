@@ -112,13 +112,125 @@
 		<data>
 		LPQKgsxkrT/kNvywQi0DJTzr4Ns=
 		</data>
+		<key>www/assets/css/ionic.min.css</key>
+		<data>
+		nfNToXmiKR+RETKuwp5z8WzBdYE=
+		</data>
 		<key>www/assets/css/pageslider.css</key>
 		<data>
-		V9KN9uu2CHawmSfdt5sCr66n30A=
+		JTJYYJBrjJZyzVlbqqK3DVX+wM4=
 		</data>
 		<key>www/assets/css/styles.css</key>
 		<data>
-		gb9/+DWVbEblVTOndYM+zWGlhE8=
+		+BtNhJZq4ypkfvWuEYsCmkFWRw8=
+		</data>
+		<key>www/assets/fonts/helvetica-neue-bold.ttf</key>
+		<data>
+		QCcnzIxRKm0b2LT1fanO2/rFeRU=
+		</data>
+		<key>www/assets/fonts/helvetica-neue.ttf</key>
+		<data>
+		XVTEDJJ/gcCDpcQGI43yoj0kLsg=
+		</data>
+		<key>www/assets/fonts/ionicons.eot</key>
+		<data>
+		oJz7SaYwbhgTRotUVTTxGuEbvYI=
+		</data>
+		<key>www/assets/fonts/ionicons.svg</key>
+		<data>
+		h0qSksMHtPJo+DoY7N9ZKV6Xf7w=
+		</data>
+		<key>www/assets/fonts/ionicons.ttf</key>
+		<data>
+		Mb8aa7eWKgGwTkE/wSNSkZM95vk=
+		</data>
+		<key>www/assets/fonts/ionicons.woff</key>
+		<data>
+		kipigplYFPMp8bGAFsYZJWCT59c=
+		</data>
+		<key>www/assets/img/back-arrow.png</key>
+		<data>
+		QdpCKaeqZRKxpP+2ZGRLQZrSj4U=
+		</data>
+		<key>www/assets/img/bulgarian-armorial.png</key>
+		<data>
+		qNaUg2ZoWFVwq6OMpLa8P7w714w=
+		</data>
+		<key>www/assets/img/bulgarian-armorial.svg</key>
+		<data>
+		7SQEmuCAZPXvb7slZpZd588lJzI=
+		</data>
+		<key>www/assets/img/committee-ico-dark.svg</key>
+		<data>
+		eSiKzebxTKXP40MNjONBdMuDTHI=
+		</data>
+		<key>www/assets/img/committee-ico-light.png</key>
+		<data>
+		mIZV1AAMklHGeq77TChzhXSnZjs=
+		</data>
+		<key>www/assets/img/committee-ico-light.svg</key>
+		<data>
+		dh3lGgaC4I7oTatvSwdO1bUkpak=
+		</data>
+		<key>www/assets/img/controll-ico-dark.svg</key>
+		<data>
+		rzH5G9ccJqDngnpTMOO1DUYqYjk=
+		</data>
+		<key>www/assets/img/controll-ico-light.png</key>
+		<data>
+		dbCRAliDNmdqcyfKJkUPxT2Zi6o=
+		</data>
+		<key>www/assets/img/controll-ico-light.svg</key>
+		<data>
+		aOxSTYVy+amx37rpNYlY/x89TXA=
+		</data>
+		<key>www/assets/img/date-icon.png</key>
+		<data>
+		Ae4wdBNG+xjq9LwHzpz656uj0Uw=
+		</data>
+		<key>www/assets/img/home-screen-bg.jpg</key>
+		<data>
+		628csYuP/xMMX06WiqlhfdVdP8A=
+		</data>
+		<key>www/assets/img/news-ico-dark.svg</key>
+		<data>
+		GjnZd1vng9rdzuU1FW34NRni9Ks=
+		</data>
+		<key>www/assets/img/news-ico-light.png</key>
+		<data>
+		KiqzDrBrWTlTdpDBMMl6dFoSKuM=
+		</data>
+		<key>www/assets/img/news-ico-light.svg</key>
+		<data>
+		Im954xmc3aPQcTBw2fm+MLxdaGg=
+		</data>
+		<key>www/assets/img/plenary-ico-dark.svg</key>
+		<data>
+		c2X5kqmaMpdZp0UWWMwWjE8e2B0=
+		</data>
+		<key>www/assets/img/plenary-ico-light.png</key>
+		<data>
+		ognUEm9eiTXwS9SmAVABVyGEC7I=
+		</data>
+		<key>www/assets/img/plenary-ico-light.svg</key>
+		<data>
+		YOzdwcHM1CiWfXzDK/+Ah5pXcgU=
+		</data>
+		<key>www/assets/img/search-icon.png</key>
+		<data>
+		LBKg4hqTxkboLHHTnQUDj1Og4c0=
+		</data>
+		<key>www/assets/img/section-icons-black.png</key>
+		<data>
+		EDty2xraYOaUde93j83x/p7VvVE=
+		</data>
+		<key>www/assets/img/section-icons-white.png</key>
+		<data>
+		5mAPrLFOD2rEGg6T4yJspoW8NyU=
+		</data>
+		<key>www/assets/less/styles.less</key>
+		<data>
+		vMXc2btFpLUPkSHntbAnGi5txAE=
 		</data>
 		<key>www/assets/pics/Amy_Jones.jpg</key>
 		<data>
@@ -376,13 +488,9 @@
 		<data>
 		gE3uHT+4OU9mj6U/oK7qF3FNxhY=
 		</data>
-		<key>www/html/index.html</key>
-		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-		</data>
 		<key>www/index.html</key>
 		<data>
-		k9KSTrKS9EUORd06FrOxCqWyD44=
+		Q4cBrJtvwnvn0zmJcjg4kf8KyFc=
 		</data>
 		<key>www/js/CommitteeView.js</key>
 		<data>
@@ -402,7 +510,7 @@
 		</data>
 		<key>www/js/PlenaryView.js</key>
 		<data>
-		OJiNcKCOekl7L4X0HapFC9UMftU=
+		GGFeN24fgPYBOdrUhTFmm2cq79Q=
 		</data>
 		<key>www/js/adapters/FileStorage.js</key>
 		<data>
@@ -426,7 +534,7 @@
 		</data>
 		<key>www/js/app.js</key>
 		<data>
-		/DcpV+lH2wkDw0KdtuVMckeqfvQ=
+		Grdpyi4x5k+2wn15yaWk9fxsLM0=
 		</data>
 		<key>www/js/tools.js</key>
 		<data>
@@ -455,6 +563,10 @@
 		<key>www/plenary.rss.xml</key>
 		<data>
 		fG7fTPe5kcNBi46SBvfm4uIvaXg=
+		</data>
+		<key>www/plenary_new.rss.xml</key>
+		<data>
+		Z7PthI4kj0CyDNSYr1ro0hxnAyg=
 		</data>
 		<key>www/plugins/org.apache.cordova.console/www/console-via-logger.js</key>
 		<data>
@@ -547,6 +659,14 @@
 		<key>www/plugins/org.apache.cordova.inappbrowser/www/inappbrowser.js</key>
 		<data>
 		kAkzn+GoIPhIR2Ig4VSt+0L6srU=
+		</data>
+		<key>www/snippets.html</key>
+		<data>
+		wdvuPcC2+/ErqJW7sJ289mYFzNw=
+		</data>
+		<key>www/staticHTML.html</key>
+		<data>
+		astrjk7whSBPTDnjQk0OS0g+R5s=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -659,13 +779,125 @@
 		<data>
 		LPQKgsxkrT/kNvywQi0DJTzr4Ns=
 		</data>
+		<key>www/assets/css/ionic.min.css</key>
+		<data>
+		nfNToXmiKR+RETKuwp5z8WzBdYE=
+		</data>
 		<key>www/assets/css/pageslider.css</key>
 		<data>
-		V9KN9uu2CHawmSfdt5sCr66n30A=
+		JTJYYJBrjJZyzVlbqqK3DVX+wM4=
 		</data>
 		<key>www/assets/css/styles.css</key>
 		<data>
-		gb9/+DWVbEblVTOndYM+zWGlhE8=
+		+BtNhJZq4ypkfvWuEYsCmkFWRw8=
+		</data>
+		<key>www/assets/fonts/helvetica-neue-bold.ttf</key>
+		<data>
+		QCcnzIxRKm0b2LT1fanO2/rFeRU=
+		</data>
+		<key>www/assets/fonts/helvetica-neue.ttf</key>
+		<data>
+		XVTEDJJ/gcCDpcQGI43yoj0kLsg=
+		</data>
+		<key>www/assets/fonts/ionicons.eot</key>
+		<data>
+		oJz7SaYwbhgTRotUVTTxGuEbvYI=
+		</data>
+		<key>www/assets/fonts/ionicons.svg</key>
+		<data>
+		h0qSksMHtPJo+DoY7N9ZKV6Xf7w=
+		</data>
+		<key>www/assets/fonts/ionicons.ttf</key>
+		<data>
+		Mb8aa7eWKgGwTkE/wSNSkZM95vk=
+		</data>
+		<key>www/assets/fonts/ionicons.woff</key>
+		<data>
+		kipigplYFPMp8bGAFsYZJWCT59c=
+		</data>
+		<key>www/assets/img/back-arrow.png</key>
+		<data>
+		QdpCKaeqZRKxpP+2ZGRLQZrSj4U=
+		</data>
+		<key>www/assets/img/bulgarian-armorial.png</key>
+		<data>
+		qNaUg2ZoWFVwq6OMpLa8P7w714w=
+		</data>
+		<key>www/assets/img/bulgarian-armorial.svg</key>
+		<data>
+		7SQEmuCAZPXvb7slZpZd588lJzI=
+		</data>
+		<key>www/assets/img/committee-ico-dark.svg</key>
+		<data>
+		eSiKzebxTKXP40MNjONBdMuDTHI=
+		</data>
+		<key>www/assets/img/committee-ico-light.png</key>
+		<data>
+		mIZV1AAMklHGeq77TChzhXSnZjs=
+		</data>
+		<key>www/assets/img/committee-ico-light.svg</key>
+		<data>
+		dh3lGgaC4I7oTatvSwdO1bUkpak=
+		</data>
+		<key>www/assets/img/controll-ico-dark.svg</key>
+		<data>
+		rzH5G9ccJqDngnpTMOO1DUYqYjk=
+		</data>
+		<key>www/assets/img/controll-ico-light.png</key>
+		<data>
+		dbCRAliDNmdqcyfKJkUPxT2Zi6o=
+		</data>
+		<key>www/assets/img/controll-ico-light.svg</key>
+		<data>
+		aOxSTYVy+amx37rpNYlY/x89TXA=
+		</data>
+		<key>www/assets/img/date-icon.png</key>
+		<data>
+		Ae4wdBNG+xjq9LwHzpz656uj0Uw=
+		</data>
+		<key>www/assets/img/home-screen-bg.jpg</key>
+		<data>
+		628csYuP/xMMX06WiqlhfdVdP8A=
+		</data>
+		<key>www/assets/img/news-ico-dark.svg</key>
+		<data>
+		GjnZd1vng9rdzuU1FW34NRni9Ks=
+		</data>
+		<key>www/assets/img/news-ico-light.png</key>
+		<data>
+		KiqzDrBrWTlTdpDBMMl6dFoSKuM=
+		</data>
+		<key>www/assets/img/news-ico-light.svg</key>
+		<data>
+		Im954xmc3aPQcTBw2fm+MLxdaGg=
+		</data>
+		<key>www/assets/img/plenary-ico-dark.svg</key>
+		<data>
+		c2X5kqmaMpdZp0UWWMwWjE8e2B0=
+		</data>
+		<key>www/assets/img/plenary-ico-light.png</key>
+		<data>
+		ognUEm9eiTXwS9SmAVABVyGEC7I=
+		</data>
+		<key>www/assets/img/plenary-ico-light.svg</key>
+		<data>
+		YOzdwcHM1CiWfXzDK/+Ah5pXcgU=
+		</data>
+		<key>www/assets/img/search-icon.png</key>
+		<data>
+		LBKg4hqTxkboLHHTnQUDj1Og4c0=
+		</data>
+		<key>www/assets/img/section-icons-black.png</key>
+		<data>
+		EDty2xraYOaUde93j83x/p7VvVE=
+		</data>
+		<key>www/assets/img/section-icons-white.png</key>
+		<data>
+		5mAPrLFOD2rEGg6T4yJspoW8NyU=
+		</data>
+		<key>www/assets/less/styles.less</key>
+		<data>
+		vMXc2btFpLUPkSHntbAnGi5txAE=
 		</data>
 		<key>www/assets/pics/Amy_Jones.jpg</key>
 		<data>
@@ -923,13 +1155,9 @@
 		<data>
 		gE3uHT+4OU9mj6U/oK7qF3FNxhY=
 		</data>
-		<key>www/html/index.html</key>
-		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-		</data>
 		<key>www/index.html</key>
 		<data>
-		k9KSTrKS9EUORd06FrOxCqWyD44=
+		Q4cBrJtvwnvn0zmJcjg4kf8KyFc=
 		</data>
 		<key>www/js/CommitteeView.js</key>
 		<data>
@@ -949,7 +1177,7 @@
 		</data>
 		<key>www/js/PlenaryView.js</key>
 		<data>
-		OJiNcKCOekl7L4X0HapFC9UMftU=
+		GGFeN24fgPYBOdrUhTFmm2cq79Q=
 		</data>
 		<key>www/js/adapters/FileStorage.js</key>
 		<data>
@@ -973,7 +1201,7 @@
 		</data>
 		<key>www/js/app.js</key>
 		<data>
-		/DcpV+lH2wkDw0KdtuVMckeqfvQ=
+		Grdpyi4x5k+2wn15yaWk9fxsLM0=
 		</data>
 		<key>www/js/tools.js</key>
 		<data>
@@ -1002,6 +1230,10 @@
 		<key>www/plenary.rss.xml</key>
 		<data>
 		fG7fTPe5kcNBi46SBvfm4uIvaXg=
+		</data>
+		<key>www/plenary_new.rss.xml</key>
+		<data>
+		Z7PthI4kj0CyDNSYr1ro0hxnAyg=
 		</data>
 		<key>www/plugins/org.apache.cordova.console/www/console-via-logger.js</key>
 		<data>
@@ -1094,6 +1326,14 @@
 		<key>www/plugins/org.apache.cordova.inappbrowser/www/inappbrowser.js</key>
 		<data>
 		kAkzn+GoIPhIR2Ig4VSt+0L6srU=
+		</data>
+		<key>www/snippets.html</key>
+		<data>
+		wdvuPcC2+/ErqJW7sJ289mYFzNw=
+		</data>
+		<key>www/staticHTML.html</key>
+		<data>
+		astrjk7whSBPTDnjQk0OS0g+R5s=
 		</data>
 	</dict>
 	<key>rules</key>

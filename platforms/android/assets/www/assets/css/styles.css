@@ -213,6 +213,10 @@ body {
 }
 /* ===== END Home Screen ===== */
 /* ===== Plenary Screen ===== */
+.plenary-tpl {
+  overflow: auto;
+  height: 93% !important;
+}
 /* ===== END Plenary Screen ===== */
 /* ======= PLAIN CSS ======== */
 .scroller {

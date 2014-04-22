@@ -11,7 +11,7 @@ var dataFileAgeToDownload = 86400; //one day in seconds
 function getRssUrlByFileName(fileName) {
 	var url = '';
 	if (fileName == plenaryDataFile) {
-		url = "http://www.parliament.bg/rss.php?feed=plenary&lng=bg";
+		url = "http://www.parliament.bg/export/bg/xml/app_plenary/";
 	} else if (fileName == controllDataFile) {
 		url = "http://www.parliament.bg/rss.php?feed=plcontrol&lng=bg";
 	} else if (fileName == committeeDataFile) {
