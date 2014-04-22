@@ -1,7 +1,9 @@
 /* ===== Global Elements ===== */
 body {
   background: #dfdfdf;
-  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+  position: static !important;
   overflow: auto !important;
 }
 .center {
