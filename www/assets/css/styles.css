@@ -86,6 +86,7 @@ body {
 .preview-btn {
   float: right;
   padding-left: 7px !important;
+  padding-right: 7px !important;
   -webkit-border-top-right-radius: 0px;
   -webkit-border-bottom-right-radius: 0px;
   -webkit-border-bottom-left-radius: 0px;
