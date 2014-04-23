@@ -213,10 +213,51 @@ body {
     }
 }
 
+.custom-row {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
 .bottom-tabs {
     position: fixed;
     bottom: 0px;
     left: 0px;
+    padding-top: 0px;
+    background: #f5f5f5;
+    border-top: 1px solid #cfcfcf !important;
+    .tab-item {
+        font-size: 11px;
+        &.active {
+            background: #ffffff;
+            border-right: 1px solid #cfcfcf;
+            border-left: 1px solid #cfcfcf;
+            &:first-child {
+                border-left: 0px;
+            }
+        }
+        .section-icons {
+            width: 25px;
+            top: 5px;
+            position: relative;
+            &.plenary-ico {
+                width: 18px;
+            }
+
+            &.controll-ico {
+                
+            }
+
+            &.committee-ico {
+
+            }
+
+            &.news-ico {
+                width: 30px;
+            }
+
+        }
+    }
 }
 
 /* === END Global Elements === */

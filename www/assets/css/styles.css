@@ -191,10 +191,40 @@ body {
   background-repeat: no-repeat;
   background-position: 0px center;
 }
+.custom-row {
+  width: 100%;
+  float: left;
+  position: relative;
+}
 .bottom-tabs {
   position: fixed;
   bottom: 0px;
   left: 0px;
+  padding-top: 0px;
+  background: #f5f5f5;
+  border-top: 1px solid #cfcfcf !important;
+}
+.bottom-tabs .tab-item {
+  font-size: 11px;
+}
+.bottom-tabs .tab-item.active {
+  background: #ffffff;
+  border-right: 1px solid #cfcfcf;
+  border-left: 1px solid #cfcfcf;
+}
+.bottom-tabs .tab-item.active:first-child {
+  border-left: 0px;
+}
+.bottom-tabs .tab-item .section-icons {
+  width: 25px;
+  top: 5px;
+  position: relative;
+}
+.bottom-tabs .tab-item .section-icons.plenary-ico {
+  width: 18px;
+}
+.bottom-tabs .tab-item .section-icons.news-ico {
+  width: 30px;
 }
 /* === END Global Elements === */
 /* ===== Home Screen ===== */
