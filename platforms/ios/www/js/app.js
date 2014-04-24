@@ -99,6 +99,8 @@ function getAdapter(dataFileName) {
 			var plenary = new PlenaryView(plenaryTpl);
 			plenary.getData(function(tplData) {
 				slider.slidePage(plenary.render(tplData).el);
+				console.log($('#btnSearchPlenary'));
+				plenary.assignHandlers();
 			});
 			return;
 		}

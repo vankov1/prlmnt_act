@@ -64,6 +64,17 @@ var PlenaryView = function(template) {
 			callback(tplData);
 		}
 	};
+	
+	this.assignHandlers = function() {
+		$('#btnSearchPlenary').unbind().bind('click', function() {
+			$('#searchBoxPlenary').slideToggle("slow");
+			/*if ($('#searchBoxPlenary').hasClass('hidden')) {
+				$('#searchBoxPlenary').removeClass('hidden');
+			} else {
+				$('#searchBoxPlenary').addClass('hidden');
+			}*/
+		});
+	};
 
     this.initialize();
 
