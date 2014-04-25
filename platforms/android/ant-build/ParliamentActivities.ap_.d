@@ -67,6 +67,7 @@
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/fonts/ionicons.svg \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/fonts/ionicons.ttf \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/fonts/ionicons.woff \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/article-img.jpg \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/back-arrow.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/bulgarian-armorial.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/bulgarian-armorial.svg \
@@ -77,6 +78,7 @@
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/controll-ico-light.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/controll-ico-light.svg \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/date-icon.png \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/file-icon.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/home-screen-bg.jpg \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/news-ico-dark.svg \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/news-ico-light.png \
@@ -87,6 +89,7 @@
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/search-icon.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/section-icons-black.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/section-icons-white.png \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/time-icon.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/less/styles.less \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/pics/Amy_Jones.jpg \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/pics/Amy_Jones50.jpg \

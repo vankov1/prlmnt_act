@@ -112,7 +112,13 @@ function getAdapter(dataFileName) {
 					var id = parts[1].replace('id=', '');
 					var plenary = new PlenaryView(plenaryDetailTpl);
 					plenary.getData(function(tplData) {
-						slider.slidePage(plenary.render(tplData.plenary[id]).el);
+						var detailData = {};
+						if (tplData.plenary.length == 0) {
+							detailData = getPlenaryTestingData(id);
+						} else {
+							detailData = tplData.plenary[id];
+						}
+						slider.slidePage(plenary.render(detailData).el);
 					});
 					return;
 				}
