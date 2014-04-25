@@ -124,11 +124,24 @@ body {
   text-transform: uppercase;
 }
 .title {
-  font-size: 22px;
+  color: #535353;
+  font-size: 20px;
 }
 .external-link {
   font-weight: bold;
   color: #3b8da2;
+}
+.file-link {
+  display: inline-block;
+  margin-bottom: 8px;
+  padding: 7px 0px 7px 25px;
+  color: #535353;
+  font-size: 14px;
+  font-weight: bold;
+  background-image: url("../img/file-icon.png");
+  background-size: 13px 19px;
+  background-repeat: no-repeat;
+  background-position: 0px center;
 }
 .bar-header {
   height: 55px;
@@ -221,6 +234,37 @@ body {
   line-height: 24px;
   color: #535353;
 }
+.detail-preview .time {
+  display: inline-block;
+  margin-left: 10px;
+  padding-left: 25px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #535353;
+  background-image: url("../img/time-icon.png");
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  background-position: 0px center;
+}
+.detail-preview .address {
+  color: #535353;
+  margin-bottom: 10px;
+}
+.detail-preview .address > span {
+  font-weight: bold;
+}
+.detail-preview img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.detail-preview .description {
+  color: #535353;
+  padding-top: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-top: 1px solid #dfdfdf;
+}
 .custom-row {
   width: 100%;
   float: left;
@@ -292,18 +336,88 @@ body {
 }
 /* ===== END Plenary Screen ===== */
 /* ===== Plenary Screen Detail View ===== */
-.plenary-tpl-detail-preview {
+.plenary-tpl-detail-preview,
+.controll-tpl-detail-preview,
+.committee-tpl-detail-preview,
+.news-tpl-detail-preview {
   padding-top: 55px;
   overflow: auto;
 }
-.plenary-tpl-detail-preview .detail-preview {
+.plenary-tpl-detail-preview .detail-preview,
+.controll-tpl-detail-preview .detail-preview,
+.committee-tpl-detail-preview .detail-preview,
+.news-tpl-detail-preview .detail-preview {
   padding: 0px !important;
 }
-.plenary-tpl-detail-preview .content-wrapper {
+.plenary-tpl-detail-preview .content-wrapper,
+.controll-tpl-detail-preview .content-wrapper,
+.committee-tpl-detail-preview .content-wrapper,
+.news-tpl-detail-preview .content-wrapper {
   margin-bottom: 45px;
   padding: 0px !important;
 }
 /* ===== END Plenary Screen Detail View ===== */
+/* ===== Controll Screen ===== */
+.controll-tpl,
+.committee-tpl,
+.news-tpl {
+  overflow: auto;
+  height: 93% !important;
+}
+.controll-tpl .short-preview,
+.committee-tpl .short-preview,
+.news-tpl .short-preview {
+  padding: 0px !important;
+}
+.controll-tpl .short-preview .title,
+.committee-tpl .short-preview .title,
+.news-tpl .short-preview .title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+/* ===== END Controll Screen ===== */
+/* ===== News Screen ===== */
+.news-tpl .short-preview .date {
+  margin-top: 4px;
+  font-size: 16px;
+  background-size: 20px 20px;
+  float: left;
+}
+/* ===== END News Screen ===== */
+/* ===== Options Screen ===== */
+.options-tpl {
+  padding-top: 55px;
+  overflow: auto;
+  height: 100%;
+}
+.options-tpl .item-toggle {
+  line-height: 45px;
+  padding-left: 12px;
+  font-size: 14px;
+  border: 0px solid #ffffff !important;
+  border-bottom: 1px solid #bfbfbf !important;
+  background: none !important;
+}
+.options-tpl .item-toggle .toggle input:checked + .track {
+  background: #c3f36f;
+  border: 1px solid #d7d7d7;
+}
+.options-tpl .content-wrapper,
+.options-tpl .list {
+  padding: 0px !important;
+}
+.options-tpl .content-wrapper {
+  position: absolute;
+  top: 55px;
+  left: 0px;
+  background: #f7f7f7;
+  height: 100%;
+  float: left;
+}
+.options-tpl > .row {
+  padding: 0px !important;
+}
+/* ===== END Options Screen ===== */
 /* ======= PLAIN CSS ======== */
 .scroller {
   overflow: auto;
