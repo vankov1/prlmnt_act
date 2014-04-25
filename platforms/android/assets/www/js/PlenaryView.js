@@ -14,6 +14,7 @@ var PlenaryView = function(template) {
 		var adapter = getAdapter(plenaryDataFile);
 		console.log('got adapter: ' + adapter.dataFile);
 		var parser = new DOMParser();
+		//console.log('Stored Rss Data: ' + adapter.rssData);
 		var data = parser.parseFromString(adapter.rssData, "text/xml");
 		
 		var plenariesList = data.getElementsByTagName('item');
@@ -25,9 +26,10 @@ var PlenaryView = function(template) {
 			var shortDscr = '';
 			for (var ai = 0; ai < agendaItemsNodes.length; ai++) {
 				agendaItems[ai] = {
+					id: ai + 1,
 					itemText: agendaItemsNodes[ai].getElementsByTagName('item_text')[0] ? agendaItemsNodes[ai].getElementsByTagName('item_text')[0].textContent : '',
 					isBill: agendaItemsNodes[ai].getElementsByTagName('is_bill')[0] ? agendaItemsNodes[ai].getElementsByTagName('is_bill')[0].textContent : 0,
-					billLink: agendaItemsNodes[ai].getElementsByTagName('bill_link')[0] ? agendaItemsNodes[ai].getElementsByTagName('bill_link')[0].textContent : ''
+					billLink: agendaItemsNodes[ai].getElementsByTagName('bill_link')[0] ? agendaItemsNodes[ai].getElementsByTagName('bill_link')[0].textContent : 'javascript:void(0)'
 				};
 				if (shortDscr.length < 255) {
 					shortDscr += agendaItems[ai].itemText;
@@ -39,6 +41,7 @@ var PlenaryView = function(template) {
 			
 			
 			plenary[pi] = {
+				id: pi,
 				type: plenariesList[pi].getElementsByTagName('type')[0] ? plenariesList[pi].getElementsByTagName('type')[0].textContent : 0,
 				status: plenariesList[pi].getElementsByTagName('status')[0] ? plenariesList[pi].getElementsByTagName('status')[0].textContent : 0,
 				startDate: plenariesList[pi].getElementsByTagName('start_date')[0] ? plenariesList[pi].getElementsByTagName('start_date')[0].textContent : 'n/a',

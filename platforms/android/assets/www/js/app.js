@@ -8,6 +8,13 @@ var adapters = [];
 
 var dataFileAgeToDownload = 86400; //one day in seconds
 
+Handlebars.registerHelper('ifCond', function(v1, v2, options) {
+	if (v1 === v2) {
+		return options.fn(this);
+	}
+	return options.inverse(this);
+});
+
 function getRssUrlByFileName(fileName) {
 	var url = '';
 	if (fileName == plenaryDataFile) {
@@ -39,12 +46,14 @@ function getAdapter(dataFileName) {
     /* ---------------------------------- Local Variables ---------------------------------- */
     var homeTpl = Handlebars.compile($("#home-tpl").html());
     var plenaryTpl = Handlebars.compile($("#plenary-tpl").html());
+    var plenaryDetailTpl = Handlebars.compile($("#plenary-tpl-detail-preview").html());
     var controllTpl = Handlebars.compile($("#controll-tpl").html());
     var committeeTpl = Handlebars.compile($("#committee-tpl").html());
     var newsTpl = Handlebars.compile($("#news-tpl").html());
 
     var homeUrl = "#home";
     var plenaryUrl = "#plenary";
+    var plenaryDetailUrl = '#plenaryDetail';
     var controllUrl = "#controll";
     var committeeUrl = "#committee";
     var newsUrl = "#news";
@@ -96,10 +105,21 @@ function getAdapter(dataFileName) {
 
 		var match = hash.match(plenaryUrl);
 		if (match) {
+			var match = hash.match(plenaryDetailUrl);
+			if (match) {
+				var parts = hash.split('?');
+				if (parts[1]) {
+					var id = parts[1].replace('id=', '');
+					var plenary = new PlenaryView(plenaryDetailTpl);
+					plenary.getData(function(tplData) {
+						slider.slidePage(plenary.render(tplData.plenary[id]).el);
+					});
+					return;
+				}
+			}
 			var plenary = new PlenaryView(plenaryTpl);
 			plenary.getData(function(tplData) {
 				slider.slidePage(plenary.render(tplData).el);
-				console.log($('#btnSearchPlenary'));
 				plenary.assignHandlers();
 			});
 			return;
