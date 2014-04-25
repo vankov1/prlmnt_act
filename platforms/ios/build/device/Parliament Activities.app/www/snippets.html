@@ -1,0 +1,16 @@
+<!-- Nested plenary with agenda items -->
+			<div class="plenary-content">
+				{{#each plenary}}
+				<div class="topcoat-list">
+					<h3 class="topcoat-list__header">
+						<a href='javascript:' onclick="openUrlInExternal('{{link}}')">{{title}}</a>
+					</h3>
+					<ul class="topcoat-list__container">
+						{{#each dscr}}
+							<li class="topcoat-list__item">{{this}}</li>
+						{{/each}}
+					</ul>
+					<h3 class="topcoat-list__header">{{pubDate}}</h3>
+				</div>
+				{{/each}}
+			</div>
