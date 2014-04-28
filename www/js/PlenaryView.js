@@ -32,13 +32,13 @@ var PlenaryView = function(template) {
 					billLink: agendaItemsNodes[ai].getElementsByTagName('bill_link')[0] ? agendaItemsNodes[ai].getElementsByTagName('bill_link')[0].textContent : 'javascript:void(0)'
 				};
 				if (shortDscr.length < 255) {
-					shortDscr += agendaItems[ai].itemText;
+					shortDscr += agendaItems[ai].itemText + "\n";
 				}
 			}
 			if (shortDscr.length > 255) {
-				shortDscr = shortDscr.substring(0, 255);
+				shortDscr = shortDscr.substring(0, 255) + '...';
 			}
-			
+			shortDscr = shortDscr.replace(/\r?\n/g, "<br />");
 			
 			plenary[pi] = {
 				id: pi,
@@ -51,11 +51,6 @@ var PlenaryView = function(template) {
 				pubDate: plenariesList[pi].getElementsByTagName('pubDate')[0] ? plenariesList[pi].getElementsByTagName('pubDate')[0].textContent : 'n/a',
 				agenda: agendaItems,
 				dscrShort: shortDscr
-				
-				/*title: plenariesList[pi].getElementsByTagName('title')[0].textContent,
-				dscr: dscr,
-				dscrShort: dscr[1].substr(0, 255),*/
-				
 			};
 		}
 		

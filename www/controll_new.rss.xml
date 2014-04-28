@@ -1,0 +1,1770 @@
+<?xml version="1.0" ?>
+<schema>
+	<item>
+		<title>Парламентарен контрол</title>
+		<date>2014-04-11</date>
+		<time>11:00</time>
+		<agenda>
+			<agenda_item>
+				<question>Актуален въпрос относно финансовите отношения между
+					Република България и Сирийската арабска република</question>
+				<question_author>СТРАХИЛ ЧАВДАРОВ АНГЕЛОВ</question_author>
+				<answerer>Петър Чобанов, Министър на финансите</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно създаване на социален сграден жилищен фонд
+				</question>
+				<question_author>ЛИЛЯНА ПАВЛОВА НИКОЛОВА</question_author>
+				<answerer>Иван Данов, Министър на инвестиционното проектиране
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно подробен устройствен план и издадени
+					разрешения за строеж за местността "Кара дере"</question>
+				<question_author>ЛИЛЯНА ПАВЛОВА НИКОЛОВА</question_author>
+				<answerer>Иван Данов, Министър на инвестиционното проектиране
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно BG161PO003-2.3.02 "енергийна
+					ефективност и зелена икономика", ОП "Развитие на
+					конкурентноспособността на българската икономика" 2007 - 2013
+				</question>
+				<question_author>ДИМИТЪР БОЙЧЕВ ПЕТРОВ</question_author>
+				<answerer>Драгомир Стойнев, Министър на икономиката и енергетиката
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно проблеми при съставянето на актове
+					за раждане и издаване на удостоверения за раждане на деца, родени в
+					чужбина от родители - български граждани</question>
+				<question_author>ХАЛИЛ РЕДЖЕПОВ ЛЕТИФОВ</question_author>
+				<question_author>ШЕНДОАН РЕМЗИ ХАЛИТ</question_author>
+				<answerer>Десислава Терзиева, Министър на регионалното развитие
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно наложената санкция по Закона за
+					движение по пътищата през август 2013 г</question>
+				<question_author>АТАНАС ИВАНОВ ТАШКОВ</question_author>
+				<question_author>СТАНИСЛАВ СТОЯНОВ ИВАНОВ</question_author>
+				<question_author>СТЕФАН ИВАНОВ ДЕДЕВ</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно фактите и обстоятелствата,
+					свързани с установяване на административно нарушение по реда на
+					Закона за движението по пътищата, извършено от народен представител
+				</question>
+				<question_author>ИВАН СТЕФАНОВ ВЪЛКОВ</question_author>
+				<question_author>СТАНИСЛАВ СТОЯНОВ ИВАНОВ</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно кадровата политика и назначенията
+					в държавната администрация</question>
+				<question_author>ИРЕНА ЛЮБЕНОВА СОКОЛОВА</question_author>
+				<answerer>Пламен Орешарски, Министър-председател на Република
+					България</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно политиката провеждана от
+					Министерството на образованието и науката за предлагането,
+					организацията и осъществяването на психологическата подкрепа и
+					помощ в училище</question>
+				<question_author>ИРЕНА ЛЮБЕНОВА СОКОЛОВА</question_author>
+				<answerer>Анелия Клисарова, Министър на образованието и науката
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно становище на Министерството на външните
+					работи, във връзка с присъединяването на Република България към
+					Конвенция № 210 на Съвета на Европа за превенция и борба с
+					насилието над жени и домашното насилие (Истанбулската конвенция)
+				</question>
+				<question_author>ТУНЧЕР МЕХМЕДОВ КЪРДЖАЛИЕВ</question_author>
+				<answerer>Кристиан Вигенин, Министър на външните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно прехвърляне на поземлен имот с
+					идентификатор 07079.501.361 по КККР на гр. Бургас от Министерството
+					на отбраната на Община Бургас</question>
+				<question_author>ДИМИТЪР БОЙЧЕВ ПЕТРОВ</question_author>
+				<question_author>ИВАН СТЕФАНОВ ВЪЛКОВ</question_author>
+				<answerer>Ангел Найденов, Министър на отбраната</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно изграждане на интермодален център
+					във Видин</question>
+				<question_author>ВЛАДИМИР ЦВЕТАНОВ ТОШЕВ</question_author>
+				<answerer>Данаил Папазов, Министър на транспорта, информационните
+					технологии и съобщенията</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно средствата, които държавата трябва да
+					осигури за редовни археологически проучвания, съгласно Закона за
+					културното наследство</question>
+				<question_author>ГИНЧЕ ДИМИТРОВА КАРАМИНОВА</question_author>
+				<question_author>ИРЕНА ИВАНОВА КОЦЕВА</question_author>
+				<question_author>СВЕТЛАНА АНГЕЛОВА НАЙДЕНОВА</question_author>
+				<answerer>Петър Стоянович, Министър на културата</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно борбата с ДДС измами</question>
+				<question_author>НИКОЛАЙ ВЕСЕЛИНОВ АЛЕКСАНДРОВ</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно Публична инвесиционна програма "Растеж и
+					устойчиво развитие на регионите"</question>
+				<question_author>ЛИЛЯНА ПАВЛОВА НИКОЛОВА</question_author>
+				<answerer>Петър Чобанов, Министър на финансите</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно преустановена процедура за
+					съгласуване и реализиране на Хидровъзел "Брезница", общ. Гоце
+					Делчев, обл. Благоевград</question>
+				<question_author>ТОДОР БОРИСОВ РАДУЛОВ</question_author>
+				<answerer>Десислава Терзиева, Министър на регионалното развитие
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно анализа и интерпретацията на
+					Министерството на образованието и науката на данните, получени след
+					проведеното през 2012 г. международно изследване PISA</question>
+				<question_author>ИРЕНА ЛЮБЕНОВА СОКОЛОВА</question_author>
+				<answerer>Анелия Клисарова, Министър на образованието и науката
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно намесата на специализирани
+					полицейски части при провеждане на протест пред сградата на община
+					Перник</question>
+				<question_author>ИРЕНА ЛЮБЕНОВА СОКОЛОВА</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно неработещия Национален съвет по
+					студентските въпроси</question>
+				<question_author>ГАЛЕН СИМЕОНОВ МОНЕВ</question_author>
+				<answerer>Анелия Клисарова, Министър на образованието и науката
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно изпълнението на решение на НС от
+					29.03.2012 г. , в частта му по т. 2, за изграждане на парогазова
+					централа на площадка "Белене"</question>
+				<question_author>ПАВЕЛ ДИМИТРОВ ШОПОВ</question_author>
+				<answerer>Драгомир Стойнев, Министър на икономиката и енергетиката
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно прекратяване на отношенията с
+					Международния валутен фонд</question>
+				<question_author>НИКОЛАЙ ВЕСЕЛИНОВ АЛЕКСАНДРОВ</question_author>
+				<answerer>Петър Чобанов, Министър на финансите</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно предоговаряне на взаимоотношенията
+					с МВФ</question>
+				<question_author>НИКОЛАЙ ВЕСЕЛИНОВ АЛЕКСАНДРОВ</question_author>
+				<answerer>Петър Чобанов, Министър на финансите</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно необходимостта от публична
+					дискусия относно въвеждането на наукометрични критерии за
+					академично израстване</question>
+				<question_author>СТАНИСЛАВ ТОДОРОВ СТАНИЛОВ</question_author>
+				<answerer>Анелия Клисарова, Министър на образованието и науката
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно липсата на национална регулация на
+					състрадателните грижи</question>
+				<question_author>СТАНИСЛАВ ТОДОРОВ СТАНИЛОВ</question_author>
+				<answerer>Таня Андреева-Райнова, Министър на здравеопазването
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно намерението на правителството за
+					изграждане на социални жилища, предназначени за ромското население
+				</question>
+				<question_author>ИЛИАН САШОВ ТОДОРОВ</question_author>
+				<answerer>Иван Данов, Министър на инвестиционното проектиране
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно реакциите на Република България по
+					отношение на програмата на американската компания "Шеврон" за
+					проучване и добив на шистов газ в Румъния</question>
+				<question_author>МИГЛЕНА ДОЙКОВА АЛЕКСАНДРОВА</question_author>
+				<answerer>Кристиан Вигенин, Министър на външните работи</answerer>
+			</agenda_item>
+		</agenda>
+		<item_link>http://www.parliament.bg/bg/parliamentarycontrol/ID/543
+		</item_link>
+		<pubDate>2014-04-25 22:58:24</pubDate>
+	</item>
+	<item>
+		<title>Парламентарен контрол</title>
+		<date>2014-04-04</date>
+		<time>11:00</time>
+		<agenda>
+			<agenda_item>
+				<question>Актуален въпрос относно предстояща реформа на системата за
+					изплащане на пенсии за инвалидност от НОИ и системата от помощи и
+					права за хора с увреждания</question>
+				<question_author>МИЛКА ДОНЧЕВА ХРИСТОВА</question_author>
+				<answerer>Хасан Адемов, Министър на труда и социалната политика
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно Зимни Олимпийски игри - Сочи 2014
+				</question>
+				<question_author>ГЕОРГИ НИКОЛОВ МЪРКОВ</question_author>
+				<question_author>ХРИСТО ЦВЕТАНОВ МОНОВ</question_author>
+				<answerer>Мариана Георгиева, Министър на младежта и спорта
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно риск от загуба на средства през
+					2014 г. по европейските програми от програмен период 2007-2013
+				</question>
+				<question_author>ИВЕЛИНА ВЕСЕЛИНОВА ВАСИЛЕВА</question_author>
+				<answerer>Зинаида Златанова, Заместник министър-председател и
+					Министър на правосъдието</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно кореспонденция с Европейската
+					комисия</question>
+				<question_author>ИВЕЛИНА ВЕСЕЛИНОВА ВАСИЛЕВА</question_author>
+				<answerer>Зинаида Златанова, Заместник министър-председател и
+					Министър на правосъдието</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно предоставяне на информация по одит
+					на изпълнението</question>
+				<question_author>ИВЕЛИНА ВЕСЕЛИНОВА ВАСИЛЕВА</question_author>
+				<answerer>Искра Михайлова-Копарова, Министър на околната среда и
+					водите</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно осъществен контрол на дейността на
+					българското неделно училище в гр.Палма, Кралство Испания</question>
+				<question_author>КОРНЕЛИЯ ДОБРЕВА МАРИНОВА</question_author>
+				<answerer>Анелия Клисарова, Министър на образованието и науката
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно изплащане на обезщетение на
+					собственика на имот № 166021 по КВС на землището на гр.Карнобат,
+					както и на други собственици на имоти, в незавършената процедура по
+					отчуждаване на имоти и части от имоти-частна собственост, засегнати
+					от АМ "Тракия" ЛОТ 5 Карнобат ПВ "Бургас-запад", подобект
+					"Югозападен обход на гр.Карнобат"</question>
+				<question_author>СНЕЖИНА МИНЧЕВА МАДЖАРОВА</question_author>
+				<answerer>Десислава Терзиева, Министър на регионалното развитие
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно предприетите от МОН мерки по
+					сигнал с вх. № 94-9208 от 22 май 2013 г. до министъра на
+					образованието и науката във връзка с реда и начина за провеждане на
+					докторантура, редовна форма на обучение, държавна поръчка в ИМСТЦХА
+					- БАН</question>
+				<question_author>МИЛЕНА ЦВЕТАНОВА ДАМЯНОВА</question_author>
+				<answerer>Анелия Клисарова, Министър на образованието и науката
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно превенция на риска от странични
+					реакции от ваксината БЦЖ и останалите задължителни ваксини
+				</question>
+				<question_author>ДЕЯН ЦАНКОВ ДЕЧЕВ</question_author>
+				<answerer>Таня Андреева-Райнова, Министър на здравеопазването
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно проблеми с бежанците от лагера в
+					град Харманли</question>
+				<question_author>СВЕТЛИН ДИМИТРОВ ТАНЧЕВ</question_author>
+				<answerer>Пламен Орешарски, Министър-председател на Република
+					България</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно политиката по назначаване и кариерно
+					развитие на служители в Министерството на вътрешните работи, за
+					периода от м. юни 2013 г. до м. март 2014 г</question>
+				<question_author>ЗЛАТКО ДИМИТРОВ ТОДОРОВ</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно доизграждане на четирилентов път
+					"Бургас - Слънчев бряг"</question>
+				<question_author>ДИМИТЪР БОЙЧЕВ ПЕТРОВ</question_author>
+				<question_author>ИВАН СТЕФАНОВ ВЪЛКОВ</question_author>
+				<answerer>Десислава Терзиева, Министър на регионалното развитие
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно изграждането на "Северен обход" на
+					Бургас, свързващ първокласни пътища 1-6 и 1-9</question>
+				<question_author>ДИМИТЪР БОЙЧЕВ ПЕТРОВ</question_author>
+				<question_author>ИВАН СТЕФАНОВ ВЪЛКОВ</question_author>
+				<answerer>Десислава Терзиева, Министър на регионалното развитие
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно изграждане на интермодален център
+					във Видин</question>
+				<question_author>ВЛАДИМИР ЦВЕТАНОВ ТОШЕВ</question_author>
+				<answerer>Драгомир Стойнев, Министър на икономиката и енергетиката
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно неиздаването лиценз на
+					специализирана болница за активно лечение по кардиология във Видин
+				</question>
+				<question_author>ВЛАДИМИР ЦВЕТАНОВ ТОШЕВ</question_author>
+				<answerer>Таня Андреева-Райнова, Министър на здравеопазването
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно рехабилитация и разширение на пътя
+					Пловдив - Асеновград</question>
+				<question_author>ВЕСЕЛИН ВЪЛЕВ ПЕНЕВ</question_author>
+				<question_author>ДЖЕВДЕТ ИБРЯМ ЧАКЪРОВ</question_author>
+				<answerer>Десислава Терзиева, Министър на регионалното развитие
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно становище на Министерски съвет във връзка с
+					присъединяването на Република България към Конвенция № 210 на
+					Съвета на Европа за превенция и борба с насилието над жени и
+					домашното насилие (Истанбулската конвенция)</question>
+				<question_author>ТУНЧЕР МЕХМЕДОВ КЪРДЖАЛИЕВ</question_author>
+				<answerer>Пламен Орешарски, Министър-председател на Република
+					България</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно стартиране на програмен период 2014-2020
+				</question>
+				<question_author>ИВЕЛИНА ВЕСЕЛИНОВА ВАСИЛЕВА</question_author>
+				<answerer>Зинаида Златанова, Заместник министър-председател и
+					Министър на правосъдието</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно съдбата на охранителната техника,
+					монтирана в регионални исторически музеи, след прекратяване на
+					договора със СОД МВР</question>
+				<question_author>КОРНЕЛИЯ ДОБРЕВА МАРИНОВА</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно неспазване на Колективния трудов
+					договор за системата на народната просвета от училищни директори
+				</question>
+				<question_author>СТАНИСЛАВ ТОДОРОВ СТАНИЛОВ</question_author>
+				<answerer>Анелия Клисарова, Министър на образованието и науката
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно редуциране на някои автоматични
+					измервателни станции (АИС) за контролни измервания и закриване на
+					Лабораторията за извършване на контролни измервания от неподвижни
+					точкови източници, на територията на Регионална инспекция по
+					околната среда и водите (РИОСВ) - Бургас</question>
+				<question_author>ДУРХАН МЕХМЕД МУСТАФА</question_author>
+				<answerer>Искра Михайлова-Копарова, Министър на околната среда и
+					водите</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно извършване на ремонтни дейности на
+					път III - 208 от км 51+130 до км 94+231, за територията на община
+					Руен</question>
+				<question_author>ДУРХАН МЕХМЕД МУСТАФА</question_author>
+				<question_author>РУШЕН МЕХМЕД РИЗА</question_author>
+				<answerer>Десислава Терзиева, Министър на регионалното развитие
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно отказ за изплащане на субсидия за
+					2013 г</question>
+				<question_author>ВЛАДИМИР ЦВЕТАНОВ ТОШЕВ</question_author>
+				<answerer>Димитър Греков, Министър на земеделието и храните
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно липсата на ТЕЛК по белодробни
+					заболявания в Бургас</question>
+				<question_author>СТАНИСЛАВ ТОДОРОВ СТАНИЛОВ</question_author>
+				<answerer>Таня Андреева-Райнова, Министър на здравеопазването
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно поставяне на "електронни гривни"
+					на лица, като мярка за неотклонение</question>
+				<question_author>ПАВЕЛ ДИМИТРОВ ШОПОВ</question_author>
+				<answerer>Зинаида Златанова, Заместник министър-председател и
+					Министър на правосъдието</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно разпространението на контрабандни
+					цигари и алкохол</question>
+				<question_author>НИКОЛАЙ ВЕСЕЛИНОВ АЛЕКСАНДРОВ</question_author>
+				<answerer>Петър Чобанов, Министър на финансите</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно разпространението на контрабандни
+					цигари и алгохол</question>
+				<question_author>НИКОЛАЙ ВЕСЕЛИНОВ АЛЕКСАНДРОВ</question_author>
+				<answerer>Пламен Орешарски, Министър-председател на Република
+					България</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно тайната визита на
+					заместник-държавния секретар на САЩ по европейските и евро -
+					азиатските въпроси г-жа Виктория Нюланд</question>
+				<question_author>ГАЛЕН СИМЕОНОВ МОНЕВ</question_author>
+				<answerer>Кристиан Вигенин, Министър на външните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно продължаване изграждането на
+					защитни съоръжения по цялото протежение на границата ни с Република
+					Турция</question>
+				<question_author>ГАЛЕН СИМЕОНОВ МОНЕВ</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+		</agenda>
+		<item_link>http://www.parliament.bg/bg/parliamentarycontrol/ID/542
+		</item_link>
+		<pubDate>2014-04-25 22:58:25</pubDate>
+	</item>
+	<item>
+		<title>Парламентарен контрол</title>
+		<date>2014-03-28</date>
+		<time>11:00</time>
+		<agenda>
+			<agenda_item>
+				<question>Актуален въпрос относно финансиране на Центровете по
+					психично здраве от Министерството на здравеопазването</question>
+				<question_author>ГАЛИНА СТЕФАНОВА МИЛЕВА-ГЕОРГИЕВА</question_author>
+				<question_author>ДАНИЕЛА АНАСТАСОВА ДАРИТКОВА-ПРОДАНОВА
+				</question_author>
+				<question_author>ДАРИН ИВАНОВ ДИМИТРОВ</question_author>
+				<question_author>КИРИЛ ДОБРЕВ ДОБРЕВ</question_author>
+				<answerer>Таня Андреева-Райнова, Министър на здравеопазването
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно освоождаване от длъжност на
+					Началник пощенска станция в гр. Шумен</question>
+				<question_author>ДОНКА ДИМИТРОВА ИВАНОВА</question_author>
+				<question_author>ЛЮБОМИР ДИМИТРОВ ХРИСТОВ</question_author>
+				<answerer>Данаил Папазов, Министър на транспорта, информационните
+					технологии и съобщенията</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно дейности проведени за
+					информационни кампании, насочени към превенция в областта на
+					безопасност на движението по пътищата и средства разходвани от
+					"Фонд безопасност на движението" за тяхното реализиране</question>
+				<question_author>КРАСИМИРА ПЕНЕВА АНАСТАСОВА</question_author>
+				<question_author>НЕЛИ РУСКОВА ПЕТРОВА</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно законодателни инициативи относно
+					данъчната политика</question>
+				<question_author>ВЛАДИМИР ИВАНОВ ИВАНОВ</question_author>
+				<question_author>ЗДРАВКО ДИМИТРОВ ДИМИТРОВ</question_author>
+				<question_author>ПАВЕЛ АНДРЕЕВ ГУДЖЕРОВ</question_author>
+				<answerer>Петър Чобанов, Министър на финансите</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно политиката на Правителството на Република
+					България по нерешените имуществени въпроси между РБългария и
+					РТурция, касаещи имотите на наследниците на бежанците от Източна
+					Тракия</question>
+				<question_author>ИВЕЛИНА ВЕСЕЛИНОВА ВАСИЛЕВА</question_author>
+				<question_author>СНЕЖИНА МИНЧЕВА МАДЖАРОВА</question_author>
+				<answerer>Пламен Орешарски, Министър-председател на Република
+					България</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно нарушени човешки права на
+					българските граждани Марийка и Ганчо Попови и внучката им Меган
+					Пейви</question>
+				<question_author>СВЕТЛИН ДИМИТРОВ ТАНЧЕВ</question_author>
+				<answerer>Пламен Орешарски, Министър-председател на Република
+					България</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно ремонтни дейности, извършвани от "
+					В и К Благоевград" ЕООД, гр.Благоевград - клон Гоце Делчев
+				</question>
+				<question_author>ГЕОРГИ ИВАНОВ АНДОНОВ</question_author>
+				<answerer>Десислава Терзиева, Министър на регионалното развитие
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно дейността на работата на пункт за
+					регистрация на моторни превозни средства, намиращ се на територията
+					на РУП - Гоце Делчев</question>
+				<question_author>ГЕОРГИ ИВАНОВ АНДОНОВ</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно политиката на правителството на Република
+					България по нерешените имуществени въпроси между РБългария и
+					РТурция, касаещи имотите на наследниците на бежанците от Източна
+					Тракия</question>
+				<question_author>ИВЕЛИНА ВЕСЕЛИНОВА ВАСИЛЕВА</question_author>
+				<question_author>СНЕЖИНА МИНЧЕВА МАДЖАРОВА</question_author>
+				<answerer>Кристиан Вигенин, Министър на външните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно изкупната кампания на тютюна в
+					област Благоевград</question>
+				<question_author>ГЕОРГИ ИВАНОВ АНДОНОВ</question_author>
+				<question_author>ДАНИЕЛА ВЛАДИМИРОВА САВЕКЛИЕВА</question_author>
+				<answerer>Димитър Греков, Министър на земеделието и храните
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно дейността и работата на пунктовете
+					за регистрация на моторни превозни средства на територията на
+					област Благоевград</question>
+				<question_author>МИТКО ЖИВКОВ ЗАХОВ</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно извършено пътно-транспортно
+					произшествие от служител на ОД на МВР, гр. Шумен</question>
+				<question_author>ДОНКА ДИМИТРОВА ИВАНОВА</question_author>
+				<question_author>ЛЮБОМИР ДИМИТРОВ ХРИСТОВ</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно ремонт на стадион "Пловдив"
+				</question>
+				<question_author>АНТОНИЙ ЙОРДАНОВ ЙОРДАНОВ</question_author>
+				<question_author>АТАНАС ИВАНОВ ТАШКОВ</question_author>
+				<question_author>ДИМИТЪР НИКОЛОВ ЛАЗАРОВ</question_author>
+				<question_author>ЗДРАВКО ДИМИТРОВ ДИМИТРОВ</question_author>
+				<question_author>МЕНДА КИРИЛОВА СТОЯНОВА</question_author>
+				<question_author>НИКОЛАЙ ПЕТКОВ ПЕТКОВ</question_author>
+				<question_author>ПАВЕЛ АНДРЕЕВ ГУДЖЕРОВ</question_author>
+				<question_author>СИЛВИЯ АНАСТАСОВА ХУБЕНОВА</question_author>
+				<question_author>СТЕФАН ИВАНОВ ДЕДЕВ</question_author>
+				<answerer>Мариана Георгиева, Министър на младежта и спорта
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно изкупната кампания на тютюна в област
+					Благоевград</question>
+				<question_author>ГЕОРГИ ИВАНОВ АНДОНОВ</question_author>
+				<question_author>ДАНИЕЛА ВЛАДИМИРОВА САВЕКЛИЕВА</question_author>
+				<answerer>Димитър Греков, Министър на земеделието и храните
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно липсата на цифрова ефирна
+					телевизия в населени места от област Монтана</question>
+				<question_author>ЗЛАТКО ДИМИТРОВ ТОДОРОВ</question_author>
+				<answerer>Данаил Папазов, Министър на транспорта, информационните
+					технологии и съобщенията</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно назначението на съветници в
+					политическия кабинет към Министерството на вътрешните работи
+				</question>
+				<question_author>ВЛАДИМИР ИВАНОВ ИВАНОВ</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно проблема с ТЕЛК за деца</question>
+				<question_author>ДИМИТЪР ДИМЧЕВ ДИМОВ</question_author>
+				<answerer>Таня Андреева-Райнова, Министър на здравеопазването
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно подновяването на лиценза за работа
+					на фирмата "Берета трейдинг" за съхранение и утилизиране на
+					боеприпаси</question>
+				<question_author>ДИМИТЪР ДИМЧЕВ ДИМОВ</question_author>
+				<answerer>Искра Михайлова-Копарова, Министър на околната среда и
+					водите</answerer>
+			</agenda_item>
+		</agenda>
+		<item_link>http://www.parliament.bg/bg/parliamentarycontrol/ID/541
+		</item_link>
+		<pubDate>2014-04-25 22:58:25</pubDate>
+	</item>
+	<item>
+		<title>Парламентарен контрол</title>
+		<date>2014-03-21</date>
+		<time>11:00</time>
+		<agenda>
+			<agenda_item>
+				<question>Актуален въпрос относно финансовото състояние на
+					Многопрофилна болница за активно лечение "Д-р Братан Шукеров", гр.
+					Смолян</question>
+				<question_author>ДАНИЕЛА АНАСТАСОВА ДАРИТКОВА-ПРОДАНОВА
+				</question_author>
+				<answerer>Таня Андреева-Райнова, Министър на здравеопазването
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно обезпечаване на тест-ленти за
+					контрол на диабет І тип</question>
+				<question_author>НИГЯР САХЛИМ ДЖАФЕР</question_author>
+				<answerer>Таня Андреева-Райнова, Министър на здравеопазването
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно хронични проблеми при набавянето
+					на лекарства за трансплантирани пациенти</question>
+				<question_author>ДАНИЕЛА АНАСТАСОВА ДАРИТКОВА-ПРОДАНОВА
+				</question_author>
+				<question_author>ДИМИТЪР НИКОЛОВ ЛАЗАРОВ</question_author>
+				<answerer>Таня Андреева-Райнова, Министър на здравеопазването
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно изплащането на заплатите на
+					учители и работещи в социални домове в община Велико Търново
+				</question>
+				<question_author>МАРИАНА РАДЕВА БОЯДЖИЕВА</question_author>
+				<answerer>Петър Чобанов, Министър на финансите</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно изпълнение през 2014 г. на
+					европейските програми от програмен период 2007 - 2013</question>
+				<question_author>ИВЕЛИНА ВЕСЕЛИНОВА ВАСИЛЕВА</question_author>
+				<answerer>Зинаида Златанова, Заместник министър-председател и
+					Министър на правосъдието</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно спазването на забраната за
+					тютюнопушене на обществени места</question>
+				<question_author>ВЛАДИМИР ИВАНОВ ИВАНОВ</question_author>
+				<question_author>ПАВЕЛ АНДРЕЕВ ГУДЖЕРОВ</question_author>
+				<answerer>Таня Андреева-Райнова, Министър на здравеопазването
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно проект за изграждане на
+					широколентов достъп за малки населени места, финансиран по ОПРР
+					2007 - 2013</question>
+				<question_author>ЛИЛЯНА ПАВЛОВА НИКОЛОВА</question_author>
+				<answerer>Данаил Папазов, Министър на транспорта, информационните
+					технологии и съобщенията</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно предприемане на мерки за
+					преодоляване на порочната практика за определяне на кратки срокове
+					за входиране на проекти в Програмата за развитие на селските райони
+					и за преодоляване на изложената по-долу практика, създадена по
+					време на правителството на ГЕРБ</question>
+				<question_author>ХАЛИЛ РЕДЖЕПОВ ЛЕТИФОВ</question_author>
+				<question_author>ШЕНДОАН РЕМЗИ ХАЛИТ</question_author>
+				<answerer>Димитър Греков, Министър на земеделието и храните
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно изпълнение на поетите ангажименти за
+					проверка и преразглеждане на концесиите, и в частност концесията за
+					добив на подземни богатства - медни руди от находище "Асарел", гр.
+					Панагюрище, и предприетите действия за отстояване на обществения
+					интерес при подготовката и евентуалното подписване на допълнително
+					споразумение</question>
+				<question_author>БОРИС ЦВЕТКОВ ЦВЕТКОВ</question_author>
+				<answerer>Драгомир Стойнев, Министър на икономиката и енергетиката
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно състоянието на пътя Тополовград -
+					Стара Загора</question>
+				<question_author>ГАЛЕН СИМЕОНОВ МОНЕВ</question_author>
+				<answerer>Десислава Терзиева, Министър на регионалното развитие
+				</answerer>
+			</agenda_item>
+		</agenda>
+		<item_link>http://www.parliament.bg/bg/parliamentarycontrol/ID/540
+		</item_link>
+		<pubDate>2014-04-25 22:58:25</pubDate>
+	</item>
+	<item>
+		<title>Парламентарен контрол</title>
+		<date>2014-03-14</date>
+		<time>11:00</time>
+		<agenda>
+			<agenda_item>
+				<question>Актуален въпрос относно политиката на правителството за
+					развитие на държавната администрация</question>
+				<question_author>ИРЕНА ИВАНОВА КОЦЕВА</question_author>
+				<question_author>КОРНЕЛИЯ ДОБРЕВА МАРИНОВА</question_author>
+				<answerer>Пламен Орешарски, Министър-председател на Република
+					България</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно назначението на изпълняващ
+					длъжността директор на природен парк "Българка"</question>
+				<question_author>ИВЕЛИНА ВЕСЕЛИНОВА ВАСИЛЕВА</question_author>
+				<answerer>Димитър Греков, Министър на земеделието и храните
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно освобождаването на управителя на
+					Военно-почивен комплекс "Рибарица", с. Рибарица, общ. Тетевен, обл.
+					Ловеч</question>
+				<question_author>НИКОЛАЙ НАНКОВ НАНКОВ</question_author>
+				<answerer>Ангел Найденов, Министър на отбраната</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно състоянието на здравната система и грижите
+					по отношение на учащите се в българските училища</question>
+				<question_author>ДИМИТЪР ДИМЧЕВ ДИМОВ</question_author>
+				<answerer>Таня Андреева-Райнова, Министър на здравеопазването
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно идеите на ръководството на Министерството
+					на образованието и науката относно (евентуална) реформа в
+					принципите и конкретните политики за развитието на академичния
+					състав</question>
+				<question_author>ВЕСЕЛИН БОРИСЛАВОВ ВУЧКОВ</question_author>
+				<question_author>МИЛЕНА ЦВЕТАНОВА ДАМЯНОВА</question_author>
+				<answerer>Анелия Клисарова, Министър на образованието и науката
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно освобождаване на 150 служители на
+					"Бургаски корабостроителници" АД и закриването на отрасъл, с
+					традиции на територията на Бургаска област</question>
+				<question_author>ГАЛИНА СТЕФАНОВА МИЛЕВА-ГЕОРГИЕВА</question_author>
+				<question_author>ДИАНА ИВАНОВА ЙОРДАНОВА</question_author>
+				<question_author>ДИМИТЪР БОЙЧЕВ ПЕТРОВ</question_author>
+				<question_author>ИВАН СТЕФАНОВ ВЪЛКОВ</question_author>
+				<question_author>ИВЕЛИНА ВЕСЕЛИНОВА ВАСИЛЕВА</question_author>
+				<question_author>СЕМИР ХУСЕИН АБУ МЕЛИХ</question_author>
+				<question_author>СНЕЖИНА МИНЧЕВА МАДЖАРОВА</question_author>
+				<answerer>Даниела Бобева-Филипова, Заместник министър-председател по
+					икономическото развитие</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно движение на административни
+					преписки на граждани в Министерството на земеделието и храните и
+					Изпълнителна агенция по горите</question>
+				<question_author>ТОДОР БОРИСОВ РАДУЛОВ</question_author>
+				<answerer>Димитър Греков, Министър на земеделието и храните
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно размер на помощта за дете-близнак,
+					което е второ в семейството и същевременно с дете с трайни
+					увреждания</question>
+				<question_author>ГИНЧЕ ДИМИТРОВА КАРАМИНОВА</question_author>
+				<question_author>КРАСИМИРА ПЕНЕВА АНАСТАСОВА</question_author>
+				<question_author>НИКОЛАЙ НИКОЛОВ АПОСТОЛОВ</question_author>
+				<answerer>Петър Чобанов, Министър на финансите</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно опазване на паметниците на
+					културно и историческо наследство</question>
+				<question_author>АНТОН КОНСТАНТИНОВ КУТЕВ</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно осигуряване на нови работни места
+					по програми за заетост и обучение за лица от уязвимите групи
+				</question>
+				<question_author>СВЕТЛАНА АНГЕЛОВА НАЙДЕНОВА</question_author>
+				<answerer>Хасан Адемов, Министър на труда и социалната политика
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно предприети мерки от правителството
+					за намаляване на младежката безработица през първите три месеца на
+					годината</question>
+				<question_author>ТОТЮ МЛАДЕНОВ МЛАДЕНОВ</question_author>
+				<answerer>Хасан Адемов, Министър на труда и социалната политика
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно дългогодишни проблеми с шума и
+					миризмите, излъчвани от "БулБио - Национален център за заразни и
+					паразитни болести" ЕООД, към живущите на софийската улица "Кракра"
+					/номера от 1 до 5/</question>
+				<question_author>ВЕСЕЛИН БОРИСЛАВОВ ВУЧКОВ</question_author>
+				<answerer>Таня Андреева-Райнова, Министър на здравеопазването
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно политиката на реформи в администрацията
+				</question>
+				<question_author>ИРЕНА ИВАНОВА КОЦЕВА</question_author>
+				<question_author>КОРНЕЛИЯ ДОБРЕВА МАРИНОВА</question_author>
+				<answerer>Даниела Бобева-Филипова, Заместник министър-председател по
+					икономическото развитие</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно лансираната идея (на 05-ти март 2014 г.) за
+					създаване на т. нар. Разузнавателен борд към Съвета за сигурност на
+					Министерски съвет</question>
+				<question_author>ВЕСЕЛИН БОРИСЛАВОВ ВУЧКОВ</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно подновяване на работата и добива
+					на уранова руда</question>
+				<question_author>СТАНИСЛАВ ТОДОРОВ СТАНИЛОВ</question_author>
+				<answerer>Драгомир Стойнев, Министър на икономиката и енергетиката
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно предприемане на действия за
+					облекчаване на хората с увреждания</question>
+				<question_author>ИВЕЛИНА ВЕСЕЛИНОВА ВАСИЛЕВА</question_author>
+				<answerer>Таня Андреева-Райнова, Министър на здравеопазването
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно извършване на ремонтни дейности на
+					мост над р. Марица, на път ІІІ - 809 при гр. Любимец</question>
+				<question_author>СТЕФАН ИВАНОВ ТАНЕВ</question_author>
+				<answerer>Десислава Терзиева, Министър на регионалното развитие
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно размера на помощта за дете -
+					близнак, което е второ в семейството и същевременно е дете с трайни
+					увреждания</question>
+				<question_author>ГИНЧЕ ДИМИТРОВА КАРАМИНОВА</question_author>
+				<question_author>КРАСИМИРА ПЕНЕВА АНАСТАСОВА</question_author>
+				<question_author>НИКОЛАЙ НИКОЛОВ АПОСТОЛОВ</question_author>
+				<answerer>Хасан Адемов, Министър на труда и социалната политика
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно дейността на държавните горски
+					предприятия</question>
+				<question_author>МЕТОДИ ТЕОХАРОВ КОСТАДИНОВ</question_author>
+				<answerer>Димитър Греков, Министър на земеделието и храните
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно реакция на Министерството на
+					външните работи по повод изявление на посланика на Република
+					Франция пред Българската национална телевизия</question>
+				<question_author>ВЕНЦИСЛАВ АСЕНОВ ЛАКОВ</question_author>
+				<answerer>Кристиан Вигенин, Министър на външните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно позиция на Република България по
+					повод референдума в Автономна Република Крим</question>
+				<question_author>ВЕНЦИСЛАВ АСЕНОВ ЛАКОВ</question_author>
+				<answerer>Кристиан Вигенин, Министър на външните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно реализирани проекти в Република
+					България в изпълнение на стратегията за електронно правосъдие на
+					Европейската комисия (ЕК)</question>
+				<question_author>МАРТИН ГЕОРГИЕВ ЗАХАРИЕВ</question_author>
+				<answerer>Зинаида Златанова, Заместник министър-председател и
+					Министър на правосъдието</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно обществена поръчка "Оценка на
+					научния маркетинг"</question>
+				<question_author>СТАНИСЛАВ ТОДОРОВ СТАНИЛОВ</question_author>
+				<answerer>Анелия Клисарова, Министър на образованието и науката
+				</answerer>
+			</agenda_item>
+		</agenda>
+		<item_link>http://www.parliament.bg/bg/parliamentarycontrol/ID/539
+		</item_link>
+		<pubDate>2014-04-25 22:58:26</pubDate>
+	</item>
+	<item>
+		<title>Парламентарен контрол</title>
+		<date>2014-03-07</date>
+		<agenda>
+			<agenda_item>
+				<question>Актуален въпрос относно действията на Министерството на
+					правосъдието по случая "Меган"</question>
+				<question_author>МИЛЕНА ЦВЕТАНОВА ДАМЯНОВА</question_author>
+				<answerer>Зинаида Златанова, Заместник министър-председател и
+					Министър на правосъдието</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно обучение на лекарски асистенти
+					/медицински фелдшери/</question>
+				<question_author>ДАНИЕЛА АНАСТАСОВА ДАРИТКОВА-ПРОДАНОВА
+				</question_author>
+				<answerer>Анелия Клисарова, Министър на образованието и науката
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно пропуснати през ГКПП Капитан
+					Андреево два тира с 1200 кг. хероин (вероятно на 24 - ти януари
+					2014 г.) и заловени на германо-холандската граница, ден по - късно
+				</question>
+				<question_author>ВЕСЕЛИН БОРИСЛАВОВ ВУЧКОВ</question_author>
+				<question_author>КРАСИМИР ГЕОРГИЕВ ЦИПОВ</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно изграждането на възпрепятстващо
+					съоръжение по Българо - Турската граница</question>
+				<question_author>ВАЛЕНТИН ИВАНОВ РАДЕВ</question_author>
+				<question_author>СТЕФАН ИВАНОВ ДЕДЕВ</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно провеждане на процедура по ОВОС за
+					определяне на отстоянието на рудник "Република" от населеното място
+					- село Голямо Бучино и автомагистрала "Люлин"</question>
+				<question_author>ИРЕНА ЛЮБЕНОВА СОКОЛОВА</question_author>
+				<answerer>Искра Михайлова-Копарова, Министър на околната среда и
+					водите</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно поет ангажимент от ръководството
+					на Министерството на земеделието и храните по мярка 112 "Създаване
+					на стопанства на млади фермери"</question>
+				<question_author>ВЛАДИМИР ИВАНОВ ИВАНОВ</question_author>
+				<question_author>ЗДРАВКО ДИМИТРОВ ДИМИТРОВ</question_author>
+				<question_author>ПАВЕЛ АНДРЕЕВ ГУДЖЕРОВ</question_author>
+				<answerer>Димитър Греков, Министър на земеделието и храните
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно политиката и Програмата за развитие на
+					селските райони 2014-2020</question>
+				<question_author>ВЛАДИМИР ИВАНОВ ИВАНОВ</question_author>
+				<question_author>ЗДРАВКО ДИМИТРОВ ДИМИТРОВ</question_author>
+				<question_author>ПАВЕЛ АНДРЕЕВ ГУДЖЕРОВ</question_author>
+				<answerer>Димитър Греков, Министър на земеделието и храните
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно изпълнение на "Препоръка на Съвета на ЕС
+					относно ефективни мерки за интегриране на ромите в държавите
+					членки"</question>
+				<question_author>ХЮСЕИН ХАСАН ХАФЪЗОВ</question_author>
+				<answerer>Зинаида Златанова, Заместник министър-председател и
+					Министър на правосъдието</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно политиката на Министерството на
+					правосъдието по темата "правосъдие за детето"</question>
+				<question_author>МИЛЕНА ЦВЕТАНОВА ДАМЯНОВА</question_author>
+				<answerer>Зинаида Златанова, Заместник министър-председател и
+					Министър на правосъдието</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно информация за откриване на
+					процедура за набиране на проектни предложения по "Програма за
+					развитие на селските райони 2014 - 2020 г."</question>
+				<question_author>ХАЛИЛ РЕДЖЕПОВ ЛЕТИФОВ</question_author>
+				<question_author>ШЕНДОАН РЕМЗИ ХАЛИТ</question_author>
+				<answerer>Димитър Греков, Министър на земеделието и храните
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно отлагане разглеждането от Съвета
+					по гражданство на молбите за придобиване на българско гражданство
+					на основание български произход на граждани на Македония, Сърбия,
+					Албания, Косово и Молдова</question>
+				<question_author>РУМЕН МАРИНОВ ЙОНЧЕВ</question_author>
+				<answerer>Зинаида Златанова, Заместник министър-председател и
+					Министър на правосъдието</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно промяна в оценителната система по
+					мярка 112 "Млад фермер"</question>
+				<question_author>ВЛАДИМИР ИВАНОВ ИВАНОВ</question_author>
+				<question_author>ЗДРАВКО ДИМИТРОВ ДИМИТРОВ</question_author>
+				<question_author>ПАВЕЛ АНДРЕЕВ ГУДЖЕРОВ</question_author>
+				<answerer>Димитър Греков, Министър на земеделието и храните
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно предприетите мерки за
+					противодействие на битовата престъпност</question>
+				<question_author>ВАЛЕНТИН ИВАНОВ РАДЕВ</question_author>
+				<question_author>ЕВГЕНИЯ БИСЕРОВА АЛЕКСИЕВА</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно финансовия резултат на "Летище
+					София" ЕАД за 2013 г</question>
+				<question_author>ЕМАНУЕЛА ЗДРАВКОВА СПАСОВА</question_author>
+				<question_author>ИВАН СТЕФАНОВ ВЪЛКОВ</question_author>
+				<question_author>СТАНИСЛАВ СТОЯНОВ ИВАНОВ</question_author>
+				<answerer>Данаил Папазов, Министър на транспорта, информационните
+					технологии и съобщенията</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно практическите действия по повод
+					въвеждането принципа на финансовата обвързаност на заявените
+					специални разузнавателни средства</question>
+				<question_author>ВЕСЕЛИН БОРИСЛАВОВ ВУЧКОВ</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно строителството на пътя между
+					Бургас и Несебър</question>
+				<question_author>ПАВЕЛ ДИМИТРОВ ШОПОВ</question_author>
+				<answerer>Десислава Терзиева, Министър на регионалното развитие
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно реакцията на Европейската комисия
+					и Европейския съюз по отношение на проблемите на българските
+					превозвачи с турската страна</question>
+				<question_author>ДЕСИСЛАВ СЛАВОВ ЧУКОЛОВ</question_author>
+				<answerer>Кристиан Вигенин, Министър на външните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно намесата на официални турски
+					дипломатически лица в дейността и работата на български институции
+				</question>
+				<question_author>ДЕСИСЛАВ СЛАВОВ ЧУКОЛОВ</question_author>
+				<answerer>Кристиан Вигенин, Министър на външните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно посредничеството на частни фирми
+					за издаване на визи за България в някои централноевропейски страни
+				</question>
+				<question_author>МИГЛЕНА ДОЙКОВА АЛЕКСАНДРОВА</question_author>
+				<answerer>Кристиан Вигенин, Министър на външните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно подновяването на работата и добива
+					на уранова руда</question>
+				<question_author>СТАНИСЛАВ ТОДОРОВ СТАНИЛОВ</question_author>
+				<answerer>Пламен Орешарски, Министър-председател на Република
+					България</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно връзките и взаимоотношенията на
+					Република България с БРИКС</question>
+				<question_author>СТАНИСЛАВ ТОДОРОВ СТАНИЛОВ</question_author>
+				<answerer>Кристиан Вигенин, Министър на външните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно възобновяването на работата на
+					"Химко" - Враца</question>
+				<question_author>ВЕНЦИСЛАВ АСЕНОВ ЛАКОВ</question_author>
+				<answerer>Драгомир Стойнев, Министър на икономиката и енергетиката
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно готовността на България да приеме
+					българи от Украйна</question>
+				<question_author>ГАЛЕН СИМЕОНОВ МОНЕВ</question_author>
+				<answerer>Кристиан Вигенин, Министър на външните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно готовността на България да приеме
+					бежанци от Украйна</question>
+				<question_author>ГАЛЕН СИМЕОНОВ МОНЕВ</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+		</agenda>
+		<item_link>http://www.parliament.bg/bg/parliamentarycontrol/ID/538
+		</item_link>
+		<pubDate>2014-04-25 22:58:26</pubDate>
+	</item>
+	<item>
+		<title>Парламентарен контрол</title>
+		<date>2014-02-28</date>
+		<time>11:00</time>
+		<agenda>
+			<agenda_item>
+				<question>Питане относно разработване на Стратегия за насърчаване и
+					управление на инвестициите в България</question>
+				<question_author>НИКОЛАЙ НАНКОВ НАНКОВ</question_author>
+				<answerer>Даниела Бобева-Филипова, Заместник министър-председател по
+					икономическото развитие</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно промени в обхвата на районите от нива 1, 2
+					и 3 в страната, в контекста на общата класификация на
+					териториалните единици в ЕС</question>
+				<question_author>НИКОЛАЙ НАНКОВ НАНКОВ</question_author>
+				<answerer>Десислава Терзиева, Министър на регионалното развитие
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно кадровата политика на принципала по
+					отношение на търговското дружество "ТЕРЕМ" ЕАД</question>
+				<question_author>ВАЛЕНТИН ИВАНОВ РАДЕВ</question_author>
+				<question_author>ДАРИН ИВАНОВ ДИМИТРОВ</question_author>
+				<question_author>ЛЮБОМИР ДИМИТРОВ ХРИСТОВ</question_author>
+				<answerer>Ангел Найденов, Министър на отбраната</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно рушаща се и опасна сграда,
+					собственост на Министерството на правосъдието, в центъра на град
+					Бургас</question>
+				<question_author>ГАЛИНА СТЕФАНОВА МИЛЕВА-ГЕОРГИЕВА</question_author>
+				<question_author>ДИАНА ИВАНОВА ЙОРДАНОВА</question_author>
+				<question_author>ДИМИТЪР БОЙЧЕВ ПЕТРОВ</question_author>
+				<question_author>ИВАН СТЕФАНОВ ВЪЛКОВ</question_author>
+				<question_author>ИВЕЛИНА ВЕСЕЛИНОВА ВАСИЛЕВА</question_author>
+				<question_author>СЕМИР ХУСЕИН АБУ МЕЛИХ</question_author>
+				<answerer>Зинаида Златанова, Заместник министър-председател и
+					Министър на правосъдието</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно актуалното състояние на Оперативна
+					програма за развитие на сектор "Рибарство" (ОПРСР) по приоритетна
+					ос 3 "Мерки от общ интерес", Мярка 3.3 "Инвестиции за реконструкция
+					и модернизация на рибарски пристанища, кейови места за разтоварване
+					и закрити лодкостоянки"</question>
+				<question_author>ИВАН СТЕФАНОВ ВЪЛКОВ</question_author>
+				<answerer>Димитър Греков, Министър на земеделието и храните
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно статут на входирани проекти по
+					мярка 121 "Модернизиране на земеделските стопанства", мярка 311
+					"Разнообразяване към неземеделски дейности" и мярка 312 "Подкрепа
+					за създаване и развитие на микропредприятия"</question>
+				<question_author>ВЛАДИМИР ИВАНОВ ИВАНОВ</question_author>
+				<question_author>ЗДРАВКО ДИМИТРОВ ДИМИТРОВ</question_author>
+				<question_author>ПАВЕЛ АНДРЕЕВ ГУДЖЕРОВ</question_author>
+				<answerer>Димитър Греков, Министър на земеделието и храните
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно подготовка на Програма за развитие
+					на селските райони 2014 - 2020</question>
+				<question_author>ВЛАДИМИР ИВАНОВ ИВАНОВ</question_author>
+				<question_author>ЗДРАВКО ДИМИТРОВ ДИМИТРОВ</question_author>
+				<question_author>ПАВЕЛ АНДРЕЕВ ГУДЖЕРОВ</question_author>
+				<answerer>Даниела Бобева-Филипова, Заместник министър-председател по
+					икономическото развитие</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно българската позиция към събитията
+					в Украйна</question>
+				<question_author>ГАЛЕН СИМЕОНОВ МОНЕВ</question_author>
+				<answerer>Кристиан Вигенин, Министър на външните работи</answerer>
+			</agenda_item>
+		</agenda>
+		<item_link>http://www.parliament.bg/bg/parliamentarycontrol/ID/537
+		</item_link>
+		<pubDate>2014-04-25 22:58:26</pubDate>
+	</item>
+	<item>
+		<title>Парламентарен контрол</title>
+		<date>2014-02-21</date>
+		<agenda>
+			<agenda_item>
+				<question>Актуален въпрос относно относно липса на лекарствен
+					продукт BiCNU (Carmustine)</question>
+				<question_author>ВЛАДИМИР ИВАНОВ ИВАНОВ</question_author>
+				<question_author>ЗДРАВКО ДИМИТРОВ ДИМИТРОВ</question_author>
+				<question_author>ПАВЕЛ АНДРЕЕВ ГУДЖЕРОВ</question_author>
+				<answerer>Таня Андреева-Райнова, Министър на здравеопазването
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно стратегия за реформа в Спешна
+					помощ</question>
+				<question_author>ДАНИЕЛА АНАСТАСОВА ДАРИТКОВА-ПРОДАНОВА
+				</question_author>
+				<answerer>Таня Андреева-Райнова, Министър на здравеопазването
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно политика за стимулиране на растежа в
+					общините на територията на Странджа планина</question>
+				<question_author>ИВЕЛИНА ВЕСЕЛИНОВА ВАСИЛЕВА</question_author>
+				<answerer>Десислава Терзиева, Министър на регионалното развитие
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно политики за подкрепа в сектор Пчеларство
+				</question>
+				<question_author>ДЕСИСЛАВА ЖЕКОВА ТАНЕВА</question_author>
+				<question_author>ИВАН СТЕФАНОВ ВЪЛКОВ</question_author>
+				<answerer>Димитър Греков, Министър на земеделието и храните
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно откриване на факултет по "Обществено здраве
+					и здравни грижи" към Университет "Проф. д-р Асен Златаров" в град
+					Бургас</question>
+				<question_author>ГАЛИНА СТЕФАНОВА МИЛЕВА-ГЕОРГИЕВА</question_author>
+				<question_author>ДИАНА ИВАНОВА ЙОРДАНОВА</question_author>
+				<question_author>ДИМИТЪР БОЙЧЕВ ПЕТРОВ</question_author>
+				<question_author>ИВАН СТЕФАНОВ ВЪЛКОВ</question_author>
+				<question_author>ИВЕЛИНА ВЕСЕЛИНОВА ВАСИЛЕВА</question_author>
+				<question_author>СЕМИР ХУСЕИН АБУ МЕЛИХ</question_author>
+				<question_author>СНЕЖИНА МИНЧЕВА МАДЖАРОВА</question_author>
+				<answerer>Анелия Клисарова, Министър на образованието и науката
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно изкупуване на български села от канадския
+					гражданин Янк Бери</question>
+				<question_author>МАГДАЛЕНА ЛАМБОВА ТАШЕВА</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно недостигнат 8% ръст на основните
+					работни заплати на педагогическия персонал в детските градини на
+					община Долни чифлик</question>
+				<question_author>КРАСИМИРА ПЕНЕВА АНАСТАСОВА</question_author>
+				<question_author>НЕЛИ РУСКОВА ПЕТРОВА</question_author>
+				<question_author>НИКОЛАЙ НИКОЛОВ АПОСТОЛОВ</question_author>
+				<answerer>Анелия Клисарова, Министър на образованието и науката
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно път ІІ-79 "Елхово - Бургас от км 0
+					+ 000 до км 86 + 200.25</question>
+				<question_author>ИВАН СТЕФАНОВ ВЪЛКОВ</question_author>
+				<answerer>Десислава Терзиева, Министър на регионалното развитие
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно изграждане на система за
+					управление на корабния трафик - /VTMIS фаза 3/</question>
+				<question_author>ИВАН СТЕФАНОВ ВЪЛКОВ</question_author>
+				<answerer>Данаил Папазов, Министър на транспорта, информационните
+					технологии и съобщенията</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно актуалното състояние на Оперативна
+					програма за развитие на сектор "Рибарство" (ОПРСР) по приоритетна
+					ос 3 "Мерки от общ интерес", Мярка 3.3 "Инвестиции за реконструкция
+					и модернизация на рибарски пристанища, кейове места за разтоварване
+					и закрити лодкостоянки"</question>
+				<question_author>ИВАН СТЕФАНОВ ВЪЛКОВ</question_author>
+				<answerer>Димитър Греков, Министър на земеделието и храните
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно ултимативно писмо до ОбС Карлово
+					изпратено от Генералният консул на Турция в Пловдив Шенер Джебеджи
+				</question>
+				<question_author>ДЕСИСЛАВ СЛАВОВ ЧУКОЛОВ</question_author>
+				<answerer>Кристиан Вигенин, Министър на външните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно рушаща се и опасна сграда, собственост на
+					Министерството на правосъдието, в центъра на град Бургас</question>
+				<question_author>ДИАНА ИВАНОВА ЙОРДАНОВА</question_author>
+				<question_author>ДИМИТЪР БОЙЧЕВ ПЕТРОВ</question_author>
+				<question_author>ИВАН СТЕФАНОВ ВЪЛКОВ</question_author>
+				<question_author>ИВЕЛИНА ВЕСЕЛИНОВА ВАСИЛЕВА</question_author>
+				<question_author>СЕМИР ХУСЕИН АБУ МЕЛИХ</question_author>
+				<question_author>СНЕЖИНА МИНЧЕВА МАДЖАРОВА</question_author>
+				<answerer>Зинаида Златанова, Заместник министър-председател и
+					Министър на правосъдието</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно политиката за контрол на
+					инвестиционни проекти, със стойност над 10 000 000 лв</question>
+				<question_author>АКСЕНИЯ БОРИСЛАВОВА ТИЛЕВА</question_author>
+				<question_author>ВЛАДИМИР ВЪЛЧЕВ МИТРУШЕВ</question_author>
+				<question_author>ЕВГЕНИЯ БИСЕРОВА АЛЕКСИЕВА</question_author>
+				<question_author>ИВАН СТОЕВ ЧОЛАКОВ</question_author>
+				<question_author>ЛЮБЕН ПЕТРОВ ТАТАРСКИ</question_author>
+				<question_author>ПАВЕЛ АНДРЕЕВ ГУДЖЕРОВ</question_author>
+				<question_author>ТЕОДОРА РАДКОВА ГЕОРГИЕВА</question_author>
+				<question_author>ХРИСТО ИЛИЕВ КАЛОЯНОВ</question_author>
+				<answerer>Иван Данов, Министър на инвестиционното проектиране
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно ултимативно писмо до Общински
+					съвет Карлово, изпратено от Генералния консул на Турция в Пловдив
+					Шенер Джебеджи</question>
+				<question_author>ВОЛЕН НИКОЛОВ СИДЕРОВ</question_author>
+				<answerer>Кристиан Вигенин, Министър на външните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно разходите на МВР през 2013 г. за
+					експертизи по наказателни (и други видове) дела</question>
+				<question_author>ВЕСЕЛИН БОРИСЛАВОВ ВУЧКОВ</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно регистрацията на МПС в пунктовете
+					на МВР из страната и съдбата на служителите на "Безконтактни
+					мултиплексорни вериги" ЕООД</question>
+				<question_author>ВЕСЕЛИН БОРИСЛАВОВ ВУЧКОВ</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно промени в политиката на
+					Министерството на отбраната при освобождаване от ненужни материални
+					средства</question>
+				<question_author>ВАЛЕНТИН ИВАНОВ РАДЕВ</question_author>
+				<question_author>ДОНЧО СПАСОВ БАКСАНОВ</question_author>
+				<answerer>Ангел Найденов, Министър на отбраната</answerer>
+			</agenda_item>
+		</agenda>
+		<item_link>http://www.parliament.bg/bg/parliamentarycontrol/ID/536
+		</item_link>
+		<pubDate>2014-04-25 22:58:26</pubDate>
+	</item>
+	<item>
+		<title>Парламентарен контрол</title>
+		<date>2014-02-07</date>
+		<time>11:00</time>
+		<agenda>
+			<agenda_item>
+				<question>Актуален въпрос относно поставяне на стационарна камера за
+					контрол на пътното движение по главен път Е871 /София - Бургас/ в
+					с. Манолово, община Павел Баня, област Стара Загора</question>
+				<question_author>ХАЛИЛ РЕДЖЕПОВ ЛЕТИФОВ</question_author>
+				<question_author>ШЕНДОАН РЕМЗИ ХАЛИТ</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно проведен пърни етап от конкурса за
+					избор на "Европейска столица на културата"</question>
+				<question_author>ИВЕЛИНА ВЕСЕЛИНОВА ВАСИЛЕВА</question_author>
+				<answerer>Петър Стоянович, Министър на културата</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно политиката на правителството за овладяване
+					на битовата престъпност на територията на област Враца</question>
+				<question_author>ПЕТЯ ЦВЕТАНОВА АВРАМОВА</question_author>
+				<question_author>ТОТЮ МЛАДЕНОВ МЛАДЕНОВ</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно политиката на правителството за законови
+					преференции при продажба на плодове, зеленчуци и други продукти на
+					селското стопанство по стокови тържища, пазари на производители и
+					кооперативни пазари</question>
+				<question_author>ВЛАДИМИР ИВАНОВ ИВАНОВ</question_author>
+				<question_author>ПАВЕЛ АНДРЕЕВ ГУДЖЕРОВ</question_author>
+				<answerer>Даниела Бобева-Филипова, Заместник министър-председател по
+					икономическото развитие</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно политиката на правителството за регулация и
+					контрол на организираните пазари за земеделска продукция, зоните
+					около тях, супермаркетите и другите места и начини за дистрибуция
+					на храни</question>
+				<question_author>ВЛАДИМИР ИВАНОВ ИВАНОВ</question_author>
+				<question_author>ПАВЕЛ АНДРЕЕВ ГУДЖЕРОВ</question_author>
+				<answerer>Даниела Бобева-Филипова, Заместник министър-председател по
+					икономическото развитие</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно финансовото състояние на "Летище
+					София " ЕАД</question>
+				<question_author>ГЕОРГИ СТРАХИЛОВ СВИЛЕНСКИ</question_author>
+				<question_author>СТРАХИЛ ЧАВДАРОВ АНГЕЛОВ</question_author>
+				<answerer>Данаил Папазов, Министър на транспорта, информационните
+					технологии и съобщенията</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно методика за оценка за размера на
+					обезщетенията за отчуждаване на имоти, попадащи в трасето на
+					северна скоростна тангента на Софийски околовръстен път</question>
+				<question_author>СНЕЖАНА ГЕОРГИЕВА ДУКОВА</question_author>
+				<question_author>СТАНИСЛАВ СТОЯНОВ ИВАНОВ</question_author>
+				<answerer>Десислава Терзиева, Министър на регионалното развитие
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно политиката на правителството за
+					овладяване на битовата престъпност на територията на област Враца
+				</question>
+				<question_author>ПЕТЯ ЦВЕТАНОВА АВРАМОВА</question_author>
+				<question_author>ТОТЮ МЛАДЕНОВ МЛАДЕНОВ</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно цялостната политика и организация на работа
+					по ос 4 от Програма за развитие на селските райони</question>
+				<question_author>ВЛАДИМИР ИВАНОВ ИВАНОВ</question_author>
+				<question_author>ДЕСИСЛАВА ЖЕКОВА ТАНЕВА</question_author>
+				<question_author>ЗДРАВКО ДИМИТРОВ ДИМИТРОВ</question_author>
+				<question_author>ПАВЕЛ АНДРЕЕВ ГУДЖЕРОВ</question_author>
+				<answerer>Даниела Бобева-Филипова, Заместник министър-председател по
+					икономическото развитие</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно политиката на правителството за
+					ефективното използване и съхраняване водния ресурс на страната в
+					икономиката на България</question>
+				<question_author>ВЛАДИМИР ИВАНОВ ИВАНОВ</question_author>
+				<question_author>ЗДРАВКО ДИМИТРОВ ДИМИТРОВ</question_author>
+				<question_author>ПАВЕЛ АНДРЕЕВ ГУДЖЕРОВ</question_author>
+				<answerer>Димитър Греков, Министър на земеделието и храните
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно събиране на такса шум /екологична/
+					от летищата за обществено ползване</question>
+				<question_author>ЕМАНУЕЛА ЗДРАВКОВА СПАСОВА</question_author>
+				<question_author>ИВАН СТЕФАНОВ ВЪЛКОВ</question_author>
+				<answerer>Данаил Папазов, Министър на транспорта, информационните
+					технологии и съобщенията</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно брегоукрепване на крайбрежна зона
+					- "Къмпинг "Европа" - нос Лахна - Почивна станция на Министерството
+					на отбраната - първи участък"</question>
+				<question_author>ГАЛИНА СТЕФАНОВА МИЛЕВА-ГЕОРГИЕВА</question_author>
+				<question_author>ДИАНА ИВАНОВА ЙОРДАНОВА</question_author>
+				<question_author>ИВАН СТЕФАНОВ ВЪЛКОВ</question_author>
+				<answerer>Десислава Терзиева, Министър на регионалното развитие
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно неучастието на България на мирната
+					конференция "Женева 2"</question>
+				<question_author>ГАЛЕН СИМЕОНОВ МОНЕВ</question_author>
+				<answerer>Кристиан Вигенин, Министър на външните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно уволнения на директори на училища
+					в Благоевградска област</question>
+				<question_author>ДАНИЕЛА ВЛАДИМИРОВА САВЕКЛИЕВА</question_author>
+				<answerer>Анелия Клисарова, Министър на образованието и науката
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно дейността на Малка
+					водноелектрическа централа "Кресна Електрик"</question>
+				<question_author>ДАНИЕЛА ВЛАДИМИРОВА САВЕКЛИЕВА</question_author>
+				<answerer>Искра Михайлова-Копарова, Министър на околната среда и
+					водите</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно политиката и приоритетите на
+					правителството в сферата на регионалното развитие и инвестиционното
+					проектиране</question>
+				<question_author>АКСЕНИЯ БОРИСЛАВОВА ТИЛЕВА</question_author>
+				<question_author>АЛЕКСАНДЪР РУМЕНОВ НЕНКОВ</question_author>
+				<question_author>ВЛАДИМИР ВЪЛЧЕВ МИТРУШЕВ</question_author>
+				<question_author>ЕВГЕНИЯ БИСЕРОВА АЛЕКСИЕВА</question_author>
+				<question_author>ИВАН СТОЕВ ЧОЛАКОВ</question_author>
+				<question_author>ЛЮБЕН ПЕТРОВ ТАТАРСКИ</question_author>
+				<question_author>ПАВЕЛ АНДРЕЕВ ГУДЖЕРОВ</question_author>
+				<question_author>ТЕОДОРА РАДКОВА ГЕОРГИЕВА</question_author>
+				<question_author>ХРИСТО ИЛИЕВ КАЛОЯНОВ</question_author>
+				<answerer>Даниела Бобева-Филипова, Заместник министър-председател по
+					икономическото развитие</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно специализация на
+					общопрактикуващите лекари</question>
+				<question_author>ПЕНКО АТАНАСОВ АТАНАСОВ</question_author>
+				<answerer>Таня Андреева-Райнова, Министър на здравеопазването
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно дейността на Фонда за лечение на
+					деца</question>
+				<question_author>ДЕСИСЛАВА ВЪЛЧЕВА АТАНАСОВА</question_author>
+				<answerer>Таня Андреева-Райнова, Министър на здравеопазването
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно дейността на Център "Фонд за
+					асистирана репродукция"</question>
+				<question_author>ДЕСИСЛАВА ВЪЛЧЕВА АТАНАСОВА</question_author>
+				<answerer>Таня Андреева-Райнова, Министър на здравеопазването
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно смущаващи финансови практики при
+					изработване на държавната политика във висшето образование
+				</question>
+				<question_author>СТАНИСЛАВ ТОДОРОВ СТАНИЛОВ</question_author>
+				<answerer>Анелия Клисарова, Министър на образованието и науката
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно изплатените от Република България
+					средства, като членски внос за ЕС и усвоените средства, усвоени по
+					всички европейски програми</question>
+				<question_author>ВОЛЕН НИКОЛОВ СИДЕРОВ</question_author>
+				<answerer>Пламен Орешарски, Министър-председател на Република
+					България</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно осигуряването на топла кухня за
+					нелегалните пришълци</question>
+				<question_author>ГАЛЕН СИМЕОНОВ МОНЕВ</question_author>
+				<answerer>Ангел Найденов, Министър на отбраната</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно катастрофата на товарен влак в
+					междугарието Яна - Мусачево на 17.01.2014 г</question>
+				<question_author>РАДИ НИКОЛОВ СТОЯНОВ</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно отнето право на ползване на
+					1206,248 дка обработваема земя от Института по земеделие и
+					семезнание "Образцов чифлик" - Русе</question>
+				<question_author>ДОБРИН НЕНОВ ДАНЕВ</question_author>
+				<answerer>Димитър Греков, Министър на земеделието и храните
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно нарушение в БДЖ - Пътнически
+					превози</question>
+				<question_author>ИВАЙЛО АНГЕЛОВ МОСКОВСКИ</question_author>
+				<question_author>СТАНИСЛАВ СТОЯНОВ ИВАНОВ</question_author>
+				<answerer>Данаил Папазов, Министър на транспорта, информационните
+					технологии и съобщенията</answerer>
+			</agenda_item>
+		</agenda>
+		<item_link>http://www.parliament.bg/bg/parliamentarycontrol/ID/534
+		</item_link>
+		<pubDate>2014-04-25 22:58:27</pubDate>
+	</item>
+	<item>
+		<title>Парламентарен контрол</title>
+		<date>2014-01-31</date>
+		<time>11:00</time>
+		<agenda>
+			<agenda_item>
+				<question>Питане относно отваряне на втория лот от пътя през прохода
+					Маказа - отсечката Кърджали - Подкова</question>
+				<question_author>ЦВЕТА ВЪЛЧЕВА КАРАЯНЧЕВА</question_author>
+				<answerer>Десислава Терзиева, Министър на регионалното развитие
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно подготовката за подписване на
+					Трансатлантическо партньорство за търговия и инвестиции и
+					предприетите действия на българските представители за отстояване на
+					интересите на страната ни и на българските граждани</question>
+				<question_author>БОРИС ЦВЕТКОВ ЦВЕТКОВ</question_author>
+				<answerer>Даниела Бобева-Филипова, Заместник министър-председател по
+					икономическото развитие</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно изнесена информация от медиите за
+					неправомерни действия през 2008 г. на началника на кабинета на
+					министъра на вътрешните работи Георги Великов, в качеството му на
+					служител на Държавна агенция "Национална сигурност"</question>
+				<question_author>ГАЛИНА СТЕФАНОВА МИЛЕВА-ГЕОРГИЕВА</question_author>
+				<question_author>ДИАНА ИВАНОВА ЙОРДАНОВА</question_author>
+				<question_author>ДИМИТЪР БОЙЧЕВ ПЕТРОВ</question_author>
+				<question_author>ИВАН СТЕФАНОВ ВЪЛКОВ</question_author>
+				<question_author>ИВЕЛИНА ВЕСЕЛИНОВА ВАСИЛЕВА</question_author>
+				<question_author>СЕМИР ХУСЕИН АБУ МЕЛИХ</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно политиката на Министерството на културата,
+					отнасяща се до поддръжката, ремонтирането и опазването на
+					храмовете, които са паметници на културата от национално значение
+				</question>
+				<question_author>ХЮСЕИН ХАСАН ХАФЪЗОВ</question_author>
+				<answerer>Петър Стоянович, Министър на културата</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно посещение на български граждани на
+					територията на Сирийската арабска република</question>
+				<question_author>ДЕСИСЛАВА ВЪЛЧЕВА АТАНАСОВА</question_author>
+				<answerer>Кристиан Вигенин, Министър на външните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно липса на достъп до цифрова ефирна телевизия
+				</question>
+				<question_author>ПЕТЯ ЦВЕТАНОВА АВРАМОВА</question_author>
+				<question_author>ТОТЮ МЛАДЕНОВ МЛАДЕНОВ</question_author>
+				<answerer>Данаил Папазов, Министър на транспорта, информационните
+					технологии и съобщенията</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно строителството на АМ "Марица" от
+					км 5+000 до км 71+011</question>
+				<question_author>ИВАН СТЕФАНОВ ВЪЛКОВ</question_author>
+				<answerer>Десислава Терзиева, Министър на регионалното развитие
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно ремонт на третокласен път III-904,
+					в частта от с. Старо Оряхово до разклона за с. Дъбравино, в общ.
+					Долни чифлик</question>
+				<question_author>КРАСИМИРА ПЕНЕВА АНАСТАСОВА</question_author>
+				<question_author>НИКОЛАЙ НИКОЛОВ АПОСТОЛОВ</question_author>
+				<answerer>Десислава Терзиева, Министър на регионалното развитие
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно откриване на отделение по "Пластика и
+					изгаряния" в Многопрофилна болница за активно лечение - Бургас
+				</question>
+				<question_author>ГАЛИНА СТЕФАНОВА МИЛЕВА-ГЕОРГИЕВА</question_author>
+				<question_author>ДИАНА ИВАНОВА ЙОРДАНОВА</question_author>
+				<question_author>ДИМИТЪР БОЙЧЕВ ПЕТРОВ</question_author>
+				<question_author>ИВАН СТЕФАНОВ ВЪЛКОВ</question_author>
+				<question_author>ИВЕЛИНА ВЕСЕЛИНОВА ВАСИЛЕВА</question_author>
+				<question_author>СЕМИР ХУСЕИН АБУ МЕЛИХ</question_author>
+				<question_author>СНЕЖИНА МИНЧЕВА МАДЖАРОВА</question_author>
+				<answerer>Таня Андреева-Райнова, Министър на здравеопазването
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Питане относно промяна в Правилника за прилагане на Закона
+					за социално подпомагане</question>
+				<question_author>ЙОРДАНКА КОЛЕВА ЙОРДАНОВА</question_author>
+				<answerer>Хасан Адемов, Министър на труда и социалната политика
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно политиката и приоритетите на
+					правителството в сферата на регионалното развитие и инвестиционното
+					проектиране</question>
+				<question_author>АКСЕНИЯ БОРИСЛАВОВА ТИЛЕВА</question_author>
+				<question_author>АЛЕКСАНДЪР РУМЕНОВ НЕНКОВ</question_author>
+				<question_author>ВЛАДИМИР ВЪЛЧЕВ МИТРУШЕВ</question_author>
+				<question_author>ЕВГЕНИЯ БИСЕРОВА АЛЕКСИЕВА</question_author>
+				<question_author>ИВАН СТОЕВ ЧОЛАКОВ</question_author>
+				<question_author>ЛЮБЕН ПЕТРОВ ТАТАРСКИ</question_author>
+				<question_author>ПАВЕЛ АНДРЕЕВ ГУДЖЕРОВ</question_author>
+				<question_author>ТЕОДОРА РАДКОВА ГЕОРГИЕВА</question_author>
+				<question_author>ХРИСТО ИЛИЕВ КАЛОЯНОВ</question_author>
+				<answerer>Пламен Орешарски, Министър-председател на Република
+					България</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно политиката на правителството за
+					ефективното използване и съхраняване водния ресурс на страната в
+					икономиката на България</question>
+				<question_author>ВЛАДИМИР ИВАНОВ ИВАНОВ</question_author>
+				<question_author>ЗДРАВКО ДИМИТРОВ ДИМИТРОВ</question_author>
+				<question_author>ПАВЕЛ АНДРЕЕВ ГУДЖЕРОВ</question_author>
+				<answerer>Даниела Бобева-Филипова, Заместник министър-председател по
+					икономическото развитие</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно заявената подкрепа на България за
+					членство на Албания в Европейския съюз</question>
+				<question_author>ГАЛЕН СИМЕОНОВ МОНЕВ</question_author>
+				<answerer>Кристиан Вигенин, Министър на външните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно сближаването на Република Сърбия и
+					Република Македония</question>
+				<question_author>АДРИАН ХРИСТОВ АСЕНОВ</question_author>
+				<answerer>Кристиан Вигенин, Министър на външните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно работата на Министерството на
+					вътрешните работи по образуваните досъдебни производства по
+					отношение на участници в т.нар. протести и контрапротести в гр.
+					София</question>
+				<question_author>ВОЛЕН НИКОЛОВ СИДЕРОВ</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно разследване на убийството в с.
+					Баница, Врачанско и действията на Министерството на вътрешните
+					работи за ограничаване на битовата престъпност в Северозападна
+					България</question>
+				<question_author>ВЕНЦИСЛАВ АСЕНОВ ЛАКОВ</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно полученото от експремиера Бойко
+					Борисов "дарение" от $ 1 милион от корейска фирма, заинтересована в
+					изграждането на големи фотоволтаични паркове в България</question>
+				<question_author>МАГДАЛЕНА ЛАМБОВА ТАШЕВА</question_author>
+				<answerer>Драгомир Стойнев, Министър на икономиката и енергетиката
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно направеното от Министерството на
+					външните работи на Република България пред американската страна за
+					защита на конституционните права и свободи на българските граждани
+				</question>
+				<question_author>ДЕСИСЛАВ СЛАВОВ ЧУКОЛОВ</question_author>
+				<answerer>Кристиан Вигенин, Министър на външните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно съдбата на т.нар. скоростен платен
+					път от гр. Русе до южната граница, обявен за изграждане по времето
+					на последното посещение на българската правителствена делегация в
+					Катар</question>
+				<question_author>ПАВЕЛ ДИМИТРОВ ШОПОВ</question_author>
+				<answerer>Десислава Терзиева, Министър на регионалното развитие
+				</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно образуваните досъдебни
+					производства по отношение на участници във втората от окупациите в
+					СУ "Св. Климент Охридски"</question>
+				<question_author>МИГЛЕНА ДОЙКОВА АЛЕКСАНДРОВА</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно пострадалите полицаи по време на
+					т. нар. протести и контрапротести, както и окупации на висши учебни
+					заведения в гр. София и страната</question>
+				<question_author>ПАВЕЛ ДИМИТРОВ ШОПОВ</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно образуваните досъдебни
+					производства по отношение на участници в първата от окупациите на
+					СУ "Св. Климент Охридски"</question>
+				<question_author>МИГЛЕНА ДОЙКОВА АЛЕКСАНДРОВА</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно преодоляване на грешките и
+					негативните политики на бившия министър на външните работи г-н
+					Николай Младенов, във връзка с кризата в Сирия</question>
+				<question_author>ДЕСИСЛАВ СЛАВОВ ЧУКОЛОВ</question_author>
+				<answerer>Кристиан Вигенин, Министър на външните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно бездействието на Министерството на
+					вътрешните работи при окупацията на Софийския университет
+				</question>
+				<question_author>ДИМИТЪР ДИМЧЕВ ДИМОВ</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно броя, самоличността и последиците
+					за лицата, окупирали сградата на Софийския университет</question>
+				<question_author>ДИМИТЪР ДИМЧЕВ ДИМОВ</question_author>
+				<answerer>Цветлин Йовчев, Министър на вътрешните работи</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно предложение за еврокомисар от
+					Република България</question>
+				<question_author>ЖЕЛЬО ИВАНОВ БОЙЧЕВ</question_author>
+				<answerer>Пламен Орешарски, Министър-председател на Република
+					България</answerer>
+			</agenda_item>
+			<agenda_item>
+				<question>Актуален въпрос относно защитата на интересите на
+					гражданите при дейността на "Топлофикация София" ЕАД и
+					възможностите на Министерството на икономиката и енергетиката да
+					отстоява правата и интересите на потребителите</question>
+				<question_author>БОРИС ЦВЕТКОВ ЦВЕТКОВ</question_author>
+				<answerer>Драгомир Стойнев, Министър на икономиката и енергетиката
+				</answerer>
+			</agenda_item>
+		</agenda>
+		<item_link>http://www.parliament.bg/bg/parliamentarycontrol/ID/533
+		</item_link>
+		<pubDate>2014-04-25 22:58:27</pubDate>
+	</item>
+</schema> 
+

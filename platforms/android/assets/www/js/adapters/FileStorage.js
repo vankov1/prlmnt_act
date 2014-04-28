@@ -61,7 +61,7 @@ var FileStorage = function(dataFileName) {
 			dataType: 'xml',
 			success: function(data, testStatus, jqXHR) {
 				//data is a XML DOM object
-				self.rssData = data;
+				self.rssData = new XMLSerializer().serializeToString(data);
 				
 				//Create FileWriter object
 				self.fileEntry.createWriter(gotFileWriter, fail);
@@ -85,7 +85,7 @@ var FileStorage = function(dataFileName) {
 			console.log('Failed writing');
 		};
 		//writer.seek(writer.length);
-		writer.write((new XMLSerializer()).serializeToString(self.rssData));
+		writer.write(self.rssData);
 		//writer.write('abrakadabra');
 	};
 	
