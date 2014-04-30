@@ -90,6 +90,12 @@ var ControllView = function(template) {
 			callback(tplData);
 		}
 	};
+	
+	this.assignHandlers = function() {
+		$('#btnSearchControll').unbind().bind('click', function() {
+			$('#searchBoxControll').slideToggle("slow");
+		});
+	};
 
     this.initialize();
 

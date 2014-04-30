@@ -24,7 +24,7 @@ function getRssUrlByFileName(fileName) {
 	} else if (fileName == committeeDataFile) {
 		url = "http://www.parliament.bg/export/bg/xml/app_comsitting/";
 	} else if (fileName == newsDataFile) {
-		url = "http://www.parliament.bg/rss.php?feed=news&lng=bg";
+		url = "http://www.http://parliament.bg/export/bg/xml/app_news/";
 	}
 	return url;
 }
@@ -50,6 +50,7 @@ function getAdapter(dataFileName) {
     var controllTpl = Handlebars.compile($("#controll-tpl").html());
     var controllDetailTpl = Handlebars.compile($("#controll-tpl-detail-preview").html());
     var committeeTpl = Handlebars.compile($("#committee-tpl").html());
+    var committeeDetailTpl = Handlebars.compile($("#committee-tpl-detail-preview").html());
     var newsTpl = Handlebars.compile($("#news-tpl").html());
 
     var homeUrl = "#home";
@@ -157,15 +158,35 @@ function getAdapter(dataFileName) {
 			var controll = new ControllView(controllTpl);
 			controll.getData(function(tplData) {
 				slider.slidePage(controll.render(tplData).el);
+				controll.assignHandlers();
 			});
 			return;
 		}
 
 		var match = hash.match(committeeUrl);
 		if (match) {
+			var match = hash.match(committeeDetailUrl);
+			if (match) {
+				var parts = hash.split('?');
+				if (parts[1]) {
+					var id = parts[1].replace('id=', '');
+					var committee = new CommitteeView(committeeDetailTpl);
+					committee.getData(function(tplData) {
+						var detailData = {};
+						if (tplData.committee.length == 0) {
+							detailData = getCommitteeTestingData(id);
+						} else {
+							detailData = tplData.committee[id];
+						}
+						slider.slidePage(committee.render(detailData).el);
+					});
+					return;
+				}
+			}
 			var committee = new CommitteeView(committeeTpl);
 			committee.getData(function(tplData) {
 				slider.slidePage(committee.render(tplData).el);
+				committee.assignHandlers();
 			});
 			return;
 		}
@@ -175,6 +196,7 @@ function getAdapter(dataFileName) {
 			var news = new NewsView(newsTpl);
 			news.getData(function(tplData) {
 				slider.slidePage(news.render(tplData).el);
+				
 			});
 			return;
 		}
