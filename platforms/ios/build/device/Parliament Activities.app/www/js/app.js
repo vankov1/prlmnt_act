@@ -20,11 +20,11 @@ function getRssUrlByFileName(fileName) {
 	if (fileName == plenaryDataFile) {
 		url = "http://www.parliament.bg/export/bg/xml/app_plenary/";
 	} else if (fileName == controllDataFile) {
-		url = "http://www.parliament.bg/rss.php?feed=plcontrol&lng=bg";
+		url = "http://www.parliament.bg/export/bg/xml/app_control/";
 	} else if (fileName == committeeDataFile) {
-		url = "http://www.parliament.bg/rss.php?feed=cmeetings&lng=bg";
+		url = "http://www.parliament.bg/export/bg/xml/app_comsitting/";
 	} else if (fileName == newsDataFile) {
-		url = "http://www.parliament.bg/rss.php?feed=news&lng=bg";
+		url = "http://www.http://parliament.bg/export/bg/xml/app_news/";
 	}
 	return url;
 }
@@ -48,14 +48,18 @@ function getAdapter(dataFileName) {
     var plenaryTpl = Handlebars.compile($("#plenary-tpl").html());
     var plenaryDetailTpl = Handlebars.compile($("#plenary-tpl-detail-preview").html());
     var controllTpl = Handlebars.compile($("#controll-tpl").html());
+    var controllDetailTpl = Handlebars.compile($("#controll-tpl-detail-preview").html());
     var committeeTpl = Handlebars.compile($("#committee-tpl").html());
+    var committeeDetailTpl = Handlebars.compile($("#committee-tpl-detail-preview").html());
     var newsTpl = Handlebars.compile($("#news-tpl").html());
 
     var homeUrl = "#home";
     var plenaryUrl = "#plenary";
     var plenaryDetailUrl = '#plenaryDetail';
     var controllUrl = "#controll";
+    var controllDetailUrl = "#controllDetail";
     var committeeUrl = "#committee";
+    var committeeDetailUrl = "#committeeDetail";
     var newsUrl = "#news";
 
     var slider = new PageSlider($('body'));
@@ -112,7 +116,13 @@ function getAdapter(dataFileName) {
 					var id = parts[1].replace('id=', '');
 					var plenary = new PlenaryView(plenaryDetailTpl);
 					plenary.getData(function(tplData) {
-						slider.slidePage(plenary.render(tplData.plenary[id]).el);
+						var detailData = {};
+						if (tplData.plenary.length == 0) {
+							detailData = getPlenaryTestingData(id);
+						} else {
+							detailData = tplData.plenary[id];
+						}
+						slider.slidePage(plenary.render(detailData).el);
 					});
 					return;
 				}
@@ -127,18 +137,56 @@ function getAdapter(dataFileName) {
 
 		var match = hash.match(controllUrl);
 		if (match) {
+			var match = hash.match(controllDetailUrl);
+			if (match) {
+				var parts = hash.split('?');
+				if (parts[1]) {
+					var id = parts[1].replace('id=', '');
+					var controll = new ControllView(controllDetailTpl);
+					controll.getData(function(tplData) {
+						var detailData = {};
+						if (tplData.controll.length == 0) {
+							detailData = getControllTestingData(id);
+						} else {
+							detailData = tplData.controll[id];
+						}
+						slider.slidePage(controll.render(detailData).el);
+					});
+					return;
+				}
+			}
 			var controll = new ControllView(controllTpl);
 			controll.getData(function(tplData) {
 				slider.slidePage(controll.render(tplData).el);
+				controll.assignHandlers();
 			});
 			return;
 		}
 
 		var match = hash.match(committeeUrl);
 		if (match) {
+			var match = hash.match(committeeDetailUrl);
+			if (match) {
+				var parts = hash.split('?');
+				if (parts[1]) {
+					var id = parts[1].replace('id=', '');
+					var committee = new CommitteeView(committeeDetailTpl);
+					committee.getData(function(tplData) {
+						var detailData = {};
+						if (tplData.committee.length == 0) {
+							detailData = getCommitteeTestingData(id);
+						} else {
+							detailData = tplData.committee[id];
+						}
+						slider.slidePage(committee.render(detailData).el);
+					});
+					return;
+				}
+			}
 			var committee = new CommitteeView(committeeTpl);
 			committee.getData(function(tplData) {
 				slider.slidePage(committee.render(tplData).el);
+				committee.assignHandlers();
 			});
 			return;
 		}
@@ -148,6 +196,7 @@ function getAdapter(dataFileName) {
 			var news = new NewsView(newsTpl);
 			news.getData(function(tplData) {
 				slider.slidePage(news.render(tplData).el);
+				
 			});
 			return;
 		}

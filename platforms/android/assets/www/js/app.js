@@ -24,7 +24,7 @@ function getRssUrlByFileName(fileName) {
 	} else if (fileName == committeeDataFile) {
 		url = "http://www.parliament.bg/export/bg/xml/app_comsitting/";
 	} else if (fileName == newsDataFile) {
-		url = "http://www.http://parliament.bg/export/bg/xml/app_news/";
+		url = "http://www.parliament.bg/export/bg/xml/app_news/";
 	}
 	return url;
 }
@@ -52,6 +52,7 @@ function getAdapter(dataFileName) {
     var committeeTpl = Handlebars.compile($("#committee-tpl").html());
     var committeeDetailTpl = Handlebars.compile($("#committee-tpl-detail-preview").html());
     var newsTpl = Handlebars.compile($("#news-tpl").html());
+    var newsDetailTpl = Handlebars.compile($("#news-tpl-detail-preview").html());
 
     var homeUrl = "#home";
     var plenaryUrl = "#plenary";
@@ -61,6 +62,7 @@ function getAdapter(dataFileName) {
     var committeeUrl = "#committee";
     var committeeDetailUrl = "#committeeDetail";
     var newsUrl = "#news";
+    var newsDetailUrl = "#newsDetail";
 
     var slider = new PageSlider($('body'));
 
@@ -193,10 +195,29 @@ function getAdapter(dataFileName) {
 
 		var match = hash.match(newsUrl);
 		if (match) {
+			var match = hash.match(newsDetailUrl);
+			if (match) {
+				var parts = hash.split('?');
+				if (parts[1]) {
+					var id = parts[1].replace('id=', '');
+					console.log('id: ' + id);
+					var news = new NewsView(newsDetailTpl);
+					news.getData(function(tplData) {
+						var detailData = {};
+						if (tplData.news.length == 0) {
+							detailData = getNewsTestingData(id);
+						} else {
+							detailData = tplData.news[id];
+						}
+						slider.slidePage(news.render(detailData).el);
+					});
+					return;
+				}
+			}
 			var news = new NewsView(newsTpl);
 			news.getData(function(tplData) {
 				slider.slidePage(news.render(tplData).el);
-				
+				news.assignHandlers();
 			});
 			return;
 		}

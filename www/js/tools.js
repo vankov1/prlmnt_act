@@ -4,6 +4,7 @@ function openUrlInExternal(url) {
 }
 
 function openAppUrl(url) {
+	console.log(url);
 	window.location.href = url;
 }
 
@@ -54,6 +55,12 @@ function getCommitteeTestingData(id) {
 	return ret;
 }
 
+function getNewsTestingData(id) {
+	var ret = {};
+	
+	return ret;
+}
+
 function romanize (num) {
 	if (!+num)
 		return false;
@@ -79,4 +86,13 @@ function deromanize (str) {
 	while (m = token.exec(str))
 		num += key[m[0]];
 	return num;
+}
+
+function isoToBgDate(date) {
+	var parts = date.split(' ');
+	if (!parts[0]) {
+		return date;
+	}
+	parts = parts[0].split('-');
+	return parts[2] + '.' + parts[1] + '.' + parts[0];
 }

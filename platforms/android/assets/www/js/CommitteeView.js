@@ -25,11 +25,11 @@ var CommitteeView = function(template) {
 			
 			var test = commList[pi].getElementsByTagName('agenda')[0].textContent.split('<br/>');
 			
-			if (pi == 0) {
+			/*if (pi == 0) {
 				console.log('aaaaaaaaaa <br />' + test.length);
 				console.log("\n" + commList[pi].getElementsByTagName('agenda')[0].textContent);
 				console.log("\n" + agendaTxt);
-			}
+			}*/
 			//var agenda = [];
 			var shortDscr = agendaTxt.substring(0, 255);
 			if (agendaTxt.length > 255) {
@@ -52,15 +52,15 @@ var CommitteeView = function(template) {
 			}*/
 			
 			committee[pi] = {
-				id: pi,
+				cid: pi,
 				committeeId: commList[pi].getElementsByTagName('commitee_id')[0].textContent,
 				committeeName: commList[pi].getElementsByTagName('committee')[0].textContent.replace(/\r?\n/g, ""),
-				date: commList[pi].getElementsByTagName('date')[0].textContent,
+				date: isoToBgDate(commList[pi].getElementsByTagName('date')[0].textContent),
 				time: commList[pi].getElementsByTagName('time')[0].textContent,
 				hall: commList[pi].getElementsByTagName('hall')[0].textContent,
 				building: commList[pi].getElementsByTagName('building')[0].textContent,
 				agenda: agendaTxt,
-				pubDate: commList[pi].getElementsByTagName('pubDate')[0].textContent,
+				pubDate: isoToBgDate(commList[pi].getElementsByTagName('pubDate')[0].textContent),
 				link: commList[pi].getElementsByTagName('item_link')[0].textContent,
 				dscrShort: shortDscr
 			};
@@ -76,10 +76,62 @@ var CommitteeView = function(template) {
 	};
 	
 	this.assignHandlers = function() {
+		var self = this;
 		$('#btnSearchCommittee').unbind().bind('click', function() {
 			$('#searchBoxCommittee').slideToggle("slow");
 		});
+		
+		if ($('#txtSearchCommittee')) { 
+			$('#txtSearchCommittee').unbind().bind('keyup', function() {
+				//console.log('box val: ' + $(this).val() );
+				if ($(this).val().length < 3) {
+					//Make all items visible
+					//console.log('Make all items visible');
+					$('.committeeListItem').removeClass('hidden');
+					return;
+				}
+				
+				//Search items for entered text
+				var needle = $.trim($(this).val());
+				var items = self.searchItems(needle);
+				if (!items || items.length == 0) {
+					console.log('no matches');
+					return;
+				}
+				
+				//Display results
+				$('.committeeListItem').each(function() {
+					//console.log($(this).data("listItemId"));
+					if ($.inArray($(this).data("listItemId"), items) !== -1) {
+						$(this).removeClass('hidden');
+					} else {
+						$(this).addClass('hidden');
+					}
+				});
+			});
+		};
+
 	};
+	
+	this.searchItems = function(needle) {
+		var adapter = getAdapter(committeeDataFile);
+		console.log('got adapter: ' + adapter.dataFile);
+		var parser = new DOMParser();
+		var data = parser.parseFromString(adapter.rssData, "text/xml");
+		
+		var commList = data.getElementsByTagName('item');
+		var itemIds = [];
+		var haystack = '';
+		for (var pi = 0; pi < commList.length; pi++) {
+			haystack = commList[pi].getElementsByTagName('agenda')[0].textContent + ' ' + commList[pi].getElementsByTagName('committee')[0].textContent;
+			if (haystack.indexOf(needle) !== -1) {
+				//console.log(pi + ' - position ' + haystack.indexOf(needle));
+				itemIds.push(pi);
+			}
+		}
+		return itemIds;
+	};
+
 
     this.initialize();
 
