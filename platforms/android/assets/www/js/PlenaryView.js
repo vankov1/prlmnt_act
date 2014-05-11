@@ -20,16 +20,49 @@ var PlenaryView = function(template) {
 		var plenariesList = data.getElementsByTagName('item');
 		
 		var plenary = [];
+		var agendaItems = [];
+		var agendaItemsNodes;
+		var shortDscr = '';
+		var bills = [];
+		var billsNodes;
+		var docs = [];
+		var docsNamesNodes;
+		var docsLinksNodes;
+		var isBill = 0;
 		for (var pi = 0; pi < plenariesList.length; pi++) {
-			var agendaItems = [];
-			var agendaItemsNodes = plenariesList[pi].getElementsByTagName('agenda_item');
-			var shortDscr = '';
+			agendaItems = [];
+			agendaItemsNodes = plenariesList[pi].getElementsByTagName('agenda_item');
+			shortDscr = '';
 			for (var ai = 0; ai < agendaItemsNodes.length; ai++) {
+				isBill = agendaItemsNodes[ai].getElementsByTagName('is_bill') ? agendaItemsNodes[ai].getElementsByTagName('is_bill')[0].textContent : 0;
+				bills = [];
+				docs = [];
+				
+				if (isBill == 1) {
+					billsNodes = agendaItemsNodes[ai].getElementsByTagName('bill');
+					for (var i = 0; i < billsNodes.length; i++) {
+						bills.push({
+							name: billsNodes[i].childNodes[0].textContent,
+							link: billsNodes[i].childNodes[1].textContent
+						});
+					}
+					
+					docsNamesNodes = agendaItemsNodes[ai].getElementsByTagName('document_name');
+					docsLinksNodes = agendaItemsNodes[ai].getElementsByTagName('document_link');
+					for (var i = 0; i < docsNamesNodes.length; i++) {
+						docs.push({
+							name: docsNamesNodes[i].textContent,
+							link: docsLinksNodes[i].textContent
+						});
+					}
+				}
+				
 				agendaItems[ai] = {
 					id: ai + 1,
-					itemText: agendaItemsNodes[ai].getElementsByTagName('item_text')[0] ? agendaItemsNodes[ai].getElementsByTagName('item_text')[0].textContent : '',
-					isBill: agendaItemsNodes[ai].getElementsByTagName('is_bill')[0] ? agendaItemsNodes[ai].getElementsByTagName('is_bill')[0].textContent : 0,
-					billLink: agendaItemsNodes[ai].getElementsByTagName('bill_link')[0] ? agendaItemsNodes[ai].getElementsByTagName('bill_link')[0].textContent : 'javascript:void(0)'
+					itemText: agendaItemsNodes[ai].getElementsByTagName('item_text') ? agendaItemsNodes[ai].getElementsByTagName('item_text')[0].textContent : '',
+					isBill: isBill,
+					bills: bills,
+					docs: docs
 				};
 				if (shortDscr.length < 255) {
 					shortDscr += (ai + 1) + '. ' + agendaItems[ai].itemText + "\n";

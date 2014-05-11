@@ -155,9 +155,26 @@
 						<div class="row">
 							<div class="col description">
 								{{#each agenda}}
-									{{id}}. {{#ifCond isBill '1'}}<a href="javascript:openUrlInExternal('{{billLink}}')" class="external-link">{{/ifCond}}
-										{{itemText}}
-									{{#ifCond isBill '1'}}</a>{{/ifCond}}<br />
+									<div style="margin-bottom: 10px;">
+									{{id}}. {{itemText}}
+									{{#ifCond isBill '1'}}
+										<ul style="list-style-type: circle; margin-left: 20px;">
+
+										{{#each bills}}
+											<li style="list-style-type: circle;">
+												<a href="javascript:openUrlInExternal('{{link}}')" class="external-link">{{name}}</a>
+											</li>
+										{{/each}}
+
+										{{#each docs}}
+											<li style="list-style-type: circle;">
+												<a  href="javascript:openUrlInExternal('{{link}}')" class="external-link">{{name}}</a>
+											</li>
+										{{/each}}
+
+										</ul>
+									{{/ifCond}}
+									</div>
 								{{/each}}
 							</div>
 						</div>

@@ -12,6 +12,9 @@ body {
 .hidden {
   display: none;
 }
+.relative {
+  position: relative;
+}
 .default-btn {
   display: inline-block;
   width: 80%;
@@ -122,6 +125,27 @@ body {
   font-size: 10px;
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   text-transform: uppercase;
+}
+.subscribe-list-btn {
+  position: absolute;
+  padding-top: 9px !important;
+  top: 6px;
+  right: 40px;
+}
+.subscribe-list-btn img {
+  width: 24px;
+}
+.subscribe-btn {
+  font-size: 25px;
+  position: absolute;
+  top: 0px;
+  right: 5px;
+}
+.subscribe-btn.inactive:before {
+  color: #bababa !important;
+}
+.subscribe-btn.active:before {
+  color: #49d06c  !important;
 }
 .title {
   color: #535353;
@@ -360,18 +384,21 @@ body {
 /* ===== Controll Screen ===== */
 .controll-tpl,
 .committee-tpl,
-.news-tpl {
+.news-tpl,
+.committee-check-list-tpl {
   overflow: auto;
   height: 93% !important;
 }
 .controll-tpl .short-preview,
 .committee-tpl .short-preview,
-.news-tpl .short-preview {
+.news-tpl .short-preview,
+.committee-check-list-tpl .short-preview {
   padding: 0px !important;
 }
 .controll-tpl .short-preview .title,
 .committee-tpl .short-preview .title,
-.news-tpl .short-preview .title {
+.news-tpl .short-preview .title,
+.committee-check-list-tpl .short-preview .title {
   font-size: 18px;
   margin-bottom: 5px;
 }
@@ -384,6 +411,13 @@ body {
   float: left;
 }
 /* ===== END News Screen ===== */
+/* ===== Committee Screen ===== */
+/* ===== END Committee Screen ===== */
+/* ===== Committee check-lsit Screen ===== */
+.committee-check-list-tpl .short-preview .title {
+  width: 90%;
+}
+/* ===== END Committee check-lsit Screen ===== */
 /* ===== Options Screen ===== */
 .options-tpl {
   padding-top: 55px;

@@ -74,6 +74,7 @@
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/back-arrow.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/bulgarian-armorial.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/bulgarian-armorial.svg \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/check-list-icon.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/committee-ico-dark.svg \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/committee-ico-light.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/committee-ico-light.svg \
