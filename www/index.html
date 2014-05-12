@@ -360,6 +360,9 @@
 				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
 			</button>
 			<h1 class="title">Заседания на комисии</h1>
+			<button class="subscribe-list-btn button button-icon" onclick="javascript:openAppUrl('#committees-list');">
+				<img src="assets/img/check-list-icon.png" alt="ico" class="ico">
+			</button>
 			<button class="search-btn button button-icon" id="btnSearchCommittee">
 				<img src="assets/img/search-icon.png" alt="ico" class="ico">
 			</button>
@@ -491,6 +494,45 @@
 	</div>
 </script>
 
+
+<script id="committees-list-tpl" type="text/x-handlebars-template">
+	<div class="committee-tpl-detail-preview" style="height: 93%; overflow: auto;">
+		<div class="bar bar-header">
+			<button class="back-btn button button-icon" onclick="javascript:history.back(1)">
+				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
+			</button>
+			<h1 class="title">Абонамент за комисии</h1>
+		</div>
+
+		<div class="row">
+			<div class="col content-wrapper">
+				{{#each commsList}}			
+				<div class="row short-preview committeeListItem">
+					<div class="col">
+						<div class="row">
+							<div class="col description">
+								<input type="checkbox" name="committee" id="committee_{{commId}}" style="margin-right: 10px;">
+								<label for="committee_{{commId}}">{{commName}}</label><br /><br />
+								Председател: <strong>{{chairman}}</strong>
+							</div>
+						</div>
+					</div>
+				</div>
+				{{/each}}
+			</div>
+		</div>
+
+		<div class="tabs tabs-icon-top bottom-tabs">
+			<a class="tab-item" href="#comm-list-save">
+				<i class="icon"><img src="assets/img/date-icon.png" class="section-icons plenary-ico"></i>
+				Запис
+			</a>
+		</div>
+
+	</div>
+</script>
+
+
 <script id="news-tpl" type="text/x-handlebars-template">
 	<div class="news-tpl" style="height: 93%; overflow: auto;">
 		<div class="bar bar-header">
@@ -584,8 +626,8 @@
 						</div>
 						<div class="row">
 							<div class="col description">
-								<img src="http://www.parliament.bg/pub/Gallery/{{img}}">
-								{{{dscr}}}</br>
+								<img src="http://www.parliament.bg/pub/Gallery/{{img}}" />
+								{{{dscr}}}
 							</div>
 						</div>
 					</div>
@@ -634,6 +676,7 @@
 <script src="js/PlenaryView.js"></script>
 <script src="js/ControllView.js"></script>
 <script src="js/CommitteeView.js"></script>
+<script src="js/CommitteesListView.js"></script>
 <script src="js/NewsView.js"></script>
 <script src="js/app.js"></script>
 

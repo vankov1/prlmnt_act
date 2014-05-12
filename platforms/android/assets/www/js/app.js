@@ -1,9 +1,10 @@
 var rssDataPath = "parliament.bg_activities";
-var plenaryDataFile = "plenary.rss.xml";
-var controllDataFile = 'controll.rss.xml';
-var committeeDataFile = 'committee.xml.rss';
+var plenaryDataFile = "plenary.xml";
+var controllDataFile = 'controll.xml';
+var committeeDataFile = 'committee.xml';
+var committeesListFile = 'committees_list.xml';
 var newsDataFile = 'news.xml.rss';
-var dataFiles = [plenaryDataFile, controllDataFile, committeeDataFile, newsDataFile];
+var dataFiles = [plenaryDataFile, controllDataFile, committeeDataFile, committeesListFile, newsDataFile];
 var adapters = [];
 
 var dataFileAgeToDownload = 86400; //one day in seconds
@@ -23,6 +24,8 @@ function getRssUrlByFileName(fileName) {
 		url = "http://www.parliament.bg/export/bg/xml/app_control/";
 	} else if (fileName == committeeDataFile) {
 		url = "http://www.parliament.bg/export/bg/xml/app_comsitting/";
+	} else if (fileName == committeesListFile) {
+		url = "http://parliament.bg/export/bg/xml/app_collection/";
 	} else if (fileName == newsDataFile) {
 		url = "http://www.parliament.bg/export/bg/xml/app_news/";
 	}
@@ -51,6 +54,7 @@ function getAdapter(dataFileName) {
     var controllDetailTpl = Handlebars.compile($("#controll-tpl-detail-preview").html());
     var committeeTpl = Handlebars.compile($("#committee-tpl").html());
     var committeeDetailTpl = Handlebars.compile($("#committee-tpl-detail-preview").html());
+    var committeesListTpl = Handlebars.compile($("#committees-list-tpl").html());
     var newsTpl = Handlebars.compile($("#news-tpl").html());
     var newsDetailTpl = Handlebars.compile($("#news-tpl-detail-preview").html());
 
@@ -61,6 +65,7 @@ function getAdapter(dataFileName) {
     var controllDetailUrl = "#controllDetail";
     var committeeUrl = "#committee";
     var committeeDetailUrl = "#committeeDetail";
+    var committeesListUrl = "#committees-list";
     var newsUrl = "#news";
     var newsDetailUrl = "#newsDetail";
 
@@ -161,6 +166,16 @@ function getAdapter(dataFileName) {
 			controll.getData(function(tplData) {
 				slider.slidePage(controll.render(tplData).el);
 				controll.assignHandlers();
+			});
+			return;
+		}
+		
+		var match = hash.match(committeesListUrl);
+		if (match) {
+			var commList = new CommitteesListView(committeesListTpl);
+			commList.getData(function(tplData) {
+				slider.slidePage(commList.render(tplData).el);
+				//commList.assignHandlers();
 			});
 			return;
 		}
