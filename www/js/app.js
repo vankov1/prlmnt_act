@@ -175,7 +175,7 @@ function getAdapter(dataFileName) {
 			var commList = new CommitteesListView(committeesListTpl);
 			commList.getData(function(tplData) {
 				slider.slidePage(commList.render(tplData).el);
-				//commList.assignHandlers();
+				commList.assignHandlers();
 			});
 			return;
 		}
