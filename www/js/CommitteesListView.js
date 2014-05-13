@@ -41,6 +41,13 @@ var CommitteesListView = function(template) {
 	
 	this.assignHandlers = function() {
 		var self = this;
+		$('#chk_comm_subscribe').unbind().bind('click', function() {
+			if ($(this).hasClass('active')) {
+				$(this).removeClass('active');
+			} else {
+				$(this).addClass('active');
+			}
+		});
 	};
 	
     this.initialize();

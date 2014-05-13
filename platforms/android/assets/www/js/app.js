@@ -54,7 +54,7 @@ function getAdapter(dataFileName) {
     var controllDetailTpl = Handlebars.compile($("#controll-tpl-detail-preview").html());
     var committeeTpl = Handlebars.compile($("#committee-tpl").html());
     var committeeDetailTpl = Handlebars.compile($("#committee-tpl-detail-preview").html());
-    var committeesListTpl = Handlebars.compile($("#committees-list-tpl").html());
+    var committeesListTpl = Handlebars.compile($("#committee-check-list-tpl").html());
     var newsTpl = Handlebars.compile($("#news-tpl").html());
     var newsDetailTpl = Handlebars.compile($("#news-tpl-detail-preview").html());
 

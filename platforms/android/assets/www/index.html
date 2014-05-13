@@ -495,8 +495,8 @@
 </script>
 
 
-<script id="committees-list-tpl" type="text/x-handlebars-template">
-	<div class="committee-tpl-detail-preview" style="height: 93%; overflow: auto;">
+<script id="committee-check-list-tpl" type="text/x-handlebars-template">
+	<div class="committee-check-list-tpl" style="height: 93%; overflow: auto;">
 		<div class="bar bar-header">
 			<button class="back-btn button button-icon" onclick="javascript:history.back(1)">
 				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
@@ -504,15 +504,19 @@
 			<h1 class="title">Абонамент за комисии</h1>
 		</div>
 
-		<div class="row">
+		<div class="row screen-wrapper">
 			<div class="col content-wrapper">
-				{{#each commsList}}			
+				{{#each commsList}}
 				<div class="row short-preview committeeListItem">
 					<div class="col">
-						<div class="row">
+						<div class="row relative">
 							<div class="col description">
-								<input type="checkbox" name="committee" id="committee_{{commId}}" style="margin-right: 10px;">
-								<label for="committee_{{commId}}">{{commName}}</label><br /><br />
+								<h2 class="title">{{commName}}</h2>
+								<div class="subscribe-btn active ion-checkmark-circled" id="chk_comm_subscribe" data-committee-id="{{commId}}"></div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-67 description">
 								Председател: <strong>{{chairman}}</strong>
 							</div>
 						</div>
