@@ -41,6 +41,7 @@ var CommitteesListView = function(template) {
 	
 	this.assignHandlers = function() {
 		var self = this;
+		
 		$('.subscribe-btn').unbind().bind('click', function() {
 			if ($(this).hasClass('active')) {
 				$(this).removeClass('active');
@@ -49,6 +50,18 @@ var CommitteesListView = function(template) {
 				$(this).addClass('active');
 				$(this).parent().children('.title').removeClass('unsubscribedText');
 			}
+		});
+		
+		var i = 1;
+		$('#btn_comm_list_save').unbind().bind('click', function() {
+			$('.ion-checkmark-circled').each(function() {
+				if ($(this).hasClass('active')) {
+					console.log(i + ' ' + $(this).data('committeeId') + ' абониран');
+				} else {
+					console.log(i + ' ' + $(this).data('committeeId'));
+				}
+				i++;
+			});
 		});
 	};
 	
