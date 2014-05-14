@@ -363,20 +363,23 @@ body {
 .plenary-tpl-detail-preview,
 .controll-tpl-detail-preview,
 .committee-tpl-detail-preview,
-.news-tpl-detail-preview {
+.news-tpl-detail-preview,
+.committee-check-list-tpl {
   padding-top: 55px;
   overflow: auto;
 }
 .plenary-tpl-detail-preview .detail-preview,
 .controll-tpl-detail-preview .detail-preview,
 .committee-tpl-detail-preview .detail-preview,
-.news-tpl-detail-preview .detail-preview {
+.news-tpl-detail-preview .detail-preview,
+.committee-check-list-tpl .detail-preview {
   padding: 0px !important;
 }
 .plenary-tpl-detail-preview .content-wrapper,
 .controll-tpl-detail-preview .content-wrapper,
 .committee-tpl-detail-preview .content-wrapper,
-.news-tpl-detail-preview .content-wrapper {
+.news-tpl-detail-preview .content-wrapper,
+.committee-check-list-tpl .content-wrapper {
   margin-bottom: 45px;
   padding: 0px !important;
 }
