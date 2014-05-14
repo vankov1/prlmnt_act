@@ -52,14 +52,15 @@ var CommitteesListView = function(template) {
 			}
 		});
 		
-		var subscrComms = [];
 		$('#btn_comm_list_save').unbind().bind('click', function() {
+			var subscrComms = [];
 			$('.ion-checkmark-circled').each(function() {
 				if ($(this).hasClass('active')) {
 					subscrComms.push($(this).data('committeeId'));
 				}
 			});
 			settings.set('subscribedCommittees', subscrComms);
+			console.log(subscrComms);
 			settings.saveToFile();
 		});
 	};

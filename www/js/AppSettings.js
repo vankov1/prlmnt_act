@@ -15,6 +15,7 @@ var AppSettings = function() {
 	};
 	
 	this.set = function(key, val) {
+		//console.log(val);
 		this.settings[key] = val;
 		//console.log(this.settings[key]);
 	};
@@ -27,6 +28,8 @@ var AppSettings = function() {
 		//console.log(this.settings['subscribedCommittees']);
 		//JSON.stringify(this.settings)
 		this.adapter.rssData = JSON.stringify(this.settings);
+		//console.log(this.adapter.rssData);
+		this.adapter.saveFile();
 	};
 	
 };

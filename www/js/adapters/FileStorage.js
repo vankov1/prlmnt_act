@@ -43,7 +43,7 @@ var FileStorage = function(dataFileName) {
 		//console.log('got file');
 		self.fileObj = file;
 		var age = (new Date()).getTime() - file.lastModifiedDate;
-		if ( this.checkAgeAndSize && ((age / 1000) > dataFileAgeToDownload || file.size <= 0) ) {
+		if ( self.checkAgeAndSize && ((age / 1000) > dataFileAgeToDownload || file.size <= 0) ) {
 			console.log('Refresh data from RSS: ' + file.name);
 			self.downloadRssFile(file.name);
 		} else {
@@ -78,7 +78,7 @@ var FileStorage = function(dataFileName) {
 	};
 	
 	this.saveFile = function() {
-		this.fileEntry.createWriter(gotFileWriter, fail);
+		self.fileEntry.createWriter(gotFileWriter, fail);
 	};
 	
 	var gotFileWriter = function(writer) {
