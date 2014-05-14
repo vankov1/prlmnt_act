@@ -126,6 +126,33 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   text-transform: uppercase;
 }
+.save-btn {
+  -webkit-border-top-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -webkit-border-top-left-radius: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  -moz-border-radius-topleft: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: none !important;
+  background: #43c364 !important;
+  color: #ffffff !important;
+}
+.save-btn .txt {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-transform: uppercase;
+}
+.save-btn:active {
+  opacity: 0.7 !important;
+}
 .subscribe-list-btn {
   position: absolute;
   padding-top: 9px !important;
@@ -417,7 +444,6 @@ body {
 /* ===== END Committee Screen ===== */
 /* ===== Committee check-lsit Screen ===== */
 .committee-check-list-tpl .short-preview .title {
-  width: 90%;
   line-height: 25px;
 }
 /* ===== END Committee check-lsit Screen ===== */
