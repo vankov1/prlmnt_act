@@ -697,22 +697,34 @@
                 <img src="assets/img/back-arrow.png" alt="ico" class="ico">
                 </button>
                 <h1 class="title">Абонамент за комисии</h1>
-                <button class="subscribe-list-btn button button-icon">
+                <!-- <button class="subscribe-list-btn button button-icon">
                 <img src="assets/img/check-list-icon.png" alt="ico" class="ico">
-                </button><!-- 
+                </button> --><!-- 
                 <button class="search-btn button button-icon">
                 <img src="assets/img/search-icon.png" alt="ico" class="ico">
                 </button> -->
             </div>
-            <div class="row search-row">
-                <div class="col">
-                    <div class="search-wrapper">
-                        <input type="text" placeholder="Търси заседание" class="search-field" />
-                    </div>
-                </div>
-            </div>
-            <div class="row">
+
+            <div class="row screen-wrapper">
                 <div class="col content-wrapper">
+					
+					<!-- Това е моя код -->
+					<div class="row short-preview committeeListItem">
+						<div class="col">
+							<div class="row relative">
+								<div class="col description">
+									<h2 class="title">Име на комисия, което може и често се случва да е ужасно дълго от по няколко реда и да е по-описателно от роман на Толстой</h2>
+									<div class="subscribe-btn active ion-checkmark-circled" data-committee-id="{{commId}}"></div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-67 description">
+									Председател: <strong>Иванчо Драганчев Петканчев</strong>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /Това е моя код -->
                 
                     <div class="row short-preview">
                         <div class="col">

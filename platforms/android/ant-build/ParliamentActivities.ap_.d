@@ -62,6 +62,7 @@
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/less \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/pics \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/topcoat \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/css/app_effects.css \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/css/ionic.min.css \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/css/pageslider.css \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/css/styles.css \
