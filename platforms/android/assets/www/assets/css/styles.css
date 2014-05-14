@@ -137,9 +137,8 @@ body {
 }
 .subscribe-btn {
   font-size: 25px;
-  position: absolute;
-  top: 0px;
-  right: 5px;
+  float: left;
+  margin-right: 10px;
 }
 .subscribe-btn.inactive:before {
   color: #bababa !important;
@@ -419,6 +418,7 @@ body {
 /* ===== Committee check-lsit Screen ===== */
 .committee-check-list-tpl .short-preview .title {
   width: 90%;
+  line-height: 25px;
 }
 /* ===== END Committee check-lsit Screen ===== */
 /* ===== Options Screen ===== */

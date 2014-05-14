@@ -77,6 +77,10 @@ var FileStorage = function(dataFileName) {
 		
 	};
 	
+	this.saveFile = function() {
+		this.fileEntry.createWriter(gotFileWriter, fail);
+	};
+	
 	var gotFileWriter = function(writer) {
 		if (writer.length > 0) {
 			writer.truncate(0);
