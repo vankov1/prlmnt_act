@@ -58,8 +58,9 @@ var CommitteesListView = function(template) {
 				if ($(this).hasClass('active')) {
 					subscrComms.push($(this).data('committeeId'));
 				}
-				i++;
 			});
+			settings.set('subscribedCommittees', subscrComms);
+			settings.saveToFile();
 		});
 	};
 	

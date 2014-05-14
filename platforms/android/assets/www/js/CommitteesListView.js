@@ -52,16 +52,15 @@ var CommitteesListView = function(template) {
 			}
 		});
 		
-		var i = 1;
+		var subscrComms = [];
 		$('#btn_comm_list_save').unbind().bind('click', function() {
 			$('.ion-checkmark-circled').each(function() {
 				if ($(this).hasClass('active')) {
-					console.log(i + ' ' + $(this).data('committeeId') + ' абониран');
-				} else {
-					console.log(i + ' ' + $(this).data('committeeId'));
+					subscrComms.push($(this).data('committeeId'));
 				}
-				i++;
 			});
+			settings.set('subscribedCommittees', subscrComms);
+			settings.saveToFile();
 		});
 	};
 	

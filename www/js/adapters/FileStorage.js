@@ -6,6 +6,10 @@ var FileStorage = function(dataFileName) {
 	this.fileEntry = null;
 	this.rssData = '';
 	this.fileObj = null;
+	
+	this.checkAgeAndSize = true;
+	
+	this.callbacks = false;
 
 	this.initialize = function() {
 		// No Initialization required
@@ -39,7 +43,7 @@ var FileStorage = function(dataFileName) {
 		//console.log('got file');
 		self.fileObj = file;
 		var age = (new Date()).getTime() - file.lastModifiedDate;
-		if ( (age / 1000) > dataFileAgeToDownload || file.size <= 0) {
+		if ( this.checkAgeAndSize && ((age / 1000) > dataFileAgeToDownload || file.size <= 0) ) {
 			console.log('Refresh data from RSS: ' + file.name);
 			self.downloadRssFile(file.name);
 		} else {
@@ -96,8 +100,15 @@ var FileStorage = function(dataFileName) {
 			//console.log(event.target.result);
 			//Store read data
 			self.rssData = event.target.result;
+			if (self.callbacks && typeof(self.callbacks.readFileDone) != 'undefined') {
+				self.callbacks.readFileDone(self.rssData);
+			}
 		};
 		reader.readAsText(self.fileObj);
+	};
+	
+	this.registerCallbacks = function(callbacks) {
+		this.callbacks = callbacks;
 	};
 
 };

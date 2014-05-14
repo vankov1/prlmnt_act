@@ -161,6 +161,7 @@
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/topcoat/img/spinner2x.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/adapters \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/app.js \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/AppSettings.js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/CommitteesListView.js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/CommitteeView.js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/ControllView.js \

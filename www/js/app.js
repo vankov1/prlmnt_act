@@ -3,9 +3,11 @@ var plenaryDataFile = "plenary.xml";
 var controllDataFile = 'controll.xml';
 var committeeDataFile = 'committee.xml';
 var committeesListFile = 'committees_list.xml';
-var newsDataFile = 'news.xml.rss';
+var newsDataFile = 'news.xml';
 var dataFiles = [plenaryDataFile, controllDataFile, committeeDataFile, committeesListFile, newsDataFile];
 var adapters = [];
+
+var settingsDataFile = 'settings.xml';
 
 var dataFileAgeToDownload = 86400; //one day in seconds
 
@@ -43,6 +45,8 @@ function getAdapter(dataFileName) {
 	return adapters[adapterIndex];
 }
 
+var settings = new AppSettings();
+
 // We use an "Immediate Function" to initialize the application to avoid leaving anything behind in the global scope
 (function () {
 
@@ -79,7 +83,7 @@ function getAdapter(dataFileName) {
     /*adapter.initialize().done(function () {
         route();
     });*/
-
+    
     /* --------------------------------- Event Registration -------------------------------- */
     $(window).on('hashchange', route);
 
@@ -103,6 +107,8 @@ function getAdapter(dataFileName) {
         	adapters[i].checkDataFile();
         	//console.log(adapters[i].dataFile);
     	}
+        
+        settings.loadFromFile();
         
     }, false);
 
