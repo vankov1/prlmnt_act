@@ -82,9 +82,9 @@ var FileStorage = function(dataFileName) {
 	};
 	
 	var gotFileWriter = function(writer) {
-		if (writer.length > 0) {
+		/*if (writer.length > 0) {
 			writer.truncate(0);
-		}
+		}*/
 		//console.log((new XMLSerializer()).serializeToString(self.rssData));
 		writer.onwrite = function(event) {
 			console.log(self.fileEntry.name + " written");
@@ -112,7 +112,8 @@ var FileStorage = function(dataFileName) {
 	};
 	
 	this.registerCallbacks = function(callbacks) {
-		this.callbacks = callbacks;
+		self.callbacks = callbacks;
+		//console.log('registered callback: ');
 	};
 
 };

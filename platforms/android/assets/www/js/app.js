@@ -47,6 +47,17 @@ function getAdapter(dataFileName) {
 
 var settings = new AppSettings();
 
+var homeUrl = "#home";
+var plenaryUrl = "#plenary";
+var plenaryDetailUrl = '#plenaryDetail';
+var controllUrl = "#controll";
+var controllDetailUrl = "#controllDetail";
+var committeeUrl = "#committee";
+var committeeDetailUrl = "#committeeDetail";
+var committeesListUrl = "#committees-list";
+var newsUrl = "#news";
+var newsDetailUrl = "#newsDetail";
+
 // We use an "Immediate Function" to initialize the application to avoid leaving anything behind in the global scope
 (function () {
 
@@ -61,17 +72,6 @@ var settings = new AppSettings();
     var committeesListTpl = Handlebars.compile($("#committee-check-list-tpl").html());
     var newsTpl = Handlebars.compile($("#news-tpl").html());
     var newsDetailTpl = Handlebars.compile($("#news-tpl-detail-preview").html());
-
-    var homeUrl = "#home";
-    var plenaryUrl = "#plenary";
-    var plenaryDetailUrl = '#plenaryDetail';
-    var controllUrl = "#controll";
-    var controllDetailUrl = "#controllDetail";
-    var committeeUrl = "#committee";
-    var committeeDetailUrl = "#committeeDetail";
-    var committeesListUrl = "#committees-list";
-    var newsUrl = "#news";
-    var newsDetailUrl = "#newsDetail";
 
     var slider = new PageSlider($('body'));
 

@@ -4,7 +4,7 @@ function openUrlInExternal(url) {
 }
 
 function openAppUrl(url) {
-	console.log(url);
+	//console.log(url);
 	window.location.href = url;
 }
 
@@ -95,4 +95,34 @@ function isoToBgDate(date) {
 	}
 	parts = parts[0].split('-');
 	return parts[2] + '.' + parts[1] + '.' + parts[0];
+}
+
+function varDumpObj(obj) {
+	console.log('obj dump begin:');
+	for (var prop in obj) {
+		console.log(prop + ' -> ' + obj[prop]);
+	}
+	console.log('obj dump end');
+}
+
+function isArray(variable) {
+	if (Object.prototype.toString.call(variable) === '[object Array]') {
+		return true;
+	}
+	return false;
+}
+
+function inArray(needle, haystack) {
+	var pos = -1;
+	if (!isArray(haystack)) {
+		return pos;
+	}
+	for (var i = 0; i < haystack.length; i++) {
+		if (needle == haystack[i]) {
+			pos = i;
+			break;
+		}
+	}
+	
+	return pos;
 }

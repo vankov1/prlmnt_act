@@ -19,14 +19,20 @@ var CommitteesListView = function(template) {
 		var commsList = data.getElementsByTagName('committee');
 		
 		var comm = [];
+		var subscrComms = settings.get('subscribedCommittees');
+		var commId = -1;
+		var subscribed = true;
 		for (var i = 0; i < commsList.length; i++) {
+			commId = commsList[i].getElementsByTagName('commitee_id')[0].textContent;
+			subscribed = (inArray(commId, subscrComms) < 0) ? '0' : '1';
 			comm[i] = {
-				commId: commsList[i].getElementsByTagName('commitee_id')[0].textContent,
+				commId: commId,
 				commName: commsList[i].getElementsByTagName('name')[0].textContent,
 				created: isoToBgDate(commsList[i].getElementsByTagName('created')[0].textContent),
 				typeId: commsList[i].getElementsByTagName('typeID')[0].textContent,
 				type: commsList[i].getElementsByTagName('type')[0].textContent,
-				chairman: commsList[i].getElementsByTagName('chairman')[0] ? commsList[i].getElementsByTagName('chairman')[0].textContent : ''
+				chairman: commsList[i].getElementsByTagName('chairman')[0] ? commsList[i].getElementsByTagName('chairman')[0].textContent : '',
+				isSubscribed: subscribed
 			};
 		}
 		
@@ -45,10 +51,10 @@ var CommitteesListView = function(template) {
 		$('.subscribe-btn').unbind().bind('click', function() {
 			if ($(this).hasClass('active')) {
 				$(this).removeClass('active');
-				$(this).parent().children('.title').addClass('unsubscribedText');
+				$(this).parent().addClass('unsubscribedText');
 			} else {
 				$(this).addClass('active');
-				$(this).parent().children('.title').removeClass('unsubscribedText');
+				$(this).parent().removeClass('unsubscribedText');
 			}
 		});
 		
@@ -60,8 +66,9 @@ var CommitteesListView = function(template) {
 				}
 			});
 			settings.set('subscribedCommittees', subscrComms);
-			console.log(subscrComms);
+			//console.log(subscrComms);
 			settings.saveToFile();
+			openAppUrl(committeeUrl);
 		});
 	};
 	

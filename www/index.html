@@ -61,7 +61,7 @@
 <script id="plenary-tpl" type="text/x-handlebars-template">
 	<div class="plenary-tpl" style="height: 93%; overflow: auto;">
 		<div class="bar bar-header">
-			<button class="back-btn button button-icon" onclick="javascript:history.back(1)">
+			<button class="back-btn button button-icon" onclick="javascript:openAppUrl('#home')">
 				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
 			</button>
 			<h1 class="title">Пленарни заседания</h1>
@@ -133,7 +133,7 @@
 <script id="plenary-tpl-detail-preview" type="text/x-handlebars-template">
 	<div class="plenary-tpl-detail-preview" style="height: 93%; overflow: auto;">
 		<div class="bar bar-header">
-			<button class="back-btn button button-icon" onclick="javascript:history.back(1)">
+			<button class="back-btn button button-icon" onclick="javascript:openAppUrl('#plenary')">
 				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
 			</button>
 			<h1 class="title">Пленарни заседания</h1>
@@ -214,7 +214,7 @@
 <script id="controll-tpl" type="text/x-handlebars-template">
 	<div class="controll-tpl" style="height: 93%; overflow: auto;">
 		<div class="bar bar-header">
-			<button class="back-btn button button-icon" onclick="javascript:history.back(1)">
+			<button class="back-btn button button-icon" onclick="javascript:openAppUrl('#home')">
 				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
 			</button>
 			<h1 class="title">Парламентарен контрол</h1>
@@ -291,7 +291,7 @@
 <script id="controll-tpl-detail-preview" type="text/x-handlebars-template">
 	<div class="controll-tpl-detail-preview" style="height: 93%; overflow: auto;">
 		<div class="bar bar-header">
-			<button class="back-btn button button-icon" onclick="javascript:history.back(1)">
+			<button class="back-btn button button-icon" onclick="javascript:openAppUrl('#controll')">
 				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
 			</button>
 			<h1 class="title">Парламентарен контрол</h1>
@@ -357,7 +357,7 @@
 <script id="committee-tpl" type="text/x-handlebars-template">
 	<div class="committee-tpl" style="height: 93%; overflow: auto;">
 		<div class="bar bar-header">
-			<button class="back-btn button button-icon" onclick="javascript:history.back(1)">
+			<button class="back-btn button button-icon" onclick="javascript:openAppUrl('#home')">
 				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
 			</button>
 			<h1 class="title">Заседания на комисии</h1>
@@ -435,7 +435,7 @@
 <script id="committee-tpl-detail-preview" type="text/x-handlebars-template">
 	<div class="committee-tpl-detail-preview" style="height: 93%; overflow: auto;">
 		<div class="bar bar-header">
-			<button class="back-btn button button-icon" onclick="javascript:history.back(1)">
+			<button class="back-btn button button-icon" onclick="javascript:openAppUrl('#committee')">
 				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
 			</button>
 			<h1 class="title">Заседания на комисии</h1>
@@ -499,7 +499,7 @@
 <script id="committee-check-list-tpl" type="text/x-handlebars-template">
 	<div class="committee-check-list-tpl" style="height: 93%; overflow: auto;">
 		<div class="bar bar-header">
-			<button class="back-btn button button-icon" onclick="javascript:history.back(1)">
+			<button class="back-btn button button-icon" onclick="javascript:openAppUrl('#committee')">
 				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
 			</button>
 			<h1 class="title">Абонамент за комисии</h1>
@@ -513,8 +513,8 @@
 					<div class="col">
 						<div class="row relative">
 							<div class="col description">
-								<h2 class="title">
-									<span class="subscribe-btn active ion-checkmark-circled" data-committee-id="{{commId}}"></span>
+								<h2 class="title {{#ifCond isSubscribed '0'}}unsubscribedText{{/ifCond}}">
+									<span class="subscribe-btn {{#ifCond isSubscribed '1'}}active{{/ifCond}} ion-checkmark-circled" data-committee-id="{{commId}}"></span>
 									{{commName}}
 								</h2>
 							</div>
@@ -532,10 +532,6 @@
 		</div>
 
 		<div class="tabs tabs-icon-top bottom-tabs">
-			<!-- <a class="tab-item" href="javascript:void(0)" id="btn_comm_list_save">
-				<i class="icon"><img src="assets/img/date-icon.png" class="section-icons plenary-ico"></i>
-				Запис
-			</a> -->
 			<button href="javascript:void(0)" id="btn_comm_list_save" class="button icon-left ion-compose save-btn"><span class="txt">Запис</span></button>
 		</div>
 
@@ -546,7 +542,7 @@
 <script id="news-tpl" type="text/x-handlebars-template">
 	<div class="news-tpl" style="height: 93%; overflow: auto;">
 		<div class="bar bar-header">
-			<button class="back-btn button button-icon" onclick="javascript:history.back(1)">
+			<button class="back-btn button button-icon" onclick="javascript:openAppUrl('#home')">
 				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
 			</button>
 			<h1 class="title">Новини</h1>
@@ -616,7 +612,7 @@
 <script id="news-tpl-detail-preview" type="text/x-handlebars-template">
 	<div class="news-tpl-detail-preview" style="height: 93%; overflow: auto;">
 		<div class="bar bar-header">
-			<button class="back-btn button button-icon" onclick="javascript:history.back(1)">
+			<button class="back-btn button button-icon" onclick="javascript:openAppUrl('#news')">
 				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
 			</button>
 			<h1 class="title">Преглед на новина</h1>

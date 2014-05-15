@@ -1,35 +1,41 @@
 var AppSettings = function() {
+	var self = this;
 	this.settings = {};
 	this.loaded = false;
 	this.adapter = new FileStorage(settingsDataFile);
 	this.adapter.initialize();
 	this.adapter.checkAgeAndSize = false;
-	this.adapter.registerCallbacks({'readFileDone': this.parseSettings});
+	
+	this.parseSettings = function(jsonData) {
+		//console.log('settingData: ' + xmlData);
+		//console.log('jsonData: ' + jsonData);
+		self.settings = JSON.parse(jsonData);
+		//console.log(self.settings);
+	};
+
+	this.adapter.registerCallbacks({readFileDone: this.parseSettings});
 	
 	this.loadFromFile = function() {
-		this.adapter.checkDataFile();
-	};
-	
-	this.parseSettings = function(xmlData) {
-		console.log('settingData: ' + xmlData);
+		self.adapter.checkDataFile();
 	};
 	
 	this.set = function(key, val) {
 		//console.log(val);
-		this.settings[key] = val;
+		self.settings[key] = val;
 		//console.log(this.settings[key]);
 	};
 	
 	this.get = function(key) {
-		return this.settings[key];
+		//varDumpObj(self.settings);
+		return self.settings[key];
 	};
 	
 	this.saveToFile = function() {
 		//console.log(this.settings['subscribedCommittees']);
 		//JSON.stringify(this.settings)
-		this.adapter.rssData = JSON.stringify(this.settings);
+		self.adapter.rssData = JSON.stringify(self.settings);
 		//console.log(this.adapter.rssData);
-		this.adapter.saveFile();
+		self.adapter.saveFile();
 	};
 	
 };
