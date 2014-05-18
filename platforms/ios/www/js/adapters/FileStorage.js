@@ -6,6 +6,10 @@ var FileStorage = function(dataFileName) {
 	this.fileEntry = null;
 	this.rssData = '';
 	this.fileObj = null;
+	
+	this.checkAgeAndSize = true;
+	
+	this.callbacks = false;
 
 	this.initialize = function() {
 		// No Initialization required
@@ -39,7 +43,7 @@ var FileStorage = function(dataFileName) {
 		//console.log('got file');
 		self.fileObj = file;
 		var age = (new Date()).getTime() - file.lastModifiedDate;
-		if ( (age / 1000) > dataFileAgeToDownload || file.size <= 0) {
+		if ( self.checkAgeAndSize && ((age / 1000) > dataFileAgeToDownload || file.size <= 0) ) {
 			console.log('Refresh data from RSS: ' + file.name);
 			self.downloadRssFile(file.name);
 		} else {
@@ -73,10 +77,14 @@ var FileStorage = function(dataFileName) {
 		
 	};
 	
+	this.saveFile = function() {
+		self.fileEntry.createWriter(gotFileWriter, fail);
+	};
+	
 	var gotFileWriter = function(writer) {
-		if (writer.length > 0) {
+		/*if (writer.length > 0) {
 			writer.truncate(0);
-		}
+		}*/
 		//console.log((new XMLSerializer()).serializeToString(self.rssData));
 		writer.onwrite = function(event) {
 			console.log(self.fileEntry.name + " written");
@@ -96,8 +104,16 @@ var FileStorage = function(dataFileName) {
 			//console.log(event.target.result);
 			//Store read data
 			self.rssData = event.target.result;
+			if (self.callbacks && typeof(self.callbacks.readFileDone) != 'undefined') {
+				self.callbacks.readFileDone(self.rssData);
+			}
 		};
 		reader.readAsText(self.fileObj);
+	};
+	
+	this.registerCallbacks = function(callbacks) {
+		self.callbacks = callbacks;
+		//console.log('registered callback: ');
 	};
 
 };

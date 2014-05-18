@@ -112,6 +112,14 @@
 		<data>
 		LPQKgsxkrT/kNvywQi0DJTzr4Ns=
 		</data>
+		<key>www/News_new.rss.xml</key>
+		<data>
+		tn0BuSrN5oVhmLmJMP6qvd+bQJ4=
+		</data>
+		<key>www/assets/css/app_effects.css</key>
+		<data>
+		ecaaecbJJTccwugUnQ8hShxZCiQ=
+		</data>
 		<key>www/assets/css/ionic.min.css</key>
 		<data>
 		nfNToXmiKR+RETKuwp5z8WzBdYE=
@@ -122,7 +130,7 @@
 		</data>
 		<key>www/assets/css/styles.css</key>
 		<data>
-		d9QqzFwZTgnPDm4INoImY0oZOxc=
+		8S7YZTmBZEo6QHN9zF4DdbcG1BA=
 		</data>
 		<key>www/assets/fonts/helvetica-neue-bold.ttf</key>
 		<data>
@@ -163,6 +171,10 @@
 		<key>www/assets/img/bulgarian-armorial.svg</key>
 		<data>
 		7SQEmuCAZPXvb7slZpZd588lJzI=
+		</data>
+		<key>www/assets/img/check-list-icon.png</key>
+		<data>
+		CeM75k4Mur5UElqoYILI3qrZ3es=
 		</data>
 		<key>www/assets/img/committee-ico-dark.svg</key>
 		<data>
@@ -242,7 +254,7 @@
 		</data>
 		<key>www/assets/less/styles.less</key>
 		<data>
-		GOq7IT/UlwtT+3Rj1ih9bq+lrGE=
+		HCScmSRdPxk4XaQFj7A0p5loTw0=
 		</data>
 		<key>www/assets/pics/Amy_Jones.jpg</key>
 		<data>
@@ -340,146 +352,6 @@
 		<data>
 		7z3aFxmSDkAy4oMuAj6h0bcssD4=
 		</data>
-		<key>www/assets/topcoat/css/topcoat-mobile-light.css</key>
-		<data>
-		Jb4cU7FeAPYplV7dQv5DNViiCCg=
-		</data>
-		<key>www/assets/topcoat/css/topcoat-mobile-light.min.css</key>
-		<data>
-		lBl5m1/0z0TMF68hmmjlO6OvOcw=
-		</data>
-		<key>www/assets/topcoat/font/LICENSE.txt</key>
-		<data>
-		aJwVF+DbSAdlo8NfE6fZQnedfl4=
-		</data>
-		<key>www/assets/topcoat/font/SourceCodePro-Black.otf</key>
-		<data>
-		QispIqDI7byqRgZ26P8EgAXEmtE=
-		</data>
-		<key>www/assets/topcoat/font/SourceCodePro-Bold.otf</key>
-		<data>
-		cdgNnVA9HDB3fs4G9RzNT+RRg6w=
-		</data>
-		<key>www/assets/topcoat/font/SourceCodePro-ExtraLight.otf</key>
-		<data>
-		odPU7O0ShrC/XODYMutCXUxvyLE=
-		</data>
-		<key>www/assets/topcoat/font/SourceCodePro-Light.otf</key>
-		<data>
-		RvhEmVKJb+XdIo0gHS068UZwegk=
-		</data>
-		<key>www/assets/topcoat/font/SourceCodePro-Regular.otf</key>
-		<data>
-		T8x6sgrXW3HAx5Xt2EhZjIElIOU=
-		</data>
-		<key>www/assets/topcoat/font/SourceCodePro-Semibold.otf</key>
-		<data>
-		NOLOLjpbEBPB0OYvbWtzyHwDm90=
-		</data>
-		<key>www/assets/topcoat/font/SourceSansPro-Black.otf</key>
-		<data>
-		38gP4XGBnnch7nFtvNvGe5PvwNs=
-		</data>
-		<key>www/assets/topcoat/font/SourceSansPro-BlackIt.otf</key>
-		<data>
-		kI1blHVAtJC/ty59LlRHwqVHjTU=
-		</data>
-		<key>www/assets/topcoat/font/SourceSansPro-Bold.otf</key>
-		<data>
-		gl4MckbjhT8iTwqaLMhapNZOvWY=
-		</data>
-		<key>www/assets/topcoat/font/SourceSansPro-BoldIt.otf</key>
-		<data>
-		uZN3tTJQvcERsqiKslhJR5KulsQ=
-		</data>
-		<key>www/assets/topcoat/font/SourceSansPro-ExtraLight.otf</key>
-		<data>
-		lEjzvoputZK5egZmjd2Jum/So+A=
-		</data>
-		<key>www/assets/topcoat/font/SourceSansPro-ExtraLightIt.otf</key>
-		<data>
-		D7Qz5KFkA8B3fEQBUTjnstFPB+A=
-		</data>
-		<key>www/assets/topcoat/font/SourceSansPro-It.otf</key>
-		<data>
-		9Cidi+cW10yiGXM5VWVkQAgOE+w=
-		</data>
-		<key>www/assets/topcoat/font/SourceSansPro-Light.otf</key>
-		<data>
-		m9ZmzGHmRpiMkPe0enwiKF13u7I=
-		</data>
-		<key>www/assets/topcoat/font/SourceSansPro-LightIt.otf</key>
-		<data>
-		4YqgGt5+5eVv9pWrI/kIUdlDqQ0=
-		</data>
-		<key>www/assets/topcoat/font/SourceSansPro-Regular.otf</key>
-		<data>
-		AuALRcS3Lu81mYpaO47LJCJOiPI=
-		</data>
-		<key>www/assets/topcoat/font/SourceSansPro-Semibold.otf</key>
-		<data>
-		dUj3y7puAmHHQpq2rp1c3S3ZbU4=
-		</data>
-		<key>www/assets/topcoat/font/SourceSansPro-SemiboldIt.otf</key>
-		<data>
-		PGPj27SgOp72gFhDKSRlWn3f+Ec=
-		</data>
-		<key>www/assets/topcoat/img/back_light.svg</key>
-		<data>
-		HBSfXzAKKEB2sHpn07V1mgSTXgI=
-		</data>
-		<key>www/assets/topcoat/img/call.svg</key>
-		<data>
-		N5LXrlXqMqOPw84JkzaTK3NW5PQ=
-		</data>
-		<key>www/assets/topcoat/img/chat.svg</key>
-		<data>
-		JfGvxOLoYIWwYehNe9RC+MPSQZc=
-		</data>
-		<key>www/assets/topcoat/img/email.svg</key>
-		<data>
-		4u7PJXGDhbhY4ofBgZ512MculJQ=
-		</data>
-		<key>www/assets/topcoat/img/next.svg</key>
-		<data>
-		u7uqUfhnjMcW3jJdUVrd1l9Npzs=
-		</data>
-		<key>www/assets/topcoat/img/next_blue.svg</key>
-		<data>
-		+7VDrs6hsoDfv20H0wCHJMWjcgI=
-		</data>
-		<key>www/assets/topcoat/img/search-bg.png</key>
-		<data>
-		iu+CadCSg/KkK4000n+/Rl5z51Y=
-		</data>
-		<key>www/assets/topcoat/img/search-bg2x.png</key>
-		<data>
-		EG21x07Sn6bZLj5DNMEKiYLXwKQ=
-		</data>
-		<key>www/assets/topcoat/img/search.svg</key>
-		<data>
-		OBmyDg4Mf7dtsPhsDBKO7VyJUdM=
-		</data>
-		<key>www/assets/topcoat/img/search_bw.svg</key>
-		<data>
-		MCfBf+fD6S0XVSOsbc9YDPROlZA=
-		</data>
-		<key>www/assets/topcoat/img/search_dark.svg</key>
-		<data>
-		MCfBf+fD6S0XVSOsbc9YDPROlZA=
-		</data>
-		<key>www/assets/topcoat/img/search_light.svg</key>
-		<data>
-		co91UGW5iZlL3yP2CrfVB6CpgtM=
-		</data>
-		<key>www/assets/topcoat/img/spinner.png</key>
-		<data>
-		NNFwiPcCA5PqPp6pHXGBNI0SQdk=
-		</data>
-		<key>www/assets/topcoat/img/spinner2x.png</key>
-		<data>
-		yXwNwr2QrEFQ3zcPRB1rAn4grbc=
-		</data>
 		<key>www/committee.rss.xml</key>
 		<data>
 		sqlU0xoie4U4Qm6W43hN2qq8WEQ=
@@ -487,6 +359,10 @@
 		<key>www/committee_new.rss.xml</key>
 		<data>
 		UkIpvnvMKUNuCDKvgl/ZqgRCL/Y=
+		</data>
+		<key>www/committees-list.xml</key>
+		<data>
+		mDRZsMWAgC3WdLFDojx9EdsAzy0=
 		</data>
 		<key>www/config.xml</key>
 		<data>
@@ -510,15 +386,23 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		Lq67gYU8KxCHoVub6ANAV2t9oZU=
+		3TfR/+j2wl0kJ55sHOy24NBIgNI=
+		</data>
+		<key>www/js/AppSettings.js</key>
+		<data>
+		TeqsTAh+wBGgnKpC2K1ysYUEARM=
 		</data>
 		<key>www/js/CommitteeView.js</key>
 		<data>
-		AyOpv2oyhiUPIHKIJrtt3bf3QRw=
+		QtQBFf+L+lN2F/pLjnoUjQWiKo4=
+		</data>
+		<key>www/js/CommitteesListView.js</key>
+		<data>
+		StzX51NB/CEDPsbRZVX64o3cUic=
 		</data>
 		<key>www/js/ControllView.js</key>
 		<data>
-		drkuDlXgZW5c9FraeElAiPZhARI=
+		pDbwzT0azf7y0ha4YyETumQmqSE=
 		</data>
 		<key>www/js/HomeView.js</key>
 		<data>
@@ -526,15 +410,15 @@
 		</data>
 		<key>www/js/NewsView.js</key>
 		<data>
-		3NECU7ooYMPVilpLpw0JiNhmpI0=
+		5SLibyIlWckT+R9CvT38cib5WJg=
 		</data>
 		<key>www/js/PlenaryView.js</key>
 		<data>
-		rOmlY6HtoNMKrCKPMzlD2ak1ZZw=
+		d+iJvI3+fIjwb4CN1ZLQMetMHBU=
 		</data>
 		<key>www/js/adapters/FileStorage.js</key>
 		<data>
-		ASh20kdwnhGbYkv9g91mcJUhhLE=
+		mBaugcHURUTxkrF12FdD6Qtx+XY=
 		</data>
 		<key>www/js/adapters/jsonp-adapter.js</key>
 		<data>
@@ -554,11 +438,11 @@
 		</data>
 		<key>www/js/app.js</key>
 		<data>
-		BPvv1W5u5wet7t3IXZPzkQqZmHk=
+		XxIXwN1WHOjM06u/LaUHOg13pFA=
 		</data>
 		<key>www/js/tools.js</key>
 		<data>
-		zQ536H3vkW5I3GjuI1zJNN2o7oo=
+		ktKSXEH0q14NuFHu7Wbs0a4XjoE=
 		</data>
 		<key>www/lib/fastclick.js</key>
 		<data>
@@ -578,7 +462,7 @@
 		</data>
 		<key>www/lib/pageslider.js</key>
 		<data>
-		ySlIw/XQBxHRjsMV1fH78t6xPkA=
+		vPZLnycbfpy1JTkORJeGQpRFaXU=
 		</data>
 		<key>www/plenary.rss.xml</key>
 		<data>
@@ -586,7 +470,7 @@
 		</data>
 		<key>www/plenary_new.rss.xml</key>
 		<data>
-		Z7PthI4kj0CyDNSYr1ro0hxnAyg=
+		qzqw0HvxQYc1IuGn4xM7qBQ7qak=
 		</data>
 		<key>www/plugins/org.apache.cordova.console/www/console-via-logger.js</key>
 		<data>
@@ -686,7 +570,7 @@
 		</data>
 		<key>www/staticHTML.html</key>
 		<data>
-		bQBSGEqNmd8+b6bHwRIQBkgnWzU=
+		6tKNOoWXbrC9p8WsupvnClt+9fU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -799,6 +683,14 @@
 		<data>
 		LPQKgsxkrT/kNvywQi0DJTzr4Ns=
 		</data>
+		<key>www/News_new.rss.xml</key>
+		<data>
+		tn0BuSrN5oVhmLmJMP6qvd+bQJ4=
+		</data>
+		<key>www/assets/css/app_effects.css</key>
+		<data>
+		ecaaecbJJTccwugUnQ8hShxZCiQ=
+		</data>
 		<key>www/assets/css/ionic.min.css</key>
 		<data>
 		nfNToXmiKR+RETKuwp5z8WzBdYE=
@@ -809,7 +701,7 @@
 		</data>
 		<key>www/assets/css/styles.css</key>
 		<data>
-		d9QqzFwZTgnPDm4INoImY0oZOxc=
+		8S7YZTmBZEo6QHN9zF4DdbcG1BA=
 		</data>
 		<key>www/assets/fonts/helvetica-neue-bold.ttf</key>
 		<data>
@@ -850,6 +742,10 @@
 		<key>www/assets/img/bulgarian-armorial.svg</key>
 		<data>
 		7SQEmuCAZPXvb7slZpZd588lJzI=
+		</data>
+		<key>www/assets/img/check-list-icon.png</key>
+		<data>
+		CeM75k4Mur5UElqoYILI3qrZ3es=
 		</data>
 		<key>www/assets/img/committee-ico-dark.svg</key>
 		<data>
@@ -929,7 +825,7 @@
 		</data>
 		<key>www/assets/less/styles.less</key>
 		<data>
-		GOq7IT/UlwtT+3Rj1ih9bq+lrGE=
+		HCScmSRdPxk4XaQFj7A0p5loTw0=
 		</data>
 		<key>www/assets/pics/Amy_Jones.jpg</key>
 		<data>
@@ -1027,146 +923,6 @@
 		<data>
 		7z3aFxmSDkAy4oMuAj6h0bcssD4=
 		</data>
-		<key>www/assets/topcoat/css/topcoat-mobile-light.css</key>
-		<data>
-		Jb4cU7FeAPYplV7dQv5DNViiCCg=
-		</data>
-		<key>www/assets/topcoat/css/topcoat-mobile-light.min.css</key>
-		<data>
-		lBl5m1/0z0TMF68hmmjlO6OvOcw=
-		</data>
-		<key>www/assets/topcoat/font/LICENSE.txt</key>
-		<data>
-		aJwVF+DbSAdlo8NfE6fZQnedfl4=
-		</data>
-		<key>www/assets/topcoat/font/SourceCodePro-Black.otf</key>
-		<data>
-		QispIqDI7byqRgZ26P8EgAXEmtE=
-		</data>
-		<key>www/assets/topcoat/font/SourceCodePro-Bold.otf</key>
-		<data>
-		cdgNnVA9HDB3fs4G9RzNT+RRg6w=
-		</data>
-		<key>www/assets/topcoat/font/SourceCodePro-ExtraLight.otf</key>
-		<data>
-		odPU7O0ShrC/XODYMutCXUxvyLE=
-		</data>
-		<key>www/assets/topcoat/font/SourceCodePro-Light.otf</key>
-		<data>
-		RvhEmVKJb+XdIo0gHS068UZwegk=
-		</data>
-		<key>www/assets/topcoat/font/SourceCodePro-Regular.otf</key>
-		<data>
-		T8x6sgrXW3HAx5Xt2EhZjIElIOU=
-		</data>
-		<key>www/assets/topcoat/font/SourceCodePro-Semibold.otf</key>
-		<data>
-		NOLOLjpbEBPB0OYvbWtzyHwDm90=
-		</data>
-		<key>www/assets/topcoat/font/SourceSansPro-Black.otf</key>
-		<data>
-		38gP4XGBnnch7nFtvNvGe5PvwNs=
-		</data>
-		<key>www/assets/topcoat/font/SourceSansPro-BlackIt.otf</key>
-		<data>
-		kI1blHVAtJC/ty59LlRHwqVHjTU=
-		</data>
-		<key>www/assets/topcoat/font/SourceSansPro-Bold.otf</key>
-		<data>
-		gl4MckbjhT8iTwqaLMhapNZOvWY=
-		</data>
-		<key>www/assets/topcoat/font/SourceSansPro-BoldIt.otf</key>
-		<data>
-		uZN3tTJQvcERsqiKslhJR5KulsQ=
-		</data>
-		<key>www/assets/topcoat/font/SourceSansPro-ExtraLight.otf</key>
-		<data>
-		lEjzvoputZK5egZmjd2Jum/So+A=
-		</data>
-		<key>www/assets/topcoat/font/SourceSansPro-ExtraLightIt.otf</key>
-		<data>
-		D7Qz5KFkA8B3fEQBUTjnstFPB+A=
-		</data>
-		<key>www/assets/topcoat/font/SourceSansPro-It.otf</key>
-		<data>
-		9Cidi+cW10yiGXM5VWVkQAgOE+w=
-		</data>
-		<key>www/assets/topcoat/font/SourceSansPro-Light.otf</key>
-		<data>
-		m9ZmzGHmRpiMkPe0enwiKF13u7I=
-		</data>
-		<key>www/assets/topcoat/font/SourceSansPro-LightIt.otf</key>
-		<data>
-		4YqgGt5+5eVv9pWrI/kIUdlDqQ0=
-		</data>
-		<key>www/assets/topcoat/font/SourceSansPro-Regular.otf</key>
-		<data>
-		AuALRcS3Lu81mYpaO47LJCJOiPI=
-		</data>
-		<key>www/assets/topcoat/font/SourceSansPro-Semibold.otf</key>
-		<data>
-		dUj3y7puAmHHQpq2rp1c3S3ZbU4=
-		</data>
-		<key>www/assets/topcoat/font/SourceSansPro-SemiboldIt.otf</key>
-		<data>
-		PGPj27SgOp72gFhDKSRlWn3f+Ec=
-		</data>
-		<key>www/assets/topcoat/img/back_light.svg</key>
-		<data>
-		HBSfXzAKKEB2sHpn07V1mgSTXgI=
-		</data>
-		<key>www/assets/topcoat/img/call.svg</key>
-		<data>
-		N5LXrlXqMqOPw84JkzaTK3NW5PQ=
-		</data>
-		<key>www/assets/topcoat/img/chat.svg</key>
-		<data>
-		JfGvxOLoYIWwYehNe9RC+MPSQZc=
-		</data>
-		<key>www/assets/topcoat/img/email.svg</key>
-		<data>
-		4u7PJXGDhbhY4ofBgZ512MculJQ=
-		</data>
-		<key>www/assets/topcoat/img/next.svg</key>
-		<data>
-		u7uqUfhnjMcW3jJdUVrd1l9Npzs=
-		</data>
-		<key>www/assets/topcoat/img/next_blue.svg</key>
-		<data>
-		+7VDrs6hsoDfv20H0wCHJMWjcgI=
-		</data>
-		<key>www/assets/topcoat/img/search-bg.png</key>
-		<data>
-		iu+CadCSg/KkK4000n+/Rl5z51Y=
-		</data>
-		<key>www/assets/topcoat/img/search-bg2x.png</key>
-		<data>
-		EG21x07Sn6bZLj5DNMEKiYLXwKQ=
-		</data>
-		<key>www/assets/topcoat/img/search.svg</key>
-		<data>
-		OBmyDg4Mf7dtsPhsDBKO7VyJUdM=
-		</data>
-		<key>www/assets/topcoat/img/search_bw.svg</key>
-		<data>
-		MCfBf+fD6S0XVSOsbc9YDPROlZA=
-		</data>
-		<key>www/assets/topcoat/img/search_dark.svg</key>
-		<data>
-		MCfBf+fD6S0XVSOsbc9YDPROlZA=
-		</data>
-		<key>www/assets/topcoat/img/search_light.svg</key>
-		<data>
-		co91UGW5iZlL3yP2CrfVB6CpgtM=
-		</data>
-		<key>www/assets/topcoat/img/spinner.png</key>
-		<data>
-		NNFwiPcCA5PqPp6pHXGBNI0SQdk=
-		</data>
-		<key>www/assets/topcoat/img/spinner2x.png</key>
-		<data>
-		yXwNwr2QrEFQ3zcPRB1rAn4grbc=
-		</data>
 		<key>www/committee.rss.xml</key>
 		<data>
 		sqlU0xoie4U4Qm6W43hN2qq8WEQ=
@@ -1174,6 +930,10 @@
 		<key>www/committee_new.rss.xml</key>
 		<data>
 		UkIpvnvMKUNuCDKvgl/ZqgRCL/Y=
+		</data>
+		<key>www/committees-list.xml</key>
+		<data>
+		mDRZsMWAgC3WdLFDojx9EdsAzy0=
 		</data>
 		<key>www/config.xml</key>
 		<data>
@@ -1197,15 +957,23 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		Lq67gYU8KxCHoVub6ANAV2t9oZU=
+		3TfR/+j2wl0kJ55sHOy24NBIgNI=
+		</data>
+		<key>www/js/AppSettings.js</key>
+		<data>
+		TeqsTAh+wBGgnKpC2K1ysYUEARM=
 		</data>
 		<key>www/js/CommitteeView.js</key>
 		<data>
-		AyOpv2oyhiUPIHKIJrtt3bf3QRw=
+		QtQBFf+L+lN2F/pLjnoUjQWiKo4=
+		</data>
+		<key>www/js/CommitteesListView.js</key>
+		<data>
+		StzX51NB/CEDPsbRZVX64o3cUic=
 		</data>
 		<key>www/js/ControllView.js</key>
 		<data>
-		drkuDlXgZW5c9FraeElAiPZhARI=
+		pDbwzT0azf7y0ha4YyETumQmqSE=
 		</data>
 		<key>www/js/HomeView.js</key>
 		<data>
@@ -1213,15 +981,15 @@
 		</data>
 		<key>www/js/NewsView.js</key>
 		<data>
-		3NECU7ooYMPVilpLpw0JiNhmpI0=
+		5SLibyIlWckT+R9CvT38cib5WJg=
 		</data>
 		<key>www/js/PlenaryView.js</key>
 		<data>
-		rOmlY6HtoNMKrCKPMzlD2ak1ZZw=
+		d+iJvI3+fIjwb4CN1ZLQMetMHBU=
 		</data>
 		<key>www/js/adapters/FileStorage.js</key>
 		<data>
-		ASh20kdwnhGbYkv9g91mcJUhhLE=
+		mBaugcHURUTxkrF12FdD6Qtx+XY=
 		</data>
 		<key>www/js/adapters/jsonp-adapter.js</key>
 		<data>
@@ -1241,11 +1009,11 @@
 		</data>
 		<key>www/js/app.js</key>
 		<data>
-		BPvv1W5u5wet7t3IXZPzkQqZmHk=
+		XxIXwN1WHOjM06u/LaUHOg13pFA=
 		</data>
 		<key>www/js/tools.js</key>
 		<data>
-		zQ536H3vkW5I3GjuI1zJNN2o7oo=
+		ktKSXEH0q14NuFHu7Wbs0a4XjoE=
 		</data>
 		<key>www/lib/fastclick.js</key>
 		<data>
@@ -1265,7 +1033,7 @@
 		</data>
 		<key>www/lib/pageslider.js</key>
 		<data>
-		ySlIw/XQBxHRjsMV1fH78t6xPkA=
+		vPZLnycbfpy1JTkORJeGQpRFaXU=
 		</data>
 		<key>www/plenary.rss.xml</key>
 		<data>
@@ -1273,7 +1041,7 @@
 		</data>
 		<key>www/plenary_new.rss.xml</key>
 		<data>
-		Z7PthI4kj0CyDNSYr1ro0hxnAyg=
+		qzqw0HvxQYc1IuGn4xM7qBQ7qak=
 		</data>
 		<key>www/plugins/org.apache.cordova.console/www/console-via-logger.js</key>
 		<data>
@@ -1373,7 +1141,7 @@
 		</data>
 		<key>www/staticHTML.html</key>
 		<data>
-		bQBSGEqNmd8+b6bHwRIQBkgnWzU=
+		6tKNOoWXbrC9p8WsupvnClt+9fU=
 		</data>
 	</dict>
 	<key>rules</key>

@@ -65,7 +65,7 @@ var ControllView = function(template) {
 					answerer: agendaItemsNodes[ai].getElementsByTagName('answerer')[0] ? agendaItemsNodes[ai].getElementsByTagName('answerer')[0].textContent : ''
 				};*/
 				if (shortDscr.length < 255) {
-					shortDscr += agendaItemsNodes[ai].getElementsByTagName('question')[0].textContent + "\n";
+					shortDscr += (ai + 1) + '. ' + agendaItemsNodes[ai].getElementsByTagName('question')[0].textContent + "\n";
 				}
 			}
 			if (shortDscr.length > 255) {
@@ -73,8 +73,8 @@ var ControllView = function(template) {
 			}
 			shortDscr = shortDscr.replace(/\r?\n/g, "<br />");
 			controll[pi] = {
-				id: pi,
-				date: controllsList[pi].getElementsByTagName('date')[0] ? controllsList[pi].getElementsByTagName('date')[0].textContent : 'n/a',
+				cid: pi,
+				date: isoToBgDate(controllsList[pi].getElementsByTagName('date')[0] ? controllsList[pi].getElementsByTagName('date')[0].textContent : 'n/a'),
 				time: controllsList[pi].getElementsByTagName('time')[0]? controllsList[pi].getElementsByTagName('time')[0].textContent : 'n/a',
 				itemLink: controllsList[pi].getElementsByTagName('itemLink')[0] ? controllsList[pi].getElementsByTagName('itemLink')[0].textContent.trim() : 'javascript:void(0)',
 				agenda: agendaItems,
@@ -92,10 +92,70 @@ var ControllView = function(template) {
 	};
 	
 	this.assignHandlers = function() {
+		var self = this;
+		
 		$('#btnSearchControll').unbind().bind('click', function() {
 			$('#searchBoxControll').slideToggle("slow");
 		});
+		
+		if ($('#txtSearchControll')) { 
+			$('#txtSearchControll').unbind().bind('keyup', function() {
+				//console.log('box val: ' + $(this).val() );
+				if ($(this).val().length < 3) {
+					//Make all items visible
+					$('.controllListItem').removeClass('hidden');
+					return;
+				}
+				
+				//Search items for entered text
+				var needle = $.trim($(this).val());
+				var items = self.searchItems(needle);
+				if (!items || items.length == 0) {
+					return;
+				}
+				
+				//Display results
+				$('.controllListItem').each(function() {
+					//console.log($(this).data("listItemId"));
+					if ($.inArray($(this).data("listItemId"), items) !== -1) {
+						$(this).removeClass('hidden');
+					} else {
+						$(this).addClass('hidden');
+					}
+				});
+			});
+		};
+
 	};
+	
+	this.searchItems = function(needle) {
+		var adapter = getAdapter(controllDataFile);
+		console.log('got adapter: ' + adapter.dataFile);
+		var parser = new DOMParser();
+		var data = parser.parseFromString(adapter.rssData, "text/xml");
+		
+		var controllsList = data.getElementsByTagName('item');
+		var itemIds = [];
+		var agendaItemsNodes = [];
+		var haystack_q = '';
+		var haystack_qa = '';
+		var haystack_a = '';
+		for (var pi = 0; pi < controllsList.length; pi++) {
+			agendaItemsNodes = controllsList[pi].getElementsByTagName('agenda_item');
+			for (var ai = 0; ai < agendaItemsNodes.length; ai++) {
+				haystack_q = agendaItemsNodes[ai].getElementsByTagName('question')[0].textContent;
+				haystack_qa = agendaItemsNodes[ai].getElementsByTagName('question_author')[0].textContent;
+				haystack_a = agendaItemsNodes[ai].getElementsByTagName('answerer')[0].textContent;
+				if (haystack_q.indexOf(needle) !== -1 || haystack_qa.indexOf(needle) !== -1 || haystack_a.indexOf(needle) !== -1) {
+					//console.log(pi + ' - position ' + haystack.indexOf(needle));
+					itemIds.push(pi);
+					break;
+				}
+			}
+		}
+		return itemIds;
+	};
+
 
     this.initialize();
 

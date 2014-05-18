@@ -1,10 +1,13 @@
 var rssDataPath = "parliament.bg_activities";
-var plenaryDataFile = "plenary.rss.xml";
-var controllDataFile = 'controll.rss.xml';
-var committeeDataFile = 'committee.xml.rss';
-var newsDataFile = 'news.xml.rss';
-var dataFiles = [plenaryDataFile, controllDataFile, committeeDataFile, newsDataFile];
+var plenaryDataFile = "plenary.xml";
+var controllDataFile = 'controll.xml';
+var committeeDataFile = 'committee.xml';
+var committeesListFile = 'committees_list.xml';
+var newsDataFile = 'news.xml';
+var dataFiles = [plenaryDataFile, controllDataFile, committeeDataFile, committeesListFile, newsDataFile];
 var adapters = [];
+
+var settingsDataFile = 'settings.xml';
 
 var dataFileAgeToDownload = 86400; //one day in seconds
 
@@ -23,8 +26,10 @@ function getRssUrlByFileName(fileName) {
 		url = "http://www.parliament.bg/export/bg/xml/app_control/";
 	} else if (fileName == committeeDataFile) {
 		url = "http://www.parliament.bg/export/bg/xml/app_comsitting/";
+	} else if (fileName == committeesListFile) {
+		url = "http://parliament.bg/export/bg/xml/app_collection/";
 	} else if (fileName == newsDataFile) {
-		url = "http://www.http://parliament.bg/export/bg/xml/app_news/";
+		url = "http://www.parliament.bg/export/bg/xml/app_news/";
 	}
 	return url;
 }
@@ -40,6 +45,19 @@ function getAdapter(dataFileName) {
 	return adapters[adapterIndex];
 }
 
+var settings = new AppSettings();
+
+var homeUrl = "#home";
+var plenaryUrl = "#plenary";
+var plenaryDetailUrl = '#plenaryDetail';
+var controllUrl = "#controll";
+var controllDetailUrl = "#controllDetail";
+var committeeUrl = "#committee";
+var committeeDetailUrl = "#committeeDetail";
+var committeesListUrl = "#committees-list";
+var newsUrl = "#news";
+var newsDetailUrl = "#newsDetail";
+
 // We use an "Immediate Function" to initialize the application to avoid leaving anything behind in the global scope
 (function () {
 
@@ -51,16 +69,9 @@ function getAdapter(dataFileName) {
     var controllDetailTpl = Handlebars.compile($("#controll-tpl-detail-preview").html());
     var committeeTpl = Handlebars.compile($("#committee-tpl").html());
     var committeeDetailTpl = Handlebars.compile($("#committee-tpl-detail-preview").html());
+    var committeesListTpl = Handlebars.compile($("#committee-check-list-tpl").html());
     var newsTpl = Handlebars.compile($("#news-tpl").html());
-
-    var homeUrl = "#home";
-    var plenaryUrl = "#plenary";
-    var plenaryDetailUrl = '#plenaryDetail';
-    var controllUrl = "#controll";
-    var controllDetailUrl = "#controllDetail";
-    var committeeUrl = "#committee";
-    var committeeDetailUrl = "#committeeDetail";
-    var newsUrl = "#news";
+    var newsDetailTpl = Handlebars.compile($("#news-tpl-detail-preview").html());
 
     var slider = new PageSlider($('body'));
 
@@ -72,7 +83,7 @@ function getAdapter(dataFileName) {
     /*adapter.initialize().done(function () {
         route();
     });*/
-
+    
     /* --------------------------------- Event Registration -------------------------------- */
     $(window).on('hashchange', route);
 
@@ -97,12 +108,20 @@ function getAdapter(dataFileName) {
         	//console.log(adapters[i].dataFile);
     	}
         
+        settings.loadFromFile();
+        
     }, false);
 
     /* ---------------------------------- Local Functions ---------------------------------- */
 	function route() {
 		var hash = window.location.hash;
 		if (!hash) {
+			slider.slidePage(new HomeView(homeTpl).render().el);
+			return;
+		}
+		
+		var match = hash.match(homeUrl);
+		if (match) {
 			slider.slidePage(new HomeView(homeTpl).render().el);
 			return;
 		}
@@ -162,6 +181,16 @@ function getAdapter(dataFileName) {
 			});
 			return;
 		}
+		
+		var match = hash.match(committeesListUrl);
+		if (match) {
+			var commList = new CommitteesListView(committeesListTpl);
+			commList.getData(function(tplData) {
+				slider.slidePage(commList.render(tplData).el);
+				commList.assignHandlers();
+			});
+			return;
+		}
 
 		var match = hash.match(committeeUrl);
 		if (match) {
@@ -193,10 +222,29 @@ function getAdapter(dataFileName) {
 
 		var match = hash.match(newsUrl);
 		if (match) {
+			var match = hash.match(newsDetailUrl);
+			if (match) {
+				var parts = hash.split('?');
+				if (parts[1]) {
+					var id = parts[1].replace('id=', '');
+					console.log('id: ' + id);
+					var news = new NewsView(newsDetailTpl);
+					news.getData(function(tplData) {
+						var detailData = {};
+						if (tplData.news.length == 0) {
+							detailData = getNewsTestingData(id);
+						} else {
+							detailData = tplData.news[id];
+						}
+						slider.slidePage(news.render(detailData).el);
+					});
+					return;
+				}
+			}
 			var news = new NewsView(newsTpl);
 			news.getData(function(tplData) {
 				slider.slidePage(news.render(tplData).el);
-				
+				news.assignHandlers();
 			});
 			return;
 		}

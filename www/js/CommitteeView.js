@@ -40,7 +40,7 @@ var CommitteeView = function(template) {
 			}
 			
 			committee[index] = {
-				cid: pi,
+				cid: index,
 				committeeId: commId,
 				committeeName: commList[pi].getElementsByTagName('committee')[0].textContent.replace(/\r?\n/g, ""),
 				date: isoToBgDate(commList[pi].getElementsByTagName('date')[0].textContent),

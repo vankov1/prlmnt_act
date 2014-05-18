@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="assets/css/ionic.min.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
         <title>Static Parliament App HTML</title>
     </head>
     <body>
@@ -176,7 +176,7 @@
         </div>
         <!-- END plenary-tpl -->
         
-        <div class="plenary-tpl-detail-preview">
+        <div class="plenary-tpl-detail-preview hidden">
             <div class="bar bar-header">
                 <button class="back-btn button button-icon">
                 <img src="assets/img/back-arrow.png" alt="ico" class="ico">
@@ -508,9 +508,12 @@
                 <img src="assets/img/back-arrow.png" alt="ico" class="ico">
                 </button>
                 <h1 class="title">Заседания на комисии</h1>
+                <button class="subscribe-list-btn button button-icon">
+                <img src="assets/img/check-list-icon.png" alt="ico" class="ico">
+                </button><!-- 
                 <button class="search-btn button button-icon">
                 <img src="assets/img/search-icon.png" alt="ico" class="ico">
-                </button>
+                </button> -->
             </div>
             <div class="row search-row">
                 <div class="col">
@@ -687,6 +690,133 @@
             </div>
         </div>
         <!-- END committee-tpl -->
+        
+        <div class="committee-check-list-tpl">
+            <div class="bar bar-header">
+                <button class="back-btn button button-icon">
+                <img src="assets/img/back-arrow.png" alt="ico" class="ico">
+                </button>
+                <h1 class="title">Абонамент за комисии</h1>
+                <!-- <button class="subscribe-list-btn button button-icon">
+                <img src="assets/img/check-list-icon.png" alt="ico" class="ico">
+                </button> --><!-- 
+                <button class="search-btn button button-icon">
+                <img src="assets/img/search-icon.png" alt="ico" class="ico">
+                </button> -->
+            </div>
+
+            <div class="row screen-wrapper">
+                <div class="col content-wrapper">
+					
+					<!-- Това е моя код -->
+					<div class="row short-preview">
+						<div class="col">
+							<div class="row relative">
+								<div class="col description">
+									<h2 class="title">
+                                        <span class="subscribe-btn active ion-checkmark-circled" data-committee-id="{{commId}}"></span>
+                                        Име на комисия, което може и често се случва да е ужасно дълго от по няколко реда и да е по-описателно от роман на Толстой</h2>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-67 description">
+									Председател: <strong>Иванчо Драганчев Петканчев</strong>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /Това е моя код -->
+
+                    
+                    <!-- Това е моя код -->
+                    <div class="row short-preview">
+                        <div class="col">
+                            <div class="row relative">
+                                <div class="col description">
+                                    <h2 class="title">
+                                        <span class="subscribe-btn active ion-checkmark-circled" data-committee-id="{{commId}}"></span>
+                                        Име на комисия, което може много неща</h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-67 description">
+                                    Председател: <strong>Иванчо Драганчев Петканчев</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Това е моя код -->
+                    
+                    <!-- Това е моя код -->
+                    <div class="row short-preview">
+                        <div class="col">
+                            <div class="row relative">
+                                <div class="col description">
+                                    <h2 class="title">
+                                        <span class="subscribe-btn active ion-checkmark-circled" data-committee-id="{{commId}}"></span>
+                                        Име на комисия на един ред</h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-67 description">
+                                    Председател: <strong>Иванчо Драганчев Петканчев</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Това е моя код -->
+                    
+                    <!-- Това е моя код -->
+                    <div class="row short-preview">
+                        <div class="col">
+                            <div class="row relative">
+                                <div class="col description">
+                                    <h2 class="title">
+                                        <span class="subscribe-btn active ion-checkmark-circled" data-committee-id="{{commId}}"></span>
+                                        Име на комисия на един ред</h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-67 description">
+                                    Председател: <strong>Иванчо Драганчев Петканчев</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Това е моя код -->
+                    
+                    <!-- Това е моя код -->
+                    <div class="row short-preview">
+                        <div class="col">
+                            <div class="row relative">
+                                <div class="col description">
+                                    <h2 class="title">
+                                        <span class="subscribe-btn active ion-checkmark-circled" data-committee-id="{{commId}}"></span>
+                                        Име на комисия на един ред</h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-67 description">
+                                    Председател: <strong>Иванчо Драганчев Петканчев</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Това е моя код -->
+
+                </div>
+            </div>
+            
+			<div class="tabs tabs-icon-top bottom-tabs">
+                <!-- <a class="tab-item" href="#comm-list-save">
+                <i class="icon ion-compose"></i>
+                Запис
+                </a> -->
+                <button  href="#comm-list-save" class="button icon-left ion-compose save-btn"><span class="txt">Запис</span></button>
+			</div>
+            
+        </div>
+        <!-- END committee-check-list-tpl -->
         
         <div class="committee-tpl-detail-preview hidden">
             <div class="bar bar-header">
