@@ -8,8 +8,11 @@ var AppSettings = function() {
 	
 	this.parseSettings = function(jsonData) {
 		//console.log('settingData: ' + xmlData);
-		//console.log('jsonData: ' + jsonData);
-		self.settings = JSON.parse(jsonData);
+		if (jsonData) {
+			self.settings = JSON.parse(jsonData);
+		} else {
+			self.settings = {};
+		}
 		//console.log(self.settings);
 	};
 

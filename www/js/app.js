@@ -15,8 +15,8 @@ var homePageNewItemsCounters = {
 
 var settingsDataFile = 'settings.xml';
 
-//var dataFileAgeToDownload = 86400; //one day in seconds
-var dataFileAgeToDownload = 10; //one day in seconds
+var dataFileAgeToDownload = 86400; //one day in seconds
+//var dataFileAgeToDownload = 10; //one day in seconds
 
 Handlebars.registerHelper('ifCond', function(v1, v2, options) {
 	if (v1 === v2) {

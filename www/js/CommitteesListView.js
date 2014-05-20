@@ -24,7 +24,7 @@ var CommitteesListView = function(template) {
 		var subscribed = true;
 		for (var i = 0; i < commsList.length; i++) {
 			commId = commsList[i].getElementsByTagName('commitee_id')[0].textContent;
-			subscribed = (inArray(commId, subscrComms) < 0) ? '0' : '1';
+			subscribed = (subscrComms && inArray(commId, subscrComms) < 0) ? '0' : '1';
 			comm[i] = {
 				commId: commId,
 				commName: commsList[i].getElementsByTagName('name')[0].textContent,
@@ -59,17 +59,24 @@ var CommitteesListView = function(template) {
 		});
 		
 		$('#btn_comm_list_save').unbind().bind('click', function() {
-			var subscrComms = [];
-			$('.ion-checkmark-circled').each(function() {
-				if ($(this).hasClass('active')) {
-					subscrComms.push($(this).data('committeeId'));
-				}
-			});
-			settings.set('subscribedCommittees', subscrComms);
-			//console.log(subscrComms);
-			settings.saveToFile();
+			self.saveSubscribedCommittees();
 			openAppUrl(committeeUrl);
 		});
+		if (!settings.get('subscribedCommittees')) {
+			self.saveSubscribedCommittees();
+		}
+	};
+	
+	this.saveSubscribedCommittees = function() {
+		var subscrComms = [];
+		$('.ion-checkmark-circled').each(function() {
+			if ($(this).hasClass('active')) {
+				subscrComms.push($(this).data('committeeId'));
+			}
+		});
+		settings.set('subscribedCommittees', subscrComms);
+		//console.log(subscrComms);
+		settings.saveToFile();
 	};
 	
     this.initialize();
