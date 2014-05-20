@@ -45,6 +45,16 @@ var FileStorage = function(dataFileName) {
 		var age = (new Date()).getTime() - file.lastModifiedDate;
 		if ( self.checkAgeAndSize && ((age / 1000) > dataFileAgeToDownload || file.size <= 0) ) {
 			console.log('Refresh data from RSS: ' + file.name);
+			
+			//if we have old data we have to read them to count items and set notifications in the home screen
+			/*if ((age / 1000) > dataFileAgeToDownload && file.size > 0) {
+				console.log('Going to count items ...');
+				self.registerCallbacks({readFileDone: countItems});
+				self.readRssFile(file.name);
+			} else {
+				self.downloadRssFile(file.name);
+			}*/
+			
 			self.downloadRssFile(file.name);
 		} else {
 			console.log('Read rss data from file: ' + file.name);
@@ -54,6 +64,11 @@ var FileStorage = function(dataFileName) {
 	
 	var fail = function(error) {
 		console.log("GotError:" + error);
+	};
+	
+	var countItems = function(xmlData, fileName) {
+		delete self.callbacks.readFileDone;
+		console.log(fileName);
 	};
 	
 	this.downloadRssFile = function(fileName) {
@@ -105,7 +120,7 @@ var FileStorage = function(dataFileName) {
 			//Store read data
 			self.rssData = event.target.result;
 			if (self.callbacks && typeof(self.callbacks.readFileDone) != 'undefined') {
-				self.callbacks.readFileDone(self.rssData);
+				self.callbacks.readFileDone(self.rssData, self.dataFile);
 			}
 		};
 		reader.readAsText(self.fileObj);

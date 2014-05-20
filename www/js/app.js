@@ -6,10 +6,17 @@ var committeesListFile = 'committees_list.xml';
 var newsDataFile = 'news.xml';
 var dataFiles = [plenaryDataFile, controllDataFile, committeeDataFile, committeesListFile, newsDataFile];
 var adapters = [];
+var homePageNewItemsCounters = {
+	plenaries: '0',
+	controll: '0',
+	committee: '0',
+	news: '0'
+};
 
 var settingsDataFile = 'settings.xml';
 
-var dataFileAgeToDownload = 86400; //one day in seconds
+//var dataFileAgeToDownload = 86400; //one day in seconds
+var dataFileAgeToDownload = 10; //one day in seconds
 
 Handlebars.registerHelper('ifCond', function(v1, v2, options) {
 	if (v1 === v2) {
@@ -124,7 +131,8 @@ var optionsUrl = "#options";
 		
 		var match = hash.match(homeUrl);
 		if (match) {
-			slider.slidePage(new HomeView(homeTpl).render().el);
+			var home = new HomeView(homeTpl);
+			slider.slidePage(home.render(homePageNewItemsCounters).el);
 			return;
 		}
 
