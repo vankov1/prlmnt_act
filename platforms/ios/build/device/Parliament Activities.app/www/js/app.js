@@ -6,10 +6,17 @@ var committeesListFile = 'committees_list.xml';
 var newsDataFile = 'news.xml';
 var dataFiles = [plenaryDataFile, controllDataFile, committeeDataFile, committeesListFile, newsDataFile];
 var adapters = [];
+var homePageNewItemsCounters = {
+	plenaries: '0',
+	controll: '0',
+	committee: '0',
+	news: '0'
+};
 
 var settingsDataFile = 'settings.xml';
 
 var dataFileAgeToDownload = 86400; //one day in seconds
+//var dataFileAgeToDownload = 10; //one day in seconds
 
 Handlebars.registerHelper('ifCond', function(v1, v2, options) {
 	if (v1 === v2) {
@@ -57,6 +64,7 @@ var committeeDetailUrl = "#committeeDetail";
 var committeesListUrl = "#committees-list";
 var newsUrl = "#news";
 var newsDetailUrl = "#newsDetail";
+var optionsUrl = "#options";
 
 // We use an "Immediate Function" to initialize the application to avoid leaving anything behind in the global scope
 (function () {
@@ -72,6 +80,7 @@ var newsDetailUrl = "#newsDetail";
     var committeesListTpl = Handlebars.compile($("#committee-check-list-tpl").html());
     var newsTpl = Handlebars.compile($("#news-tpl").html());
     var newsDetailTpl = Handlebars.compile($("#news-tpl-detail-preview").html());
+    var optionsTpl = Handlebars.compile($("#options-tpl").html());
 
     var slider = new PageSlider($('body'));
 
@@ -122,7 +131,8 @@ var newsDetailUrl = "#newsDetail";
 		
 		var match = hash.match(homeUrl);
 		if (match) {
-			slider.slidePage(new HomeView(homeTpl).render().el);
+			var home = new HomeView(homeTpl);
+			slider.slidePage(home.render(homePageNewItemsCounters).el);
 			return;
 		}
 
@@ -245,6 +255,16 @@ var newsDetailUrl = "#newsDetail";
 			news.getData(function(tplData) {
 				slider.slidePage(news.render(tplData).el);
 				news.assignHandlers();
+			});
+			return;
+		}
+		
+		var match = hash.match(optionsUrl);
+		if (match) {
+			var options = new OptionsView(optionsTpl);
+			options.getData(function(tplData) {
+				slider.slidePage(options.render(tplData).el);
+				options.assignHandlers();
 			});
 			return;
 		}

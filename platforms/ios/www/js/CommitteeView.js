@@ -23,10 +23,11 @@ var CommitteeView = function(template) {
 		var committee = [];
 		var commId = -1;
 		var subscribedComms = settings.get('subscribedCommittees');
+		
 		var index = 0;
 		for (var pi = 0; pi < commList.length; pi++) {
 			commId = commList[pi].getElementsByTagName('commitee_id')[0].textContent;
-			if (inArray(commId, subscribedComms) < 0) {
+			if (subscribedComms && inArray(commId, subscribedComms) < 0) {
 				continue;
 			}
 			
