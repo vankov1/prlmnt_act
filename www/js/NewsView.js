@@ -23,7 +23,7 @@ var NewsView = function(template) {
 			news[pi] = {
 				nid: pi,
 				title: newsList[pi].getElementsByTagName('title')[0].textContent,
-				dscr: newsList[pi].getElementsByTagName('description')[0].textContent,
+				dscr: newsList[pi].getElementsByTagName('description')[0].textContent.replace('>>', '>'),
 				img: newsList[pi].getElementsByTagName('image')[0].textContent,
 				pubDate: isoToBgDate(newsList[pi].getElementsByTagName('pubDate')[0].textContent),
 				link: newsList[pi].getElementsByTagName('item_link')[0].textContent

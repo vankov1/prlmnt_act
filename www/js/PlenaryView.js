@@ -147,7 +147,7 @@ var PlenaryView = function(template) {
 			agendaItemsNodes = plenariesList[pi].getElementsByTagName('agenda_item');
 			for (var ai = 0; ai < agendaItemsNodes.length; ai++) {
 				haystack = agendaItemsNodes[ai].getElementsByTagName('item_text')[0].textContent;
-				if (haystack.indexOf(needle) !== -1) {
+				if (haystack.toLowerCase().indexOf(needle.toLowerCase()) !== -1) {
 					//console.log(pi + ' - position ' + haystack.indexOf(needle));
 					itemIds.push(pi);
 					break;

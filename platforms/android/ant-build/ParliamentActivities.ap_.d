@@ -44,6 +44,8 @@
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/lib \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/plugins \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/staticHTML.1.html \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/staticHTML.2.html \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/staticHTML.html \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/xmls \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/css \
@@ -75,6 +77,7 @@
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/date-icon.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/file-icon.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/home-screen-bg.jpg \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/link-icon.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/news-ico-dark.svg \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/news-ico-light.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/news-ico-light.svg \

@@ -82,7 +82,7 @@
 			<div class="col content-wrapper">
 				{{#each plenary}}
 				<div class="row short-preview plenariesListItem" data-list-item-id="{{pid}}">
-					<div class="col-67 description">
+					<div class="col-67 description" onclick="openAppUrl('#plenaryDetail?id={{pid}}');">
 						{{{dscrShort}}}
 					</div>
 					<div class="col-33">
@@ -149,8 +149,11 @@
 						<div class="row">
 							<div class="custom-row">
 								<div class="date">{{startDate}}</div>
-								<div class="date-separator">-</div>
-								<div class="date">{{endDate}}</div>
+								{{#ifCond startDate endDate}}
+								{{else}}
+									<div class="date-separator">-</div>
+									<div class="date">{{endDate}}</div>
+								{{/ifCond}}
 							</div>
 						</div>
 						<div class="row">
@@ -159,17 +162,17 @@
 									<div style="margin-bottom: 10px;">
 									{{id}}. {{itemText}}
 									{{#ifCond isBill '1'}}
-										<ul style="list-style-type: circle; margin-left: 20px;">
+										<ul class="external-link-wrapper">
 
 										{{#each bills}}
-											<li style="list-style-type: circle;">
+											<li>
 												<a href="javascript:openUrlInExternal('{{link}}')" class="external-link">{{name}}</a>
 											</li>
 										{{/each}}
 
 										{{#each docs}}
-											<li style="list-style-type: circle;">
-												<a  href="javascript:openUrlInExternal('{{link}}')" class="external-link">{{name}}</a>
+											<li>
+												<a  href="javascript:openUrlInExternal('{{link}}')" class="file-link">{{name}}</a>
 											</li>
 										{{/each}}
 
@@ -240,7 +243,7 @@
 							<h2 class="title">Парламентарен контрол</h2>
 						</div>-->
 						<div class="row">
-							<div class="col-67 description">
+							<div class="col-67 description" onclick="openAppUrl('#controllDetail?id={{cid}}');">
 								{{{dscrShort}}}
 							</div>
 							<div class="col-33">
@@ -520,7 +523,7 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-67 description">
+							<div class="col description">
 								Председател: <strong>{{chairman}}</strong>
 							</div>
 						</div>
@@ -564,7 +567,7 @@
 				{{#each news}}
 				<div class="row short-preview newsListItem" data-list-item-id="{{nid}}">
 					<div class="col">
-						<div class="row">
+						<div class="row" onclick="openAppUrl('#newsDetail?id={{nid}}');">
 							<h2 class="title">{{title}}</h2>
 						</div>
 						<div class="row">
