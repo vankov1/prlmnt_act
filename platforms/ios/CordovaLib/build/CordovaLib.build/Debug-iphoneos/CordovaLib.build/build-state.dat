@@ -498,7 +498,7 @@ s3179828
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciescbbcb5c39037b941^4d4deec39037b941^---0#1#1#--18"Check dependencies36"F4F23773-EF27-4F18-A934-13978CC3C783-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies0742c66fcf37b941^ace6dd6fcf37b941^---0#1#1#--18"Check dependencies36"C45938FD-53C3-4D3C-957E-B808C59D6F49-
 
 CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s422311880.649726
