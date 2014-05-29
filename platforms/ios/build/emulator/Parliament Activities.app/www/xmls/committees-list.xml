@@ -1,0 +1,367 @@
+<?xml version="1.0" ?>
+<schema>
+	<committees>
+		<committee>
+			<commitee_id>2274</commitee_id>
+			<name>Временна анкетна комисия за изясняване на всички факти и
+				обстоятелства, свързани с дейността на фирмите лицензианти на ДКЕВР
+				за разпределение и снабдяване с електроенергия, а също и дружества
+				концесионери за добив на природни богатства, довела до ощетяване на
+				българските граждани и българската държава, както и
+				нерегламентираните им контакти с представители на държавата и
+				свързани с политически партии лица</name>
+			<created>2014-05-08</created>
+			<typeID>4</typeID>
+			<type>Временни парламентарни комисии</type>
+			<chairman>МАГДАЛЕНА ЛАМБОВА ТАШЕВА</chairman>
+		</committee>
+		<committee>
+			<commitee_id>2257</commitee_id>
+			<name>Временна анкетна комисия за проверка и установяване на всички
+				факти и обстоятелства, довели до внезапното подаване на оставка от
+				Христо Дамянов Бисеров от всички заемани постове в Народното
+				събрание и политическата партия "Движение за права и свободи", в
+				резултат на негови действия, след които са образувани наказателни
+				производства за престъпления, свързани с изпиране на пари, подаване
+				на декларации с невярно съдържание и други, както и потенциалното
+				неправомерно изтичане на информация от българските служби за
+				сигурност към "Боянските сараи", както и всички факти и
+				обстоятелства, свързани с твърденията за скандална кореспонденция и
+				среща между председателя на ГЕРБ Бойко Борисов и Бисер Миланов,
+				известен като Петното</name>
+			<created>2014-02-05</created>
+			<closed>2014-04-29</closed>
+			<typeID>4</typeID>
+			<type>Временни парламентарни комисии</type>
+		</committee>
+		<committee>
+			<commitee_id>2254</commitee_id>
+			<name>Постоянно действаща подкомисия по усвояването на средствата от
+				Европейския съюз към Комисия по европейските въпроси и контрол на
+				европейските фондове</name>
+			<created>2013-07-31</created>
+			<closed>2014-04-02</closed>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+		</committee>
+		<committee>
+			<commitee_id>2253</commitee_id>
+			<name>Временна комисия за обсъждане и приемане на нов Изборен кодекс</name>
+			<created>2013-12-20</created>
+			<closed>2014-03-04</closed>
+			<typeID>4</typeID>
+			<type>Временни парламентарни комисии</type>
+		</committee>
+		<committee>
+			<commitee_id>2249</commitee_id>
+			<name>Временна анкетна комисия за проверка и установяване на всички
+				обстоятелства около сделката за продажбата на летище
+				"Божурище" през 2005 г., както и процедурата по обявяване на летището за
+				паметник на културата през 2008 г. и 2010 г.</name>
+			<created>2013-12-04</created>
+			<closed>2014-03-11</closed>
+			<typeID>4</typeID>
+			<type>Временни парламентарни комисии</type>
+		</committee>
+		<committee>
+			<commitee_id>2248</commitee_id>
+			<name>Нечленуващи в ПГ</name>
+			<created>2013-12-03</created>
+			<typeID>2</typeID>
+			<type>Парламентарни групи</type>
+		</committee>
+		<committee>
+			<commitee_id>2243</commitee_id>
+			<name>Временна анкетна комисия за проверка и установяване на всички
+				обстоятелства около публично огласения телефонен разговор между
+				бившия министър-председател Бойко Борисов и бившия директор на
+				Агенция "Митници" Ваньо Танов, в който се съдържат данни за грубо
+				склоняване към тежки престъпления и злоупотреба с власт</name>
+			<created>2013-11-21</created>
+			<typeID>4</typeID>
+			<type>Временни парламентарни комисии</type>
+			<chairman>ЙОРДАН КИРИЛОВ ЦОНЕВ</chairman>
+		</committee>
+		<committee>
+			<commitee_id>2233</commitee_id>
+			<name>Временна анкетна комисия за проверка и установяване на всички
+				случаи на грубо партизирано кадруване в държавната администрация и в
+				други държавни структури и предприятия, извършено в периода август
+				2009 - март 2013 г.</name>
+			<created>2013-10-31</created>
+			<closed>2014-03-10</closed>
+			<typeID>4</typeID>
+			<type>Временни парламентарни комисии</type>
+		</committee>
+		<committee>
+			<commitee_id>2131</commitee_id>
+			<name>Временна анкетна комисия за проучване на обстоятелствата по
+				оповестените факти и данни за нарушения, извършени в Комисията за
+				предотвратяване и установяване на конфликт на интереси</name>
+			<created>2013-09-05</created>
+			<closed>2013-12-04</closed>
+			<typeID>4</typeID>
+			<type>Временни парламентарни комисии</type>
+		</committee>
+		<committee>
+			<commitee_id>2118</commitee_id>
+			<name>Комисия по вероизповеданията и парламентарна етика
+</name>
+			<created>2013-07-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+			<chairman>ПЛАМЕН ВАСИЛЕВ СЛАВОВ</chairman>
+		</committee>
+		<committee>
+			<commitee_id>2086</commitee_id>
+			<name>Временна комисия за изработване на проект на нов Изборен кодекс</name>
+			<created>2013-06-20</created>
+			<closed>2013-10-17</closed>
+			<typeID>4</typeID>
+			<type>Временни парламентарни комисии</type>
+		</committee>
+		<committee>
+			<commitee_id>2085</commitee_id>
+			<name>Комисия по европейските въпроси и контрол на европейските
+				фондове</name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+			<chairman>ДЕНИЦА ЗЛАТКОВА КАРАДЖОВА</chairman>
+		</committee>
+		<committee>
+			<commitee_id>2084</commitee_id>
+			<name>Комисия за контрол над службите за сигурност, използването и
+				прилагането на специалните разузнавателни средства и достъпа до
+				данните по закона за електронните съобщения</name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+			<chairman>ДИМИТЪР СТОЯНОВ ДЪБОВ</chairman>
+		</committee>
+		<committee>
+			<commitee_id>2083</commitee_id>
+			<name>Комисия за борба с корупцията и конфликт на интереси</name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+			<chairman>ВОЛЕН НИКОЛОВ СИДЕРОВ</chairman>
+		</committee>
+		<committee>
+			<commitee_id>2082</commitee_id>
+			<name>Комисия по правата на човека и жалбите на гражданите</name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+			<chairman>ТУНЧЕР МЕХМЕДОВ КЪРДЖАЛИЕВ</chairman>
+		</committee>
+		<committee>
+			<commitee_id>2081</commitee_id>
+			<name>Комисия за взаимодействие с граждански организации и движения</name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+			<chairman>МАЯ БОЖИДАРОВА МАНОЛОВА</chairman>
+		</committee>
+		<committee>
+			<commitee_id>2080</commitee_id>
+			<name>Комисия по културата и медиите</name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+			<chairman>СТЕФАН ЛАМБОВ ДАНАИЛОВ</chairman>
+		</committee>
+		<committee>
+			<commitee_id>2079</commitee_id>
+			<name>Комисия по транспорт, информационни технологии и съобщения</name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+			<chairman>КАМЕН КОСТОВ КОСТАДИНОВ</chairman>
+		</committee>
+		<committee>
+			<commitee_id>2078</commitee_id>
+			<name>Комисия по околната среда и водите</name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+		</committee>
+		<committee>
+			<commitee_id>2077</commitee_id>
+			<name>Комисия по здравеопазването</name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+			<chairman>НИГЯР САХЛИМ ДЖАФЕР</chairman>
+		</committee>
+		<committee>
+			<commitee_id>2076</commitee_id>
+			<name>Комисия по въпросите на децата, младежта и спорта</name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+			<chairman>ХРИСТО ЦВЕТАНОВ МОНОВ</chairman>
+		</committee>
+		<committee>
+			<commitee_id>2075</commitee_id>
+			<name>Комисия по образованието и науката</name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+			<chairman>ВАНЯ ЧАВДАРОВА ДОБРЕВА</chairman>
+		</committee>
+		<committee>
+			<commitee_id>2074</commitee_id>
+			<name>Комисия по труда и социалната политика</name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+			<chairman>КОРНЕЛИЯ ПЕТРОВА НИНОВА</chairman>
+		</committee>
+		<committee>
+			<commitee_id>2073</commitee_id>
+			<name>Комисия по земеделието и храните</name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+			<chairman>СВЕТЛА МАРИНОВА БЪЧВАРОВА-ПИРАЛКОВА</chairman>
+		</committee>
+		<committee>
+			<commitee_id>2072</commitee_id>
+			<name>Комисия по вътрешна сигурност и обществен ред
+</name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+			<chairman>АТАНАС ТОДОРОВ МЕРДЖАНОВ</chairman>
+		</committee>
+		<committee>
+			<commitee_id>2071</commitee_id>
+			<name>Комисия по отбрана
+</name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+			<chairman>ЯНКО АЛЕКСАНДРОВ ЯНКОВ</chairman>
+		</committee>
+		<committee>
+			<commitee_id>2070</commitee_id>
+			<name>Комисия по външна политика
+</name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+			<chairman>ЯНАКИ БОЯНОВ СТОИЛОВ</chairman>
+		</committee>
+		<committee>
+			<commitee_id>2069</commitee_id>
+			<name>Комисия по инвестиционно проектиране
+</name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+			<chairman>ЕМИЛ СТРАХИЛОВ КОСТАДИНОВ</chairman>
+		</committee>
+		<committee>
+			<commitee_id>2068</commitee_id>
+			<name>Комисия по регионална политика и местно самоуправление</name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+			<chairman>БОРИСЛАВ ГУЦАНОВ ГУЦАНОВ</chairman>
+		</committee>
+		<committee>
+			<commitee_id>2067</commitee_id>
+			<name>Комисия по правни въпроси</name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+			<chairman>ЧЕТИН ХЮСЕИН КАЗАК</chairman>
+		</committee>
+		<committee>
+			<commitee_id>2066</commitee_id>
+			<name>Комисия по бюджет и финанси</name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+			<chairman>ЙОРДАН КИРИЛОВ ЦОНЕВ</chairman>
+		</committee>
+		<committee>
+			<commitee_id>2065</commitee_id>
+			<name>Комисия по енергетика</name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+			<chairman>РАМАДАН БАЙРАМ АТАЛАЙ</chairman>
+		</committee>
+		<committee>
+			<commitee_id>2064</commitee_id>
+			<name>Комисия по икономическата политика и туризъм</name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+			<chairman>АЛИОСМАН ИБРАИМ ИМАМОВ</chairman>
+		</committee>
+		<committee>
+			<commitee_id>2063</commitee_id>
+			<name>Временна анкетна комисия за проверка на всички данни, факти и
+				обстоятелства при ползването на правителствения "Авиоотряд 28" и
+				въздухоплавателни средства на Министерството на отбраната в случаите
+				на ползване не за цели на въоръжените сили за периода август 2009 -
+				март 2013 г. включително да провери кога, по какви дестинации (в
+				страната и чужбина), с каква цел, в какъв състав, с какъв разход на
+				финансови средства са били ползвани въдухоплавателните средства на
+				авиоотряда и Министерството на отбраната</name>
+			<created>2013-06-05</created>
+			<closed>2013-09-27</closed>
+			<typeID>4</typeID>
+			<type>Временни парламентарни комисии</type>
+		</committee>
+		<committee>
+			<commitee_id>2061</commitee_id>
+			<name>Временна комисия по правни въпроси</name>
+			<created>2013-05-22</created>
+			<closed>2013-06-19</closed>
+			<typeID>4</typeID>
+			<type>Временни парламентарни комисии</type>
+		</committee>
+		<committee>
+			<commitee_id>2060</commitee_id>
+			<name>Временна комисия за изработване на проект за Правилник за
+				организацията и дейността на Народното събрание</name>
+			<created>2013-05-22</created>
+			<closed>2013-06-12</closed>
+			<typeID>4</typeID>
+			<type>Временни парламентарни комисии</type>
+		</committee>
+		<committee>
+			<commitee_id>2059</commitee_id>
+			<name>Парламентарна група на партия АТАКА</name>
+			<created>2013-05-21</created>
+			<typeID>2</typeID>
+			<type>Парламентарни групи</type>
+		</committee>
+		<committee>
+			<commitee_id>2058</commitee_id>
+			<name>Парламентарна група на Движение за права и свободи</name>
+			<created>2013-05-21</created>
+			<typeID>2</typeID>
+			<type>Парламентарни групи</type>
+		</committee>
+		<committee>
+			<commitee_id>2057</commitee_id>
+			<name>Парламентарна група на ПП ГЕРБ</name>
+			<created>2013-05-21</created>
+			<typeID>2</typeID>
+			<type>Парламентарни групи</type>
+		</committee>
+		<committee>
+			<commitee_id>2056</commitee_id>
+			<name>Парламентарна група на Коалиция за България</name>
+			<created>2013-05-21</created>
+			<typeID>2</typeID>
+			<type>Парламентарни групи</type>
+		</committee>
+	</committees>
+</schema> 
+
