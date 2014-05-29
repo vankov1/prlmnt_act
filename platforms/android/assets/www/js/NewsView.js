@@ -6,9 +6,9 @@ var NewsView = function(template) {
     };
 
     this.render = function(tplData) {
-        this.el.html(template(tplData));
-        return this;
-    };
+		this.el.html(template(tplData));
+		return this;
+	};
 
 	this.getData = function(callback) {
 		var adapter = getAdapter(newsDataFile);

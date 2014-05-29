@@ -186,20 +186,27 @@ body {
     font-size: 20px;
 }
 
+.external-link-wrapper {
+    list-style: none;
+}
+
 .external-link {
-    font-weight: bold;
     color: #3b8da2;
+    padding-left: 18px;
+    background-image: url("../img/link-icon.png");
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    background-position: 0px center;
 }
 
 .file-link {
+    color: #3b8da2;
     display: inline-block;
     margin-bottom: 8px;
-    padding: 7px 0px 7px 25px;
-    color: #535353;
+    padding: 7px 0px 7px 18px;
     font-size: 14px;
-    font-weight: bold;
     background-image: url("../img/file-icon.png");
-    background-size: 13px 19px;
+    background-size: 11px 15px;
     background-repeat: no-repeat;
     background-position: 0px center;
 
@@ -473,6 +480,9 @@ body {
 
 .news-tpl {
     .short-preview {
+        .title {
+            font-size: 16px;
+        }
         .date {
             margin-top: 4px;
             font-size: 16px;
@@ -502,7 +512,8 @@ body {
 .committee-check-list-tpl {
     .short-preview {
         .title {
-           line-height: 25px;
+            font-size: 14px;
+           line-height: 18px;
         }
     }
 }

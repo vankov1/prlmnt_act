@@ -45,7 +45,13 @@ function PageSlider(container) {
         page.attr("class", "page " + from);
 
         currentPage.one('webkitTransitionEnd', function(e) {
-            $(e.target).remove();
+            //$(e.target).remove();
+        	if (from == 'left') {
+        		$('div.right').remove();
+        	} else {
+        		$('div.left').remove();
+        	}
+        	container[0].offsetWidth;
         });
 
         // Force reflow. More information here: http://www.phpied.com/rendering-repaint-reflowrelayout-restyle/
@@ -55,6 +61,7 @@ function PageSlider(container) {
         page.attr("class", "page transition center");
         currentPage.attr("class", "page transition " + (from === "left" ? "right" : "left"));
         currentPage = page;
+        //$('.right').remove();
     };
 
 }

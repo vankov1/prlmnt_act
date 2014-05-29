@@ -37,6 +37,10 @@ body {
     display: none;
 }
 
+.relative {
+    position: relative;
+}
+
 // Buttons
 
 
@@ -139,13 +143,73 @@ body {
     }
 }
 
+.save-btn {
+    .border-radiuses (0px,0px,0px,0px);
+    border: none !important;
+    background: #43c364 !important;
+    color: #ffffff !important;
+    .txt{
+        font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+        text-transform: uppercase;
+    }
+    &:active {
+        opacity: 0.7 !important;
+    }
+}
+
+.subscribe-list-btn {
+    position: absolute;
+    padding-top: 9px !important;
+    //padding-right: 3px !important;
+    top: 6px;
+    right: 40px;
+    img {
+        width: 24px;
+    }
+}
+
+
+.subscribe-btn {
+    font-size: 25px;
+    float: left;
+    margin-right: 10px;
+    &.inactive:before {
+        color: #bababa !important;
+    }
+    &.active:before {
+        color: #49d06c  !important;
+    }
+}
+
 .title {
-    font-size: 22px;
+    color: #535353;
+    font-size: 20px;
+}
+
+.external-link-wrapper {
+    list-style: none;
 }
 
 .external-link {
-    font-weight: bold;
     color: #3b8da2;
+    padding-left: 18px;
+    background-image: url("../img/link-icon.png");
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    background-position: 0px center;
+}
+
+.file-link {
+    color: #3b8da2;
+    display: inline-block;
+    margin-bottom: 8px;
+    padding: 7px 0px 7px 18px;
+    font-size: 14px;
+    background-image: url("../img/file-icon.png");
+    background-size: 11px 15px;
+    background-repeat: no-repeat;
+    background-position: 0px center;
+
 }
 
 .bar-header {
@@ -243,6 +307,38 @@ body {
         font-size: 16px;
         line-height: 24px;
         color: #535353;
+    }
+    .time {
+        display: inline-block;
+        margin-left: 10px;
+        padding-left: 25px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #535353;
+        background-image: url("../img/time-icon.png");
+        background-size: 18px 18px;
+        background-repeat: no-repeat;
+        background-position: 0px center;
+    }
+    .address {
+        color: #535353;
+        margin-bottom:  10px;
+        >span {
+            font-weight: bold;
+        }
+    }
+    img {
+        width: 100%;
+        margin-bottom: 10px;
+
+    }
+    .description {
+        color: #535353;
+        padding-top: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-top: 1px solid #dfdfdf;
     }
 }
 
@@ -342,7 +438,11 @@ body {
 
 /* ===== Plenary Screen Detail View ===== */
 
-.plenary-tpl-detail-preview {
+.plenary-tpl-detail-preview, 
+.controll-tpl-detail-preview, 
+.committee-tpl-detail-preview,
+.news-tpl-detail-preview,
+.committee-check-list-tpl {
     .detail-preview {
         padding: 0px !important;
     }
@@ -355,6 +455,113 @@ body {
 }
 
 /* ===== END Plenary Screen Detail View ===== */
+
+/* ===== Controll Screen ===== */
+
+.controll-tpl,
+.committee-tpl,
+.news-tpl,
+.committee-check-list-tpl {
+    overflow: auto;
+    height: 93% !important;
+    .short-preview {
+        padding: 0px !important;
+
+        .title {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+/* ===== END Controll Screen ===== */
+
+/* ===== News Screen ===== */
+
+.news-tpl {
+    .short-preview {
+        .title {
+            font-size: 16px;
+        }
+        .date {
+            margin-top: 4px;
+            font-size: 16px;
+            background-size: 20px 20px;
+            float: left;
+        }
+    }
+}
+
+/* ===== END News Screen ===== */
+
+/* ===== Committee Screen ===== */
+
+.committee-tpl {
+    .bar.bar-header {
+        .title {
+            //text-align: left;
+            //padding-left: 40px;
+        }
+    }
+}
+
+/* ===== END Committee Screen ===== */
+
+/* ===== Committee check-lsit Screen ===== */
+
+.committee-check-list-tpl {
+    .short-preview {
+        .title {
+            font-size: 14px;
+           line-height: 18px;
+        }
+    }
+}
+
+/* ===== END Committee check-lsit Screen ===== */
+
+
+
+
+
+/* ===== Options Screen ===== */
+
+.options-tpl {
+    padding-top: 55px;
+    overflow: auto;
+    height: 100%;
+    .item-toggle {
+        line-height: 45px;
+        padding-left: 12px;
+        font-size: 14px;
+        border: 0px solid #ffffff !important;
+        border-bottom: 1px solid #bfbfbf !important;
+        background: none !important;
+        .toggle input:checked+.track {
+            background: #c3f36f;
+            border: 1px solid #d7d7d7;
+        }
+    }
+    .content-wrapper,
+    .list {
+        padding: 0px !important;
+    }
+    .content-wrapper {
+        position: absolute;
+        top: 55px;
+        left: 0px;
+        background: #f7f7f7;
+        height: 100%;
+        float: left;
+    }
+    >.row {
+        padding: 0px !important;
+    }
+}
+
+/* ===== END Options Screen ===== */
+
+
 
 
 /* ======= PLAIN CSS ======== */

@@ -54,3 +54,46 @@ Terminating in response to SpringBoard's termination.
 2014-03-27 22:27:06.221 Parliament Activities[3991:70b] Done reading plenary.rss.xml
 2014-03-27 22:27:06.225 Parliament Activities[3991:70b] Done reading news.xml.rss
 2014-03-27 22:27:08.181 Parliament Activities[3991:70b] got adapter: controll.rss.xml
+2014-05-29 18:18:01.975 Parliament Activities[9200:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-29 18:18:02.028 Parliament Activities[9200:70b] Unlimited access to network resources
+2014-05-29 18:18:02.187 Parliament Activities[9200:70b] [CDVTimer][file] 0.993967ms
+2014-05-29 18:18:02.187 Parliament Activities[9200:70b] [CDVTimer][TotalPluginStartup] 1.630008ms
+2014-05-29 18:18:02.534 Parliament Activities[9200:70b] Resetting plugins due to page load.
+2014-05-29 18:18:03.035 Parliament Activities[9200:70b] Finished load of: file:///Users/mom/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/669C97D6-71CF-4A30-BDE0-EF61DCFFF999/Parliament%20Activities.app/www/index.html
+2014-05-29 18:18:03.166 Parliament Activities[9200:70b] Refresh data from RSS: plenary.xml
+2014-05-29 18:18:03.166 Parliament Activities[9200:70b] RSS URL: http://www.parliament.bg/export/bg/xml/app_plenary/
+2014-05-29 18:18:03.167 Parliament Activities[9200:70b] Refresh data from RSS: controll.xml
+2014-05-29 18:18:03.167 Parliament Activities[9200:70b] RSS URL: http://www.parliament.bg/export/bg/xml/app_control/
+2014-05-29 18:18:03.167 Parliament Activities[9200:70b] Refresh data from RSS: committee.xml
+2014-05-29 18:18:03.168 Parliament Activities[9200:70b] RSS URL: http://www.parliament.bg/export/bg/xml/app_comsitting/
+2014-05-29 18:18:03.168 Parliament Activities[9200:70b] Refresh data from RSS: committees_list.xml
+2014-05-29 18:18:03.169 Parliament Activities[9200:70b] RSS URL: http://parliament.bg/export/bg/xml/app_collection/
+2014-05-29 18:18:03.169 Parliament Activities[9200:70b] Refresh data from RSS: news.xml
+2014-05-29 18:18:03.169 Parliament Activities[9200:70b] RSS URL: http://www.parliament.bg/export/bg/xml/app_news/
+2014-05-29 18:18:03.170 Parliament Activities[9200:70b] Read rss data from file: settings.xml
+2014-05-29 18:18:03.171 Parliament Activities[9200:70b] Done reading settings.xml
+2014-05-29 18:18:03.285 Parliament Activities[9200:70b] committees_list.xml written
+2014-05-29 18:18:03.431 Parliament Activities[9200:70b] THREAD WARNING: ['File'] took '10.640869' ms. Plugin should use a background thread.
+2014-05-29 18:18:03.432 Parliament Activities[9200:70b] news.xml written
+2014-05-29 18:18:03.625 Parliament Activities[9200:70b] committee.xml written
+2014-05-29 18:18:07.157 Parliament Activities[9200:70b] THREAD WARNING: ['File'] took '10.950684' ms. Plugin should use a background thread.
+2014-05-29 18:18:07.157 Parliament Activities[9200:70b] controll.xml written
+2014-05-29 18:26:39.665 Parliament Activities[656:70b] Multi-tasking -> Device: YES, App: YES
+2014-05-29 18:26:39.697 Parliament Activities[656:70b] Unlimited access to network resources
+2014-05-29 18:26:39.861 Parliament Activities[656:70b] [CDVTimer][file] 0.992000ms
+2014-05-29 18:26:39.861 Parliament Activities[656:70b] [CDVTimer][TotalPluginStartup] 1.639009ms
+2014-05-29 18:26:40.117 Parliament Activities[656:70b] Resetting plugins due to page load.
+2014-05-29 18:26:40.682 Parliament Activities[656:70b] Finished load of: file:///Users/mom/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/669C97D6-71CF-4A30-BDE0-EF61DCFFF999/Parliament%20Activities.app/www/index.html
+2014-05-29 18:26:40.807 Parliament Activities[656:70b] Refresh data from RSS: plenary.xml
+2014-05-29 18:26:40.807 Parliament Activities[656:70b] RSS URL: http://www.parliament.bg/export/bg/xml/app_plenary/
+2014-05-29 18:26:40.808 Parliament Activities[656:70b] Read rss data from file: controll.xml
+2014-05-29 18:26:40.808 Parliament Activities[656:70b] Read rss data from file: committee.xml
+2014-05-29 18:26:40.809 Parliament Activities[656:70b] Read rss data from file: committees_list.xml
+2014-05-29 18:26:40.809 Parliament Activities[656:70b] Read rss data from file: news.xml
+2014-05-29 18:26:40.810 Parliament Activities[656:70b] Read rss data from file: settings.xml
+2014-05-29 18:26:40.812 Parliament Activities[656:70b] Done reading committees_list.xml
+2014-05-29 18:26:40.813 Parliament Activities[656:70b] Done reading settings.xml
+2014-05-29 18:26:40.816 Parliament Activities[656:70b] Done reading controll.xml
+2014-05-29 18:26:40.817 Parliament Activities[656:70b] Done reading committee.xml
+2014-05-29 18:26:40.828 Parliament Activities[656:70b] Done reading news.xml
+2014-05-29 18:26:44.437 Parliament Activities[656:70b] plenary.xml written

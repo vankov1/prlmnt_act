@@ -38,7 +38,7 @@
 		</data>
 		<key>config.xml</key>
 		<data>
-		f5uScMoP4koxKVpxLsUFs3NZoJg=
+		721C1lNE7D6fkbfhHioLrryhQDM=
 		</data>
 		<key>de.lproj/Localizable.strings</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>www/assets/css/styles.css</key>
 		<data>
-		8S7YZTmBZEo6QHN9zF4DdbcG1BA=
+		a+M2GbsZfeu39QRz9RP+EmpHDbY=
 		</data>
 		<key>www/assets/fonts/helvetica-neue-bold.ttf</key>
 		<data>
@@ -198,11 +198,15 @@
 		</data>
 		<key>www/assets/img/file-icon.png</key>
 		<data>
-		uIgJssq3xgXOSPcrQOfY2W08tp4=
+		tcNfv4zUQZFlnMqzwU9oAEDmCiw=
 		</data>
 		<key>www/assets/img/home-screen-bg.jpg</key>
 		<data>
 		628csYuP/xMMX06WiqlhfdVdP8A=
+		</data>
+		<key>www/assets/img/link-icon.png</key>
+		<data>
+		imseUGOEHU4xUSEKoKOXuOs8ids=
 		</data>
 		<key>www/assets/img/news-ico-dark.svg</key>
 		<data>
@@ -246,7 +250,7 @@
 		</data>
 		<key>www/assets/less/styles.less</key>
 		<data>
-		HCScmSRdPxk4XaQFj7A0p5loTw0=
+		pQ+SqSKeKLZ0gNAaube7KrWha7w=
 		</data>
 		<key>www/assets/pics/Amy_Jones.jpg</key>
 		<data>
@@ -354,7 +358,7 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		EltW7xvdmR0egKR4vauKVGQfjAc=
+		mtMDXZV7JkZlRtjhzbKgfrzTfns=
 		</data>
 		<key>www/js/AppSettings.js</key>
 		<data>
@@ -378,7 +382,7 @@
 		</data>
 		<key>www/js/NewsView.js</key>
 		<data>
-		5SLibyIlWckT+R9CvT38cib5WJg=
+		1jzjYv4oqSinjQ2l39v5NweB2Pw=
 		</data>
 		<key>www/js/OptionsView.js</key>
 		<data>
@@ -386,7 +390,7 @@
 		</data>
 		<key>www/js/PlenaryView.js</key>
 		<data>
-		d+iJvI3+fIjwb4CN1ZLQMetMHBU=
+		oa2Xx46sElHXYFO8ZwSITFpBrFc=
 		</data>
 		<key>www/js/adapters/FileStorage.js</key>
 		<data>
@@ -528,9 +532,17 @@
 		<data>
 		kAkzn+GoIPhIR2Ig4VSt+0L6srU=
 		</data>
-		<key>www/staticHTML.html</key>
+		<key>www/staticHTML.1.html</key>
 		<data>
 		eVGTN9w98uXye+F8l+06PzcOG0Q=
+		</data>
+		<key>www/staticHTML.2.html</key>
+		<data>
+		TSTfCt3Kl/vmiTLLLmOOhjoo3L8=
+		</data>
+		<key>www/staticHTML.html</key>
+		<data>
+		2mrXpfIKVuh5/tZRQWeX8yTIwcs=
 		</data>
 		<key>www/xmls/News.rss.xml</key>
 		<data>
@@ -609,7 +621,7 @@
 		</data>
 		<key>config.xml</key>
 		<data>
-		f5uScMoP4koxKVpxLsUFs3NZoJg=
+		721C1lNE7D6fkbfhHioLrryhQDM=
 		</data>
 		<key>de.lproj/Localizable.strings</key>
 		<data>
@@ -693,7 +705,7 @@
 		</data>
 		<key>www/assets/css/styles.css</key>
 		<data>
-		8S7YZTmBZEo6QHN9zF4DdbcG1BA=
+		a+M2GbsZfeu39QRz9RP+EmpHDbY=
 		</data>
 		<key>www/assets/fonts/helvetica-neue-bold.ttf</key>
 		<data>
@@ -769,11 +781,15 @@
 		</data>
 		<key>www/assets/img/file-icon.png</key>
 		<data>
-		uIgJssq3xgXOSPcrQOfY2W08tp4=
+		tcNfv4zUQZFlnMqzwU9oAEDmCiw=
 		</data>
 		<key>www/assets/img/home-screen-bg.jpg</key>
 		<data>
 		628csYuP/xMMX06WiqlhfdVdP8A=
+		</data>
+		<key>www/assets/img/link-icon.png</key>
+		<data>
+		imseUGOEHU4xUSEKoKOXuOs8ids=
 		</data>
 		<key>www/assets/img/news-ico-dark.svg</key>
 		<data>
@@ -817,7 +833,7 @@
 		</data>
 		<key>www/assets/less/styles.less</key>
 		<data>
-		HCScmSRdPxk4XaQFj7A0p5loTw0=
+		pQ+SqSKeKLZ0gNAaube7KrWha7w=
 		</data>
 		<key>www/assets/pics/Amy_Jones.jpg</key>
 		<data>
@@ -925,7 +941,7 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		EltW7xvdmR0egKR4vauKVGQfjAc=
+		mtMDXZV7JkZlRtjhzbKgfrzTfns=
 		</data>
 		<key>www/js/AppSettings.js</key>
 		<data>
@@ -949,7 +965,7 @@
 		</data>
 		<key>www/js/NewsView.js</key>
 		<data>
-		5SLibyIlWckT+R9CvT38cib5WJg=
+		1jzjYv4oqSinjQ2l39v5NweB2Pw=
 		</data>
 		<key>www/js/OptionsView.js</key>
 		<data>
@@ -957,7 +973,7 @@
 		</data>
 		<key>www/js/PlenaryView.js</key>
 		<data>
-		d+iJvI3+fIjwb4CN1ZLQMetMHBU=
+		oa2Xx46sElHXYFO8ZwSITFpBrFc=
 		</data>
 		<key>www/js/adapters/FileStorage.js</key>
 		<data>
@@ -1099,9 +1115,17 @@
 		<data>
 		kAkzn+GoIPhIR2Ig4VSt+0L6srU=
 		</data>
-		<key>www/staticHTML.html</key>
+		<key>www/staticHTML.1.html</key>
 		<data>
 		eVGTN9w98uXye+F8l+06PzcOG0Q=
+		</data>
+		<key>www/staticHTML.2.html</key>
+		<data>
+		TSTfCt3Kl/vmiTLLLmOOhjoo3L8=
+		</data>
+		<key>www/staticHTML.html</key>
+		<data>
+		2mrXpfIKVuh5/tZRQWeX8yTIwcs=
 		</data>
 		<key>www/xmls/News.rss.xml</key>
 		<data>

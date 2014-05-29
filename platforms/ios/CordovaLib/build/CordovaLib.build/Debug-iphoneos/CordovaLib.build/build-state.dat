@@ -481,7 +481,7 @@ t1398197034
 s1142
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/libCordova.a
-t1398197034
+t1400619081
 s893184
 
 N/var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-czotyjfgujhjjhgwrjfvgndyvtgp/CordovaLib_Prefix.pch.pch
@@ -498,7 +498,7 @@ s3179828
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesb1153cc7f72bb941^19c774c7f72bb941^---0#1#1#--18"Check dependencies36"71076F00-880A-493E-A5A1-A77E610994BF-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciescbbcb5c39037b941^4d4deec39037b941^---0#1#1#--18"Check dependencies36"F4F23773-EF27-4F18-A934-13978CC3C783-
 
 CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s422311880.649726
