@@ -5,9 +5,7 @@
 	<key>application-identifier</key>
 	<string>GKL467AV3Z.bg.parliament.activities</string>
 	<key>com.apple.developer.team-identifier</key>
-	<array>
-		<string>GKL467AV3Z</string>
-	</array>
+	<string>GKL467AV3Z</string>
 	<key>get-task-allow</key>
 	<true/>
 	<key>keychain-access-groups</key>
