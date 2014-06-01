@@ -350,7 +350,7 @@
 		</data>
 		<key>www/config.xml</key>
 		<data>
-		9Vy809jSWCWd2XJuQsX5JLYr9ZI=
+		xlTPxeZGBvko5W5iqWPF4QHm69g=
 		</data>
 		<key>www/cordova.js</key>
 		<data>
@@ -535,6 +535,78 @@
 		<key>www/plugins/org.apache.cordova.inappbrowser/www/inappbrowser.js</key>
 		<data>
 		kAkzn+GoIPhIR2Ig4VSt+0L6srU=
+		</data>
+		<key>www/res/icon/android/icon-36-ldpi.png</key>
+		<data>
+		JGetDs197dy24M2SxsiI+jIgXdk=
+		</data>
+		<key>www/res/icon/android/icon-48-mdpi.png</key>
+		<data>
+		CDktZaTZHMskduVvWX/DGTHRJv0=
+		</data>
+		<key>www/res/icon/android/icon-72-hdpi.png</key>
+		<data>
+		dX9EgAb+sxhXNvKkd1yEDOi1+34=
+		</data>
+		<key>www/res/icon/android/icon-96-xhdpi.png</key>
+		<data>
+		tkbEQDUyya7M2luYEnIDC1D4Kpg=
+		</data>
+		<key>www/res/icon/ios/icon-40.png</key>
+		<data>
+		GYk+UC8WupUzpSd3bFM4GZzzx4g=
+		</data>
+		<key>www/res/icon/ios/icon-40@2x.png</key>
+		<data>
+		ip2eQQFJXv41Z7YbUz9al94vNDU=
+		</data>
+		<key>www/res/icon/ios/icon-50.png</key>
+		<data>
+		zZtUKqyMcLnkvtIQdze9LTp5u+I=
+		</data>
+		<key>www/res/icon/ios/icon-50@2x.png</key>
+		<data>
+		P2mAnjdjyGuP6PuCYl6wunpuVAw=
+		</data>
+		<key>www/res/icon/ios/icon-60.png</key>
+		<data>
+		JXU98PlRA9YtzBiKu2GvA0lMDVY=
+		</data>
+		<key>www/res/icon/ios/icon-60@2x.png</key>
+		<data>
+		VVBCrefGx1XZKUWWKJsCHaFLAJA=
+		</data>
+		<key>www/res/icon/ios/icon-72.png</key>
+		<data>
+		bp8hcl4VCnG6To4WrDuUO5kiIwo=
+		</data>
+		<key>www/res/icon/ios/icon-72@2x.png</key>
+		<data>
+		pUkVxc59DT5coh5MpqVtdpVEw7E=
+		</data>
+		<key>www/res/icon/ios/icon-76.png</key>
+		<data>
+		IHqF9gHq22wcJRDpIlFDfxO+Cn8=
+		</data>
+		<key>www/res/icon/ios/icon-76@2x.png</key>
+		<data>
+		9HNefalaSeEkxK6xlfrobqIUJ+Y=
+		</data>
+		<key>www/res/icon/ios/icon-small.png</key>
+		<data>
+		CIXJIzdMEaTkXWqPETuLEpgkomU=
+		</data>
+		<key>www/res/icon/ios/icon-small@2x.png</key>
+		<data>
+		lmsgHQObXcCYDZTsTaGdbQLIEKc=
+		</data>
+		<key>www/res/icon/ios/icon.png</key>
+		<data>
+		lMW5Sn8dvVCfJajXBUgvNkKLo1Q=
+		</data>
+		<key>www/res/icon/ios/icon@2x.png</key>
+		<data>
+		A4rY++0rJY94gFjHK3UxAMO93r0=
 		</data>
 		<key>www/staticHTML.1.html</key>
 		<data>
@@ -937,7 +1009,7 @@
 		</data>
 		<key>www/config.xml</key>
 		<data>
-		9Vy809jSWCWd2XJuQsX5JLYr9ZI=
+		xlTPxeZGBvko5W5iqWPF4QHm69g=
 		</data>
 		<key>www/cordova.js</key>
 		<data>
@@ -1122,6 +1194,78 @@
 		<key>www/plugins/org.apache.cordova.inappbrowser/www/inappbrowser.js</key>
 		<data>
 		kAkzn+GoIPhIR2Ig4VSt+0L6srU=
+		</data>
+		<key>www/res/icon/android/icon-36-ldpi.png</key>
+		<data>
+		JGetDs197dy24M2SxsiI+jIgXdk=
+		</data>
+		<key>www/res/icon/android/icon-48-mdpi.png</key>
+		<data>
+		CDktZaTZHMskduVvWX/DGTHRJv0=
+		</data>
+		<key>www/res/icon/android/icon-72-hdpi.png</key>
+		<data>
+		dX9EgAb+sxhXNvKkd1yEDOi1+34=
+		</data>
+		<key>www/res/icon/android/icon-96-xhdpi.png</key>
+		<data>
+		tkbEQDUyya7M2luYEnIDC1D4Kpg=
+		</data>
+		<key>www/res/icon/ios/icon-40.png</key>
+		<data>
+		GYk+UC8WupUzpSd3bFM4GZzzx4g=
+		</data>
+		<key>www/res/icon/ios/icon-40@2x.png</key>
+		<data>
+		ip2eQQFJXv41Z7YbUz9al94vNDU=
+		</data>
+		<key>www/res/icon/ios/icon-50.png</key>
+		<data>
+		zZtUKqyMcLnkvtIQdze9LTp5u+I=
+		</data>
+		<key>www/res/icon/ios/icon-50@2x.png</key>
+		<data>
+		P2mAnjdjyGuP6PuCYl6wunpuVAw=
+		</data>
+		<key>www/res/icon/ios/icon-60.png</key>
+		<data>
+		JXU98PlRA9YtzBiKu2GvA0lMDVY=
+		</data>
+		<key>www/res/icon/ios/icon-60@2x.png</key>
+		<data>
+		VVBCrefGx1XZKUWWKJsCHaFLAJA=
+		</data>
+		<key>www/res/icon/ios/icon-72.png</key>
+		<data>
+		bp8hcl4VCnG6To4WrDuUO5kiIwo=
+		</data>
+		<key>www/res/icon/ios/icon-72@2x.png</key>
+		<data>
+		pUkVxc59DT5coh5MpqVtdpVEw7E=
+		</data>
+		<key>www/res/icon/ios/icon-76.png</key>
+		<data>
+		IHqF9gHq22wcJRDpIlFDfxO+Cn8=
+		</data>
+		<key>www/res/icon/ios/icon-76@2x.png</key>
+		<data>
+		9HNefalaSeEkxK6xlfrobqIUJ+Y=
+		</data>
+		<key>www/res/icon/ios/icon-small.png</key>
+		<data>
+		CIXJIzdMEaTkXWqPETuLEpgkomU=
+		</data>
+		<key>www/res/icon/ios/icon-small@2x.png</key>
+		<data>
+		lmsgHQObXcCYDZTsTaGdbQLIEKc=
+		</data>
+		<key>www/res/icon/ios/icon.png</key>
+		<data>
+		lMW5Sn8dvVCfJajXBUgvNkKLo1Q=
+		</data>
+		<key>www/res/icon/ios/icon@2x.png</key>
+		<data>
+		A4rY++0rJY94gFjHK3UxAMO93r0=
 		</data>
 		<key>www/staticHTML.1.html</key>
 		<data>

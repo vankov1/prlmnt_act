@@ -11,8 +11,8 @@ cCpHeader Classes/CDVDebug.h /Users/mom/dev/cordova/parliament_act/platforms/ios
 cCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
 cCpHeader Classes/CDVWhitelist.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
 cCpHeader Classes/CDVURLProtocol.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
-cCpHeader Classes/CDVCommandDelegate.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
 cCpHeader Classes/CDVViewController.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVViewController.h
+cCpHeader Classes/CDVCommandDelegate.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
 cCpHeader Classes/CDV.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDV.h
 cCpHeader Classes/CDVAvailability.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVAvailability.h
 cCpHeader Classes/CDVLocalStorage.h /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
@@ -497,108 +497,108 @@ t1401639793
 s893184
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDV.h
-t2
-s0
+t1401639790
+s1302
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVAvailability.h
-t2
-s0
+t1401639790
+s3293
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
-t2
-s0
+t1401639790
+s2234
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
-t2
-s0
+t1401639790
+s1205
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
-t2
-s0
+t1401639790
+s1283
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVConfigParser.h
-t2
-s0
+t1401639790
+s1227
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVDebug.h
-t2
-s0
+t1401639790
+s1025
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
-t2
-s0
+t1401639790
+s2022
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVJSON.h
-t2
-s0
+t1401639790
+s986
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
-t2
-s0
+t1401639790
+s1743
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVPlugin.h
-t2
-s0
+t1401639790
+s2194
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
-t2
-s0
+t1401639790
+s3091
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
-t2
-s0
+t1401639790
+s1032
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVShared.h
-t2
-s0
+t1401639790
+s998
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVTimer.h
-t2
-s0
+t1401639790
+s909
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
-t2
-s0
+t1401639790
+s1052
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h
-t2
-s0
+t1401639790
+s1057
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVViewController.h
-t2
-s0
+t1401639790
+s2764
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h
-t2
-s0
+t1401639790
+s1442
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
-t2
-s0
+t1401639790
+s1204
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
-t2
-s0
+t1401639790
+s914
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSData+Base64.h
-t2
-s0
+t1401639790
+s893
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
-t2
-s0
+t1401639790
+s1498
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
-t2
-s0
+t1401639790
+s928
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
-t2
-s0
+t1401639790
+s1142
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/libCordova.a
-t2
-s0
+t1401639793
+s1786416
 
 N/var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-bgooappwpvezludjbakfywiandha/CordovaLib_Prefix.pch.pch
 t1401639791
@@ -610,7 +610,7 @@ s3179992
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies172994ee8a3bb941^249cbaee8a3bb941^---0#1#1#--18"Check dependencies36"AAF7840C-FC6D-461B-BE58-64BC4491C349-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies88f3f0648f3bb941^bcad1c658f3bb941^---0#1#1#--18"Check dependencies36"509009DB-CB41-4184-B581-944B93A29DD5-
 
 CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCommandDelegateImpl.o /Users/mom/dev/cordova/parliament_act/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s423332591.768836

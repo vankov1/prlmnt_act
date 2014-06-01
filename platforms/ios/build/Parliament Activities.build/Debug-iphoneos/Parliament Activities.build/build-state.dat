@@ -71,10 +71,25 @@ c000000005320C04E000000000000019E
 t1394655310
 s414
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000005320C0500000000000632990
+t1394655312
+s6498704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+c000000005320C04F00000000000D6100
+t1394655311
+s876800
+
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
 c000000005320C04F0000000000075BA0
 t1394655311
 s482208
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000005320C051000000000079C660
+t1394655313
+s7980640
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 c00000000534834FD00000000004D7BC0
@@ -86,20 +101,215 @@ c000000005320C0510000000000152370
 t1394655313
 s1385328
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000005320C05100000000002CB700
+t1394655313
+s2930432
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005320C0530000000000A90C10
+t1394655315
+s11078672
+
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
 c000000005320C0530000000000210E90
 t1394655315
 s2166416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005320C05D0000000002759920
+t1394655325
+s41261344
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c000000005320C0610000000000385D50
+t1394655329
+s3693904
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/crt1.3.1.o
+c000000005320C06300000000000142B0
+t1394655331
+s82608
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+c000000005320C065000000000001E300
+t1394655333
+s123648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+c000000005320C065000000000055EFE0
+t1394655333
+s5631968
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+c000000005320C065000000000002A880
+t1394655333
+s174208
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+c000000005320C06500000000000458C0
+t1394655333
+s284864
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+c000000005320C065000000000003E3E0
+t1394655333
+s254944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+c000000005320C065000000000002B130
+t1394655333
+s176432
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+c000000005320C06500000000000E1FD0
+t1394655333
+s925648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+c000000005320C06500000000000A2A70
+t1394655333
+s666224
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+c000000005320C065000000000001E8A0
+t1394655333
+s125088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+c000000005320C065000000000000BF00
+t1394655333
+s48896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+c000000005320C0650000000000034380
+t1394655333
+s213888
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+c000000005320C0650000000000022F30
+t1394655333
+s143152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+c000000005320C065000000000001E2A0
+t1394655333
+s123552
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+c000000005320C0650000000000052520
+t1394655333
+s337184
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+c000000005320C0650000000000015F20
+t1394655333
+s89888
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+c000000005320C06600000000001B90D0
+t1394655334
+s1806544
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+c000000005320C065000000000001F170
+t1394655333
+s127344
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+c000000005320C065000000000002FCF0
+t1394655333
+s195824
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+c000000005320C066000000000008A150
+t1394655334
+s565584
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+c000000005320C06600000000000B60E0
+t1394655334
+s745696
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+c000000005320C0660000000000078720
+t1394655334
+s493344
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+c000000005320C06600000000000621F0
+t1394655334
+s401904
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+c000000005320C06600000000000BDAE0
+t1394655334
+s776928
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+c000000005320C0660000000000039080
+t1394655334
+s233600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+c000000005320C066000000000003CBC0
+t1394655334
+s248768
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+c000000005320C066000000000002CFE0
+t1394655334
+s184288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+c000000005320C066000000000001EB50
+t1394655334
+s125776
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+c000000005320C066000000000001EED0
+t1394655334
+s126672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+c000000005320C06600000000000236B0
+t1394655334
+s145072
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+c000000005320C06600000000000AC500
+t1394655334
+s705792
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a
+c000000005320C0AF00000000000159DC
+t1394655407
+s88540
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+c00000000534834FE000000000000514C
+t1397241086
+s20812
 
 N/Users/mom/Library/MobileDevice/Provisioning Profiles/EF3148FC-C7C1-4ABF-897E-B1951048BA7B.mobileprovision
 c000000005388E67B00000000000026F0
 t1401480827
 s9968
 
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/Parliament Activities/Classes/AppDelegate.h
+c00000000538B536400000000000005CF
+t1401639780
+s1487
+
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/Parliament Activities/Classes/AppDelegate.m
 c00000000538B536400000000000013C1
 t1401639780
 s5057
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/Parliament Activities/Classes/MainViewController.h
+c00000000538B536400000000000004DB
+t1401639780
+s1243
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/Parliament Activities/Classes/MainViewController.m
 c00000000538B53640000000000001276
@@ -112,8 +322,8 @@ t1401639780
 s5977
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/Parliament Activities/Parliament Activities-Info.plist
-c00000000538B536D0000000000000A14
-t1401639789
+c00000000538B57E40000000000000A14
+t1401640932
 s2580
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/Parliament Activities/Parliament Activities-Prefix.pch
@@ -121,30 +331,60 @@ c00000000538B536400000000000003DB
 t1401639780
 s987
 
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/Parliament Activities/Plugins/org.apache.cordova.console/CDVLogger.h
+c00000000538B5365000000000000037F
+t1401639781
+s895
+
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/Parliament Activities/Plugins/org.apache.cordova.console/CDVLogger.m
 c00000000538B53650000000000000490
 t1401639781
 s1168
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/Parliament Activities/Plugins/org.apache.cordova.device/CDVDevice.h
+c00000000538B536500000000000003BD
+t1401639781
+s957
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/Parliament Activities/Plugins/org.apache.cordova.device/CDVDevice.m
 c00000000538B53650000000000000C22
 t1401639781
 s3106
 
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/Parliament Activities/Plugins/org.apache.cordova.file/CDVAssetLibraryFilesystem.h
+c00000000538B536500000000000003ED
+t1401639781
+s1005
+
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/Parliament Activities/Plugins/org.apache.cordova.file/CDVAssetLibraryFilesystem.m
 c00000000538B53650000000000003142
 t1401639781
 s12610
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/Parliament Activities/Plugins/org.apache.cordova.file/CDVFile.h
+c00000000538B53650000000000001881
+t1401639781
+s6273
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/Parliament Activities/Plugins/org.apache.cordova.file/CDVFile.m
 c00000000538B53650000000000009609
 t1401639781
 s38409
 
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/Parliament Activities/Plugins/org.apache.cordova.file/CDVLocalFilesystem.h
+c00000000538B5365000000000000042F
+t1401639781
+s1071
+
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/Parliament Activities/Plugins/org.apache.cordova.file/CDVLocalFilesystem.m
 c00000000538B53650000000000007C30
 t1401639781
 s31792
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/Parliament Activities/Plugins/org.apache.cordova.inappbrowser/CDVInAppBrowser.h
+c00000000538B53650000000000000DFA
+t1401639781
+s3578
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/Parliament Activities/Plugins/org.apache.cordova.inappbrowser/CDVInAppBrowser.m
 c00000000538B53650000000000009735
@@ -313,7 +553,7 @@ t1401639795
 s3080
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/Parliament Activities.build/Debug-iphoneos/Parliament Activities.build/Parliament Activities.xcent
-t1401639796
+t1401640933
 s499
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/Parliament Activities.build/Debug-iphoneos/Parliament Activities.build/Script-304B58A110DAC018002A0835.sh
@@ -322,12 +562,12 @@ t1401639793
 s45
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament Activities.app
-t1401639796
+t1401640933
 s1088
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament Activities.app.dSYM
-t2
-s0
+t1401639796
+s102
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament Activities.app/Default-568h@2x~iphone.png
 t1401639794
@@ -358,7 +598,7 @@ t1401639794
 s20021
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament Activities.app/Info.plist
-t1401639793
+t1401640933
 s1594
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament Activities.app/MainViewController.nib
@@ -367,7 +607,7 @@ s1332
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament Activities.app/Parliament Activities
 t1401639796
-s470740
+s482992
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament Activities.app/PkgInfo
 t2
@@ -382,7 +622,7 @@ t1401639793
 s280
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament Activities.app/embedded.mobileprovision
-t1401639796
+t1401640933
 s9968
 
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament Activities.app/en.lproj/Localizable.strings
@@ -445,6 +685,121 @@ N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament Act
 t1401639793
 s13012
 
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDV.h
+c00000000538B536E0000000000000516
+t1401639790
+s1302
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+c00000000538B536E0000000000000CDD
+t1401639790
+s3293
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+c00000000538B536E00000000000008BA
+t1401639790
+s2234
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+c00000000538B536E00000000000004B5
+t1401639790
+s1205
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+c00000000538B536E0000000000000503
+t1401639790
+s1283
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVDebug.h
+c00000000538B536E0000000000000401
+t1401639790
+s1025
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+c00000000538B536E00000000000007E6
+t1401639790
+s2022
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVJSON.h
+c00000000538B536E00000000000003DA
+t1401639790
+s986
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVLocalStorage.h
+c00000000538B536E00000000000006CF
+t1401639790
+s1743
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+c00000000538B536E0000000000000892
+t1401639790
+s2194
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+c00000000538B536E0000000000000C13
+t1401639790
+s3091
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+c00000000538B536E0000000000000408
+t1401639790
+s1032
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVTimer.h
+c00000000538B536E000000000000038D
+t1401639790
+s909
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVURLProtocol.h
+c00000000538B536E000000000000041C
+t1401639790
+s1052
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVUserAgentUtil.h
+c00000000538B536E0000000000000421
+t1401639790
+s1057
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVViewController.h
+c00000000538B536E0000000000000ACC
+t1401639790
+s2764
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVWebViewDelegate.h
+c00000000538B536E00000000000005A2
+t1401639790
+s1442
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+c00000000538B536E00000000000004B4
+t1401639790
+s1204
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSArray+Comparisons.h
+c00000000538B536E0000000000000392
+t1401639790
+s914
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSData+Base64.h
+c00000000538B536E000000000000037D
+t1401639790
+s893
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSDictionary+Extensions.h
+c00000000538B536E00000000000005DA
+t1401639790
+s1498
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+c00000000538B536E00000000000003A0
+t1401639790
+s928
+
+N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/include/Cordova/UIDevice+Extensions.h
+c00000000538B536E0000000000000476
+t1401639790
+s1142
+
 N/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/libCordova.a
 c00000000538B537100000000001B4230
 t1401639793
@@ -456,16 +811,17 @@ s5307424
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies4bad17f18a3bb941^778318f18a3bb941^---0#1#1#--18"Check dependencies36"AE310119-318A-4634-B98E-E1F9F370671A-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies58e720658f3bb941^b91621658f3bb941^---0#1#1#--18"Check dependencies36"2371F0A5-4CCC-4DE7-B20F-83B42706A7A8-
 
 CCodeSign /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament\ Activities.app
-s423332596.433636
-e423332596.578969
+s423333733.657940
+e423333733.797474
 r1
 xCodeSign
 x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament Activities.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"[1mCodeSign[0m [1mbuild/device/Parliament\ Activities.app[0m64"[1mCodeSign[0m [1mbuild/device/Parliament\ Activities.app[0m855e6ff48a3bb941^b33f94f48a3bb941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament%20Activities.app/0000000000000000^1342"[1mCodeSign[0m [1mbuild/device/Parliament\ Activities.app[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    Using code signing identity "iPhone Developer: Daniela Tatarova (6KV8AFX4U4)" and provisioning profile "iOS Team Provisioning Profile: bg.parliament.activities" (EF3148FC-C7C1-4ABF-897E-B1951048BA7B)    /usr/bin/codesign --force --sign 4E51E3A8040D50F11C7EA5766A1A971A9D11363F --resource-rules=/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament\ Activities.app/ResourceRules.plist --entitlements /Users/mom/dev/cordova/parliament_act/platforms/ios/build/Parliament\ Activities.build/Debug-iphoneos/Parliament\ Activities.build/Parliament\ Activities.xcent /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament\ Activities.app36"1E292024-4E2C-4B06-B752-49DB9DC57E64-
-bCCDC2C5D-82B4-4FC9-B90D-72D1F2CA5352
+o/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament Activities.app: replacing existing signature
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"[1mCodeSign[0m [1mbuild/device/Parliament\ Activities.app[0m64"[1mCodeSign[0m [1mbuild/device/Parliament\ Activities.app[0m8f89a8658f3bb941^e65acc658f3bb941^-121"/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament Activities.app: replacing existing signature-0#0#1#-19%DVTDocumentLocation2@100"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament%20Activities.app/0000000000000000^1342"[1mCodeSign[0m [1mbuild/device/Parliament\ Activities.app[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    Using code signing identity "iPhone Developer: Daniela Tatarova (6KV8AFX4U4)" and provisioning profile "iOS Team Provisioning Profile: bg.parliament.activities" (EF3148FC-C7C1-4ABF-897E-B1951048BA7B)    /usr/bin/codesign --force --sign 4E51E3A8040D50F11C7EA5766A1A971A9D11363F --resource-rules=/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament\ Activities.app/ResourceRules.plist --entitlements /Users/mom/dev/cordova/parliament_act/platforms/ios/build/Parliament\ Activities.build/Debug-iphoneos/Parliament\ Activities.build/Parliament\ Activities.xcent /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament\ Activities.app36"EBC11F5C-0613-4227-AFC3-C89E2509090C-
+bFA33CAC1-E3BC-41FD-A4E3-012950A89DC5
 
 CCompileC build/Parliament\ Activities.build/Debug-iphoneos/Parliament\ Activities.build/Objects-normal/armv7/AppDelegate.o /Users/mom/dev/cordova/parliament_act/platforms/ios/Parliament\ Activities/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s423332595.674625
@@ -998,14 +1354,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy bu
 bCCDC2C5D-82B4-4FC9-B90D-72D1F2CA5352
 
 CGenerateDSYMFile /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament\ Activities.app.dSYM /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament\ Activities.app/Parliament\ Activities
-s423332596.341828
-e423332596.421697
+s423333733.566492
+e423333733.647328
 r1
 xGenerateDSYMFile
 x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament Activities.app.dSYM
 x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament Activities.app/Parliament Activities
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Generate /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament Activities.app.dSYM140"[1mGenerateDSYMFile[0m [1mbuild/device/Parliament\ Activities.app.dSYM[0m build/device/Parliament\ Activities.app/Parliament\ Activities249757f48a3bb941^e3fa6bf48a3bb941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament%20Activities.app.dSYM00349487ddffdf42^921"[1mGenerateDSYMFile[0m [1mbuild/device/Parliament\ Activities.app.dSYM[0m build/device/Parliament\ Activities.app/Parliament\ Activities    cd /Users/mom/dev/cordova/parliament_act/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament\ Activities.app/Parliament\ Activities -o /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament\ Activities.app.dSYM36"E6D6B253-B02C-4EFB-AEDC-C4B6DD7671D9-
-bCCDC2C5D-82B4-4FC9-B90D-72D1F2CA5352
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Generate /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament Activities.app.dSYM140"[1mGenerateDSYMFile[0m [1mbuild/device/Parliament\ Activities.app.dSYM[0m build/device/Parliament\ Activities.app/Parliament\ Activitiesf41891658f3bb941^2bbea5658f3bb941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament%20Activities.app.dSYM/0000000000000000^921"[1mGenerateDSYMFile[0m [1mbuild/device/Parliament\ Activities.app.dSYM[0m build/device/Parliament\ Activities.app/Parliament\ Activities    cd /Users/mom/dev/cordova/parliament_act/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament\ Activities.app/Parliament\ Activities -o /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament\ Activities.app.dSYM36"7898D9DE-DDCF-4312-8380-7A1914BCBF51-
+bFA33CAC1-E3BC-41FD-A4E3-012950A89DC5
 
 CLd /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament\ Activities.app/Parliament\ Activities normal armv7
 s423332596.088887
@@ -1074,28 +1430,28 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Link /
 bCCDC2C5D-82B4-4FC9-B90D-72D1F2CA5352
 
 CPhaseScriptExecution Copy\ www\ directory /Users/mom/dev/cordova/parliament_act/platforms/ios/build/Parliament\ Activities.build/Debug-iphoneos/Parliament\ Activities.build/Script-304B58A110DAC018002A0835.sh
-s423332593.104784
-e423332593.456084
+s423333733.133783
+e423333733.558811
 r1
 xPhaseScriptExecution
 xCopy www directory
 x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/Parliament Activities.build/Debug-iphoneos/Parliament Activities.build/Script-304B58A110DAC018002A0835.sh
 o
-oreal	0m0.330s
-ouser	0m0.130s
-osys	0m0.189s
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'163"[1mPhaseScriptExecution[0m Copy\ www\ directory build/Parliament\ Activities.build/Debug-iphoneos/Parliament\ Activities.build/Script-304B58A110DAC018002A0835.sha2251bf18a3bb941^b0cb74f18a3bb941^-42"real	0m0.330suser	0m0.130ssys	0m0.189s3(21%IDEActivityLogMessage2@14"real	0m0.330s-423332593#1#14#-0#-----2@14"user	0m0.130s-423332593#15#14#-0#-----2@13"sys	0m0.189s-423332593#29#13#-0#-----0#0#1#--408"[1mPhaseScriptExecution[0m Copy\ www\ directory build/Parliament\ Activities.build/Debug-iphoneos/Parliament\ Activities.build/Script-304B58A110DAC018002A0835.sh    cd /Users/mom/dev/cordova/parliament_act/platforms/ios    /bin/sh -c \"/Users/mom/dev/cordova/parliament_act/platforms/ios/build/Parliament\ Activities.build/Debug-iphoneos/Parliament\ Activities.build/Script-304B58A110DAC018002A0835.sh\"36"5FD33209-4069-4B14-91B7-BCD61E25BFEC-
-bCCDC2C5D-82B4-4FC9-B90D-72D1F2CA5352
+oreal	0m0.403s
+ouser	0m0.155s
+osys	0m0.242s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'163"[1mPhaseScriptExecution[0m Copy\ www\ directory build/Parliament\ Activities.build/Debug-iphoneos/Parliament\ Activities.build/Script-304B58A110DAC018002A0835.sh319922658f3bb941^774a8f658f3bb941^-42"real	0m0.403suser	0m0.155ssys	0m0.242s3(21%IDEActivityLogMessage2@14"real	0m0.403s-423333733#1#14#-0#-----2@14"user	0m0.155s-423333733#15#14#-0#-----2@13"sys	0m0.242s-423333733#29#13#-0#-----0#0#1#--408"[1mPhaseScriptExecution[0m Copy\ www\ directory build/Parliament\ Activities.build/Debug-iphoneos/Parliament\ Activities.build/Script-304B58A110DAC018002A0835.sh    cd /Users/mom/dev/cordova/parliament_act/platforms/ios    /bin/sh -c \"/Users/mom/dev/cordova/parliament_act/platforms/ios/build/Parliament\ Activities.build/Debug-iphoneos/Parliament\ Activities.build/Script-304B58A110DAC018002A0835.sh\"36"CF7F99CC-135B-488E-8B98-5B389FDA1450-
+bFA33CAC1-E3BC-41FD-A4E3-012950A89DC5
 
 CProcessInfoPlistFile /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament\ Activities.app/Info.plist /Users/mom/dev/cordova/parliament_act/platforms/ios/Parliament\ Activities/Parliament\ Activities-Info.plist
-s423332593.097603
-e423332593.100669
+s423333733.129990
+e423333733.132294
 r1
 xProcessInfoPlistFile
 x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament Activities.app/Info.plist
 x/Users/mom/dev/cordova/parliament_act/platforms/ios/Parliament Activities/Parliament Activities-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Process /Users/mom/dev/cordova/parliament_act/platforms/ios/Parliament Activities/Parliament Activities-Info.plist144"[1mProcessInfoPlistFile[0m build/device/Parliament\ Activities.app/Info.plist [1mParliament\ Activities/Parliament\ Activities-Info.plist[0md82a19f18a3bb941^3fc519f18a3bb941^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/Parliament%20Activities/Parliament%20Activities-Info.plist0000000000000000^1152"[1mProcessInfoPlistFile[0m build/device/Parliament\ Activities.app/Info.plist [1mParliament\ Activities/Parliament\ Activities-Info.plist[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-infoPlistUtility /Users/mom/dev/cordova/parliament_act/platforms/ios/Parliament\ Activities/Parliament\ Activities-Info.plist -genpkginfo /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament\ Activities.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament\ Activities.app/ResourceRules.plist -o /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament\ Activities.app/Info.plist36"F451D78E-7AFE-4C4E-AE42-74C331B71842-
-bCCDC2C5D-82B4-4FC9-B90D-72D1F2CA5352
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Process /Users/mom/dev/cordova/parliament_act/platforms/ios/Parliament Activities/Parliament Activities-Info.plist144"[1mProcessInfoPlistFile[0m build/device/Parliament\ Activities.app/Info.plist [1mParliament\ Activities/Parliament\ Activities-Info.plist[0mc45d21658f3bb941^f4dd21658f3bb941^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/Parliament%20Activities/Parliament%20Activities-Info.plist0000000000000000^1152"[1mProcessInfoPlistFile[0m build/device/Parliament\ Activities.app/Info.plist [1mParliament\ Activities/Parliament\ Activities-Info.plist[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-infoPlistUtility /Users/mom/dev/cordova/parliament_act/platforms/ios/Parliament\ Activities/Parliament\ Activities-Info.plist -genpkginfo /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament\ Activities.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament\ Activities.app/ResourceRules.plist -o /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament\ Activities.app/Info.plist36"67A0CB2C-59A6-4B59-B67B-6066AEF9A5AD-
+bFA33CAC1-E3BC-41FD-A4E3-012950A89DC5
 
 CProcessPCH /var/folders/ys/9jkj9j8n67qdd73cv57v7c500000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/Parliament\ Activities-Prefix-aykpvjyqxeqnxhfgpuvlqbprafvn/Parliament\ Activities-Prefix.pch.pch Parliament\ Activities/Parliament\ Activities-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s423332595.301030
@@ -1113,31 +1469,31 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Precomp
 bCCDC2C5D-82B4-4FC9-B90D-72D1F2CA5352
 
 CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/mom/dev/cordova/parliament_act/platforms/ios/build/Parliament\ Activities.build/Debug-iphoneos/Parliament\ Activities.build/Parliament\ Activities.xcent
-s423332596.431265
-e423332596.433025
+s423333733.655618
+e423333733.657445
 r1
 xProcessProductPackaging
 x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
 x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/Parliament Activities.build/Debug-iphoneos/Parliament Activities.build/Parliament Activities.xcent
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection268"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist [1mbuild/Parliament\ Activities.build/Debug-iphoneos/Parliament\ Activities.build/Parliament\ Activities.xcent[0m268"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist [1mbuild/Parliament\ Activities.build/Debug-iphoneos/Parliament\ Activities.build/Parliament\ Activities.xcent[0m0b7f6ef48a3bb941^e4dc6ef48a3bb941^---0#0#1#-19%DVTDocumentLocation2@169"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/Parliament%20Activities.build/Debug-iphoneos/Parliament%20Activities.build/Parliament%20Activities.xcent00349487ddffdf42^1080"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist [1mbuild/Parliament\ Activities.build/Debug-iphoneos/Parliament\ Activities.build/Parliament\ Activities.xcent[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/mom/dev/cordova/parliament_act/platforms/ios/build/Parliament\ Activities.build/Debug-iphoneos/Parliament\ Activities.build/Parliament\ Activities.xcent36"23EDA28F-862A-41D5-9E47-22878C3804F4-
-bCCDC2C5D-82B4-4FC9-B90D-72D1F2CA5352
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection268"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist [1mbuild/Parliament\ Activities.build/Debug-iphoneos/Parliament\ Activities.build/Parliament\ Activities.xcent[0m268"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist [1mbuild/Parliament\ Activities.build/Debug-iphoneos/Parliament\ Activities.build/Parliament\ Activities.xcent[0m0beea7658f3bb941^0151a8658f3bb941^---0#0#1#-19%DVTDocumentLocation2@169"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/Parliament%20Activities.build/Debug-iphoneos/Parliament%20Activities.build/Parliament%20Activities.xcent0000000000000000^1080"[1mProcessProductPackaging[0m /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist [1mbuild/Parliament\ Activities.build/Debug-iphoneos/Parliament\ Activities.build/Parliament\ Activities.xcent[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/mom/dev/cordova/parliament_act/platforms/ios/build/Parliament\ Activities.build/Debug-iphoneos/Parliament\ Activities.build/Parliament\ Activities.xcent36"42EDFE44-51C8-41A3-8AC5-5EB0CAFE9744-
+bFA33CAC1-E3BC-41FD-A4E3-012950A89DC5
 
 CProcessProductPackaging /Users/mom/Library/MobileDevice/Provisioning\ Profiles/EF3148FC-C7C1-4ABF-897E-B1951048BA7B.mobileprovision /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament\ Activities.app/embedded.mobileprovision
-s423332596.422303
-e423332596.423450
+s423333733.647896
+e423333733.649108
 r1
 xProcessProductPackaging
 x/Users/mom/Library/MobileDevice/Provisioning Profiles/EF3148FC-C7C1-4ABF-897E-B1951048BA7B.mobileprovision
 x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament Activities.app/embedded.mobileprovision
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection212"[1mProcessProductPackaging[0m /Users/mom/Library/MobileDevice/Provisioning\ Profiles/EF3148FC-C7C1-4ABF-897E-B1951048BA7B.mobileprovision [1mbuild/device/Parliament\ Activities.app/embedded.mobileprovision[0m212"[1mProcessProductPackaging[0m /Users/mom/Library/MobileDevice/Provisioning\ Profiles/EF3148FC-C7C1-4ABF-897E-B1951048BA7B.mobileprovision [1mbuild/device/Parliament\ Activities.app/embedded.mobileprovision[0m2b306cf48a3bb941^e0676cf48a3bb941^---0#0#1#-19%DVTDocumentLocation2@124"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament%20Activities.app/embedded.mobileprovision00349487ddffdf42^942"[1mProcessProductPackaging[0m /Users/mom/Library/MobileDevice/Provisioning\ Profiles/EF3148FC-C7C1-4ABF-897E-B1951048BA7B.mobileprovision [1mbuild/device/Parliament\ Activities.app/embedded.mobileprovision[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-productPackagingUtility /Users/mom/Library/MobileDevice/Provisioning\ Profiles/EF3148FC-C7C1-4ABF-897E-B1951048BA7B.mobileprovision -o /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament\ Activities.app/embedded.mobileprovision36"AD6CBFC0-6AED-42BC-AF34-4BB5C6D89C76-
-bCCDC2C5D-82B4-4FC9-B90D-72D1F2CA5352
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection212"[1mProcessProductPackaging[0m /Users/mom/Library/MobileDevice/Provisioning\ Profiles/EF3148FC-C7C1-4ABF-897E-B1951048BA7B.mobileprovision [1mbuild/device/Parliament\ Activities.app/embedded.mobileprovision[0m212"[1mProcessProductPackaging[0m /Users/mom/Library/MobileDevice/Provisioning\ Profiles/EF3148FC-C7C1-4ABF-897E-B1951048BA7B.mobileprovision [1mbuild/device/Parliament\ Activities.app/embedded.mobileprovision[0m99f2a5658f3bb941^842da6658f3bb941^---0#0#1#-19%DVTDocumentLocation2@124"file:///Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament%20Activities.app/embedded.mobileprovision00349487ddffdf42^942"[1mProcessProductPackaging[0m /Users/mom/Library/MobileDevice/Provisioning\ Profiles/EF3148FC-C7C1-4ABF-897E-B1951048BA7B.mobileprovision [1mbuild/device/Parliament\ Activities.app/embedded.mobileprovision[0m    cd /Users/mom/dev/cordova/parliament_act/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    builtin-productPackagingUtility /Users/mom/Library/MobileDevice/Provisioning\ Profiles/EF3148FC-C7C1-4ABF-897E-B1951048BA7B.mobileprovision -o /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament\ Activities.app/embedded.mobileprovision36"FB4EA94D-D95D-4305-9CB0-478456BAD9B2-
+bFA33CAC1-E3BC-41FD-A4E3-012950A89DC5
 
 CTouch /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament\ Activities.app
-s423332596.424708
-e423332596.430698
+s423333733.650124
+e423333733.655018
 r1
 xTouch
 x/Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament Activities.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Touch /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament Activities.app53"[1mTouch[0m build/device/Parliament\ Activities.app71ca6cf48a3bb941^78436ef48a3bb941^---0#0#1#--633"[1mTouch[0m build/device/Parliament\ Activities.app    cd /Users/mom/dev/cordova/parliament_act/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /usr/bin/touch -c /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament\ Activities.app36"15A0F63C-EFC0-4835-B46B-FB65E88CD125-
-bCCDC2C5D-82B4-4FC9-B90D-72D1F2CA5352
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Touch /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament Activities.app53"[1mTouch[0m build/device/Parliament\ Activities.app9d80a6658f3bb941^0cb0a7658f3bb941^---0#0#1#--633"[1mTouch[0m build/device/Parliament\ Activities.app    cd /Users/mom/dev/cordova/parliament_act/platforms/ios    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/Users/mom/.npm/cordova/3.4.0-0.1.3/package/bin/:/Users/mom/bin/adt-bundle-mac/sdk/platform-tools:/Users/mom/bin/adt-bundle-mac/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    /usr/bin/touch -c /Users/mom/dev/cordova/parliament_act/platforms/ios/build/device/Parliament\ Activities.app36"FEFDE35A-38B3-4EFE-9153-515D3BFEF53B-
+bFA33CAC1-E3BC-41FD-A4E3-012950A89DC5
 
