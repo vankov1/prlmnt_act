@@ -72,3 +72,27 @@ html, body {
 .snapjs-expand-right .snap-drawer-right {
   width: 100%;
 }
+
+/* Show "Left" drawer for the "Right" drawer in the demo */
+.snapjs-right .snap-drawer-left {
+	display: block;
+	right: 0;
+	left: auto;
+}
+
+/* Hide the actual "Right" drawer in the demo */
+.snapjs-right .snap-drawer-right {
+	display: none;
+}
+
+/* Show the "Drag" background in the demo */
+#content {
+	background: #BFC7D8 url(drag.png) center 75% no-repeat;
+}
+
+#open-left {
+  background: url(open.png) center center no-repeat;
+  display: block;
+  width: 44px;
+  height: 44px;
+}
