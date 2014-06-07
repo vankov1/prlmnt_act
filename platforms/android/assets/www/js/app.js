@@ -4,7 +4,9 @@ var controllDataFile = 'controll.xml';
 var committeeDataFile = 'committee.xml';
 var committeesListFile = 'committees_list.xml';
 var newsDataFile = 'news.xml';
-var dataFiles = [plenaryDataFile, controllDataFile, committeeDataFile, committeesListFile, newsDataFile];
+var billsDataFile = 'bills.xml';
+var deputiesDataFile = 'deputies.xml';
+var dataFiles = [plenaryDataFile, controllDataFile, committeeDataFile, committeesListFile, newsDataFile, billsDataFile, deputiesDataFile];
 var adapters = [];
 var homePageNewItemsCounters = {
 	plenaries: '0',
@@ -37,6 +39,10 @@ function getRssUrlByFileName(fileName) {
 		url = "http://parliament.bg/export/bg/xml/app_collection/";
 	} else if (fileName == newsDataFile) {
 		url = "http://www.parliament.bg/export/bg/xml/app_news/";
+	} else if (fileName == billsDataFile) {
+		url = "http://www.parliament.bg/export/bg/xml/app_bills/";
+	} else if (fileName == deputiesDataFile) {
+		url = "http://www.parliament.bg/export/bg/xml/app_mps/";
 	}
 	return url;
 }
@@ -65,6 +71,11 @@ var committeesListUrl = "#committees-list";
 var newsUrl = "#news";
 var newsDetailUrl = "#newsDetail";
 var optionsUrl = "#options";
+var billsListUrl = "#billsList";
+var billsDetailUrl = "#billsDetail";
+var mpsListUrl = "#mpsList";
+var mpDetailUrl = "#mpsDetail";
+
 
 // We use an "Immediate Function" to initialize the application to avoid leaving anything behind in the global scope
 (function () {
@@ -81,6 +92,8 @@ var optionsUrl = "#options";
     var newsTpl = Handlebars.compile($("#news-tpl").html());
     var newsDetailTpl = Handlebars.compile($("#news-tpl-detail-preview").html());
     var optionsTpl = Handlebars.compile($("#options-tpl").html());
+    var billsTpl = Handlebars.compile($("#bills-tpl").html());
+    var billsDetailTpl = Handlebars.compile($("#bills-tpl-detail-preview").html());
 
     var slider = new PageSlider($('body'));
 
@@ -129,16 +142,17 @@ var optionsUrl = "#options";
 			return;
 		}
 		
-		var match = hash.match(homeUrl);
+		var match;
+		match = hash.match(homeUrl);
 		if (match) {
 			var home = new HomeView(homeTpl);
 			slider.slidePage(home.render(homePageNewItemsCounters).el);
 			return;
 		}
 
-		var match = hash.match(plenaryUrl);
+		match = hash.match(plenaryUrl);
 		if (match) {
-			var match = hash.match(plenaryDetailUrl);
+			match = hash.match(plenaryDetailUrl);
 			if (match) {
 				var parts = hash.split('?');
 				if (parts[1]) {
@@ -164,9 +178,9 @@ var optionsUrl = "#options";
 			return;
 		}
 
-		var match = hash.match(controllUrl);
+		match = hash.match(controllUrl);
 		if (match) {
-			var match = hash.match(controllDetailUrl);
+			match = hash.match(controllDetailUrl);
 			if (match) {
 				var parts = hash.split('?');
 				if (parts[1]) {
@@ -192,7 +206,7 @@ var optionsUrl = "#options";
 			return;
 		}
 		
-		var match = hash.match(committeesListUrl);
+		match = hash.match(committeesListUrl);
 		if (match) {
 			var commList = new CommitteesListView(committeesListTpl);
 			commList.getData(function(tplData) {
@@ -202,9 +216,9 @@ var optionsUrl = "#options";
 			return;
 		}
 
-		var match = hash.match(committeeUrl);
+		match = hash.match(committeeUrl);
 		if (match) {
-			var match = hash.match(committeeDetailUrl);
+			match = hash.match(committeeDetailUrl);
 			if (match) {
 				var parts = hash.split('?');
 				if (parts[1]) {
@@ -230,14 +244,14 @@ var optionsUrl = "#options";
 			return;
 		}
 
-		var match = hash.match(newsUrl);
+		match = hash.match(newsUrl);
 		if (match) {
-			var match = hash.match(newsDetailUrl);
+			match = hash.match(newsDetailUrl);
 			if (match) {
 				var parts = hash.split('?');
 				if (parts[1]) {
 					var id = parts[1].replace('id=', '');
-					console.log('id: ' + id);
+					//console.log('id: ' + id);
 					var news = new NewsView(newsDetailTpl);
 					news.getData(function(tplData) {
 						var detailData = {};
@@ -259,7 +273,7 @@ var optionsUrl = "#options";
 			return;
 		}
 		
-		var match = hash.match(optionsUrl);
+		match = hash.match(optionsUrl);
 		if (match) {
 			var options = new OptionsView(optionsTpl);
 			options.getData(function(tplData) {
@@ -268,7 +282,38 @@ var optionsUrl = "#options";
 			});
 			return;
 		}
+		
+		match = hash.match(billsListUrl);
+		if (match) {
+			var bills = new BillsView(billsTpl);
+			bills.getData(function(tplData) {
+				slider.slidePage(bills.render(tplData).el);
+				bills.assignHandlers();
+			});
+			return;
+		}
+		
+		match = hash.match(billsDetailUrl);
+		if (match) {
+			var parts = hash.split('?');
+			if (parts[1]) {
+				var id = parts[1].replace('id=', '');
+				//console.log('id: ' + id);
+				var bills = new BillsView(billsDetailTpl);
+				bills.getData(function(tplData) {
+					var detailData = {};
+					if (tplData.bills.length == 0) {
+						detailData = getBillsTestingData(id);
+					} else {
+						detailData = tplData.bills[id];
+					}
+					slider.slidePage(bills.render(detailData).el);
+				});
+				return;
+			}
+		}
 
+		
 	}
 
 }());

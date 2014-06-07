@@ -4,7 +4,9 @@ var controllDataFile = 'controll.xml';
 var committeeDataFile = 'committee.xml';
 var committeesListFile = 'committees_list.xml';
 var newsDataFile = 'news.xml';
-var dataFiles = [plenaryDataFile, controllDataFile, committeeDataFile, committeesListFile, newsDataFile];
+var billsDataFile = 'bills.xml';
+var deputiesDataFile = 'deputies.xml';
+var dataFiles = [plenaryDataFile, controllDataFile, committeeDataFile, committeesListFile, newsDataFile, billsDataFile, deputiesDataFile];
 var adapters = [];
 var homePageNewItemsCounters = {
 	plenaries: '0',
@@ -37,6 +39,10 @@ function getRssUrlByFileName(fileName) {
 		url = "http://parliament.bg/export/bg/xml/app_collection/";
 	} else if (fileName == newsDataFile) {
 		url = "http://www.parliament.bg/export/bg/xml/app_news/";
+	} else if (fileName == billsDataFile) {
+		url = "http://www.parliament.bg/export/bg/xml/app_bills/";
+	} else if (fileName == deputiesDataFile) {
+		url = "http://www.parliament.bg/export/bg/xml/app_mps/";
 	}
 	return url;
 }
@@ -65,6 +71,7 @@ var committeesListUrl = "#committees-list";
 var newsUrl = "#news";
 var newsDetailUrl = "#newsDetail";
 var optionsUrl = "#options";
+var billsListUrl = "billsList";
 
 // We use an "Immediate Function" to initialize the application to avoid leaving anything behind in the global scope
 (function () {
@@ -81,6 +88,7 @@ var optionsUrl = "#options";
     var newsTpl = Handlebars.compile($("#news-tpl").html());
     var newsDetailTpl = Handlebars.compile($("#news-tpl-detail-preview").html());
     var optionsTpl = Handlebars.compile($("#options-tpl").html());
+    var billsTpl = Handlebars.compile($("#bills-tpl").html());
 
     var slider = new PageSlider($('body'));
 
@@ -268,7 +276,18 @@ var optionsUrl = "#options";
 			});
 			return;
 		}
+		
+		var match = hash.match(billsListUrl);
+		if (match) {
+			var options = new BillsView(billsTpl);
+			options.getData(function(tplData) {
+				slider.slidePage(options.render(tplData).el);
+				options.assignHandlers();
+			});
+			return;
+		}
 
+		
 	}
 
 }());
