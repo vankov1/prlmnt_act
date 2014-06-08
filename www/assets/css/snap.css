@@ -53,7 +53,7 @@ html, body {
 }
 
 .snap-drawer-left {
-  background-color: cyan;
+  background-color: #ffffff;
   left: 0;
   z-index: 1;
 }
@@ -87,12 +87,12 @@ html, body {
 
 /* Show the "Drag" background in the demo */
 #content {
-	background: #BFC7D8 url(drag.png) center 75% no-repeat;
+	background: #fafafa center 75% no-repeat; 
 }
 
 #open-left {
-  background: url(open.png) center center no-repeat;
+ /* background: url(open.png) center center no-repeat;
   display: block;
   width: 44px;
-  height: 44px;
+  height: 44px; */
 }
