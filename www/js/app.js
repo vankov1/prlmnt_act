@@ -73,7 +73,7 @@ var newsDetailUrl = "#newsDetail";
 var optionsUrl = "#options";
 var billsListUrl = "#billsList";
 var billsDetailUrl = "#billsDetail";
-var mpsListUrl = "#mpsList";
+var mpsAZListUrl = "#mpsAZList";
 var mpDetailUrl = "#mpsDetail";
 
 
@@ -94,6 +94,7 @@ var mpDetailUrl = "#mpsDetail";
     var optionsTpl = Handlebars.compile($("#options-tpl").html());
     var billsTpl = Handlebars.compile($("#bills-tpl").html());
     var billsDetailTpl = Handlebars.compile($("#bills-tpl-detail-preview").html());
+    var mpsAZTpl = Handlebars.compile($("#mps-az-tpl").html());
 
     var slider = new PageSlider($('body'));
 
@@ -311,6 +312,16 @@ var mpDetailUrl = "#mpsDetail";
 				});
 				return;
 			}
+		}
+		
+		match = hash.match(mpsAZListUrl);
+		if (match) {
+			var mps = new BillsView(mpsAZTpl);
+			mps.getData(function(tplData) {
+				slider.slidePage(mps.render(tplData).el);
+				mps.assignHandlers();
+			});
+			return;
 		}
 
 		
