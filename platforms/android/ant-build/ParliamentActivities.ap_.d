@@ -42,12 +42,13 @@
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/cordova.js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/cordova_plugins.js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/index.html \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/index.html.ok \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/index.old.html \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/lib \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/plugins \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/res \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/staticHTML.1.html \
-/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/staticHTML.2.html \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/staticHTML.html \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/xmls \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/css \
@@ -119,6 +120,7 @@
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/pics/Steven_Wells50.jpg \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/adapters \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/app.js \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/app.old.js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/AppSettings.js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/BillsView.js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/CommitteesListView.js \
