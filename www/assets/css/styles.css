@@ -88,7 +88,7 @@ body {
   width: 25px;
 }
 .search-btn {
-  padding-top: 9px !important;
+  padding-top: 20px !important;
 }
 .search-btn img {
   width: 20px;
@@ -100,7 +100,7 @@ body {
   width: 30px;
   height: 30px;
   position: absolute;
-  top: 11px;
+  top: 25px;
   left: 15px;
   z-index: 2;
 }
@@ -218,7 +218,7 @@ body {
   background-position: 0px center;
 }
 .bar-header {
-  height: 55px;
+  height: 75px;
   border-bottom: 1px solid #cfcfcf;
   background: #fafafa;
   position: fixed;
@@ -226,7 +226,7 @@ body {
   left: 0px;
 }
 .bar-header .title {
-  line-height: 55px;
+  line-height: 85px;
   font-size: 18px;
   color: #5c5c5c;
 }
@@ -234,7 +234,7 @@ body {
   color: #5c5c5c;
 }
 .search-row {
-  margin-top: 55px;
+  margin-top: 75px;
   padding: 0px !important;
 }
 .search-row .col {
@@ -388,7 +388,7 @@ body {
 /* === END Global Elements === */
 /* === Left Menu === */
 .left-menu .header {
-  padding: 10px 15px;
+  padding: 30px 15px 10px 15px;
 }
 .left-menu .header .armorial {
   margin-right: 5px;
