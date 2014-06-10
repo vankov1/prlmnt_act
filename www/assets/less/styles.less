@@ -110,7 +110,7 @@ body {
 }
 
 .back-btn {
-    padding-top: 11px !important;
+    padding-top: 6px !important;
     img {
         width: 25px;
     }
@@ -179,7 +179,7 @@ body {
 
 .subscribe-list-btn {
     position: absolute;
-    padding-top: 9px !important;
+    padding-top: 20px !important;
     //padding-right: 3px !important;
     top: 6px;
     right: 40px;
@@ -449,7 +449,14 @@ body {
             padding: 0px;
             &.active {
                 .section {
-                    .flag {
+                    .flag-active {
+                        display: block;
+                    }
+                }
+            }
+            &.new {
+                .section {
+                    .flag-new {
                         display: block;
                     }
                 }
@@ -461,13 +468,25 @@ body {
                 font-size: 16px;
                 padding: 10px 15px;
                 border-bottom: 1px solid #cfcfcf;
-                .flag {
+                .flag-active {
                     position: absolute;
                     top: 0px;
                     left: 0px;
                     width: 5px;
                     height: 100%;
                     background: #43c364;
+                    display: none;
+                }
+                .flag-new {
+                    position: absolute;
+                    top: 0px;
+                    right: 0px;
+                    width: 55px;
+                    height: 20px;
+                    background: #e54f45;
+                    color: #ffffff;
+                    text-align: center;
+                    line-height: 18px;
                     display: none;
                 }
                 .ico {
@@ -575,7 +594,7 @@ body {
     .detail-preview {
         padding: 0px !important;
     }
-    padding-top: 55px;
+    padding-top: 75px;
     overflow: auto;
     .content-wrapper {
         margin-bottom: 45px;
@@ -656,7 +675,7 @@ body {
 /* ===== Options Screen ===== */
 
 .options-tpl {
-    padding-top: 55px;
+    padding-top: 75px;
     overflow: auto;
     height: 100%;
     .item-toggle {
@@ -677,7 +696,7 @@ body {
     }
     .content-wrapper {
         position: absolute;
-        top: 55px;
+        top: 75px;
         left: 0px;
         background: #f7f7f7;
         height: 100%;
