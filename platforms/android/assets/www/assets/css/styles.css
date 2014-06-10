@@ -15,6 +15,13 @@ body {
 .relative {
   position: relative;
 }
+#content.snap-content {
+  position: fixed;
+}
+.placeholder-container {
+  overflow: hidden;
+  height: 100%;
+}
 .default-btn {
   display: inline-block;
   width: 80%;
@@ -81,20 +88,20 @@ body {
   width: 25px;
 }
 .search-btn {
-  padding-top: 9px !important;
+  padding-top: 20px !important;
 }
 .search-btn img {
   width: 20px;
 }
 .side-menu-btn {
   display: block;
-  font-size: 40px;
-  color: #ffffff;
-  width: 44px;
-  height: 44px;
+  font-size: 32px;
+  color: #5c5c5c;
+  width: 30px;
+  height: 30px;
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 25px;
+  left: 15px;
   z-index: 2;
 }
 .preview-btn {
@@ -211,7 +218,7 @@ body {
   background-position: 0px center;
 }
 .bar-header {
-  height: 55px;
+  height: 75px;
   border-bottom: 1px solid #cfcfcf;
   background: #fafafa;
   position: fixed;
@@ -219,7 +226,7 @@ body {
   left: 0px;
 }
 .bar-header .title {
-  line-height: 55px;
+  line-height: 85px;
   font-size: 18px;
   color: #5c5c5c;
 }
@@ -227,7 +234,7 @@ body {
   color: #5c5c5c;
 }
 .search-row {
-  margin-top: 55px;
+  margin-top: 75px;
   padding: 0px !important;
 }
 .search-row .col {
@@ -381,7 +388,7 @@ body {
 /* === END Global Elements === */
 /* === Left Menu === */
 .left-menu .header {
-  padding: 10px 15px;
+  padding: 30px 15px 10px 15px;
 }
 .left-menu .header .armorial {
   margin-right: 5px;
@@ -466,6 +473,14 @@ body {
   overflow-y: auto;
   color: #ffffff;
   background: url("../img/home-screen-bg.jpg") no-repeat fixed center bottom / cover rgba(0, 0, 0, 0);
+}
+.home-tpl .side-menu-btn {
+  top: 20px;
+  left: 20px;
+  font-size: 40px;
+  width: 44px;
+  height: 44px;
+  color: #ffffff;
 }
 .home-tpl .armorial-wrapper {
   width: 100%;

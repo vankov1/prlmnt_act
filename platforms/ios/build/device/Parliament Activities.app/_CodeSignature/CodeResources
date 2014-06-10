@@ -34,7 +34,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		LrpYRBfGeGbth/MxKiCowHviqRs=
+		NCd8JqfrmZINRGKy+HSOMpzbqjg=
 		</data>
 		<key>config.xml</key>
 		<data>
@@ -110,19 +110,27 @@
 		</data>
 		<key>www/assets/css/app_effects.css</key>
 		<data>
-		ecaaecbJJTccwugUnQ8hShxZCiQ=
+		PGz/ucyMkaFE9XOo5ULwBYXpUJc=
 		</data>
 		<key>www/assets/css/ionic.min.css</key>
 		<data>
 		nfNToXmiKR+RETKuwp5z8WzBdYE=
 		</data>
+		<key>www/assets/css/open.png</key>
+		<data>
+		3flQaGS1wogoCHufRdwYIfnj7J8=
+		</data>
 		<key>www/assets/css/pageslider.css</key>
 		<data>
 		JTJYYJBrjJZyzVlbqqK3DVX+wM4=
 		</data>
+		<key>www/assets/css/snap.css</key>
+		<data>
+		OTBHvOcV4nJ4/KFJLLjEqk6qB4s=
+		</data>
 		<key>www/assets/css/styles.css</key>
 		<data>
-		a+M2GbsZfeu39QRz9RP+EmpHDbY=
+		TyFTQx5SJ5FHU9YhNFReWIFMJrc=
 		</data>
 		<key>www/assets/fonts/helvetica-neue-bold.ttf</key>
 		<data>
@@ -250,7 +258,7 @@
 		</data>
 		<key>www/assets/less/styles.less</key>
 		<data>
-		pQ+SqSKeKLZ0gNAaube7KrWha7w=
+		uLK5Dys1CFU5ukDTwmS4HmjLS4U=
 		</data>
 		<key>www/assets/pics/Amy_Jones.jpg</key>
 		<data>
@@ -350,7 +358,7 @@
 		</data>
 		<key>www/config.xml</key>
 		<data>
-		xlTPxeZGBvko5W5iqWPF4QHm69g=
+		7GZIloQa6CNG8nqDa4I3EvZG97s=
 		</data>
 		<key>www/cordova.js</key>
 		<data>
@@ -362,11 +370,23 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		mtMDXZV7JkZlRtjhzbKgfrzTfns=
+		LHN8Mi1OFKSZsRahNLE62Q+IseU=
+		</data>
+		<key>www/index.html.ok</key>
+		<data>
+		YxHHbahuOUd/PyP4PAofuUhyYZs=
+		</data>
+		<key>www/index.old.html</key>
+		<data>
+		Y4t9xtjqjsOCf5TCqlspQZlmE44=
 		</data>
 		<key>www/js/AppSettings.js</key>
 		<data>
 		QuzGqUIwj8bI56Mb80xslBXJVl4=
+		</data>
+		<key>www/js/BillsView.js</key>
+		<data>
+		FN74oNvks5diRqSIIwOzA+s/MSg=
 		</data>
 		<key>www/js/CommitteeView.js</key>
 		<data>
@@ -384,6 +404,10 @@
 		<data>
 		DZsvq69cVpX5X+VGHjcSxgLJrfE=
 		</data>
+		<key>www/js/MpsView.js</key>
+		<data>
+		g2M5ITLrhYShtiCLdRHsBMciDrQ=
+		</data>
 		<key>www/js/NewsView.js</key>
 		<data>
 		1jzjYv4oqSinjQ2l39v5NweB2Pw=
@@ -394,7 +418,7 @@
 		</data>
 		<key>www/js/PlenaryView.js</key>
 		<data>
-		oa2Xx46sElHXYFO8ZwSITFpBrFc=
+		W/dTqTH6HnCV1cZZFsOKKhDqrGo=
 		</data>
 		<key>www/js/adapters/FileStorage.js</key>
 		<data>
@@ -418,11 +442,15 @@
 		</data>
 		<key>www/js/app.js</key>
 		<data>
-		TOT/slvWBEe68L1FdV4PEMZusAs=
+		7OLS52yrcaUKGyRHcqprv5o/vLQ=
+		</data>
+		<key>www/js/app.old.js</key>
+		<data>
+		0ssxx7Tte/PI3NJRoHnHJCRR3Mk=
 		</data>
 		<key>www/js/tools.js</key>
 		<data>
-		ktKSXEH0q14NuFHu7Wbs0a4XjoE=
+		SLmL1IYP/lAtEDqvTuzclPqMjgw=
 		</data>
 		<key>www/lib/fastclick.js</key>
 		<data>
@@ -443,6 +471,10 @@
 		<key>www/lib/pageslider.js</key>
 		<data>
 		vPZLnycbfpy1JTkORJeGQpRFaXU=
+		</data>
+		<key>www/lib/snap.js</key>
+		<data>
+		gukMf3nEc7GsQf93mlfbhLNfWRc=
 		</data>
 		<key>www/plugins/org.apache.cordova.console/www/console-via-logger.js</key>
 		<data>
@@ -536,6 +568,10 @@
 		<data>
 		kAkzn+GoIPhIR2Ig4VSt+0L6srU=
 		</data>
+		<key>www/res/icon.png</key>
+		<data>
+		DKknuuIpkFZutsIfh6qizX9Biko=
+		</data>
 		<key>www/res/icon/android/icon-36-ldpi.png</key>
 		<data>
 		JGetDs197dy24M2SxsiI+jIgXdk=
@@ -610,15 +646,11 @@
 		</data>
 		<key>www/staticHTML.1.html</key>
 		<data>
-		eVGTN9w98uXye+F8l+06PzcOG0Q=
-		</data>
-		<key>www/staticHTML.2.html</key>
-		<data>
-		TSTfCt3Kl/vmiTLLLmOOhjoo3L8=
+		dzAtxdKYPo6TgwivV1CWmiG6hr0=
 		</data>
 		<key>www/staticHTML.html</key>
 		<data>
-		2mrXpfIKVuh5/tZRQWeX8yTIwcs=
+		pR0kiqKV716a6MDHn8xZSOTnMRs=
 		</data>
 		<key>www/xmls/News.rss.xml</key>
 		<data>
@@ -627,6 +659,10 @@
 		<key>www/xmls/News_new.rss.xml</key>
 		<data>
 		tn0BuSrN5oVhmLmJMP6qvd+bQJ4=
+		</data>
+		<key>www/xmls/bills.rss.xml</key>
+		<data>
+		q/MPpCfroWDT+VXRYhcNdWsDFMs=
 		</data>
 		<key>www/xmls/committee.rss.xml</key>
 		<data>
@@ -693,7 +729,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		LrpYRBfGeGbth/MxKiCowHviqRs=
+		NCd8JqfrmZINRGKy+HSOMpzbqjg=
 		</data>
 		<key>config.xml</key>
 		<data>
@@ -769,19 +805,27 @@
 		</data>
 		<key>www/assets/css/app_effects.css</key>
 		<data>
-		ecaaecbJJTccwugUnQ8hShxZCiQ=
+		PGz/ucyMkaFE9XOo5ULwBYXpUJc=
 		</data>
 		<key>www/assets/css/ionic.min.css</key>
 		<data>
 		nfNToXmiKR+RETKuwp5z8WzBdYE=
 		</data>
+		<key>www/assets/css/open.png</key>
+		<data>
+		3flQaGS1wogoCHufRdwYIfnj7J8=
+		</data>
 		<key>www/assets/css/pageslider.css</key>
 		<data>
 		JTJYYJBrjJZyzVlbqqK3DVX+wM4=
 		</data>
+		<key>www/assets/css/snap.css</key>
+		<data>
+		OTBHvOcV4nJ4/KFJLLjEqk6qB4s=
+		</data>
 		<key>www/assets/css/styles.css</key>
 		<data>
-		a+M2GbsZfeu39QRz9RP+EmpHDbY=
+		TyFTQx5SJ5FHU9YhNFReWIFMJrc=
 		</data>
 		<key>www/assets/fonts/helvetica-neue-bold.ttf</key>
 		<data>
@@ -909,7 +953,7 @@
 		</data>
 		<key>www/assets/less/styles.less</key>
 		<data>
-		pQ+SqSKeKLZ0gNAaube7KrWha7w=
+		uLK5Dys1CFU5ukDTwmS4HmjLS4U=
 		</data>
 		<key>www/assets/pics/Amy_Jones.jpg</key>
 		<data>
@@ -1009,7 +1053,7 @@
 		</data>
 		<key>www/config.xml</key>
 		<data>
-		xlTPxeZGBvko5W5iqWPF4QHm69g=
+		7GZIloQa6CNG8nqDa4I3EvZG97s=
 		</data>
 		<key>www/cordova.js</key>
 		<data>
@@ -1021,11 +1065,23 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		mtMDXZV7JkZlRtjhzbKgfrzTfns=
+		LHN8Mi1OFKSZsRahNLE62Q+IseU=
+		</data>
+		<key>www/index.html.ok</key>
+		<data>
+		YxHHbahuOUd/PyP4PAofuUhyYZs=
+		</data>
+		<key>www/index.old.html</key>
+		<data>
+		Y4t9xtjqjsOCf5TCqlspQZlmE44=
 		</data>
 		<key>www/js/AppSettings.js</key>
 		<data>
 		QuzGqUIwj8bI56Mb80xslBXJVl4=
+		</data>
+		<key>www/js/BillsView.js</key>
+		<data>
+		FN74oNvks5diRqSIIwOzA+s/MSg=
 		</data>
 		<key>www/js/CommitteeView.js</key>
 		<data>
@@ -1043,6 +1099,10 @@
 		<data>
 		DZsvq69cVpX5X+VGHjcSxgLJrfE=
 		</data>
+		<key>www/js/MpsView.js</key>
+		<data>
+		g2M5ITLrhYShtiCLdRHsBMciDrQ=
+		</data>
 		<key>www/js/NewsView.js</key>
 		<data>
 		1jzjYv4oqSinjQ2l39v5NweB2Pw=
@@ -1053,7 +1113,7 @@
 		</data>
 		<key>www/js/PlenaryView.js</key>
 		<data>
-		oa2Xx46sElHXYFO8ZwSITFpBrFc=
+		W/dTqTH6HnCV1cZZFsOKKhDqrGo=
 		</data>
 		<key>www/js/adapters/FileStorage.js</key>
 		<data>
@@ -1077,11 +1137,15 @@
 		</data>
 		<key>www/js/app.js</key>
 		<data>
-		TOT/slvWBEe68L1FdV4PEMZusAs=
+		7OLS52yrcaUKGyRHcqprv5o/vLQ=
+		</data>
+		<key>www/js/app.old.js</key>
+		<data>
+		0ssxx7Tte/PI3NJRoHnHJCRR3Mk=
 		</data>
 		<key>www/js/tools.js</key>
 		<data>
-		ktKSXEH0q14NuFHu7Wbs0a4XjoE=
+		SLmL1IYP/lAtEDqvTuzclPqMjgw=
 		</data>
 		<key>www/lib/fastclick.js</key>
 		<data>
@@ -1102,6 +1166,10 @@
 		<key>www/lib/pageslider.js</key>
 		<data>
 		vPZLnycbfpy1JTkORJeGQpRFaXU=
+		</data>
+		<key>www/lib/snap.js</key>
+		<data>
+		gukMf3nEc7GsQf93mlfbhLNfWRc=
 		</data>
 		<key>www/plugins/org.apache.cordova.console/www/console-via-logger.js</key>
 		<data>
@@ -1195,6 +1263,10 @@
 		<data>
 		kAkzn+GoIPhIR2Ig4VSt+0L6srU=
 		</data>
+		<key>www/res/icon.png</key>
+		<data>
+		DKknuuIpkFZutsIfh6qizX9Biko=
+		</data>
 		<key>www/res/icon/android/icon-36-ldpi.png</key>
 		<data>
 		JGetDs197dy24M2SxsiI+jIgXdk=
@@ -1269,15 +1341,11 @@
 		</data>
 		<key>www/staticHTML.1.html</key>
 		<data>
-		eVGTN9w98uXye+F8l+06PzcOG0Q=
-		</data>
-		<key>www/staticHTML.2.html</key>
-		<data>
-		TSTfCt3Kl/vmiTLLLmOOhjoo3L8=
+		dzAtxdKYPo6TgwivV1CWmiG6hr0=
 		</data>
 		<key>www/staticHTML.html</key>
 		<data>
-		2mrXpfIKVuh5/tZRQWeX8yTIwcs=
+		pR0kiqKV716a6MDHn8xZSOTnMRs=
 		</data>
 		<key>www/xmls/News.rss.xml</key>
 		<data>
@@ -1286,6 +1354,10 @@
 		<key>www/xmls/News_new.rss.xml</key>
 		<data>
 		tn0BuSrN5oVhmLmJMP6qvd+bQJ4=
+		</data>
+		<key>www/xmls/bills.rss.xml</key>
+		<data>
+		q/MPpCfroWDT+VXRYhcNdWsDFMs=
 		</data>
 		<key>www/xmls/committee.rss.xml</key>
 		<data>

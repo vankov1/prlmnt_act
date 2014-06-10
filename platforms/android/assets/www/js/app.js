@@ -139,6 +139,15 @@ var mpDetailUrl = "#mpsDetail";
 	function route() {
 		var hash = window.location.hash;
 		if (!hash) {
+			var plenary = new PlenaryView(plenaryTpl);
+			plenary.getData(function(tplData) {
+				//slider.slidePage(plenary.render(tplData).el);
+				$('#page-placeholder').html(plenary.render(tplData).el);
+				plenary.assignHandlers();
+			});
+			snapper.close();
+			return;
+
 			//slider.slidePage(new HomeView(homeTpl).render().el);
 			$('#page-placeholder').html(new HomeView(homeTpl).render().el);
 			snapper.close();

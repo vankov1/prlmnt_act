@@ -45,19 +45,21 @@ function getPlenaryTestingData(id) {
 
 function getControllTestingData(id) {
 	var ret = {};
-	
 	return ret;
 }
 
 function getCommitteeTestingData(id) {
 	var ret = {};
-	
 	return ret;
 }
 
 function getNewsTestingData(id) {
 	var ret = {};
-	
+	return ret;
+}
+
+function getBillsTestingData(id) {
+	var ret = {};
 	return ret;
 }
 

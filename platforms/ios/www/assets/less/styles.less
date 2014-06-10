@@ -41,6 +41,15 @@ body {
     position: relative;
 }
 
+#content.snap-content  {
+    position: fixed;
+}
+
+.placeholder-container {
+    overflow: hidden; 
+    height: 100%;
+}
+
 // Buttons
 
 
@@ -108,12 +117,23 @@ body {
 }
 
 .search-btn {
-    padding-top: 9px !important;
+    padding-top: 20px !important;
     img {
         width: 20px;
     }
 }
 
+.side-menu-btn {
+  display: block;
+  font-size: 32px;
+  color: #5c5c5c;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 25px;
+  left: 15px;
+  z-index: 2;
+}
 
 .preview-btn {
     float: right;
@@ -213,14 +233,14 @@ body {
 }
 
 .bar-header {
-    height: 55px;
+    height: 75px;
     border-bottom: 1px solid #cfcfcf;
     background: #fafafa;
     position: fixed;
     top: 0px;
     left: 0px;
     .title {
-        line-height: 55px;
+        line-height: 85px;
         font-size: 18px;
         color: #5c5c5c;
     }
@@ -230,7 +250,7 @@ body {
 }
 
 .search-row {
-    margin-top: 55px;
+    margin-top: 75px;
     padding: 0px !important;
     .col {
         padding: 0px;
@@ -347,7 +367,7 @@ body {
     float: left;
     position: relative;
 }
-
+/*
 .bottom-tabs {
     position: fixed;
     bottom: 0px;
@@ -387,9 +407,109 @@ body {
 
         }
     }
-}
+} */
 
 /* === END Global Elements === */
+
+
+
+/* === Left Menu === */
+
+.left-menu {
+    .header {
+        padding: 30px 15px 10px 15px;
+        .armorial {
+            margin-right: 5px;
+            img {
+                width: 60px;
+            }
+        }
+        .title {
+            padding-top: 10px;
+            text-transform: uppercase;
+            h1 {
+                font-size: 12px;
+                margin-bottom: 3px;
+            }
+            h2 {
+                margin: 0px;
+                font-size: 14px;
+                font-weight: 600;
+            }
+        }
+    }
+    .group-title {
+        margin: 0px;
+        padding: 15px 10px 0px 10px;
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+    .menu-sections {
+        > .row {
+            padding: 0px;
+            &.active {
+                .section {
+                    .flag {
+                        display: block;
+                    }
+                }
+            }
+            .section {
+                position: relative;
+                display: block;
+                width: 100%;
+                font-size: 16px;
+                padding: 10px 15px;
+                border-bottom: 1px solid #cfcfcf;
+                .flag {
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    width: 5px;
+                    height: 100%;
+                    background: #43c364;
+                    display: none;
+                }
+                .ico {
+                    float: left;
+                }
+                .txt {
+                    float: left;
+                    width: 80%;
+                    padding-top: 6px;
+                }
+                .section-icons {
+                    width: 24px;
+                    top: 5px;
+                    position: relative;
+                    margin-right: 10px;
+                    &.plenary-ico {
+                        width: 20px;
+                        height: 25px;
+                    }
+
+                    &.controll-ico {
+                        
+                    }
+
+                    &.committee-ico {
+
+                    }
+
+                    &.news-ico {
+                        width: 26px;
+                    }
+                } 
+            }
+        }
+        .row+.row {
+            margin: 0px;
+        }
+    }
+}
+
+/* === END Left Menu === */
+
 
 
 /* ===== Home Screen ===== */
@@ -404,6 +524,15 @@ body {
     overflow-y: auto;
     color: #ffffff;
     background: url("../img/home-screen-bg.jpg") no-repeat fixed center bottom / cover rgba(0, 0, 0, 0);
+
+    .side-menu-btn {
+        top: 20px;
+        left: 20px;
+        font-size: 40px;
+        width: 44px;
+        height: 44px;
+        color: #ffffff;
+    }
 
     .armorial-wrapper {
         width: 100%;

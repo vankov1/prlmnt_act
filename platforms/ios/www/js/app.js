@@ -71,7 +71,11 @@ var committeesListUrl = "#committees-list";
 var newsUrl = "#news";
 var newsDetailUrl = "#newsDetail";
 var optionsUrl = "#options";
-var billsListUrl = "billsList";
+var billsListUrl = "#billsList";
+var billsDetailUrl = "#billsDetail";
+var mpsAZListUrl = "#mpsAZList";
+var mpDetailUrl = "#mpsDetail";
+
 
 // We use an "Immediate Function" to initialize the application to avoid leaving anything behind in the global scope
 (function () {
@@ -79,18 +83,20 @@ var billsListUrl = "billsList";
     /* ---------------------------------- Local Variables ---------------------------------- */
     var homeTpl = Handlebars.compile($("#home-tpl").html());
     var plenaryTpl = Handlebars.compile($("#plenary-tpl").html());
-    var plenaryDetailTpl = Handlebars.compile($("#plenary-tpl-detail-preview").html());
-    var controllTpl = Handlebars.compile($("#controll-tpl").html());
-    var controllDetailTpl = Handlebars.compile($("#controll-tpl-detail-preview").html());
-    var committeeTpl = Handlebars.compile($("#committee-tpl").html());
-    var committeeDetailTpl = Handlebars.compile($("#committee-tpl-detail-preview").html());
-    var committeesListTpl = Handlebars.compile($("#committee-check-list-tpl").html());
-    var newsTpl = Handlebars.compile($("#news-tpl").html());
-    var newsDetailTpl = Handlebars.compile($("#news-tpl-detail-preview").html());
-    var optionsTpl = Handlebars.compile($("#options-tpl").html());
-    var billsTpl = Handlebars.compile($("#bills-tpl").html());
+//    var plenaryDetailTpl = Handlebars.compile($("#plenary-tpl-detail-preview").html());
+//    var controllTpl = Handlebars.compile($("#controll-tpl").html());
+//    var controllDetailTpl = Handlebars.compile($("#controll-tpl-detail-preview").html());
+//    var committeeTpl = Handlebars.compile($("#committee-tpl").html());
+//    var committeeDetailTpl = Handlebars.compile($("#committee-tpl-detail-preview").html());
+//    var committeesListTpl = Handlebars.compile($("#committee-check-list-tpl").html());
+//    var newsTpl = Handlebars.compile($("#news-tpl").html());
+//    var newsDetailTpl = Handlebars.compile($("#news-tpl-detail-preview").html());
+//    var optionsTpl = Handlebars.compile($("#options-tpl").html());
+//    var billsTpl = Handlebars.compile($("#bills-tpl").html());
+//    var billsDetailTpl = Handlebars.compile($("#bills-tpl-detail-preview").html());
+//    var mpsAZTpl = Handlebars.compile($("#mps-az-tpl").html());
 
-    var slider = new PageSlider($('body'));
+//    var slider = new PageSlider($('body'));
 
     for (var i = 0; i < dataFiles.length; i++) {
     	adapters[i] = new FileStorage(dataFiles[i]);
@@ -133,20 +139,34 @@ var billsListUrl = "billsList";
 	function route() {
 		var hash = window.location.hash;
 		if (!hash) {
-			slider.slidePage(new HomeView(homeTpl).render().el);
+			var plenary = new PlenaryView(plenaryTpl);
+			plenary.getData(function(tplData) {
+				//slider.slidePage(plenary.render(tplData).el);
+				$('#page-placeholder').html(plenary.render(tplData).el);
+				plenary.assignHandlers();
+			});
+			snapper.close();
+			return;
+
+			//slider.slidePage(new HomeView(homeTpl).render().el);
+			$('#page-placeholder').html(new HomeView(homeTpl).render().el);
+			snapper.close();
 			return;
 		}
 		
-		var match = hash.match(homeUrl);
+		var match;
+		match = hash.match(homeUrl);
 		if (match) {
 			var home = new HomeView(homeTpl);
-			slider.slidePage(home.render(homePageNewItemsCounters).el);
+			//slider.slidePage(home.render(homePageNewItemsCounters).el);
+			$('#page-placeholder').html(home.render(homePageNewItemsCounters).el);
+			snapper.close();
 			return;
 		}
 
-		var match = hash.match(plenaryUrl);
+		match = hash.match(plenaryUrl);
 		if (match) {
-			var match = hash.match(plenaryDetailUrl);
+			match = hash.match(plenaryDetailUrl);
 			if (match) {
 				var parts = hash.split('?');
 				if (parts[1]) {
@@ -161,20 +181,23 @@ var billsListUrl = "billsList";
 						}
 						slider.slidePage(plenary.render(detailData).el);
 					});
+					snapper.close();
 					return;
 				}
 			}
 			var plenary = new PlenaryView(plenaryTpl);
 			plenary.getData(function(tplData) {
-				slider.slidePage(plenary.render(tplData).el);
+				//slider.slidePage(plenary.render(tplData).el);
+				$('#page-placeholder').html(plenary.render(tplData).el);
 				plenary.assignHandlers();
 			});
+			snapper.close();
 			return;
 		}
 
-		var match = hash.match(controllUrl);
+		match = hash.match(controllUrl);
 		if (match) {
-			var match = hash.match(controllDetailUrl);
+			match = hash.match(controllDetailUrl);
 			if (match) {
 				var parts = hash.split('?');
 				if (parts[1]) {
@@ -200,7 +223,7 @@ var billsListUrl = "billsList";
 			return;
 		}
 		
-		var match = hash.match(committeesListUrl);
+		match = hash.match(committeesListUrl);
 		if (match) {
 			var commList = new CommitteesListView(committeesListTpl);
 			commList.getData(function(tplData) {
@@ -210,9 +233,9 @@ var billsListUrl = "billsList";
 			return;
 		}
 
-		var match = hash.match(committeeUrl);
+		match = hash.match(committeeUrl);
 		if (match) {
-			var match = hash.match(committeeDetailUrl);
+			match = hash.match(committeeDetailUrl);
 			if (match) {
 				var parts = hash.split('?');
 				if (parts[1]) {
@@ -238,14 +261,14 @@ var billsListUrl = "billsList";
 			return;
 		}
 
-		var match = hash.match(newsUrl);
+		match = hash.match(newsUrl);
 		if (match) {
-			var match = hash.match(newsDetailUrl);
+			match = hash.match(newsDetailUrl);
 			if (match) {
 				var parts = hash.split('?');
 				if (parts[1]) {
 					var id = parts[1].replace('id=', '');
-					console.log('id: ' + id);
+					//console.log('id: ' + id);
 					var news = new NewsView(newsDetailTpl);
 					news.getData(function(tplData) {
 						var detailData = {};
@@ -267,7 +290,7 @@ var billsListUrl = "billsList";
 			return;
 		}
 		
-		var match = hash.match(optionsUrl);
+		match = hash.match(optionsUrl);
 		if (match) {
 			var options = new OptionsView(optionsTpl);
 			options.getData(function(tplData) {
@@ -277,12 +300,42 @@ var billsListUrl = "billsList";
 			return;
 		}
 		
-		var match = hash.match(billsListUrl);
+		match = hash.match(billsListUrl);
 		if (match) {
-			var options = new BillsView(billsTpl);
-			options.getData(function(tplData) {
-				slider.slidePage(options.render(tplData).el);
-				options.assignHandlers();
+			var bills = new BillsView(billsTpl);
+			bills.getData(function(tplData) {
+				slider.slidePage(bills.render(tplData).el);
+				bills.assignHandlers();
+			});
+			return;
+		}
+		
+		match = hash.match(billsDetailUrl);
+		if (match) {
+			var parts = hash.split('?');
+			if (parts[1]) {
+				var id = parts[1].replace('id=', '');
+				//console.log('id: ' + id);
+				var bills = new BillsView(billsDetailTpl);
+				bills.getData(function(tplData) {
+					var detailData = {};
+					if (tplData.bills.length == 0) {
+						detailData = getBillsTestingData(id);
+					} else {
+						detailData = tplData.bills[id];
+					}
+					slider.slidePage(bills.render(detailData).el);
+				});
+				return;
+			}
+		}
+		
+		match = hash.match(mpsAZListUrl);
+		if (match) {
+			var mps = new BillsView(mpsAZTpl);
+			mps.getData(function(tplData) {
+				slider.slidePage(mps.render(tplData).el);
+				mps.assignHandlers();
 			});
 			return;
 		}
