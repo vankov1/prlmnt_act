@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/ionic.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/app_effects.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/snap.css" />
+</head>
+<body>
+
+
+
+<!-- home-tpl -->
+<script id="home-tpl" type="text/x-handlebars-template">
+	<div class="home-tpl">
+		<div class="row armorial-wrapper">
+			<div class="col">
+				<img src="assets/img/bulgarian-armorial.svg" class="armorial">
+				<h1 class="title">
+					<span>Народно събрание на</span></br>
+					Република България
+				</h1>
+			</div>
+		</div>
+	</div>
+</script>
+<!-- END home-tpl -->
+
+
+<!-- plenary-tpl -->
+<script id="plenary-tpl" type="text/x-handlebars-template">
+	<div class="plenary-tpl">
+		<div class="bar bar-header">
+			<button class="back-btn button button-icon" onclick="javascript:openAppUrl('#home')">
+				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
+			</button>
+			<h1 class="title">Пленарни заседания</h1>
+			<button class="search-btn button button-icon" id="btnSearchPlenary">
+				<img src="assets/img/search-icon.png" alt="ico" class="ico">
+			</button>
+		</div>
+
+		<div class="row search-row">
+			<div class="col">
+				<div class="search-wrapper">
+					<input type="text" placeholder="Търси заседание" class="search-field" />
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col content-wrapper">
+				<div class="row short-preview">
+					<div class="col-67 description">
+						Това е описанието на конкретното парламентарно заседание, коетпо може да бъде на два реда, но ако е повече от 255 символа се изря...
+					</div>
+					<div class="col-33">
+						<div class="custom-row">
+							<div class="date">12.04.2014</div>
+						</div>
+						<div class="custom-row">
+							<button class="button icon-left ion-eye preview-btn"><span class="txt">Преглед</span></button>
+						</div>
+					</div>
+				</div>
+				<div class="row short-preview">
+					<div class="col-67 description">
+						Това е описанието на конкретното парламентарно заседание, коетпо може да бъде на два реда, но ако е повече от 255 символа се изря...
+					</div>
+					<div class="col-33">
+						<div class="custom-row">
+							<div class="date">12.04.2014</div>
+						</div>
+						<div class="custom-row">
+							<button class="button icon-left ion-eye preview-btn"><span class="txt">Преглед</span></button>
+						</div>
+					</div>
+				</div>
+				<div class="row short-preview">
+					<div class="col-67 description">
+						Това е описанието на конкретното парламентарно заседание, коетпо може да бъде на два реда, но ако е повече от 255 символа се изря...
+					</div>
+					<div class="col-33">
+						<div class="custom-row">
+							<div class="date">12.04.2014</div>
+						</div>
+						<div class="custom-row">
+							<button class="button icon-left ion-eye preview-btn"><span class="txt">Преглед</span></button>
+						</div>
+					</div>
+				</div>
+				<div class="row short-preview">
+					<div class="col-67 description">
+						Това е описанието на конкретното парламентарно заседание, коетпо може да бъде на два реда, но ако е повече от 255 символа се изря...
+					</div>
+					<div class="col-33">
+						<div class="custom-row">
+							<div class="date">12.04.2014</div>
+						</div>
+						<div class="custom-row">
+							<button class="button icon-left ion-eye preview-btn"><span class="txt">Преглед</span></button>
+						</div>
+					</div>
+				</div>
+				<div class="row short-preview">
+					<div class="col-67 description">
+						Това е описанието на конкретното парламентарно заседание, коетпо може да бъде на два реда, но ако е повече от 255 символа се изря...
+					</div>
+					<div class="col-33">
+						<div class="custom-row">
+							<div class="date">12.04.2014</div>
+						</div>
+						<div class="custom-row">
+							<button class="button icon-left ion-eye preview-btn"><span class="txt">Преглед</span></button>
+						</div>
+					</div>
+				</div>
+				<div class="row short-preview">
+					<div class="col-67 description">
+						Това е описанието на конкретното парламентарно заседание, коетпо може да бъде на два реда, но ако е повече от 255 символа се изря...
+					</div>
+					<div class="col-33">
+						<div class="custom-row">
+							<div class="date">12.04.2014</div>
+						</div>
+						<div class="custom-row">
+							<button class="button icon-left ion-eye preview-btn"><span class="txt">Преглед</span></button>
+						</div>
+					</div>
+				</div>
+				<div class="row short-preview">
+					<div class="col-67 description">
+						Това е описанието на конкретното парламентарно заседание, коетпо може да бъде на два реда, но ако е повече от 255 символа се изря...
+					</div>
+					<div class="col-33">
+						<div class="custom-row">
+							<div class="date">12.04.2014</div>
+						</div>
+						<div class="custom-row">
+							<button class="button icon-left ion-eye preview-btn"><span class="txt">Преглед</span></button>
+						</div>
+					</div>
+				</div>
+				<div class="row short-preview">
+					<div class="col-67 description">
+						Това е описанието на конкретното парламентарно заседание, коетпо може да бъде на два реда, но ако е повече от 255 символа се изря...
+					</div>
+					<div class="col-33">
+						<div class="custom-row">
+							<div class="date">12.04.2014</div>
+						</div>
+						<div class="custom-row">
+							<button class="button icon-left ion-eye preview-btn"><span class="txt">Преглед</span></button>
+						</div>
+					</div>
+				</div>
+				<div class="row short-preview">
+					<div class="col-67 description">
+						Това е описанието на конкретното парламентарно заседание, коетпо може да бъде на два реда, но ако е повече от 255 символа се изря...
+					</div>
+					<div class="col-33">
+						<div class="custom-row">
+							<div class="date">12.04.2014</div>
+						</div>
+						<div class="custom-row">
+							<button class="button icon-left ion-eye preview-btn"><span class="txt">Преглед</span></button>
+						</div>
+					</div>
+				</div>
+				<div class="row short-preview">
+					<div class="col-67 description">
+						Това е описанието на конкретното парламентарно заседание, коетпо може да бъде на два реда, но ако е повече от 255 символа се изря...
+					</div>
+					<div class="col-33">
+						<div class="custom-row">
+							<div class="date">12.04.2014</div>
+						</div>
+						<div class="custom-row">
+							<button class="button icon-left ion-eye preview-btn"><span class="txt">Преглед</span></button>
+						</div>
+					</div>
+				</div>
+				<div class="row short-preview">
+					<div class="col-67 description">
+						Това е описанието на конкретното парламентарно заседание, коетпо може да бъде на два реда, но ако е повече от 255 символа се изря...
+					</div>
+					<div class="col-33">
+						<div class="custom-row">
+							<div class="date">12.04.2014</div>
+						</div>
+						<div class="custom-row">
+							<button class="button icon-left ion-eye preview-btn"><span class="txt">Преглед</span></button>
+						</div>
+					</div>
+				</div>
+				<div class="row short-preview">
+					<div class="col-67 description">
+						Това е описанието на конкретното парламентарно заседание, коетпо може да бъде на два реда, но ако е повече от 255 символа се изря...
+					</div>
+					<div class="col-33">
+						<div class="custom-row">
+							<div class="date">12.04.2014</div>
+						</div>
+						<div class="custom-row">
+							<button class="button icon-left ion-eye preview-btn"><span class="txt">Преглед</span></button>
+						</div>
+					</div>
+				</div>
+				<div class="row short-preview">
+					<div class="col-67 description">
+						Това е описанието на конкретното парламентарно заседание, коетпо може да бъде на два реда, но ако е повече от 255 символа се изря...
+					</div>
+					<div class="col-33">
+						<div class="custom-row">
+							<div class="date">12.04.2014</div>
+						</div>
+						<div class="custom-row">
+							<button class="button icon-left ion-eye preview-btn"><span class="txt">Преглед</span></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bar bar-footer bar-balanced">
+		  <div class="title">Footer</div>
+		</div>
+	</div>
+</script>
+<!-- END plenary-tpl -->
+
+
+
+	<div class="snap-drawers">
+		<div class="snap-drawer snap-drawer-left left-menu">
+			<div class="row header">
+			  <div class="col-25 armorial">
+			  	<img src="assets/img/bulgarian-armorial.svg" alt="bulgarian-armorial">
+			  </div>
+			  <div class="col-75 title center">
+			  	<h1>Народно събрание на</h1>
+			  	<h2>република България</h2>
+			  </div>
+			</div>
+			<div class="row">
+				<h3 class="group-title">Меню</h3>
+			</div>
+			<ul class="menu-sections">
+				<li class="row">
+					<a href="#plenary" class="col section">
+						<span class="flag"></span>
+						<span class="ico"><img src="assets/img/plenary-ico-dark.svg" class="section-icons plenary-ico"></span>
+						<span class="txt">Пленарни заседания</span>
+					</a>
+				</li>
+				<li class="row active">
+					<a href="#" class="col section">
+						<span class="flag"></span>
+						<span class="ico"><img src="assets/img/controll-ico-dark.svg" class="section-icons controll-ico"></span>
+						<span class="txt">Парламентарен контрол</span>
+					</a>
+				</li>
+				<li class="row">
+					<a href="#" class="col section">
+						<span class="flag"></span>
+						<span class="ico"><img src="assets/img/committee-ico-dark.svg" class="section-icons committee-ico"></span>
+						<span class="txt">Заседания на парламентарни комисии</span>
+					</a>
+				</li>
+				<li class="row">
+					<a href="#" class="col section">
+						<span class="flag"></span>
+						<span class="ico"><img src="assets/img/news-ico-dark.svg" class="section-icons news-ico"></span>
+						<span class="txt">Новини</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="snap-drawer snap-drawer-right"></div>
+	</div>
+
+	<div id="content" class="snap-content">
+		<div id="toolbar">
+			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
+			
+			<div id="page-placeholder"></div>
+
+		</div>
+	</div>
+	
+
+<script type="text/javascript" src="js/tools.js"></script>
+<script src="cordova.js"></script>
+<script src="lib/jquery.js"></script>
+<script src="lib/fastclick.js"></script>
+<script src="lib/handlebars.js"></script>
+<script src="lib/pageslider.js"></script>
+<script src="lib/snap.js"></script>
+
+<script src="js/adapters/FileStorage.js"></script>
+<script src="js/AppSettings.js"></script>
+<script src="js/HomeView.js"></script>
+<script src="js/PlenaryView.js"></script>
+<script src="js/ControllView.js"></script>
+<script src="js/CommitteeView.js"></script>
+<script src="js/CommitteesListView.js"></script>
+<script src="js/NewsView.js"></script>
+<script src="js/BillsView.js"></script>
+<script src="js/OptionsView.js"></script>
+
+<script src="lib/snap.js"></script>
+<script type="text/javascript">
+	var snapper = new Snap({
+		element: document.getElementById('content'),
+		disable: 'right'
+	});
+
+	$('#open-left').unbind().bind('click', function() {
+		if (snapper.state().state == "left") {
+			snapper.close();
+		} else {
+			snapper.open('left');
+		}
+	})
+	
+</script>
+
+
+<!-- keep this last in import list because it uses most of above scripts and executes on include -->
+<script src="js/app.js"></script>
+
+
+
+
+
+
+</body>
+</html>
