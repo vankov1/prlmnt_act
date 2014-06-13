@@ -19,7 +19,7 @@ body {
   position: fixed;
 }
 .placeholder-container {
-  overflow: hidden;
+  overflow-y: auto;
   height: 100%;
 }
 .default-btn {

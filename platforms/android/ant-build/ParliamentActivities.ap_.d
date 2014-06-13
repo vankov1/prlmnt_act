@@ -50,6 +50,7 @@
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/res \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/staticHTML.1.html \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/staticHTML.html \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/staticHTML_my.html \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/xmls \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/css \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/fonts \

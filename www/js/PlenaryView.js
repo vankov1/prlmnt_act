@@ -1,7 +1,7 @@
 var PlenaryView = function(template) {
 
     this.initialize = function() {
-        this.el = $('<span/>');
+        this.el = $('<span></span>');
         //this.el.on('click', '.add-location-btn', this.addLocation);
     };
 

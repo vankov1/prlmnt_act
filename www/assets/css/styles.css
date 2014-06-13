@@ -20,7 +20,7 @@ body {
 }
 .placeholder-container {
   overflow-y: auto;
-  height: 100%;
+  height: 110%;
 }
 .default-btn {
   display: inline-block;

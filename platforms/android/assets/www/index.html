@@ -16,6 +16,7 @@
 <!-- home-tpl -->
 <script id="home-tpl" type="text/x-handlebars-template">
 	<div class="home-tpl">
+		<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
 		<div class="row armorial-wrapper">
 			<div class="col">
 				<img src="assets/img/bulgarian-armorial.svg" class="armorial">
@@ -34,9 +35,7 @@
 <script id="plenary-tpl" type="text/x-handlebars-template">
 	<div class="plenary-tpl">
 		<div class="bar bar-header">
-			<button class="back-btn button button-icon" onclick="javascript:openAppUrl('#home')">
-				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
-			</button>
+			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
 			<h1 class="title">Пленарни заседания</h1>
 			<button class="search-btn button button-icon" id="btnSearchPlenary">
 				<img src="assets/img/search-icon.png" alt="ico" class="ico">
@@ -197,9 +196,11 @@
 				</div>
 			</div>
 		</div>
-		<div class="bar bar-footer bar-balanced">
-		  <div class="title">Footer</div>
-		</div>
+		            <div class="bar bar-footer">	                
+		                <button class="back-btn button button-icon">
+		                <img src="assets/img/back-arrow.png" alt="ico" class="ico">
+		                </button>
+		            </div>
 	</div>
 </script>
 <!-- END plenary-tpl -->
@@ -255,8 +256,7 @@
 	</div>
 
 	<div id="content" class="snap-content" style="position: fixed;">
-		<div id="toolbar"  class="placeholder-container">
-			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
+		<div id="toolbar" class="placeholder-container">
 			
 			<div id="page-placeholder" class="placeholder-container">
 			</div>
