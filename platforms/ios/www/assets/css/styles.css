@@ -15,12 +15,9 @@ body {
 .relative {
   position: relative;
 }
-#content.snap-content {
-  position: fixed;
-}
 .placeholder-container {
   overflow-y: auto;
-  height: 110%;
+  height: 100%;
 }
 .default-btn {
   display: inline-block;
