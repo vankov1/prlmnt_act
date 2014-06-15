@@ -128,3 +128,31 @@ function inArray(needle, haystack) {
 	
 	return pos;
 }
+
+function assignSliderOpenHandler() {
+	if (!$('#open-left')) {
+		return;
+	}
+	
+	$('#open-left').unbind().bind('click', function() {
+		if (snapper.state().state == "left") {
+			snapper.close();
+		} else {
+			snapper.open('left');
+		}
+	});
+}
+
+
+function assignFooterHandlers(backBtnUrl) {
+	if ($('#footerBackButton')) {
+		$('#footerBackButton').unbind().bind('click', function() {
+			openAppUrl(backBtnUrl);
+		});
+	}
+	if ($('#footerSettingsButton')) {
+		$('#footerSettingsButton').unbind().bind('click', function() {
+			openAppUrl(optionsUrl);
+		});
+	}
+}

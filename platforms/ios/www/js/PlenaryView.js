@@ -159,6 +159,12 @@ var PlenaryView = function(template) {
 		}
 		return itemIds;
 	};
+	
+	
+	this.updateInterface = function() {
+		$('.liMainMenuItem').removeClass('active');
+		$('#liMainMenuPlenaries').addClass('active');
+	};
 
 	
     this.initialize();

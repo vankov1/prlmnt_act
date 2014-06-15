@@ -42,15 +42,11 @@
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/cordova.js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/cordova_plugins.js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/index.html \
-/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/index.html.ok \
-/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/index.old.html \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/lib \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/plugins \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/res \
-/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/staticHTML.1.html \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/staticHTML.html \
-/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/staticHTML_my.html \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/xmls \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/css \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/fonts \

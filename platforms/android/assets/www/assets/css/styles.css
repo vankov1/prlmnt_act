@@ -15,9 +15,6 @@ body {
 .relative {
   position: relative;
 }
-#content.snap-content {
-  position: fixed;
-}
 .placeholder-container {
   overflow-y: auto;
   height: 100%;
@@ -82,7 +79,7 @@ body {
   letter-spacing: 0.1px;
 }
 .back-btn {
-  padding-top: 11px !important;
+  padding-top: 6px !important;
 }
 .back-btn img {
   width: 25px;
@@ -173,7 +170,7 @@ body {
 }
 .subscribe-list-btn {
   position: absolute;
-  padding-top: 9px !important;
+  padding-top: 20px !important;
   top: 6px;
   right: 40px;
 }
@@ -418,7 +415,10 @@ body {
 .left-menu .menu-sections > .row {
   padding: 0px;
 }
-.left-menu .menu-sections > .row.active .section .flag {
+.left-menu .menu-sections > .row.active .section .flag-active {
+  display: block;
+}
+.left-menu .menu-sections > .row.new .section .flag-new {
   display: block;
 }
 .left-menu .menu-sections > .row .section {
@@ -429,13 +429,25 @@ body {
   padding: 10px 15px;
   border-bottom: 1px solid #cfcfcf;
 }
-.left-menu .menu-sections > .row .section .flag {
+.left-menu .menu-sections > .row .section .flag-active {
   position: absolute;
   top: 0px;
   left: 0px;
   width: 5px;
   height: 100%;
   background: #43c364;
+  display: none;
+}
+.left-menu .menu-sections > .row .section .flag-new {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 55px;
+  height: 20px;
+  background: #e54f45;
+  color: #ffffff;
+  text-align: center;
+  line-height: 18px;
   display: none;
 }
 .left-menu .menu-sections > .row .section .ico {
@@ -511,7 +523,7 @@ body {
 .committee-tpl-detail-preview,
 .news-tpl-detail-preview,
 .committee-check-list-tpl {
-  padding-top: 55px;
+  padding-top: 75px;
   overflow: auto;
 }
 .plenary-tpl-detail-preview .detail-preview,
@@ -573,7 +585,7 @@ body {
 /* ===== END Committee check-lsit Screen ===== */
 /* ===== Options Screen ===== */
 .options-tpl {
-  padding-top: 55px;
+  padding-top: 75px;
   overflow: auto;
   height: 100%;
 }
@@ -595,7 +607,7 @@ body {
 }
 .options-tpl .content-wrapper {
   position: absolute;
-  top: 55px;
+  top: 75px;
   left: 0px;
   background: #f7f7f7;
   height: 100%;

@@ -96,11 +96,11 @@ var PlenaryView = function(template) {
 		}
 	};
 	
-	this.assignHandlers = function() {
+	this.assignHandlers = function(backBtnUrl) {
 		var self = this;
 		
 		assignSliderOpenHandler();
-		assignFooterHandlers();
+		assignFooterHandlers(backBtnUrl);
 		
 		$('#btnSearchPlenary').unbind().bind('click', function() {
 			$('#searchBoxPlenary').slideToggle("slow");
@@ -158,6 +158,12 @@ var PlenaryView = function(template) {
 			}
 		}
 		return itemIds;
+	};
+	
+	
+	this.updateInterface = function() {
+		$('.liMainMenuItem').removeClass('active');
+		$('#liMainMenuPlenaries').addClass('active');
 	};
 
 	

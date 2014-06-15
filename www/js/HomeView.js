@@ -14,6 +14,10 @@ var HomeView = function (template) {
     this.assignHandlers = function() {
     	assignSliderOpenHandler();
     };
+		
+	this.updateInterface = function() {
+		$('.liMainMenuItem').removeClass('active');
+	};
 
     this.initialize();
 

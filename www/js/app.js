@@ -112,7 +112,7 @@ function assignMainMenuHandlers() {
     /* ---------------------------------- Local Variables ---------------------------------- */
     var homeTpl = Handlebars.compile($("#home-tpl").html());
     var plenaryTpl = Handlebars.compile($("#plenary-tpl").html());
-//    var plenaryDetailTpl = Handlebars.compile($("#plenary-tpl-detail-preview").html());
+    var plenaryDetailTpl = Handlebars.compile($("#plenary-tpl-detail-preview").html());
 //    var controllTpl = Handlebars.compile($("#controll-tpl").html());
 //    var controllDetailTpl = Handlebars.compile($("#controll-tpl-detail-preview").html());
 //    var committeeTpl = Handlebars.compile($("#committee-tpl").html());
@@ -178,6 +178,7 @@ function assignMainMenuHandlers() {
 			var home = new HomeView(homeTpl);
 			$('#page-placeholder').html(home.render().el);
 			home.assignHandlers();
+			home.updateInterface();
 			snapper.close();
 			return;
 		}
@@ -189,6 +190,7 @@ function assignMainMenuHandlers() {
 			//slider.slidePage(home.render(homePageNewItemsCounters).el);
 			$('#page-placeholder').html(home.render(homePageNewItemsCounters).el);
 			home.assignHandlers();
+			home.updateInterface();
 			snapper.close();
 			return;
 		}
@@ -208,7 +210,10 @@ function assignMainMenuHandlers() {
 						} else {
 							detailData = tplData.plenary[id];
 						}
-						slider.slidePage(plenary.render(detailData).el);
+						//slider.slidePage(plenary.render(detailData).el);
+						$('#page-placeholder').html(plenary.render(detailData).el);
+						plenary.assignHandlers(plenaryUrl);
+						plenary.updateInterface();
 					});
 					snapper.close();
 					return;
@@ -217,8 +222,10 @@ function assignMainMenuHandlers() {
 			var plenary = new PlenaryView(plenaryTpl);
 			plenary.getData(function(tplData) {
 				//slider.slidePage(plenary.render(tplData).el);
+//				console.log(plenary.render(tplData).el);
 				$('#page-placeholder').html(plenary.render(tplData).el);
-				plenary.assignHandlers();
+				plenary.assignHandlers(homeUrl);
+				plenary.updateInterface();
 			});
 			snapper.close();
 			return;

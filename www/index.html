@@ -42,7 +42,7 @@
 
 			<h1 class="title">Пленарни заседания</h1>
 			<button class="search-btn button button-icon">
-			<img src="assets/img/search-icon.png" alt="ico" class="ico">
+				<img src="assets/img/search-icon.png" alt="ico" class="ico">
 			</button>
 		</div>
 		
@@ -57,131 +57,27 @@
 		<div class="row">
 			<div class="col content-wrapper">
 			
-				<div class="row short-preview">
-					<div class="col-67 description">
-						Това е описанието на конкретното парламентарно заседание, коетпо може да бъде на два реда, но ако е повече от 255 символа се изря...
+				{{#each plenary}}
+				<div class="row short-preview plenariesListItem" data-list-item-id="{{pid}}">
+					<div class="col-67 description" onclick="openAppUrl('#plenaryDetail?id={{pid}}');">
+						{{{dscrShort}}}
 					</div>
 					<div class="col-33">
 						<div class="custom-row">
-							<div class="date">12.04.2014</div>
+							<div class="date">{{startDate}}</div>
+							{{#ifCond startDate endDate}}
+							{{else}}
+								<div class="date">{{endDate}}</div>
+							{{/ifCond}}
 						</div>
 						<div class="custom-row">
-							<button class="button icon-left ion-eye preview-btn"><span class="txt">Преглед</span></button>
+							<button class="button icon-left ion-eye preview-btn" onclick="openAppUrl('#plenaryDetail?id={{pid}}');">
+								<span class="txt">Преглед</span>
+							</button>
 						</div>
 					</div>
 				</div>
-			
-				<div class="row short-preview">
-					<div class="col-67 description">
-						Това е описанието на конкретното парламентарно заседание, коетпо може да бъде на два реда, но ако е повече от 255 символа се изря...
-					</div>
-					<div class="col-33">
-						<div class="custom-row">
-							<div class="date">12.04.2014</div>
-						</div>
-						<div class="custom-row">
-							<button class="button icon-left ion-eye preview-btn"><span class="txt">Преглед</span></button>
-						</div>
-					</div>
-				</div>
-			
-				<div class="row short-preview">
-					<div class="col-67 description">
-						Това е описанието на конкретното парламентарно заседание, коетпо може да бъде на два реда, но ако е повече от 255 символа се изря...
-					</div>
-					<div class="col-33">
-						<div class="custom-row">
-							<div class="date">12.04.2014</div>
-						</div>
-						<div class="custom-row">
-							<button class="button icon-left ion-eye preview-btn"><span class="txt">Преглед</span></button>
-						</div>
-					</div>
-				</div>
-			
-				<div class="row short-preview">
-					<div class="col-67 description">
-						Това е описанието на конкретното парламентарно заседание, коетпо може да бъде на два реда, но ако е повече от 255 символа се изря...
-					</div>
-					<div class="col-33">
-						<div class="custom-row">
-							<div class="date">12.04.2014</div>
-						</div>
-						<div class="custom-row">
-							<button class="button icon-left ion-eye preview-btn"><span class="txt">Преглед</span></button>
-						</div>
-					</div>
-				</div>
-			
-				<div class="row short-preview">
-					<div class="col-67 description">
-						Това е описанието на конкретното парламентарно заседание, коетпо може да бъде на два реда, но ако е повече от 255 символа се изря...
-					</div>
-					<div class="col-33">
-						<div class="custom-row">
-							<div class="date">12.04.2014</div>
-						</div>
-						<div class="custom-row">
-							<button class="button icon-left ion-eye preview-btn"><span class="txt">Преглед</span></button>
-						</div>
-					</div>
-				</div>
-			
-				<div class="row short-preview">
-					<div class="col-67 description">
-						Това е описанието на конкретното парламентарно заседание, коетпо може да бъде на два реда, но ако е повече от 255 символа се изря...
-					</div>
-					<div class="col-33">
-						<div class="custom-row">
-							<div class="date">12.04.2014</div>
-						</div>
-						<div class="custom-row">
-							<button class="button icon-left ion-eye preview-btn"><span class="txt">Преглед</span></button>
-						</div>
-					</div>
-				</div>
-			
-				<div class="row short-preview">
-					<div class="col-67 description">
-						Това е описанието на конкретното парламентарно заседание, коетпо може да бъде на два реда, но ако е повече от 255 символа се изря...
-					</div>
-					<div class="col-33">
-						<div class="custom-row">
-							<div class="date">12.04.2014</div>
-						</div>
-						<div class="custom-row">
-							<button class="button icon-left ion-eye preview-btn"><span class="txt">Преглед</span></button>
-						</div>
-					</div>
-				</div>
-			
-				<div class="row short-preview">
-					<div class="col-67 description">
-						Това е описанието на конкретното парламентарно заседание, коетпо може да бъде на два реда, но ако е повече от 255 символа се изря...
-					</div>
-					<div class="col-33">
-						<div class="custom-row">
-							<div class="date">12.04.2014</div>
-						</div>
-						<div class="custom-row">
-							<button class="button icon-left ion-eye preview-btn"><span class="txt">Преглед</span></button>
-						</div>
-					</div>
-				</div>
-			
-				<div class="row short-preview">
-					<div class="col-67 description">
-						Това е описанието на конкретното парламентарно заседание, коетпо може да бъде на два реда, но ако е повече от 255 символа се изря...
-					</div>
-					<div class="col-33">
-						<div class="custom-row">
-							<div class="date">12.04.2014</div>
-						</div>
-						<div class="custom-row">
-							<button class="button icon-left ion-eye preview-btn"><span class="txt">Преглед</span></button>
-						</div>
-					</div>
-				</div>
+				{{/each}}
 
 			</div>
 		</div>
@@ -195,6 +91,76 @@
 	</div>
 </script>
 <!-- END plenary-tpl -->
+
+
+<!-- plenary-tpl detail -->
+<script id="plenary-tpl-detail-preview" type="text/x-handlebars-template">
+	<div class="plenary-tpl-detail-preview">
+
+		<div class="bar bar-header" style="position: fixed;">
+			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
+			<h1 class="title">Пленарни заседания</h1>
+		</div>
+
+		<div class="row">
+			<div class="col content-wrapper">
+				<div class="row detail-preview">
+					<div class="col">
+						<div class="row">
+							<h2 class="title">Пленарно заседание</h2>
+						</div>
+						<div class="row">
+							<div class="custom-row">
+								<div class="date">{{startDate}}</div>
+								{{#ifCond startDate endDate}}
+								{{else}}
+									<div class="date-separator">-</div>
+									<div class="date">{{endDate}}</div>
+								{{/ifCond}}
+							</div>
+						</div>
+						<div class="row">
+							<div class="col description">
+								{{#each agenda}}
+									<div style="margin-bottom: 10px;">
+									{{id}}. {{itemText}}
+									{{#ifCond isBill '1'}}
+										<ul class="external-link-wrapper">
+
+										{{#each bills}}
+											<li>
+												<a href="javascript:openUrlInExternal('{{link}}')" class="external-link">{{name}}</a>
+											</li>
+										{{/each}}
+
+										{{#each docs}}
+											<li>
+												<a  href="javascript:openUrlInExternal('{{link}}')" class="file-link">{{name}}</a>
+											</li>
+										{{/each}}
+
+										</ul>
+									{{/ifCond}}
+									</div>
+								{{/each}}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bar bar-footer">					
+			<button class="back-btn button button-icon" id="footerBackButton">
+				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
+			</button>					
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
+		</div>
+	</div>
+</script>
+<!-- END plenary-tpl detail -->
+
+
 
 
 <div class="snap-drawers">
@@ -212,7 +178,7 @@
 			<h3 class="group-title">Меню</h3>
 		</div>
 		<ul class="menu-sections">
-			<li class="row new">
+			<li class="row liMainMenuItem" id="liMainMenuPlenaries">
 				<a href="javascript:void(0);" class="col section" id="mainMenuPlenary">
 					<span class="flag-active"></span>
 					<span class="flag-new">ново</span>
@@ -220,7 +186,7 @@
 					<span class="txt">Пленарни заседания</span>
 				</a>
 			</li>
-			<li class="row active">
+			<li class="row liMainMenuItem" id="liMainMenuControll">
 				<a href="javascript:void(0);" class="col section" id="mainMenuControll">
 					<span class="flag-active"></span>
 					<span class="flag-new">ново</span>
@@ -228,7 +194,7 @@
 					<span class="txt">Парламентарен контрол</span>
 				</a>
 			</li>
-			<li class="row">
+			<li class="row liMainMenuItem" id="liMainMenuCommittee">
 				<a href="javascript:void(0);" class="col section" id="mainMenuCommittee">
 					<span class="flag-active"></span>
 					<span class="flag-new">ново</span>
@@ -236,7 +202,7 @@
 					<span class="txt">Заседания на парламентарни комисии</span>
 				</a>
 			</li>
-			<li class="row">
+			<li class="row liMainMenuItem" id="liMainMenuNews">
 				<a href="javascript:void(0);" class="col section" id="mainMenuNews">
 					<span class="flag-active"></span>
 					<span class="flag-new">ново</span>
