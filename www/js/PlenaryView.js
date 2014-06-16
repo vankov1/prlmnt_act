@@ -29,7 +29,15 @@ var PlenaryView = function(template) {
 		var docsNamesNodes;
 		var docsLinksNodes;
 		var isBill = 0;
+		var status = 0;
+		var idx = 0;
 		for (var pi = 0; pi < plenariesList.length; pi++) {
+			status = plenariesList[pi].getElementsByTagName('status')[0] ? plenariesList[pi].getElementsByTagName('status')[0].textContent : 0;
+			if (status == 0) {
+				//this plenary is empty yet
+				continue;
+			}
+			
 			agendaItems = [];
 			agendaItemsNodes = plenariesList[pi].getElementsByTagName('agenda_item');
 			shortDscr = '';
@@ -73,10 +81,10 @@ var PlenaryView = function(template) {
 			}
 			shortDscr = shortDscr.replace(/\r?\n/g, "<br />");
 			
-			plenary[pi] = {
-				pid: pi,
+			plenary[idx] = {
+				pid: idx,
 				type: plenariesList[pi].getElementsByTagName('type')[0] ? plenariesList[pi].getElementsByTagName('type')[0].textContent : 0,
-				status: plenariesList[pi].getElementsByTagName('status')[0] ? plenariesList[pi].getElementsByTagName('status')[0].textContent : 0,
+				status: status,
 				startDate: isoToBgDate(plenariesList[pi].getElementsByTagName('start_date')[0] ? plenariesList[pi].getElementsByTagName('start_date')[0].textContent : 'n/a'),
 				endDate: isoToBgDate(plenariesList[pi].getElementsByTagName('end_date')[0] ? plenariesList[pi].getElementsByTagName('end_date')[0].textContent : 'n/a'),
 				startTime: plenariesList[pi].getElementsByTagName('start_time')[0] ? plenariesList[pi].getElementsByTagName('start_time')[0].textContent : 'n/a',
@@ -85,6 +93,7 @@ var PlenaryView = function(template) {
 				agenda: agendaItems,
 				dscrShort: shortDscr
 			};
+			idx++;
 		}
 		
 		tplData = {

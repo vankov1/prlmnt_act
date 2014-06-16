@@ -91,8 +91,11 @@ var ControllView = function(template) {
 		}
 	};
 	
-	this.assignHandlers = function() {
+	this.assignHandlers = function(backBtnUrl) {
 		var self = this;
+		
+		assignSliderOpenHandler();
+		assignFooterHandlers(backBtnUrl);
 		
 		$('#btnSearchControll').unbind().bind('click', function() {
 			$('#searchBoxControll').slideToggle("slow");
@@ -154,6 +157,12 @@ var ControllView = function(template) {
 			}
 		}
 		return itemIds;
+	};
+	
+	
+	this.updateInterface = function() {
+		$('.liMainMenuItem').removeClass('active');
+		$('#liMainMenuControll').addClass('active');
 	};
 
 

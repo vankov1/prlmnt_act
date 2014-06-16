@@ -161,6 +161,116 @@
 <!-- END plenary-tpl detail -->
 
 
+<!-- controll-tpl -->
+<script id="controll-tpl" type="text/x-handlebars-template">
+	<div class="controll-tpl">
+		<div class="bar bar-header" style="position: fixed;">
+			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
+
+			<h1 class="title">Парламентарен контрол</h1>
+			<button class="search-btn button button-icon">
+				<img src="assets/img/search-icon.png" alt="ico" class="ico">
+			</button>
+		</div>
+		
+		<div class="row search-row">
+			<div class="col">
+				<div class="search-wrapper">
+					<input type="text" placeholder="Търси парламентарен контрол" class="search-field" />
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col content-wrapper">
+				{{#each controll}}
+				<div class="row short-preview controllListItem" data-list-item-id="{{cid}}">
+					<div class="col">
+						<!--<div class="row">
+							<h2 class="title">Парламентарен контрол</h2>
+						</div>-->
+						<div class="row">
+							<div class="col-67 description" onclick="openAppUrl('#controllDetail?id={{cid}}');">
+								{{{dscrShort}}}
+							</div>
+							<div class="col-33">
+								<div class="custom-row">
+									<div class="date">{{date}}</div>
+								</div>
+								<div class="custom-row">
+									<button class="button icon-left ion-eye preview-btn" onclick="openAppUrl('#controllDetail?id={{cid}}');">
+										<span class="txt">Преглед</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				{{/each}}
+			</div>
+		</div>
+
+		<div class="bar bar-footer">					
+			<button class="back-btn button button-icon" id="footerBackButton">
+				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
+			</button>					
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
+		</div>
+	</div>
+
+</script>
+
+
+<!-- controll-tpl detail -->
+<script id="controll-tpl-detail-preview" type="text/x-handlebars-template">
+	<div class="controll-tpl-detail-preview">
+
+		<div class="bar bar-header" style="position: fixed;">
+			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
+			<h1 class="title">Парламентарен контрол</h1>
+		</div>
+
+		<div class="row screen-wrapper">
+			<div class="col content-wrapper">
+				<div class="row detail-preview">
+					<div class="col">
+						<div class="row">
+							<h2 class="title">Парламентарен контрол</h2>
+						</div>
+						<div class="row">
+							<div class="custom-row">
+								<div class="date">{{date}}</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col description">
+								Парламентарен контрол - {{time}} </br>
+								{{#each agenda}}
+									<div style="margin-top: 15px;">
+									<strong>{{idRom}}. {{answerer}} ще отговори на:</strong><br />
+									{{#each questWithAutor}}
+										{{this}}<br />
+									{{/each}}
+									</div>
+								{{/each}}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bar bar-footer">					
+			<button class="back-btn button button-icon" id="footerBackButton">
+				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
+			</button>					
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
+		</div>
+	</div>
+</script>
+<!-- END controll-tpl detail -->
+
+
 
 
 <div class="snap-drawers">

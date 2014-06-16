@@ -113,8 +113,8 @@ function assignMainMenuHandlers() {
     var homeTpl = Handlebars.compile($("#home-tpl").html());
     var plenaryTpl = Handlebars.compile($("#plenary-tpl").html());
     var plenaryDetailTpl = Handlebars.compile($("#plenary-tpl-detail-preview").html());
-//    var controllTpl = Handlebars.compile($("#controll-tpl").html());
-//    var controllDetailTpl = Handlebars.compile($("#controll-tpl-detail-preview").html());
+    var controllTpl = Handlebars.compile($("#controll-tpl").html());
+    var controllDetailTpl = Handlebars.compile($("#controll-tpl-detail-preview").html());
 //    var committeeTpl = Handlebars.compile($("#committee-tpl").html());
 //    var committeeDetailTpl = Handlebars.compile($("#committee-tpl-detail-preview").html());
 //    var committeesListTpl = Handlebars.compile($("#committee-check-list-tpl").html());
@@ -165,15 +165,6 @@ function assignMainMenuHandlers() {
 	function route() {
 		var hash = window.location.hash;
 		if (!hash) {
-//			var plenary = new PlenaryView(plenaryTpl);
-//			plenary.getData(function(tplData) {
-//				//slider.slidePage(plenary.render(tplData).el);
-//				$('#page-placeholder').html(plenary.render(tplData).el);
-//				plenary.assignHandlers();
-//			});
-//			snapper.close();
-//			return;
-
 			//slider.slidePage(new HomeView(homeTpl).render().el);
 			var home = new HomeView(homeTpl);
 			$('#page-placeholder').html(home.render().el);
@@ -222,7 +213,6 @@ function assignMainMenuHandlers() {
 			var plenary = new PlenaryView(plenaryTpl);
 			plenary.getData(function(tplData) {
 				//slider.slidePage(plenary.render(tplData).el);
-//				console.log(plenary.render(tplData).el);
 				$('#page-placeholder').html(plenary.render(tplData).el);
 				plenary.assignHandlers(homeUrl);
 				plenary.updateInterface();
@@ -246,16 +236,23 @@ function assignMainMenuHandlers() {
 						} else {
 							detailData = tplData.controll[id];
 						}
-						slider.slidePage(controll.render(detailData).el);
+						//slider.slidePage(controll.render(detailData).el);
+						$('#page-placeholder').html(controll.render(detailData).el);
+						controll.assignHandlers(controllUrl);
+						controll.updateInterface();
 					});
+					snapper.close();
 					return;
 				}
 			}
 			var controll = new ControllView(controllTpl);
 			controll.getData(function(tplData) {
-				slider.slidePage(controll.render(tplData).el);
-				controll.assignHandlers();
+				//slider.slidePage(controll.render(tplData).el);
+				$('#page-placeholder').html(controll.render(tplData).el);
+				controll.assignHandlers(homeUrl);
+				controll.updateInterface();
 			});
+			snapper.close();
 			return;
 		}
 		
@@ -266,6 +263,7 @@ function assignMainMenuHandlers() {
 				slider.slidePage(commList.render(tplData).el);
 				commList.assignHandlers();
 			});
+			snapper.close();
 			return;
 		}
 
@@ -286,6 +284,7 @@ function assignMainMenuHandlers() {
 						}
 						slider.slidePage(committee.render(detailData).el);
 					});
+					snapper.close();
 					return;
 				}
 			}
@@ -294,6 +293,7 @@ function assignMainMenuHandlers() {
 				slider.slidePage(committee.render(tplData).el);
 				committee.assignHandlers();
 			});
+			snapper.close();
 			return;
 		}
 
@@ -315,6 +315,7 @@ function assignMainMenuHandlers() {
 						}
 						slider.slidePage(news.render(detailData).el);
 					});
+					snapper.close();
 					return;
 				}
 			}
@@ -323,6 +324,7 @@ function assignMainMenuHandlers() {
 				slider.slidePage(news.render(tplData).el);
 				news.assignHandlers();
 			});
+			snapper.close();
 			return;
 		}
 		
@@ -333,6 +335,7 @@ function assignMainMenuHandlers() {
 				slider.slidePage(options.render(tplData).el);
 				options.assignHandlers();
 			});
+			snapper.close();
 			return;
 		}
 		
@@ -343,6 +346,7 @@ function assignMainMenuHandlers() {
 				slider.slidePage(bills.render(tplData).el);
 				bills.assignHandlers();
 			});
+			snapper.close();
 			return;
 		}
 		
@@ -362,6 +366,7 @@ function assignMainMenuHandlers() {
 					}
 					slider.slidePage(bills.render(detailData).el);
 				});
+				snapper.close();
 				return;
 			}
 		}
@@ -373,6 +378,7 @@ function assignMainMenuHandlers() {
 				slider.slidePage(mps.render(tplData).el);
 				mps.assignHandlers();
 			});
+			snapper.close();
 			return;
 		}
 

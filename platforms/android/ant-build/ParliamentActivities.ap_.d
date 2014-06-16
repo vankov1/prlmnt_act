@@ -199,5 +199,6 @@
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/xmls/News.rss.xml \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/xmls/News_new.rss.xml \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/xmls/plenary.rss.xml \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/xmls/plenary.xml \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/xmls/plenary_new.rss.xml \
 /Users/mom/dev/cordova/parliament_act/platforms/android/ant-build/AndroidManifest.xml \
