@@ -41,15 +41,15 @@
 			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
 
 			<h1 class="title">Пленарни заседания</h1>
-			<button class="search-btn button button-icon">
+			<button class="search-btn button button-icon" id="btnSearchPlenary">
 				<img src="assets/img/search-icon.png" alt="ico" class="ico">
 			</button>
 		</div>
 		
 		<div class="row search-row">
-			<div class="col">
+			<div class="col hidden" id="searchBoxPlenary">
 				<div class="search-wrapper">
-					<input type="text" placeholder="Търси заседание" class="search-field" />
+					<input type="text" placeholder="Търси заседание" class="search-field" id="txtSearchPlenary" />
 				</div>
 			</div>
 		</div>
@@ -168,15 +168,15 @@
 			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
 
 			<h1 class="title">Парламентарен контрол</h1>
-			<button class="search-btn button button-icon">
+			<button class="search-btn button button-icon" id="btnSearchControll">
 				<img src="assets/img/search-icon.png" alt="ico" class="ico">
 			</button>
 		</div>
 		
 		<div class="row search-row">
-			<div class="col">
+			<div class="col hidden" id="searchBoxControll">
 				<div class="search-wrapper">
-					<input type="text" placeholder="Търси парламентарен контрол" class="search-field" />
+					<input type="text" placeholder="Търси парламентарен контрол" class="search-field" id="txtSearchControll" />
 				</div>
 			</div>
 		</div>
@@ -269,6 +269,216 @@
 	</div>
 </script>
 <!-- END controll-tpl detail -->
+
+
+<!-- committee-tpl -->
+<script id="committee-tpl" type="text/x-handlebars-template">
+	<div class="committee-tpl">
+		<div class="bar bar-header" style="position: fixed;">
+			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
+
+			<h1 class="title">Заседания на комисии</h1>
+			<button class="search-btn button button-icon" id="btnSearchCommittee">
+				<img src="assets/img/search-icon.png" alt="ico" class="ico">
+			</button>
+		</div>
+		
+		<div class="row search-row">
+			<div class="col hidden" id="searchBoxCommittee">
+				<div class="search-wrapper">
+					<input type="text" placeholder="Търси заседание" class="search-field" id="txtSearchCommittee" />
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col content-wrapper">
+				{{#each committee}}			
+				<div class="row short-preview committeeListItem" data-list-item-id="{{cid}}">
+					<div class="col">
+						<div class="row">
+							<h2 class="title">{{committeeName}}</h2>
+						</div>
+						<div class="row">
+							<div class="col-67 description">
+								{{{dscrShort}}}
+							</div>
+							<div class="col-33">
+								<div class="custom-row">
+									<div class="date">{{date}}</div>
+								</div>
+								<div class="custom-row">
+									<button class="button icon-left ion-eye preview-btn" onclick="openAppUrl('#committeeDetail?id={{cid}}');">
+										<span class="txt">Преглед</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				{{/each}}
+			</div>
+		</div>
+
+		<div class="bar bar-footer">					
+			<button class="back-btn button button-icon" id="footerBackButton">
+				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
+			</button>					
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
+		</div>
+	</div>
+
+</script>
+<!-- END controll-tpl detail -->
+
+
+<!-- committee-tpl detail -->
+<script id="committee-tpl-detail-preview" type="text/x-handlebars-template">
+	<div class="committee-tpl-detail-preview">
+
+		<div class="bar bar-header" style="position: fixed;">
+			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
+			<h1 class="title">Заседания на комисии</h1>
+		</div>
+
+		<div class="row screen-wrapper">
+			<div class="col content-wrapper">
+				<div class="row detail-preview">
+					<div class="col">
+						<div class="row">
+							<h2 class="title">Заседание на {{committeeName}}</h2>
+						</div>
+						<div class="row">
+							<div class="custom-row">
+								<div class="date">{{date}}</div>
+								<div class="time">{{time}}</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="custom-row address">
+								<span>{{building}}</span>, зала <span>{{hall}}</span>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col description">
+								{{{agenda}}}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bar bar-footer">	
+			<button class="back-btn button button-icon" id="footerBackButton">
+				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
+			</button>					
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
+		</div>
+	</div>
+</script>
+<!-- END committee-tpl detail -->
+
+
+<!-- news tpl -->
+<script id="news-tpl" type="text/x-handlebars-template">
+	<div class="news-tpl">
+		<div class="bar bar-header" style="position: fixed;">
+			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
+
+			<h1 class="title">Новини</h1>
+			<button class="search-btn button button-icon" id="btnSearchNews">
+				<img src="assets/img/search-icon.png" alt="ico" class="ico">
+			</button>
+		</div>
+		
+		<div class="row search-row">
+			<div class="col hidden" id="searchBoxNews">
+				<div class="search-wrapper">
+					<input type="text" placeholder="" class="search-field" id="txtSearchNews" />
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col content-wrapper">
+				{{#each news}}
+				<div class="row short-preview newsListItem" data-list-item-id="{{nid}}">
+					<div class="col">
+						<div class="row" onclick="openAppUrl('#newsDetail?id={{nid}}');">
+							<h2 class="title">{{title}}</h2>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div class="date">{{pubDate}}</div>
+							</div>
+							<div class="col">
+								<button class="button icon-left ion-eye preview-btn" onclick="openAppUrl('#newsDetail?id={{nid}}');">
+									<span class="txt">Преглед</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				{{/each}}
+			</div>
+		</div>
+
+		<div class="bar bar-footer">					
+			<button class="back-btn button button-icon" id="footerBackButton">
+				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
+			</button>					
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
+		</div>
+	</div>
+
+</script>
+<!-- END news-tpl detail -->
+
+
+<!-- news-tpl detail -->
+<script id="news-tpl-detail-preview" type="text/x-handlebars-template">
+	<div class="news-tpl-detail-preview">
+
+		<div class="bar bar-header" style="position: fixed;">
+			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
+			<h1 class="title">Преглед на новина</h1>
+		</div>
+
+		<div class="row screen-wrapper">
+			<div class="col content-wrapper">
+				<div class="row detail-preview">
+					<div class="col">
+						<div class="row">
+							<h2 class="title">{{title}}</h2>
+						</div>
+						<div class="row">
+							<div class="custom-row">
+								<div class="date">{{pubDate}}</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col description">
+								<img src="http://www.parliament.bg/pub/Gallery/{{img}}" />
+								{{{dscr}}}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bar bar-footer">	
+			<button class="back-btn button button-icon" id="footerBackButton">
+				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
+			</button>					
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
+		</div>
+	</div>
+</script>
+<!-- END news-tpl detail -->
+
+
 
 
 

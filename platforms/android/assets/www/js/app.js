@@ -115,11 +115,11 @@ function assignMainMenuHandlers() {
     var plenaryDetailTpl = Handlebars.compile($("#plenary-tpl-detail-preview").html());
     var controllTpl = Handlebars.compile($("#controll-tpl").html());
     var controllDetailTpl = Handlebars.compile($("#controll-tpl-detail-preview").html());
-//    var committeeTpl = Handlebars.compile($("#committee-tpl").html());
-//    var committeeDetailTpl = Handlebars.compile($("#committee-tpl-detail-preview").html());
+    var committeeTpl = Handlebars.compile($("#committee-tpl").html());
+    var committeeDetailTpl = Handlebars.compile($("#committee-tpl-detail-preview").html());
 //    var committeesListTpl = Handlebars.compile($("#committee-check-list-tpl").html());
-//    var newsTpl = Handlebars.compile($("#news-tpl").html());
-//    var newsDetailTpl = Handlebars.compile($("#news-tpl-detail-preview").html());
+    var newsTpl = Handlebars.compile($("#news-tpl").html());
+    var newsDetailTpl = Handlebars.compile($("#news-tpl-detail-preview").html());
 //    var optionsTpl = Handlebars.compile($("#options-tpl").html());
 //    var billsTpl = Handlebars.compile($("#bills-tpl").html());
 //    var billsDetailTpl = Handlebars.compile($("#bills-tpl-detail-preview").html());
@@ -282,7 +282,10 @@ function assignMainMenuHandlers() {
 						} else {
 							detailData = tplData.committee[id];
 						}
-						slider.slidePage(committee.render(detailData).el);
+						//slider.slidePage(committee.render(detailData).el);
+						$('#page-placeholder').html(committee.render(detailData).el);
+						committee.assignHandlers(committeeUrl);
+						committee.updateInterface();
 					});
 					snapper.close();
 					return;
@@ -290,8 +293,10 @@ function assignMainMenuHandlers() {
 			}
 			var committee = new CommitteeView(committeeTpl);
 			committee.getData(function(tplData) {
-				slider.slidePage(committee.render(tplData).el);
-				committee.assignHandlers();
+				//slider.slidePage(committee.render(tplData).el);
+				$('#page-placeholder').html(committee.render(tplData).el);
+				committee.assignHandlers(homeUrl);
+				committee.updateInterface();
 			});
 			snapper.close();
 			return;
@@ -313,7 +318,10 @@ function assignMainMenuHandlers() {
 						} else {
 							detailData = tplData.news[id];
 						}
-						slider.slidePage(news.render(detailData).el);
+						//slider.slidePage(news.render(detailData).el);
+						$('#page-placeholder').html(news.render(detailData).el);
+						news.assignHandlers(newsUrl);
+						news.updateInterface();
 					});
 					snapper.close();
 					return;
@@ -321,8 +329,10 @@ function assignMainMenuHandlers() {
 			}
 			var news = new NewsView(newsTpl);
 			news.getData(function(tplData) {
-				slider.slidePage(news.render(tplData).el);
-				news.assignHandlers();
+				//slider.slidePage(news.render(tplData).el);
+				$('#page-placeholder').html(news.render(tplData).el);
+				news.assignHandlers(homeUrl);
+				news.updateInterface();
 			});
 			snapper.close();
 			return;
