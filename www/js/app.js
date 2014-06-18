@@ -117,10 +117,10 @@ function assignMainMenuHandlers() {
     var controllDetailTpl = Handlebars.compile($("#controll-tpl-detail-preview").html());
     var committeeTpl = Handlebars.compile($("#committee-tpl").html());
     var committeeDetailTpl = Handlebars.compile($("#committee-tpl-detail-preview").html());
-//    var committeesListTpl = Handlebars.compile($("#committee-check-list-tpl").html());
+    var committeesListTpl = Handlebars.compile($("#committee-check-list-tpl").html());
     var newsTpl = Handlebars.compile($("#news-tpl").html());
     var newsDetailTpl = Handlebars.compile($("#news-tpl-detail-preview").html());
-//    var optionsTpl = Handlebars.compile($("#options-tpl").html());
+    var optionsTpl = Handlebars.compile($("#options-tpl").html());
 //    var billsTpl = Handlebars.compile($("#bills-tpl").html());
 //    var billsDetailTpl = Handlebars.compile($("#bills-tpl-detail-preview").html());
 //    var mpsAZTpl = Handlebars.compile($("#mps-az-tpl").html());
@@ -249,7 +249,7 @@ function assignMainMenuHandlers() {
 			controll.getData(function(tplData) {
 				//slider.slidePage(controll.render(tplData).el);
 				$('#page-placeholder').html(controll.render(tplData).el);
-				controll.assignHandlers(homeUrl);
+				controll.assignHandlers(controllUrl);
 				controll.updateInterface();
 			});
 			snapper.close();
@@ -260,8 +260,10 @@ function assignMainMenuHandlers() {
 		if (match) {
 			var commList = new CommitteesListView(committeesListTpl);
 			commList.getData(function(tplData) {
-				slider.slidePage(commList.render(tplData).el);
-				commList.assignHandlers();
+				//slider.slidePage(commList.render(tplData).el);
+				$('#page-placeholder').html(commList.render(tplData).el);
+				commList.assignHandlers(homeUrl);
+				commList.updateInterface();
 			});
 			snapper.close();
 			return;
@@ -342,8 +344,10 @@ function assignMainMenuHandlers() {
 		if (match) {
 			var options = new OptionsView(optionsTpl);
 			options.getData(function(tplData) {
-				slider.slidePage(options.render(tplData).el);
-				options.assignHandlers();
+				//slider.slidePage(options.render(tplData).el);
+				$('#page-placeholder').html(options.render(tplData).el);
+				options.assignHandlers('');
+				options.updateInterface();
 			});
 			snapper.close();
 			return;

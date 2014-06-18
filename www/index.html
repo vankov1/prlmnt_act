@@ -278,6 +278,9 @@
 			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
 
 			<h1 class="title">Заседания на комисии</h1>
+			<button class="subscribe-list-btn button button-icon" id="committeesListButton">
+				<img src="assets/img/check-list-icon.png" alt="ico" class="ico">
+			</button>
 			<button class="search-btn button button-icon" id="btnSearchCommittee">
 				<img src="assets/img/search-icon.png" alt="ico" class="ico">
 			</button>
@@ -380,6 +383,50 @@
 <!-- END committee-tpl detail -->
 
 
+<!-- committee-check-list-tpl -->
+<script id="committee-check-list-tpl" type="text/x-handlebars-template">
+	<div class="committee-check-list-tpl" style="height: 93%; overflow: auto;">
+		<div class="bar bar-header" style="position: fixed;">
+			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
+			<h1 class="title">Абонамент за комисии</h1>
+		</div>
+
+		<div class="row screen-wrapper">
+			<div class="col content-wrapper">
+
+				{{#each commsList}}
+				<div class="row short-preview">
+					<div class="col">
+						<div class="row relative">
+							<div class="col description">
+								<h2 class="title {{#ifCond isSubscribed '0'}}unsubscribedText{{/ifCond}}">
+									<span class="subscribe-btn {{#ifCond isSubscribed '1'}}active{{/ifCond}} ion-checkmark-circled" data-committee-id="{{commId}}"></span>
+									{{commName}}
+								</h2>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col description">
+								Председател: <strong>{{chairman}}</strong>
+							</div>
+						</div>
+					</div>
+				</div>
+				{{/each}}
+
+			</div>
+		</div>
+
+		<div class="tabs tabs-icon-top bottom-tabs">
+			<button href="javascript:void(0)" id="btn_comm_list_save" class="button icon-left ion-compose save-btn"><span class="txt">Запис</span></button>
+		</div>
+
+	</div>
+</script>
+<!-- END committee-check-list-tpl -->
+
+
+
 <!-- news tpl -->
 <script id="news-tpl" type="text/x-handlebars-template">
 	<div class="news-tpl">
@@ -477,6 +524,43 @@
 	</div>
 </script>
 <!-- END news-tpl detail -->
+
+
+<!-- options-tpl -->
+<script id="options-tpl" type="text/x-handlebars-template">
+	<div class="options-tpl">
+
+		<div class="bar bar-header" style="position: fixed;">
+			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
+			<h1 class="title">Настройки</h1>
+		</div>
+
+		<div class="row">
+			<div class="col content-wrapper">
+				<ul class="list">
+
+					<li class="item item-toggle">
+						Позволи известия от приложението
+						<label class="toggle toggle-assertive">
+							<input type="checkbox" id="chkNotifications" {{#ifCond appNotifAllowed '1'}}checked{{/ifCond}} />
+							<div class="track">
+								<div class="handle"></div>
+							</div>
+						</label>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+
+		<div class="bar bar-footer">	
+			<button class="back-btn button button-icon" onclick="javascript:history.back(1)">
+				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
+			</button>					
+		</div>
+	</div>
+</script>
+<!-- END options-tpl -->
 
 
 

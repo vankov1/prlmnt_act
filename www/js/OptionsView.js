@@ -29,9 +29,12 @@ var OptionsView = function(template) {
 		}
 	};
 	
-	this.assignHandlers = function() {
+	this.assignHandlers = function(backBtnUrl) {
 		var self = this;
 		
+		assignSliderOpenHandler();
+		assignFooterHandlers(backBtnUrl);
+
 		$('#chkNotifications').unbind().bind('click', function() {
 			//console.log('chkNotifications clicked ' + $(this).prop('checked'));
 			if ($(this).prop('checked')) {
@@ -41,6 +44,10 @@ var OptionsView = function(template) {
 			}
 			settings.saveToFile();
 		});
+	};
+	
+	this.updateInterface = function() {
+		$('.liMainMenuItem').removeClass('active');
 	};
 	
 

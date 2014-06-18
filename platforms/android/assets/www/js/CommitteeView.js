@@ -75,6 +75,10 @@ var CommitteeView = function(template) {
 			$('#searchBoxCommittee').slideToggle("slow");
 		});
 		
+		$('#committeesListButton').unbind().bind('click', function() {
+			openAppUrl(committeesListUrl);
+		});
+		
 		if ($('#txtSearchCommittee')) { 
 			$('#txtSearchCommittee').unbind().bind('keyup', function() {
 				//console.log('box val: ' + $(this).val() );

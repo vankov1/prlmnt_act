@@ -45,9 +45,12 @@ var CommitteesListView = function(template) {
 		}
 	};
 	
-	this.assignHandlers = function() {
+	this.assignHandlers = function(backBtnUrl) {
 		var self = this;
 		
+		assignSliderOpenHandler();
+		assignFooterHandlers(backBtnUrl);
+
 		$('.subscribe-btn').unbind().bind('click', function() {
 			if ($(this).hasClass('active')) {
 				$(this).removeClass('active');
@@ -77,6 +80,11 @@ var CommitteesListView = function(template) {
 		settings.set('subscribedCommittees', subscrComms);
 		//console.log(subscrComms);
 		settings.saveToFile();
+	};
+	
+	this.updateInterface = function() {
+		$('.liMainMenuItem').removeClass('active');
+		$('#liMainMenuCommittee').addClass('active');
 	};
 	
     this.initialize();

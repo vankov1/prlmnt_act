@@ -152,7 +152,7 @@ function assignFooterHandlers(backBtnUrl) {
 	}
 	if ($('#footerSettingsButton')) {
 		$('#footerSettingsButton').unbind().bind('click', function() {
-			openAppUrl(optionsUrl);
+			openAppUrl(optionsUrl + '?opener=' + opener);
 		});
 	}
 }
