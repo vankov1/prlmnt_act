@@ -48,6 +48,7 @@ body {
 .placeholder-container {
     overflow-y: auto; 
     height: 100%;
+    background: #dfdfdf;
 }
 
 // Buttons
@@ -250,8 +251,10 @@ body {
 }
 
 .search-row {
-    margin-top: 75px;
+    margin-top: 80px;
     padding: 0px !important;
+    position: fixed;
+    z-index: 2;
     .col {
         padding: 0px;
         .search-wrapper {
@@ -262,7 +265,7 @@ body {
                 color: #5c5c5c;
                 border-bottom: 1px solid #cfcfcf;
                 background-image: url("../img/search-icon.png");
-                background-color: #f1f1f1;
+                background-color: #ffffff;
                 background-size: 20px 20px;
                 background-repeat: no-repeat;
                 background-position: 15px center;
@@ -273,15 +276,16 @@ body {
 }
 
 .content-wrapper {
-    padding-top: 4% !important;
+    padding-top: 125px !important;
+    padding-bottom: 35px !important;
     overflow-y: auto !important;
 }
 
 .short-preview {
     width: 100%;
-    padding: 10px !important;
+    //padding: 10px !important;
     margin-bottom: 4%;
-    background: #f7f7f7;
+    background: #fafafa;
     border-bottom: 2px solid #b4b4b4;
     .description {
         font-size: 10px;
@@ -303,6 +307,18 @@ body {
         background-size: 18px 18px;
         background-repeat: no-repeat;
         background-position: 0px center;
+    }
+    .description-labels {
+        font-size: 10px;
+        .label {
+            float: left;
+            text-transform: uppercase;
+            margin-right: 5px;
+            font-weight: bold;
+        }
+        .txt {
+            color: #707070;
+        }
     }
 }
 
@@ -669,8 +685,20 @@ body {
 /* ===== END Committee check-lsit Screen ===== */
 
 
+/* ===== Bills Screen ===== */
+
+.bills-tpl {
+    .short-preview {
+        .title {
+            font-size: 14px;
+           line-height: 20px;
+           font-weight: bold;
+        }
+    }
+}
 
 
+/* ===== END Bills Screen ===== */
 
 /* ===== Options Screen ===== */
 
@@ -708,6 +736,9 @@ body {
 }
 
 /* ===== END Options Screen ===== */
+
+
+
 
 
 

@@ -112,7 +112,13 @@ var PlenaryView = function(template) {
 		assignFooterHandlers(backBtnUrl);
 		
 		$('#btnSearchPlenary').unbind().bind('click', function() {
-			$('#searchBoxPlenary').slideToggle("slow");
+			$('#searchBoxPlenary').slideToggle(searchOpenDuration, function() {
+				if ($('#scrollingContent').hasClass('search-opened')) {
+					$('#scrollingContent').removeClass('search-opened');
+				} else {
+					$('#scrollingContent').addClass('search-opened');
+				}
+			});
 		});
 		
 		if ($('#txtSearchPlenary')) { 

@@ -55,7 +55,7 @@
 		</div>
 		
 		<div class="row">
-			<div class="col content-wrapper">
+			<div class="col content-wrapper" id="scrollingContent">
 			
 				{{#each plenary}}
 				<div class="row short-preview plenariesListItem" data-list-item-id="{{pid}}">
@@ -182,7 +182,7 @@
 		</div>
 
 		<div class="row">
-			<div class="col content-wrapper">
+			<div class="col content-wrapper" id="scrollingContent">
 				{{#each controll}}
 				<div class="row short-preview controllListItem" data-list-item-id="{{cid}}">
 					<div class="col">
@@ -295,7 +295,7 @@
 		</div>
 
 		<div class="row">
-			<div class="col content-wrapper">
+			<div class="col content-wrapper" id="scrollingContent">
 				{{#each committee}}			
 				<div class="row short-preview committeeListItem" data-list-item-id="{{cid}}">
 					<div class="col">
@@ -442,13 +442,13 @@
 		<div class="row search-row">
 			<div class="col hidden" id="searchBoxNews">
 				<div class="search-wrapper">
-					<input type="text" placeholder="" class="search-field" id="txtSearchNews" />
+					<input type="text" placeholder="Търсене на новини" class="search-field" id="txtSearchNews" />
 				</div>
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="col content-wrapper">
+			<div class="col content-wrapper" id="scrollingContent">
 				{{#each news}}
 				<div class="row short-preview newsListItem" data-list-item-id="{{nid}}">
 					<div class="col">

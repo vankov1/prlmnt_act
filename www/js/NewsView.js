@@ -46,7 +46,13 @@ var NewsView = function(template) {
 		assignFooterHandlers(backBtnUrl);
 
 		$('#btnSearchNews').unbind().bind('click', function() {
-			$('#searchBoxNews').slideToggle("slow");
+			$('#searchBoxNews').slideToggle(searchOpenDuration, function() {
+				if ($('#scrollingContent').hasClass('search-opened')) {
+					$('#scrollingContent').removeClass('search-opened');
+				} else {
+					$('#scrollingContent').addClass('search-opened');
+				}
+			});
 		});
 		
 		if ($('#txtSearchNews')) { 

@@ -55,7 +55,7 @@
 		</div>
 		
 		<div class="row">
-			<div class="col content-wrapper">
+			<div class="col content-wrapper" id="scrollingContent">
 			
 				{{#each plenary}}
 				<div class="row short-preview plenariesListItem" data-list-item-id="{{pid}}">
@@ -86,7 +86,7 @@
 			<button class="back-btn button button-icon" id="footerBackButton">
 				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
 			</button>					
-			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton" data-button-source="plenariesList"></button>
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
 		</div>
 	</div>
 </script>
@@ -154,7 +154,7 @@
 			<button class="back-btn button button-icon" id="footerBackButton">
 				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
 			</button>					
-			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton" data-button-source="plenaryDetail"></button>
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
 		</div>
 	</div>
 </script>
@@ -182,7 +182,7 @@
 		</div>
 
 		<div class="row">
-			<div class="col content-wrapper">
+			<div class="col content-wrapper" id="scrollingContent">
 				{{#each controll}}
 				<div class="row short-preview controllListItem" data-list-item-id="{{cid}}">
 					<div class="col">
@@ -214,7 +214,7 @@
 			<button class="back-btn button button-icon" id="footerBackButton">
 				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
 			</button>					
-			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton" data-button-source="controllsList"></button>
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
 		</div>
 	</div>
 
@@ -264,7 +264,7 @@
 			<button class="back-btn button button-icon" id="footerBackButton">
 				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
 			</button>					
-			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton" data-button-source="controllDetail"></button>
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
 		</div>
 	</div>
 </script>
@@ -295,7 +295,7 @@
 		</div>
 
 		<div class="row">
-			<div class="col content-wrapper">
+			<div class="col content-wrapper" id="scrollingContent">
 				{{#each committee}}			
 				<div class="row short-preview committeeListItem" data-list-item-id="{{cid}}">
 					<div class="col">
@@ -327,7 +327,7 @@
 			<button class="back-btn button button-icon" id="footerBackButton">
 				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
 			</button>					
-			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton" data-button-source="committeesList"></button>
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
 		</div>
 	</div>
 
@@ -376,7 +376,7 @@
 			<button class="back-btn button button-icon" id="footerBackButton">
 				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
 			</button>					
-			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton" data-button-source="committeeDetail"></button>
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
 		</div>
 	</div>
 </script>
@@ -442,13 +442,13 @@
 		<div class="row search-row">
 			<div class="col hidden" id="searchBoxNews">
 				<div class="search-wrapper">
-					<input type="text" placeholder="" class="search-field" id="txtSearchNews" />
+					<input type="text" placeholder="Търсене на новини" class="search-field" id="txtSearchNews" />
 				</div>
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="col content-wrapper">
+			<div class="col content-wrapper" id="scrollingContent">
 				{{#each news}}
 				<div class="row short-preview newsListItem" data-list-item-id="{{nid}}">
 					<div class="col">
@@ -475,7 +475,7 @@
 			<button class="back-btn button button-icon" id="footerBackButton">
 				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
 			</button>					
-			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton" data-button-source="newsList"></button>
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
 		</div>
 	</div>
 
@@ -519,7 +519,7 @@
 			<button class="back-btn button button-icon" id="footerBackButton">
 				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
 			</button>					
-			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton" data-button-source="newsDetail"></button>
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
 		</div>
 	</div>
 </script>

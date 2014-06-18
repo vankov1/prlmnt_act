@@ -98,7 +98,13 @@ var ControllView = function(template) {
 		assignFooterHandlers(backBtnUrl);
 		
 		$('#btnSearchControll').unbind().bind('click', function() {
-			$('#searchBoxControll').slideToggle("slow");
+			$('#searchBoxControll').slideToggle(searchOpenDuration, function() {
+				if ($('#scrollingContent').hasClass('search-opened')) {
+					$('#scrollingContent').removeClass('search-opened');
+				} else {
+					$('#scrollingContent').addClass('search-opened');
+				}
+			});
 		});
 		
 		if ($('#txtSearchControll')) { 

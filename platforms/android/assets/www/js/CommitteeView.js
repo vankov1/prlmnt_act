@@ -72,7 +72,13 @@ var CommitteeView = function(template) {
 		assignFooterHandlers(backBtnUrl);
 
 		$('#btnSearchCommittee').unbind().bind('click', function() {
-			$('#searchBoxCommittee').slideToggle("slow");
+			$('#searchBoxCommittee').slideToggle(searchOpenDuration, function() {
+				if ($('#scrollingContent').hasClass('search-opened')) {
+					$('#scrollingContent').removeClass('search-opened');
+				} else {
+					$('#scrollingContent').addClass('search-opened');
+				}
+			});
 		});
 		
 		$('#committeesListButton').unbind().bind('click', function() {

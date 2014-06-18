@@ -78,6 +78,8 @@ var mpDetailUrl = "#mpsDetail";
 
 assignMainMenuHandlers();
 
+var searchOpenDuration = 200;
+
 
 function assignMainMenuHandlers() {
 	if ($('#mainMenuPlenary')) {
