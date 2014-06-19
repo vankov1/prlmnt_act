@@ -471,10 +471,10 @@
 			</div>
 		</div>
 
-		<div class="bar bar-footer">					
+		<div class="bar bar-footer">
 			<button class="back-btn button button-icon" id="footerBackButton">
 				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
-			</button>					
+			</button>
 			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
 		</div>
 	</div>
@@ -563,6 +563,209 @@
 <!-- END options-tpl -->
 
 
+<!-- bills-tpl -->
+<script id="bills-tpl" type="text/x-handlebars-template">
+	<div class="bills-tpl">
+
+		<div class="bar bar-header" style="position: fixed;">
+			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
+			<h1 class="title">Законопроекти</h1>
+			<button class="search-btn button button-icon" id="btnSearchBills">
+				<img src="assets/img/search-icon.png" alt="ico" class="ico">
+			</button>
+		</div>
+		
+		<div class="row search-row">
+			<div class="col hidden" id="searchBoxBills">
+				<div class="search-wrapper">
+					<input type="text" placeholder="Търси законопроекти" class="search-field" id="txtSearchBills" />
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col content-wrapper" id="scrollingContent">
+				{{#each bills}}
+				<div class="row short-preview billsListItem" data-list-item-id="{{bid}}">
+					<div class="col">
+						<div class="row" onclick="openAppUrl('#billsDetailUrl?id={{bid}}');">
+							<h2 class="title">{{billName}}</h2>
+						</div>
+						<div class="row">
+							<div class="col-67 description-labels">
+								<div class="label">Вносители:</div>
+								<div class="txt">{{{importersShort}}}</div>
+							</div>
+							<div class="col-33">
+								<div class="custom-row">
+									<div class="date">{{billDate}}</div>
+								</div>
+								<div class="custom-row">
+									<button class="button icon-left ion-eye preview-btn" onclick="openAppUrl('#billsDetailUrl?id={{bid}}');">
+										<span class="txt">Преглед</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				{{/each}}
+
+			</div>
+		</div>
+
+		<div class="bar bar-footer">
+			<button class="back-btn button button-icon" id="footerBackButton">
+				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
+			</button>
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
+		</div>
+	</div>
+</script>
+<!-- END bills-tpl -->
+
+
+<!-- bills-tpl-detail-preview -->
+<script id="bills-tpl-detail-preview" type="text/x-handlebars-template">
+	<div class="bills-tpl-detail-preview">
+
+		<div class="bar bar-header" style="position: fixed;">
+			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
+			<h1 class="title">Преглед на законопроект</h1>
+		</div>
+
+		<div class="row">
+			<div class="col content-wrapper" id="scrollingContent">
+
+				<div class="row detail-preview">
+					<div class="col">
+						<div class="row">
+							<h2 class="title">{{billName}}</h2>
+						</div>
+						<div class="row">
+							<div class="col description-labels">
+								<div class="label">Сигнатура:</div>
+								<div class="txt">{{signature}}</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col description-labels">
+								<div class="label">Дата на постъпване:</div>
+								<div class="txt">{{billDate}}</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col description-labels">
+								<div class="label">Сесия:</div>
+								<div class="txt">{{session}}</div>
+							</div>
+						</div>
+
+						{{#ifCond filesDisplay 1}}
+						<div class="row">
+							<div class="col description-labels">
+								<div class="label">Текст на законопроекта:</div>
+								<div class="txt">
+									{{#each files}}
+									<a href="javascript:openUrlInExternal('{{link}}')" class="file-link">{{type}} формат</a>
+									{{/each}}
+								</div>
+							</div>
+						</div>
+						{{/ifCond}}
+
+						<div class="row">
+							<div class="col description-labels">
+								<div class="label">Вносители:</div>
+								<div class="txt">
+									<ul class="description-list">
+										{{#each importers}}
+											<li>{{this}}</li>
+										{{/each}}
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						{{#ifCond commsDisplay 1}}
+						<div class="row">
+							<div class="col description-labels">
+								<div class="label">Разпределение по комисии:</div>
+								<div class="txt">
+									<ul class="description-list">
+										{{#each comms}}
+											<li>{{name}} ({{role}})</li>
+										{{/each}}
+									</ul>
+								</div>
+							</div>
+						</div>
+						{{/ifCond}}
+
+						{{#ifCond reportsDisplay 1}}
+						<div class="row">
+							<div class="col description-labels">
+								<div class="label">Доклади от комисии:</div>
+								<div class="txt">
+									<ul class="description-list">
+										{{#each reports}}
+											<li><a href="javascript:openUrlInExternal('{{link}}')" class="normal-link">{{author}}</a></li>
+										{{/each}}
+									</ul>
+								</div>
+							</div>
+						</div>
+						{{/ifCond}}
+
+						{{#ifCond chronoDisplay 1}}
+						<div class="row">
+							<div class="col description-labels">
+								<div class="label">Хронология:</div>
+								<div class="txt">
+									<ul class="description-list">
+										{{#each chrono}}
+											<li>{{date}} - {{status}}</li>
+										{{/each}}
+									</ul>
+								</div>
+							</div>
+						</div>
+						{{/ifCond}}
+
+						{{#ifCond decided 1}}
+						<div class="row">
+							<div class="col description-labels">
+								<div class="label">Статус:</div>
+								<div class="txt">приет</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col description-labels">
+								<div class="label">Обнародван в ДВ:</div>
+								<div class="txt">брой {{dvNo}}/{{dvYear}}</div>
+							</div>
+						</div>
+						{{/ifCond}}
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="bar bar-footer">
+			<button class="back-btn button button-icon" id="footerBackButton">
+				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
+			</button>
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
+		</div>
+	</div>
+</script>
+<!-- END bills-tpl-detail-preview -->
+
+
+
+
 
 
 
@@ -604,6 +807,22 @@
 					<span class="flag-new">ново</span>
 					<span class="ico"><img src="assets/img/committee-ico-dark.svg" class="section-icons committee-ico"></span>
 					<span class="txt">Заседания на парламентарни комисии</span>
+				</a>
+			</li>
+			<li class="row liMainMenuItem" id="liMainMenuBills">
+				<a href="javascript:void(0);" class="col section" id="mainMenuBills">
+					<span class="flag-active"></span>
+					<span class="flag-new">ново</span>
+					<span class="ico"><img src="assets/img/bills-ico.png" class="section-icons bills-ico"></span>
+					<span class="txt">Законопроекти</span>
+				</a>
+			</li>
+			<li class="row liMainMenuMPs" id="liMainMenuMPs">
+				<a href="javascript:void(0);" class="col section" id="mainMenuMPs">
+					<span class="flag-active"></span>
+					<span class="flag-new">ново</span>
+					<span class="ico"><img src="assets/img/MPs-ico.png" class="section-icons mps-ico"></span>
+					<span class="txt">Народни представители</span>
 				</a>
 			</li>
 			<li class="row liMainMenuItem" id="liMainMenuNews">

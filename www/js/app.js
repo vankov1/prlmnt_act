@@ -100,6 +100,18 @@ function assignMainMenuHandlers() {
 		});
 	}
 	
+	if ($('#mainMenuBills')) {
+		$('#mainMenuBills').unbind().bind('click', function() {
+			openAppUrl(billsListUrl);
+		});
+	}
+	
+	if ($('#mainMenuMPs')) {
+		$('#mainMenuMPs').unbind().bind('click', function() {
+			openAppUrl(mpsAZListUrl);
+		});
+	}
+	
 	if ($('#mainMenuNews')) {
 		$('#mainMenuNews').unbind().bind('click', function() {
 			openAppUrl(newsUrl);
@@ -123,8 +135,8 @@ function assignMainMenuHandlers() {
     var newsTpl = Handlebars.compile($("#news-tpl").html());
     var newsDetailTpl = Handlebars.compile($("#news-tpl-detail-preview").html());
     var optionsTpl = Handlebars.compile($("#options-tpl").html());
-//    var billsTpl = Handlebars.compile($("#bills-tpl").html());
-//    var billsDetailTpl = Handlebars.compile($("#bills-tpl-detail-preview").html());
+    var billsTpl = Handlebars.compile($("#bills-tpl").html());
+    var billsDetailTpl = Handlebars.compile($("#bills-tpl-detail-preview").html());
 //    var mpsAZTpl = Handlebars.compile($("#mps-az-tpl").html());
 
 //    var slider = new PageSlider($('body'));
@@ -359,8 +371,10 @@ function assignMainMenuHandlers() {
 		if (match) {
 			var bills = new BillsView(billsTpl);
 			bills.getData(function(tplData) {
-				slider.slidePage(bills.render(tplData).el);
-				bills.assignHandlers();
+				//slider.slidePage(bills.render(tplData).el);
+				$('#page-placeholder').html(bills.render(tplData).el);
+				bills.assignHandlers(homeUrl);
+				bills.updateInterface();
 			});
 			snapper.close();
 			return;
@@ -380,7 +394,10 @@ function assignMainMenuHandlers() {
 					} else {
 						detailData = tplData.bills[id];
 					}
-					slider.slidePage(bills.render(detailData).el);
+					//slider.slidePage(bills.render(detailData).el);
+					$('#page-placeholder').html(bills.render(detailData).el);
+					bills.assignHandlers(billsListUrl);
+					bills.updateInterface();
 				});
 				snapper.close();
 				return;

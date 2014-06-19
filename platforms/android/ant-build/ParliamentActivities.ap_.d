@@ -67,6 +67,7 @@
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/fonts/ionicons.woff \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/article-img.jpg \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/back-arrow.png \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/bills-ico.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/bulgarian-armorial.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/bulgarian-armorial.svg \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/check-list-icon.png \
@@ -80,6 +81,7 @@
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/file-icon.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/home-screen-bg.jpg \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/link-icon.png \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/MPs-ico.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/news-ico-dark.svg \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/news-ico-light.png \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/assets/img/news-ico-light.svg \

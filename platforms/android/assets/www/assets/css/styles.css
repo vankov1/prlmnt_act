@@ -215,6 +215,9 @@ body {
   background-repeat: no-repeat;
   background-position: 0px center;
 }
+.normal-link {
+  color: #3b8da2;
+}
 .bar-header {
   height: 75px;
   border-bottom: 1px solid #cfcfcf;
@@ -232,7 +235,7 @@ body {
   color: #5c5c5c;
 }
 .search-row {
-  margin-top: 80px;
+  margin-top: 75px;
   padding: 0px !important;
   position: fixed;
   z-index: 2;
@@ -254,9 +257,15 @@ body {
   letter-spacing: 0.2px;
 }
 .content-wrapper {
-  padding-top: 125px !important;
+  padding-top: 75px !important;
   padding-bottom: 35px !important;
   overflow-y: auto !important;
+  transition-property: padding-top;
+  transition-duration: 0.2s;
+  transition-delay: 0s;
+}
+.content-wrapper.search-opened {
+  padding-top: 125px !important;
 }
 .short-preview {
   width: 100%;
@@ -351,6 +360,29 @@ body {
   padding-right: 0px;
   border-top: 1px solid #dfdfdf;
 }
+.detail-preview .description-labels {
+  font-size: 12px;
+}
+.detail-preview .description-labels .label {
+  float: left;
+  width: 150px;
+  text-transform: uppercase;
+  margin-right: 5px;
+  font-weight: bold;
+  color: #535353;
+}
+.detail-preview .description-labels .txt {
+  float: left;
+  width: 43%;
+  color: #707070;
+}
+.detail-preview .description-labels .txt .file-link,
+.detail-preview .description-labels .txt .external-link {
+  margin-bottom: 0px;
+}
+.detail-preview .description-labels .description-list li {
+  margin-bottom: 5px;
+}
 .custom-row {
   width: 100%;
   float: left;
@@ -430,6 +462,9 @@ body {
 .left-menu .menu-sections > .row {
   padding: 0px;
 }
+.left-menu .menu-sections > .row.active .section {
+  background: #fff;
+}
 .left-menu .menu-sections > .row.active .section .flag-active {
   display: block;
 }
@@ -486,6 +521,12 @@ body {
 .left-menu .menu-sections > .row .section .section-icons.news-ico {
   width: 26px;
 }
+.left-menu .menu-sections > .row .section .section-icons.bills-ico {
+  width: 22px;
+}
+.left-menu .menu-sections > .row .section .section-icons.mps-ico {
+  width: 26px;
+}
 .left-menu .menu-sections .row + .row {
   margin: 0px;
 }
@@ -537,6 +578,7 @@ body {
 .controll-tpl-detail-preview,
 .committee-tpl-detail-preview,
 .news-tpl-detail-preview,
+.bills-tpl-detail-preview,
 .committee-check-list-tpl {
   padding-top: 75px;
   overflow: auto;
@@ -545,6 +587,7 @@ body {
 .controll-tpl-detail-preview .detail-preview,
 .committee-tpl-detail-preview .detail-preview,
 .news-tpl-detail-preview .detail-preview,
+.bills-tpl-detail-preview .detail-preview,
 .committee-check-list-tpl .detail-preview {
   padding: 0px !important;
 }
@@ -552,6 +595,7 @@ body {
 .controll-tpl-detail-preview .content-wrapper,
 .committee-tpl-detail-preview .content-wrapper,
 .news-tpl-detail-preview .content-wrapper,
+.bills-tpl-detail-preview .content-wrapper,
 .committee-check-list-tpl .content-wrapper {
   margin-bottom: 45px;
   padding: 0px !important;
@@ -561,20 +605,23 @@ body {
 .controll-tpl,
 .committee-tpl,
 .news-tpl,
-.committee-check-list-tpl {
+.committee-check-list-tpl,
+.bills-tpl {
   overflow: auto;
   height: 93% !important;
 }
 .controll-tpl .short-preview,
 .committee-tpl .short-preview,
 .news-tpl .short-preview,
-.committee-check-list-tpl .short-preview {
+.committee-check-list-tpl .short-preview,
+.bills-tpl .short-preview {
   padding: 0px !important;
 }
 .controll-tpl .short-preview .title,
 .committee-tpl .short-preview .title,
 .news-tpl .short-preview .title,
-.committee-check-list-tpl .short-preview .title {
+.committee-check-list-tpl .short-preview .title,
+.bills-tpl .short-preview .title {
   font-size: 18px;
   margin-bottom: 5px;
 }
@@ -605,6 +652,13 @@ body {
   font-weight: bold;
 }
 /* ===== END Bills Screen ===== */
+/* ===== Bills Detail Preview Screen ===== */
+.bills-tpl-detail-preview .detail-preview .title {
+  border-bottom: 1px solid #dfdfdf;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+/* ===== END Bills Detail Preview Screen ===== */
 /* ===== Options Screen ===== */
 .options-tpl {
   padding-top: 75px;

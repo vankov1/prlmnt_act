@@ -233,6 +233,10 @@ body {
 
 }
 
+.normal-link {
+    color: #3b8da2;
+}
+
 .bar-header {
     height: 75px;
     border-bottom: 1px solid #cfcfcf;
@@ -251,7 +255,7 @@ body {
 }
 
 .search-row {
-    margin-top: 80px;
+    margin-top: 75px;
     padding: 0px !important;
     position: fixed;
     z-index: 2;
@@ -276,9 +280,15 @@ body {
 }
 
 .content-wrapper {
-    padding-top: 125px !important;
+    padding-top: 75px !important;
     padding-bottom: 35px !important;
     overflow-y: auto !important;
+    transition-property: padding-top;
+    transition-duration: 0.2s;
+    transition-delay: 0s;
+    &.search-opened {
+        padding-top: 125px !important;
+    }
 }
 
 .short-preview {
@@ -376,6 +386,31 @@ body {
         padding-right: 0px;
         border-top: 1px solid #dfdfdf;
     }
+    .description-labels {
+        font-size: 12px;
+        .label {
+            float: left;
+            width: 150px;
+            text-transform: uppercase;
+            margin-right: 5px;
+            font-weight: bold;
+            color: #535353;
+        }
+        .txt {
+            float: left;
+            width: 43%;
+            color: #707070;
+            .file-link,
+            .external-link {
+                margin-bottom: 0px;
+            }
+        }
+        .description-list {
+            li {
+                margin-bottom: 5px;
+            }
+        }
+    }
 }
 
 .custom-row {
@@ -465,6 +500,7 @@ body {
             padding: 0px;
             &.active {
                 .section {
+                    background: #fff;
                     .flag-active {
                         display: block;
                     }
@@ -532,6 +568,14 @@ body {
                     }
 
                     &.news-ico {
+                        width: 26px;
+                    }
+
+                    &.bills-ico {
+                        width: 22px;
+                    }
+
+                    &.mps-ico {
                         width: 26px;
                     }
                 } 
@@ -606,6 +650,7 @@ body {
 .controll-tpl-detail-preview, 
 .committee-tpl-detail-preview,
 .news-tpl-detail-preview,
+.bills-tpl-detail-preview,
 .committee-check-list-tpl {
     .detail-preview {
         padding: 0px !important;
@@ -625,7 +670,8 @@ body {
 .controll-tpl,
 .committee-tpl,
 .news-tpl,
-.committee-check-list-tpl {
+.committee-check-list-tpl,
+.bills-tpl {
     overflow: auto;
     height: 93% !important;
     .short-preview {
@@ -699,6 +745,21 @@ body {
 
 
 /* ===== END Bills Screen ===== */
+
+
+/* ===== Bills Detail Preview Screen ===== */
+
+.bills-tpl-detail-preview {
+    .detail-preview {
+        .title {
+            border-bottom: 1px solid #dfdfdf;
+            padding-bottom: 10px;
+            margin-bottom: 5px;
+        }
+    }
+}
+
+/* ===== END Bills Detail Preview Screen ===== */
 
 /* ===== Options Screen ===== */
 
