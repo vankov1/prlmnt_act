@@ -591,6 +591,54 @@ body {
 
 
 
+/* === Section-tabs === */
+
+.section-tabs {
+    background: #f7f7f7;
+    padding: 0px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #dfdfdf;
+     >.tab {
+        position: relative;
+        line-height: 50px;
+        padding: 0 10px;
+        border-right: 1px solid #dfdfdf;
+        font-size: 16px;
+        font-weight: 600;
+        overflow: hidden;
+        text-align: center;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        text-transform: uppercase;
+        &:last-child {
+            border-right: 0px;
+        }
+
+        &.active {
+
+            background: #fff;
+            .flag-active {
+                display: block;
+            }
+
+        }
+        
+        .flag-active {
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            height: 5px;
+            width: 100%;
+            background: #43c364;
+            display: none;
+        }
+
+     }
+}
+
+/* === END Section-tabs === */
+
+
 /* ===== Home Screen ===== */
 
 .home-tpl {
@@ -760,6 +808,61 @@ body {
 }
 
 /* ===== END Bills Detail Preview Screen ===== */
+
+/* ===== MPS Screen ===== */
+.mps-tpl {
+    > .row,
+    .content-wrapper {
+        padding: 0px;
+    }
+    .short-preview {
+        padding: 10px 10px 0px 10px;
+        background: #fff;
+        margin-bottom: 5px;
+        border-bottom: 1px solid #dfdfdf;
+        .profile-image {
+            width: 45px;
+            height: 70px;
+            float: left;
+            overflow: hidden;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 45px;
+        }
+        .name {
+            margin-bottom: 5px;
+            font-size: 14px;
+            overflow: hidden;
+            text-align: center;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+
+        }
+        .info {
+            float: left;
+            padding-top: 0px;
+            text-transform: uppercase;
+            font-size: 10px;
+            li {
+                overflow: hidden;
+                text-align: left;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+        }
+        .preview-btn {
+            margin-top: 5px;
+        }
+        >.col {
+            >.row {
+                padding: 0px;
+            }
+        }
+    }
+}
+
+/* ===== END MPS Screen ===== */
+
 
 /* ===== Options Screen ===== */
 
