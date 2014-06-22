@@ -144,15 +144,15 @@ function assignSliderOpenHandler() {
 }
 
 
-function assignFooterHandlers() {
+function assignFooterHandlers(backBtnUrl) {
 	if ($('#footerBackButton')) {
 		$('#footerBackButton').unbind().bind('click', function() {
-			openAppUrl(homeUrl);
+			openAppUrl(backBtnUrl);
 		});
 	}
 	if ($('#footerSettingsButton')) {
 		$('#footerSettingsButton').unbind().bind('click', function() {
-			openAppUrl(optionsUrl);
+			openAppUrl(optionsUrl + '?opener=' + opener);
 		});
 	}
 }

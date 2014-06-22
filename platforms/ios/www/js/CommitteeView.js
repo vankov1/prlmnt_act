@@ -65,10 +65,24 @@ var CommitteeView = function(template) {
 		}
 	};
 	
-	this.assignHandlers = function() {
+	this.assignHandlers = function(backBtnUrl) {
 		var self = this;
+		
+		assignSliderOpenHandler();
+		assignFooterHandlers(backBtnUrl);
+
 		$('#btnSearchCommittee').unbind().bind('click', function() {
-			$('#searchBoxCommittee').slideToggle("slow");
+			$('#searchBoxCommittee').slideToggle(searchOpenDuration, function() {
+				if ($('#scrollingContent').hasClass('search-opened')) {
+					$('#scrollingContent').removeClass('search-opened');
+				} else {
+					$('#scrollingContent').addClass('search-opened');
+				}
+			});
+		});
+		
+		$('#committeesListButton').unbind().bind('click', function() {
+			openAppUrl(committeesListUrl);
 		});
 		
 		if ($('#txtSearchCommittee')) { 
@@ -120,6 +134,11 @@ var CommitteeView = function(template) {
 			}
 		}
 		return itemIds;
+	};
+	
+	this.updateInterface = function() {
+		$('.liMainMenuItem').removeClass('active');
+		$('#liMainMenuCommittee').addClass('active');
 	};
 
 

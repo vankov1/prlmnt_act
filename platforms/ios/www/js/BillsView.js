@@ -21,10 +21,10 @@ var BillsView = function(template) {
 		var bills = [];
 		var importers = [];
 		var i = 0;
-		var node;
+		var node, tmp, lawName;
 		var importersShort = '';
 		var nodeComm, nodeRole, comms;
-		var nodeAuthor, nodePath, reports;
+		var files = [], reports = [], repAuthors, repLinks, chrono;
 		for (var bi = 0; bi < billsList.length; bi++) {
 			
 			//Deal with bill importers
@@ -43,14 +43,32 @@ var BillsView = function(template) {
 			}
 			
 			//Deal with reports
-			nodeAuthor = billsList[bi].getElementsByTagName('Author');
-			nodePath = billsList[bi].getElementsByTagName('Path');
 			reports = [];
-			for (i = 0; i < nodeAuthor.length; i++) {
-				reports[i] = {
-					name: nodeAuthor[i].textContent,
-					link: nodePath[i].textContent
-				};
+			node = billsList[bi].getElementsByTagName('Reports')[0];
+			if (node) {
+				repAuthors = node.getElementsByTagName('Author');
+				repLinks = node.getElementsByTagName('Path');
+				for (i = 0; i < repAuthors.length; i++) {
+					reports.push({
+						author: repAuthors[i].textContent,
+						link: repLinks[i].textContent
+					});
+				}
+			}
+			
+			//Deal with chronology
+			chrono = [];
+			node = billsList[bi].getElementsByTagName('Chronology')[0];
+			if (node) {
+				repAuthors = node.getElementsByTagName('Date');
+				repLinks = node.getElementsByTagName('Status');
+				for (i = 0; i < repAuthors.length; i++) {
+					//console.log(repAuthors[i].textContent + ' ' + repLinks[i].textContent);
+					chrono.push({
+						date: repAuthors[i].textContent,
+						status: repLinks[i].textContent
+					});
+				}
 			}
 			
 			//Deal with committees
@@ -64,6 +82,22 @@ var BillsView = function(template) {
 				};
 			}
 			
+			//Deal with files
+			files = [];
+			node = billsList[bi].getElementsByTagName('FilePath')[0];
+			i = 0;
+			while (node) {
+				tmp = node.attributes.getNamedItem('value').value;
+				files[i] = {
+					link: tmp,
+					type: (tmp.indexOf('.pdf') !== -1) ? 'PDF' : 'RTF'
+				};
+				node = node.nextSibling;
+				i++;
+			}
+			
+			lawName = billsList[bi].getElementsByTagName('LawName')[0].textContent;
+			
 			bills[bi] = {
 				bid: bi,
 				billName: billsList[bi].getElementsByTagName('BillName')[0].textContent,
@@ -72,16 +106,18 @@ var BillsView = function(template) {
 				signature: billsList[bi].getElementsByTagName('Signature')[0].attributes.getNamedItem('value').value,
 				session: billsList[bi].getElementsByTagName('Session')[0].attributes.getNamedItem('value').value,
 				billDate: billsList[bi].getElementsByTagName('Date')[0].attributes.getNamedItem('value').value,
+				lawName: lawName,
+				dvNo: billsList[bi].getElementsByTagName('SGIss')[0].textContent,
+				dvYear: billsList[bi].getElementsByTagName('SGYear')[0].textContent,
+				decided: lawName.length > 0 ? 1 : 0,
 				comms: comms,
 				commsDisplay: comms.length > 0 ? 1 : 0,
 				reports: reports,
-				reportsDisplay: reports.length > 0 ? 1 : 0
-				/*,
-				title: newsList[pi].getElementsByTagName('title')[0].textContent,
-				dscr: newsList[pi].getElementsByTagName('description')[0].textContent.replace('>>', '>'),
-				img: newsList[pi].getElementsByTagName('image')[0].textContent,
-				pubDate: isoToBgDate(newsList[pi].getElementsByTagName('pubDate')[0].textContent),
-				link: newsList[pi].getElementsByTagName('item_link')[0].textContent*/
+				reportsDisplay: reports.length > 0 ? 1 : 0,
+				chrono: chrono,
+				chronoDisplay: chrono.length > 0 ? 1 : 0,
+				files: files,
+				filesDisplay: files.length > 0 ? 1 : 0
 			};
 		}
 		
@@ -94,8 +130,12 @@ var BillsView = function(template) {
 		}
 	};
 	
-	this.assignHandlers = function() {
+	this.assignHandlers = function(backBtnUrl) {
 		var self = this;
+		
+		assignSliderOpenHandler();
+		assignFooterHandlers(backBtnUrl);
+		
 		$('#btnSearchBills').unbind().bind('click', function() {
 			$('#searchBoxBills').slideToggle("slow");
 		});
@@ -119,7 +159,7 @@ var BillsView = function(template) {
 				}
 				
 				//Display results
-				$('.billListItem').each(function() {
+				$('.billsListItem').each(function() {
 					//console.log($(this).data("listItemId"));
 					if ($.inArray($(this).data("listItemId"), items) !== -1) {
 						$(this).removeClass('hidden');
@@ -149,6 +189,12 @@ var BillsView = function(template) {
 			}
 		}
 		return itemIds;
+	};
+	
+	
+	this.updateInterface = function() {
+		$('.liMainMenuItem').removeClass('active');
+		$('#liMainMenuBills').addClass('active');
 	};
 
 

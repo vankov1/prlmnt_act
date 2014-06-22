@@ -19,7 +19,7 @@ var OptionsView = function(template) {
 			settings.saveToFile();
 		} else {
 			options.appNotifAllowed = '' + settings.get('appNotificationsAllowed');
-			console.log('settings.get appNotificationsAllowed: ' + options.appNotifAllowed);
+			//console.log('settings.get appNotificationsAllowed: ' + options.appNotifAllowed);
 		}
 		
 		tplData = options;

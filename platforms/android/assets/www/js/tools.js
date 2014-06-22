@@ -156,3 +156,22 @@ function assignFooterHandlers(backBtnUrl) {
 		});
 	}
 }
+
+
+function processUpdatesInfo(savedUpdatesHash) {
+	adapter = getAdapter(updatesDataFile);
+	if (!settings.loaded || !adapter.loaded) {
+		console.log('Not all files loaded');
+		return;
+	}
+	console.log('Both files loaded');
+	console.log('saved hash: ' + savedUpdatesHash);
+	console.log('adapter hash: ' + adapter.rssDataHash);
+	if (adapter.rssDataHash != savedUpdatesHash) {
+		console.log('Hashes do not match - we have new changelog');
+		settings.set('updatesHash', adapter.rssDataHash);
+		settings.saveToFile();
+		var updater = new UpdateDataProcessor();
+		updater.process();
+	}
+}

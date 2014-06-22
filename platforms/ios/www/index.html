@@ -41,21 +41,21 @@
 			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
 
 			<h1 class="title">Пленарни заседания</h1>
-			<button class="search-btn button button-icon">
+			<button class="search-btn button button-icon" id="btnSearchPlenary">
 				<img src="assets/img/search-icon.png" alt="ico" class="ico">
 			</button>
 		</div>
 		
 		<div class="row search-row">
-			<div class="col">
+			<div class="col hidden" id="searchBoxPlenary">
 				<div class="search-wrapper">
-					<input type="text" placeholder="Търси заседание" class="search-field" />
+					<input type="text" placeholder="Търси заседание" class="search-field" id="txtSearchPlenary" />
 				</div>
 			</div>
 		</div>
 		
 		<div class="row">
-			<div class="col content-wrapper">
+			<div class="col content-wrapper" id="scrollingContent">
 			
 				{{#each plenary}}
 				<div class="row short-preview plenariesListItem" data-list-item-id="{{pid}}">
@@ -95,11 +95,59 @@
 
 <!-- plenary-tpl detail -->
 <script id="plenary-tpl-detail-preview" type="text/x-handlebars-template">
-	<div class="plenary-tpl-detail-preview hidden">
+	<div class="plenary-tpl-detail-preview">
 
 		<div class="bar bar-header" style="position: fixed;">
 			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
 			<h1 class="title">Пленарни заседания</h1>
+		</div>
+
+		<div class="row">
+			<div class="col content-wrapper">
+				<div class="row detail-preview">
+					<div class="col">
+						<div class="row">
+							<h2 class="title">Пленарно заседание</h2>
+						</div>
+						<div class="row">
+							<div class="custom-row">
+								<div class="date">{{startDate}}</div>
+								{{#ifCond startDate endDate}}
+								{{else}}
+									<div class="date-separator">-</div>
+									<div class="date">{{endDate}}</div>
+								{{/ifCond}}
+							</div>
+						</div>
+						<div class="row">
+							<div class="col description">
+								{{#each agenda}}
+									<div style="margin-bottom: 10px;">
+									{{id}}. {{itemText}}
+									{{#ifCond isBill '1'}}
+										<ul class="external-link-wrapper">
+
+										{{#each bills}}
+											<li>
+												<a href="javascript:openUrlInExternal('{{link}}')" class="external-link">{{name}}</a>
+											</li>
+										{{/each}}
+
+										{{#each docs}}
+											<li>
+												<a  href="javascript:openUrlInExternal('{{link}}')" class="file-link">{{name}}</a>
+											</li>
+										{{/each}}
+
+										</ul>
+									{{/ifCond}}
+									</div>
+								{{/each}}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<div class="bar bar-footer">					
@@ -111,6 +159,613 @@
 	</div>
 </script>
 <!-- END plenary-tpl detail -->
+
+
+<!-- controll-tpl -->
+<script id="controll-tpl" type="text/x-handlebars-template">
+	<div class="controll-tpl">
+		<div class="bar bar-header" style="position: fixed;">
+			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
+
+			<h1 class="title">Парламентарен контрол</h1>
+			<button class="search-btn button button-icon" id="btnSearchControll">
+				<img src="assets/img/search-icon.png" alt="ico" class="ico">
+			</button>
+		</div>
+		
+		<div class="row search-row">
+			<div class="col hidden" id="searchBoxControll">
+				<div class="search-wrapper">
+					<input type="text" placeholder="Търси парламентарен контрол" class="search-field" id="txtSearchControll" />
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col content-wrapper" id="scrollingContent">
+				{{#each controll}}
+				<div class="row short-preview controllListItem" data-list-item-id="{{cid}}">
+					<div class="col">
+						<!--<div class="row">
+							<h2 class="title">Парламентарен контрол</h2>
+						</div>-->
+						<div class="row">
+							<div class="col-67 description" onclick="openAppUrl('#controllDetail?id={{cid}}');">
+								{{{dscrShort}}}
+							</div>
+							<div class="col-33">
+								<div class="custom-row">
+									<div class="date">{{date}}</div>
+								</div>
+								<div class="custom-row">
+									<button class="button icon-left ion-eye preview-btn" onclick="openAppUrl('#controllDetail?id={{cid}}');">
+										<span class="txt">Преглед</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				{{/each}}
+			</div>
+		</div>
+
+		<div class="bar bar-footer">					
+			<button class="back-btn button button-icon" id="footerBackButton">
+				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
+			</button>					
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
+		</div>
+	</div>
+
+</script>
+
+
+<!-- controll-tpl detail -->
+<script id="controll-tpl-detail-preview" type="text/x-handlebars-template">
+	<div class="controll-tpl-detail-preview">
+
+		<div class="bar bar-header" style="position: fixed;">
+			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
+			<h1 class="title">Парламентарен контрол</h1>
+		</div>
+
+		<div class="row screen-wrapper">
+			<div class="col content-wrapper">
+				<div class="row detail-preview">
+					<div class="col">
+						<div class="row">
+							<h2 class="title">Парламентарен контрол</h2>
+						</div>
+						<div class="row">
+							<div class="custom-row">
+								<div class="date">{{date}}</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col description">
+								Парламентарен контрол - {{time}} </br>
+								{{#each agenda}}
+									<div style="margin-top: 15px;">
+									<strong>{{idRom}}. {{answerer}} ще отговори на:</strong><br />
+									{{#each questWithAutor}}
+										{{this}}<br />
+									{{/each}}
+									</div>
+								{{/each}}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bar bar-footer">					
+			<button class="back-btn button button-icon" id="footerBackButton">
+				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
+			</button>					
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
+		</div>
+	</div>
+</script>
+<!-- END controll-tpl detail -->
+
+
+<!-- committee-tpl -->
+<script id="committee-tpl" type="text/x-handlebars-template">
+	<div class="committee-tpl">
+		<div class="bar bar-header" style="position: fixed;">
+			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
+
+			<h1 class="title">Заседания на комисии</h1>
+			<button class="subscribe-list-btn button button-icon" id="committeesListButton">
+				<img src="assets/img/check-list-icon.png" alt="ico" class="ico">
+			</button>
+			<button class="search-btn button button-icon" id="btnSearchCommittee">
+				<img src="assets/img/search-icon.png" alt="ico" class="ico">
+			</button>
+		</div>
+		
+		<div class="row search-row">
+			<div class="col hidden" id="searchBoxCommittee">
+				<div class="search-wrapper">
+					<input type="text" placeholder="Търси заседание" class="search-field" id="txtSearchCommittee" />
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col content-wrapper" id="scrollingContent">
+				{{#each committee}}			
+				<div class="row short-preview committeeListItem" data-list-item-id="{{cid}}">
+					<div class="col">
+						<div class="row">
+							<h2 class="title">{{committeeName}}</h2>
+						</div>
+						<div class="row">
+							<div class="col-67 description">
+								{{{dscrShort}}}
+							</div>
+							<div class="col-33">
+								<div class="custom-row">
+									<div class="date">{{date}}</div>
+								</div>
+								<div class="custom-row">
+									<button class="button icon-left ion-eye preview-btn" onclick="openAppUrl('#committeeDetail?id={{cid}}');">
+										<span class="txt">Преглед</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				{{/each}}
+			</div>
+		</div>
+
+		<div class="bar bar-footer">					
+			<button class="back-btn button button-icon" id="footerBackButton">
+				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
+			</button>					
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
+		</div>
+	</div>
+
+</script>
+<!-- END controll-tpl detail -->
+
+
+<!-- committee-tpl detail -->
+<script id="committee-tpl-detail-preview" type="text/x-handlebars-template">
+	<div class="committee-tpl-detail-preview">
+
+		<div class="bar bar-header" style="position: fixed;">
+			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
+			<h1 class="title">Заседания на комисии</h1>
+		</div>
+
+		<div class="row screen-wrapper">
+			<div class="col content-wrapper">
+				<div class="row detail-preview">
+					<div class="col">
+						<div class="row">
+							<h2 class="title">Заседание на {{committeeName}}</h2>
+						</div>
+						<div class="row">
+							<div class="custom-row">
+								<div class="date">{{date}}</div>
+								<div class="time">{{time}}</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="custom-row address">
+								<span>{{building}}</span>, зала <span>{{hall}}</span>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col description">
+								{{{agenda}}}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bar bar-footer">	
+			<button class="back-btn button button-icon" id="footerBackButton">
+				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
+			</button>					
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
+		</div>
+	</div>
+</script>
+<!-- END committee-tpl detail -->
+
+
+<!-- committee-check-list-tpl -->
+<script id="committee-check-list-tpl" type="text/x-handlebars-template">
+	<div class="committee-check-list-tpl" style="height: 93%; overflow: auto;">
+		<div class="bar bar-header" style="position: fixed;">
+			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
+			<h1 class="title">Абонамент за комисии</h1>
+		</div>
+
+		<div class="row screen-wrapper">
+			<div class="col content-wrapper">
+
+				{{#each commsList}}
+				<div class="row short-preview">
+					<div class="col">
+						<div class="row relative">
+							<div class="col description">
+								<h2 class="title {{#ifCond isSubscribed '0'}}unsubscribedText{{/ifCond}}">
+									<span class="subscribe-btn {{#ifCond isSubscribed '1'}}active{{/ifCond}} ion-checkmark-circled" data-committee-id="{{commId}}"></span>
+									{{commName}}
+								</h2>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col description">
+								Председател: <strong>{{chairman}}</strong>
+							</div>
+						</div>
+					</div>
+				</div>
+				{{/each}}
+
+			</div>
+		</div>
+
+		<div class="tabs tabs-icon-top bottom-tabs">
+			<button href="javascript:void(0)" id="btn_comm_list_save" class="button icon-left ion-compose save-btn"><span class="txt">Запис</span></button>
+		</div>
+
+	</div>
+</script>
+<!-- END committee-check-list-tpl -->
+
+
+
+<!-- news tpl -->
+<script id="news-tpl" type="text/x-handlebars-template">
+	<div class="news-tpl">
+		<div class="bar bar-header" style="position: fixed;">
+			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
+
+			<h1 class="title">Новини</h1>
+			<button class="search-btn button button-icon" id="btnSearchNews">
+				<img src="assets/img/search-icon.png" alt="ico" class="ico">
+			</button>
+		</div>
+		
+		<div class="row search-row">
+			<div class="col hidden" id="searchBoxNews">
+				<div class="search-wrapper">
+					<input type="text" placeholder="Търсене на новини" class="search-field" id="txtSearchNews" />
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col content-wrapper" id="scrollingContent">
+				{{#each news}}
+				<div class="row short-preview newsListItem" data-list-item-id="{{nid}}">
+					<div class="col">
+						<div class="row" onclick="openAppUrl('#newsDetail?id={{nid}}');">
+							<h2 class="title">{{title}}</h2>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div class="date">{{pubDate}}</div>
+							</div>
+							<div class="col">
+								<button class="button icon-left ion-eye preview-btn" onclick="openAppUrl('#newsDetail?id={{nid}}');">
+									<span class="txt">Преглед</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				{{/each}}
+			</div>
+		</div>
+
+		<div class="bar bar-footer">
+			<button class="back-btn button button-icon" id="footerBackButton">
+				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
+			</button>
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
+		</div>
+	</div>
+
+</script>
+<!-- END news-tpl detail -->
+
+
+<!-- news-tpl detail -->
+<script id="news-tpl-detail-preview" type="text/x-handlebars-template">
+	<div class="news-tpl-detail-preview">
+
+		<div class="bar bar-header" style="position: fixed;">
+			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
+			<h1 class="title">Преглед на новина</h1>
+		</div>
+
+		<div class="row screen-wrapper">
+			<div class="col content-wrapper">
+				<div class="row detail-preview">
+					<div class="col">
+						<div class="row">
+							<h2 class="title">{{title}}</h2>
+						</div>
+						<div class="row">
+							<div class="custom-row">
+								<div class="date">{{pubDate}}</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col description">
+								<img src="http://www.parliament.bg/pub/Gallery/{{img}}" />
+								{{{dscr}}}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="bar bar-footer">	
+			<button class="back-btn button button-icon" id="footerBackButton">
+				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
+			</button>					
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
+		</div>
+	</div>
+</script>
+<!-- END news-tpl detail -->
+
+
+<!-- options-tpl -->
+<script id="options-tpl" type="text/x-handlebars-template">
+	<div class="options-tpl">
+
+		<div class="bar bar-header" style="position: fixed;">
+			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
+			<h1 class="title">Настройки</h1>
+		</div>
+
+		<div class="row">
+			<div class="col content-wrapper">
+				<ul class="list">
+
+					<li class="item item-toggle">
+						Позволи известия от приложението
+						<label class="toggle toggle-assertive">
+							<input type="checkbox" id="chkNotifications" {{#ifCond appNotifAllowed '1'}}checked{{/ifCond}} />
+							<div class="track">
+								<div class="handle"></div>
+							</div>
+						</label>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+
+		<div class="bar bar-footer">	
+			<button class="back-btn button button-icon" onclick="javascript:history.back(1)">
+				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
+			</button>					
+		</div>
+	</div>
+</script>
+<!-- END options-tpl -->
+
+
+<!-- bills-tpl -->
+<script id="bills-tpl" type="text/x-handlebars-template">
+	<div class="bills-tpl">
+
+		<div class="bar bar-header" style="position: fixed;">
+			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
+			<h1 class="title">Законопроекти</h1>
+			<button class="search-btn button button-icon" id="btnSearchBills">
+				<img src="assets/img/search-icon.png" alt="ico" class="ico">
+			</button>
+		</div>
+		
+		<div class="row search-row">
+			<div class="col hidden" id="searchBoxBills">
+				<div class="search-wrapper">
+					<input type="text" placeholder="Търси законопроекти" class="search-field" id="txtSearchBills" />
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col content-wrapper" id="scrollingContent">
+				{{#each bills}}
+				<div class="row short-preview billsListItem" data-list-item-id="{{bid}}">
+					<div class="col">
+						<div class="row" onclick="openAppUrl('#billsDetailUrl?id={{bid}}');">
+							<h2 class="title">{{billName}}</h2>
+						</div>
+						<div class="row">
+							<div class="col-67 description-labels">
+								<div class="label">Вносители:</div>
+								<div class="txt">{{{importersShort}}}</div>
+							</div>
+							<div class="col-33">
+								<div class="custom-row">
+									<div class="date">{{billDate}}</div>
+								</div>
+								<div class="custom-row">
+									<button class="button icon-left ion-eye preview-btn" onclick="openAppUrl('#billsDetailUrl?id={{bid}}');">
+										<span class="txt">Преглед</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				{{/each}}
+
+			</div>
+		</div>
+
+		<div class="bar bar-footer">
+			<button class="back-btn button button-icon" id="footerBackButton">
+				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
+			</button>
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
+		</div>
+	</div>
+</script>
+<!-- END bills-tpl -->
+
+
+<!-- bills-tpl-detail-preview -->
+<script id="bills-tpl-detail-preview" type="text/x-handlebars-template">
+	<div class="bills-tpl-detail-preview">
+
+		<div class="bar bar-header" style="position: fixed;">
+			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
+			<h1 class="title">Преглед на законопроект</h1>
+		</div>
+
+		<div class="row">
+			<div class="col content-wrapper" id="scrollingContent">
+
+				<div class="row detail-preview">
+					<div class="col">
+						<div class="row">
+							<h2 class="title">{{billName}}</h2>
+						</div>
+						<div class="row">
+							<div class="col description-labels">
+								<div class="label">Сигнатура:</div>
+								<div class="txt">{{signature}}</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col description-labels">
+								<div class="label">Дата на постъпване:</div>
+								<div class="txt">{{billDate}}</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col description-labels">
+								<div class="label">Сесия:</div>
+								<div class="txt">{{session}}</div>
+							</div>
+						</div>
+
+						{{#ifCond filesDisplay 1}}
+						<div class="row">
+							<div class="col description-labels">
+								<div class="label">Текст на законопроекта:</div>
+								<div class="txt">
+									{{#each files}}
+									<a href="javascript:openUrlInExternal('{{link}}')" class="file-link">{{type}} формат</a>
+									{{/each}}
+								</div>
+							</div>
+						</div>
+						{{/ifCond}}
+
+						<div class="row">
+							<div class="col description-labels">
+								<div class="label">Вносители:</div>
+								<div class="txt">
+									<ul class="description-list">
+										{{#each importers}}
+											<li>{{this}}</li>
+										{{/each}}
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						{{#ifCond commsDisplay 1}}
+						<div class="row">
+							<div class="col description-labels">
+								<div class="label">Разпределение по комисии:</div>
+								<div class="txt">
+									<ul class="description-list">
+										{{#each comms}}
+											<li>{{name}} ({{role}})</li>
+										{{/each}}
+									</ul>
+								</div>
+							</div>
+						</div>
+						{{/ifCond}}
+
+						{{#ifCond reportsDisplay 1}}
+						<div class="row">
+							<div class="col description-labels">
+								<div class="label">Доклади от комисии:</div>
+								<div class="txt">
+									<ul class="description-list">
+										{{#each reports}}
+											<li><a href="javascript:openUrlInExternal('{{link}}')" class="normal-link">{{author}}</a></li>
+										{{/each}}
+									</ul>
+								</div>
+							</div>
+						</div>
+						{{/ifCond}}
+
+						{{#ifCond chronoDisplay 1}}
+						<div class="row">
+							<div class="col description-labels">
+								<div class="label">Хронология:</div>
+								<div class="txt">
+									<ul class="description-list">
+										{{#each chrono}}
+											<li>{{date}} - {{status}}</li>
+										{{/each}}
+									</ul>
+								</div>
+							</div>
+						</div>
+						{{/ifCond}}
+
+						{{#ifCond decided 1}}
+						<div class="row">
+							<div class="col description-labels">
+								<div class="label">Статус:</div>
+								<div class="txt">приет</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col description-labels">
+								<div class="label">Обнародван в ДВ:</div>
+								<div class="txt">брой {{dvNo}}/{{dvYear}}</div>
+							</div>
+						</div>
+						{{/ifCond}}
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="bar bar-footer">
+			<button class="back-btn button button-icon" id="footerBackButton">
+				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
+			</button>
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
+		</div>
+	</div>
+</script>
+<!-- END bills-tpl-detail-preview -->
+
+
+
+
 
 
 
@@ -152,6 +807,22 @@
 					<span class="flag-new">ново</span>
 					<span class="ico"><img src="assets/img/committee-ico-dark.svg" class="section-icons committee-ico"></span>
 					<span class="txt">Заседания на парламентарни комисии</span>
+				</a>
+			</li>
+			<li class="row liMainMenuItem" id="liMainMenuBills">
+				<a href="javascript:void(0);" class="col section" id="mainMenuBills">
+					<span class="flag-active"></span>
+					<span class="flag-new">ново</span>
+					<span class="ico"><img src="assets/img/bills-ico.png" class="section-icons bills-ico"></span>
+					<span class="txt">Законопроекти</span>
+				</a>
+			</li>
+			<li class="row liMainMenuMPs" id="liMainMenuMPs">
+				<a href="javascript:void(0);" class="col section" id="mainMenuMPs">
+					<span class="flag-active"></span>
+					<span class="flag-new">ново</span>
+					<span class="ico"><img src="assets/img/MPs-ico.png" class="section-icons mps-ico"></span>
+					<span class="txt">Народни представители</span>
 				</a>
 			</li>
 			<li class="row liMainMenuItem" id="liMainMenuNews">

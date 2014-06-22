@@ -39,10 +39,20 @@ var NewsView = function(template) {
 		}
 	};
 	
-	this.assignHandlers = function() {
+	this.assignHandlers = function(backBtnUrl) {
 		var self = this;
+		
+		assignSliderOpenHandler();
+		assignFooterHandlers(backBtnUrl);
+
 		$('#btnSearchNews').unbind().bind('click', function() {
-			$('#searchBoxNews').slideToggle("slow");
+			$('#searchBoxNews').slideToggle(searchOpenDuration, function() {
+				if ($('#scrollingContent').hasClass('search-opened')) {
+					$('#scrollingContent').removeClass('search-opened');
+				} else {
+					$('#scrollingContent').addClass('search-opened');
+				}
+			});
 		});
 		
 		if ($('#txtSearchNews')) { 
@@ -94,6 +104,11 @@ var NewsView = function(template) {
 			}
 		}
 		return itemIds;
+	};
+	
+	this.updateInterface = function() {
+		$('.liMainMenuItem').removeClass('active');
+		$('#liMainMenuNews').addClass('active');
 	};
 
 

@@ -5,9 +5,12 @@ var FileStorage = function(dataFileName) {
 	//console.log('data file: ' + this.dataFile);
 	this.fileEntry = null;
 	this.rssData = '';
+	this.rssDataHash = '';
 	this.fileObj = null;
+	this.loaded = false;
 	
 	this.checkAgeAndSize = true;
+	this.forceDownload = false;
 	
 	this.callbacks = false;
 
@@ -42,19 +45,12 @@ var FileStorage = function(dataFileName) {
 	var gotFile = function(file) {
 		//console.log('got file');
 		self.fileObj = file;
-		var age = (new Date()).getTime() - file.lastModifiedDate;
-		if ( self.checkAgeAndSize && ((age / 1000) > dataFileAgeToDownload || file.size <= 0) ) {
+		//var age = (new Date()).getTime() - file.lastModifiedDate;
+		
+		if ( self.forceDownload ||
+			( self.checkAgeAndSize && (/*(age / 1000) > dataFileAgeToDownload ||*/ file.size <= 0) ) 
+		) {
 			console.log('Refresh data from RSS: ' + file.name);
-			
-			//if we have old data we have to read them to count items and set notifications in the home screen
-			/*if ((age / 1000) > dataFileAgeToDownload && file.size > 0) {
-				console.log('Going to count items ...');
-				self.registerCallbacks({readFileDone: countItems});
-				self.readRssFile(file.name);
-			} else {
-				self.downloadRssFile(file.name);
-			}*/
-			
 			self.downloadRssFile(file.name);
 		} else {
 			console.log('Read rss data from file: ' + file.name);
@@ -68,7 +64,7 @@ var FileStorage = function(dataFileName) {
 	
 	var countItems = function(xmlData, fileName) {
 		delete self.callbacks.readFileDone;
-		console.log(fileName);
+		//console.log(fileName);
 	};
 	
 	this.downloadRssFile = function(fileName) {
@@ -81,6 +77,7 @@ var FileStorage = function(dataFileName) {
 			success: function(data, testStatus, jqXHR) {
 				//data is a XML DOM object
 				self.rssData = new XMLSerializer().serializeToString(data);
+				self.loaded = true;
 				
 				//Create FileWriter object
 				self.fileEntry.createWriter(gotFileWriter, fail);
@@ -103,6 +100,12 @@ var FileStorage = function(dataFileName) {
 		//console.log((new XMLSerializer()).serializeToString(self.rssData));
 		writer.onwrite = function(event) {
 			console.log(self.fileEntry.name + " written");
+			if (self.dataFile == updatesDataFile) {
+				var hash = CryptoJS.MD5(self.rssData);
+				self.rssDataHash = hash.toString();
+				//console.log('updatesHash: ' + self.rssDataHash);
+				processUpdatesInfo(settings.get('updatesHash'));
+			}
 		};
 		writer.onerror = function(event) {
 			console.log('Failed writing');
@@ -119,6 +122,7 @@ var FileStorage = function(dataFileName) {
 			//console.log(event.target.result);
 			//Store read data
 			self.rssData = event.target.result;
+			self.loaded = true;
 			if (self.callbacks && typeof(self.callbacks.readFileDone) != 'undefined') {
 				self.callbacks.readFileDone(self.rssData, self.dataFile);
 			}

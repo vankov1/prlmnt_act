@@ -54,7 +54,7 @@ html, body {
 }
 
 .snap-drawer-left {
-  background-color: #ffffff;
+  background-color: #fafafa;
   left: 0;
   z-index: 1;
   overflow: hidden;

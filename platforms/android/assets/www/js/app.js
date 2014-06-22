@@ -6,7 +6,8 @@ var committeesListFile = 'committees_list.xml';
 var newsDataFile = 'news.xml';
 var billsDataFile = 'bills.xml';
 var deputiesDataFile = 'deputies.xml';
-var dataFiles = [plenaryDataFile, controllDataFile, committeeDataFile, committeesListFile, newsDataFile, billsDataFile, deputiesDataFile];
+var updatesDataFile = 'changelog.xml';
+var dataFiles = [updatesDataFile, plenaryDataFile, controllDataFile, committeeDataFile, committeesListFile, newsDataFile, billsDataFile, deputiesDataFile];
 var adapters = [];
 var homePageNewItemsCounters = {
 	plenaries: '0',
@@ -43,6 +44,8 @@ function getRssUrlByFileName(fileName) {
 		url = "http://www.parliament.bg/export/bg/xml/app_bills/";
 	} else if (fileName == deputiesDataFile) {
 		url = "http://www.parliament.bg/export/bg/xml/app_mps/";
+	} else if (fileName == updatesDataFile) {
+		url = "http://parliament.bg/export/bg/xml/app_log/";
 	}
 	return url;
 }
@@ -144,6 +147,9 @@ function assignMainMenuHandlers() {
     for (var i = 0; i < dataFiles.length; i++) {
     	adapters[i] = new FileStorage(dataFiles[i]);
     	adapters[i].initialize();
+		if (dataFiles[i] == updatesDataFile) {
+			adapters[i].forceDownload = true;
+		}
     }
     route();
     
@@ -167,7 +173,7 @@ function assignMainMenuHandlers() {
         
         //Check for downloaded RSS files and if they are missing or too old download them
         for (var i = 0; i < adapters.length; i++) {
-        	adapters[i].checkDataFile();
+    		adapters[i].checkDataFile();
         	//console.log(adapters[i].dataFile);
     	}
         
