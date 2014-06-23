@@ -12,6 +12,9 @@ body {
 .hidden {
   display: none;
 }
+.bold {
+  font-weight: bold;
+}
 .relative {
   position: relative;
 }
@@ -698,18 +701,30 @@ body {
   margin-bottom: 5px;
 }
 /* ===== END Bills Detail Preview Screen ===== */
-/* ===== MPS Screen ===== */
+/* ===== MPS Tabs Screens ===== */
 .mps-tpl > .row,
-.mps-tpl .content-wrapper {
+.mp-groups-tpl > .row,
+.mp-committees-tpl > .row,
+.mp-area-tpl > .row,
+.mps-tpl .content-wrapper,
+.mp-groups-tpl .content-wrapper,
+.mp-committees-tpl .content-wrapper,
+.mp-area-tpl .content-wrapper {
   padding: 0px;
 }
-.mps-tpl .short-preview {
+.mps-tpl .short-preview,
+.mp-groups-tpl .short-preview,
+.mp-committees-tpl .short-preview,
+.mp-area-tpl .short-preview {
   padding: 10px 10px 0px 10px;
   background: #fff;
   margin-bottom: 5px;
   border-bottom: 1px solid #dfdfdf;
 }
-.mps-tpl .short-preview .profile-image {
+.mps-tpl .short-preview .profile-image,
+.mp-groups-tpl .short-preview .profile-image,
+.mp-committees-tpl .short-preview .profile-image,
+.mp-area-tpl .short-preview .profile-image {
   width: 45px;
   height: 70px;
   float: left;
@@ -718,33 +733,71 @@ body {
   background-repeat: no-repeat;
   background-size: 45px;
 }
-.mps-tpl .short-preview .name {
+.mps-tpl .short-preview .name,
+.mp-groups-tpl .short-preview .name,
+.mp-committees-tpl .short-preview .name,
+.mp-area-tpl .short-preview .name {
   margin-bottom: 5px;
   font-size: 14px;
   overflow: hidden;
   text-align: center;
   text-overflow: ellipsis;
   white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: bold;
 }
-.mps-tpl .short-preview .info {
+.mps-tpl .short-preview .info,
+.mp-groups-tpl .short-preview .info,
+.mp-committees-tpl .short-preview .info,
+.mp-area-tpl .short-preview .info {
+  margin-top: 5px;
   float: left;
   padding-top: 0px;
   text-transform: uppercase;
   font-size: 10px;
 }
-.mps-tpl .short-preview .info li {
+.mps-tpl .short-preview .info li,
+.mp-groups-tpl .short-preview .info li,
+.mp-committees-tpl .short-preview .info li,
+.mp-area-tpl .short-preview .info li {
   overflow: hidden;
   text-align: left;
   text-overflow: ellipsis;
   white-space: nowrap;
+  line-height: 15px;
 }
-.mps-tpl .short-preview .preview-btn {
+.mps-tpl .short-preview .preview-btn,
+.mp-groups-tpl .short-preview .preview-btn,
+.mp-committees-tpl .short-preview .preview-btn,
+.mp-area-tpl .short-preview .preview-btn {
   margin-top: 5px;
 }
-.mps-tpl .short-preview > .col > .row {
+.mps-tpl .short-preview > .col > .row,
+.mp-groups-tpl .short-preview > .col > .row,
+.mp-committees-tpl .short-preview > .col > .row,
+.mp-area-tpl .short-preview > .col > .row {
   padding: 0px;
 }
-/* ===== END MPS Screen ===== */
+/* ===== END MPS Tabs Screens ===== */
+.mp-groups-tpl .short-preview {
+  padding-bottom: 5px;
+}
+.mp-groups-tpl .info {
+  margin-top: 10px !important;
+  font-size: 12px !important;
+}
+.mp-area-tpl .short-preview {
+  padding: 10px 5px !important;
+}
+.mp-area-tpl .name {
+  width: 70%;
+  text-align: left !important;
+  line-height: 29px;
+  margin: 0px !important;
+}
+.mp-area-tpl .preview-btn {
+  margin-top: 0px !important;
+}
 /* ===== Options Screen ===== */
 .options-tpl {
   padding-top: 75px;

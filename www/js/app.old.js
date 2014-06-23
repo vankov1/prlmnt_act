@@ -73,8 +73,8 @@ var newsDetailUrl = "#newsDetail";
 var optionsUrl = "#options";
 var billsListUrl = "#billsList";
 var billsDetailUrl = "#billsDetail";
-var mpsAZListUrl = "#mpsAZList";
-var mpDetailUrl = "#mpsDetail";
+var mpAZListUrl = "#mpAZList";
+var mpDetailUrl = "#mpDetail";
 
 
 // We use an "Immediate Function" to initialize the application to avoid leaving anything behind in the global scope
@@ -314,7 +314,7 @@ var mpDetailUrl = "#mpsDetail";
 			}
 		}
 		
-		match = hash.match(mpsAZListUrl);
+		match = hash.match(mpAZListUrl);
 		if (match) {
 			var mps = new BillsView(mpsAZTpl);
 			mps.getData(function(tplData) {

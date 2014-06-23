@@ -37,6 +37,10 @@ body {
     display: none;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .relative {
     position: relative;
 }
@@ -809,8 +813,11 @@ body {
 
 /* ===== END Bills Detail Preview Screen ===== */
 
-/* ===== MPS Screen ===== */
-.mps-tpl {
+/* ===== MPS Tabs Screens ===== */
+.mps-tpl,
+.mp-groups-tpl,
+.mp-committees-tpl,
+.mp-area-tpl {
     > .row,
     .content-wrapper {
         padding: 0px;
@@ -836,9 +843,12 @@ body {
             text-align: center;
             text-overflow: ellipsis;
             white-space: nowrap;
+            text-transform: uppercase;
+            font-weight: bold;
 
         }
         .info {
+            margin-top: 5px;
             float: left;
             padding-top: 0px;
             text-transform: uppercase;
@@ -848,6 +858,7 @@ body {
                 text-align: left;
                 text-overflow: ellipsis;
                 white-space: nowrap;
+                line-height: 15px;
             }
         }
         .preview-btn {
@@ -861,8 +872,33 @@ body {
     }
 }
 
-/* ===== END MPS Screen ===== */
+/* ===== END MPS Tabs Screens ===== */
 
+.mp-groups-tpl {
+    .short-preview {
+        padding-bottom: 5px;
+    }
+    .info {
+        margin-top: 10px !important;
+        font-size: 12px !important;
+    }
+}
+
+
+.mp-area-tpl {
+    .short-preview {
+        padding: 10px 5px !important;
+    }
+    .name {
+        width: 70%;
+        text-align: left !important;
+        line-height: 29px;
+        margin: 0px !important;
+    }
+    .preview-btn {
+        margin-top: 0px !important;
+    }
+}
 
 /* ===== Options Screen ===== */
 

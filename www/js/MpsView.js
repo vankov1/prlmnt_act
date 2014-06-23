@@ -1,4 +1,5 @@
-var MpsView = function(template) {
+var MPsView = function(template) {
+	var self = this;
 
     this.initialize = function() {
         this.el = $('<div/>');
@@ -10,15 +11,40 @@ var MpsView = function(template) {
 		return this;
 	};
 
-	this.getData = function(callback) {
+	this.getData = function(filter, callback) {
 		var adapter = getAdapter(deputiesDataFile);
 		console.log('got adapter: ' + adapter.dataFile);
 		var parser = new DOMParser();
 		var data = parser.parseFromString(adapter.rssData, "text/xml");
+				
+		var mps = [];
+		var idx = 0;
 		
-		for (var i = 0; i < billsList.length; i++) {
-			mps[i] = {
-				mpid: i
+		var mpsList = data.getElementsByTagName('item');
+		
+		var tmp;
+		var mpMatchesFilter = false;
+
+		for (var i = 0; i < mpsList.length; i++) {
+
+			if (filter == '') {
+				mpMatchesFilter = true;
+			} else if (filter[0] == 'areaId') {
+				mpMatchesFilter = this.filterByArea(mpsList[i], filter[1]);
+			}
+			
+			if (!mpMatchesFilter) {
+				continue;
+			}
+			
+			mps[idx] = {
+				mpi: idx,
+				mpId: mpsList[i].getElementsByTagName('item_ID')[0].textContent,
+				mpFName: mpsList[i].getElementsByTagName('FirstName')[0].attributes.getNamedItem('value').value,
+				mpSName: mpsList[i].getElementsByTagName('SirName')[0].attributes.getNamedItem('value').value,
+				mpFamily: mpsList[i].getElementsByTagName('FamilyName')[0].attributes.getNamedItem('value').value,
+				politForce: mpsList[i].getElementsByTagName('PoliticalForce')[0].attributes.getNamedItem('value').value,
+				izbRajon: mpsList[i].getElementsByTagName('Constituency')[0].attributes.getNamedItem('value').value
 				/*,
 				title: newsList[pi].getElementsByTagName('title')[0].textContent,
 				dscr: newsList[pi].getElementsByTagName('description')[0].textContent.replace('>>', '>'),
@@ -26,6 +52,7 @@ var MpsView = function(template) {
 				pubDate: isoToBgDate(newsList[pi].getElementsByTagName('pubDate')[0].textContent),
 				link: newsList[pi].getElementsByTagName('item_link')[0].textContent*/
 			};
+			idx++;
 		}
 		
 		tplData = {
@@ -37,8 +64,26 @@ var MpsView = function(template) {
 		}
 	};
 	
-	this.assignHandlers = function() {
+	this.filterEmpty = function(mpRec, toMatch) {
+		return true;
+	};
+	
+	this.filterByArea = function(mpRec, toMatch) {
+		var area = mpRec.getElementsByTagName('Constituency')[0].attributes.getNamedItem('value').value.split('-');
+		if (toMatch == area[0]) {
+			return true;
+		} else {
+			return false;
+		}
+	};
+	
+	this.assignHandlers = function(backBtnUrl) {
 		var self = this;
+		
+		assignSliderOpenHandler();
+		assignFooterHandlers(backBtnUrl);
+		assignMPTabHandlers();
+
 		$('#btnSearchBills').unbind().bind('click', function() {
 			$('#searchBoxBills').slideToggle("slow");
 		});
@@ -92,6 +137,12 @@ var MpsView = function(template) {
 			}
 		}
 		return itemIds;
+	};
+	
+	
+	this.updateInterface = function() {
+		$('.liMainMenuItem').removeClass('active');
+		$('#liMainMenuBills').addClass('active');
 	};
 
 

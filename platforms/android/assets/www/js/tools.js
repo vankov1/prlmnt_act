@@ -158,6 +158,30 @@ function assignFooterHandlers(backBtnUrl) {
 }
 
 
+function assignMPTabHandlers() {
+	if ($('#mpTabAZ')) {
+		$('#mpTabAZ').unbind().bind('click', function() {
+			openAppUrl(mpAZListUrl);
+		});
+	}
+	if ($('#mpTabGroups')) {
+		$('#mpTabGroups').unbind().bind('click', function() {
+			openAppUrl(mpGroupsUrl);
+		});
+	}
+	if ($('#mpTabComms')) {
+		$('#mpTabComms').unbind().bind('click', function() {
+			openAppUrl(mpCommitteesUrl);
+		});
+	}
+	if ($('#mpTabAreas')) {
+		$('#mpTabAreas').unbind().bind('click', function() {
+			openAppUrl(mpAreasUrl);
+		});
+	}
+};
+
+
 function processUpdatesInfo(savedUpdatesHash) {
 	adapter = getAdapter(updatesDataFile);
 	if (!settings.loaded || !adapter.loaded) {

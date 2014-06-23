@@ -6,8 +6,9 @@ var committeesListFile = 'committees_list.xml';
 var newsDataFile = 'news.xml';
 var billsDataFile = 'bills.xml';
 var deputiesDataFile = 'deputies.xml';
+var votingAreasDataFile = 'voting_areas.xml';
 var updatesDataFile = 'changelog.xml';
-var dataFiles = [updatesDataFile, plenaryDataFile, controllDataFile, committeeDataFile, committeesListFile, newsDataFile, billsDataFile, deputiesDataFile];
+var dataFiles = [updatesDataFile, plenaryDataFile, controllDataFile, committeeDataFile, committeesListFile, newsDataFile, billsDataFile, deputiesDataFile, votingAreasDataFile];
 var adapters = [];
 var homePageNewItemsCounters = {
 	plenaries: '0',
@@ -46,6 +47,8 @@ function getRssUrlByFileName(fileName) {
 		url = "http://www.parliament.bg/export/bg/xml/app_mps/";
 	} else if (fileName == updatesDataFile) {
 		url = "http://parliament.bg/export/bg/xml/app_log/";
+	} else if (fileName == votingAreasDataFile) {
+		url = "http://parliament.bg/export/bg/xml/app_constituency/";
 	}
 	return url;
 }
@@ -76,8 +79,11 @@ var newsDetailUrl = "#newsDetail";
 var optionsUrl = "#options";
 var billsListUrl = "#billsList";
 var billsDetailUrl = "#billsDetail";
-var mpsAZListUrl = "#mpsAZList";
-var mpDetailUrl = "#mpsDetail";
+var mpAZListUrl = "#mpAZList";
+var mpDetailUrl = "#mpDetail";
+var mpGroupsUrl = "#mpGroups";
+var mpCommitteesUrl = "#mpCommittees";
+var mpAreasUrl = "#mpAreas";
 
 assignMainMenuHandlers();
 
@@ -111,7 +117,7 @@ function assignMainMenuHandlers() {
 	
 	if ($('#mainMenuMPs')) {
 		$('#mainMenuMPs').unbind().bind('click', function() {
-			openAppUrl(mpsAZListUrl);
+			openAppUrl(mpAZListUrl);
 		});
 	}
 	
@@ -140,7 +146,8 @@ function assignMainMenuHandlers() {
     var optionsTpl = Handlebars.compile($("#options-tpl").html());
     var billsTpl = Handlebars.compile($("#bills-tpl").html());
     var billsDetailTpl = Handlebars.compile($("#bills-tpl-detail-preview").html());
-//    var mpsAZTpl = Handlebars.compile($("#mps-az-tpl").html());
+    var mpsAZTpl = Handlebars.compile($("#mps-tpl").html());
+    var mpsAreasTpl = Handlebars.compile($("#mp-area-tpl").html());
 
 //    var slider = new PageSlider($('body'));
 
@@ -410,12 +417,32 @@ function assignMainMenuHandlers() {
 			}
 		}
 		
-		match = hash.match(mpsAZListUrl);
+		match = hash.match(mpAZListUrl);
 		if (match) {
-			var mps = new BillsView(mpsAZTpl);
-			mps.getData(function(tplData) {
-				slider.slidePage(mps.render(tplData).el);
-				mps.assignHandlers();
+			var parts = hash.split('?');
+			if (!parts[1]) {
+				var filter = '';
+			} else {
+				var filter = parts[1].split('=');
+			}
+			var mps = new MPsView(mpsAZTpl);
+			mps.getData(filter, function(tplData) {
+				//slider.slidePage(mps.render(tplData).el);
+				$('#page-placeholder').html(mps.render(tplData).el);
+				mps.assignHandlers(homeUrl);
+				mps.updateInterface();
+			});
+			snapper.close();
+			return;
+		}
+		
+		match = hash.match(mpAreasUrl);
+		if (match) {
+			var areas = new VotingAreasView(mpsAreasTpl);
+			areas.getData(function(tplData) {
+				$('#page-placeholder').html(areas.render(tplData).el);
+				areas.assignHandlers(homeUrl);
+				areas.updateInterface();
 			});
 			snapper.close();
 			return;

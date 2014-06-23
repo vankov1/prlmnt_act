@@ -764,6 +764,151 @@
 <!-- END bills-tpl-detail-preview -->
 
 
+<!-- mps-tpl -->
+<script id="mps-tpl" type="text/x-handlebars-template">
+	<div class="mps-tpl">
+
+		<div class="bar bar-header">
+			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
+			<h1 class="title">Народни представители</h1>
+			<button class="search-btn button button-icon" id="btnSearchMPs">
+				<img src="assets/img/search-icon.png" alt="ico" class="ico">
+			</button>
+		</div>
+		
+		<div class="row search-row">
+			<div class="col hidden" id="searchBoxMPs">
+				<div class="search-wrapper">
+					<input type="text" placeholder="Търси парламентарен контрол" class="search-field" id="txtSearchMPs" />
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col content-wrapper" id="scrollingContent">
+
+				<div class="row section-tabs">
+					<div class="col tab active" id="mpTabAZ">
+						<div class="flag-active"></div>
+						А-Я
+					</div>
+					<div class="col tab" id="mpTabGroups">
+						<div class="flag-active"></div>
+						ПГ
+					</div>
+					<div class="col col-33 tab" id="mpTabComms">
+						<div class="flag-active"></div>
+						Комисии
+					</div>
+					<div class="col col-33 tab" id="mpTabAreas">
+						<div class="flag-active"></div>
+						Район
+					</div>
+				</div>
+
+				{{#each mps}}
+					<div class="row short-preview">
+						<div class="profile-image" style="background-image: url(http://www.parliament.bg/images/Assembly/{{mpId}}.png)"></div>
+						<div class="col">
+							<div class="row">
+								<h2 class="name">{{mpFName}} {{mpSName}} {{mpFamily}}</h2>
+							</div>
+							<div class="row">
+								<ul class="col col-67 info">
+									<li>{{politForce}}</li>
+									<li>{{izbRajon}}</li>
+								</ul>
+								<button class="button icon-left ion-eye preview-btn" onclick="openAppUrl('#mpDetailUrl?id={{mpId}}');">
+									<span class="txt">Преглед</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				{{/each}}
+
+			</div>
+		</div>
+
+		<div class="bar bar-footer">
+			<button class="back-btn button button-icon" id="footerBackButton">
+				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
+			</button>
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
+		</div>
+	</div>
+</script>
+<!-- END mps-tpl -->
+
+
+<!-- mp-area-tpl -->
+<script id="mp-area-tpl" type="text/x-handlebars-template">
+	<div class="mp-area-tpl">
+
+		<div class="bar bar-header">
+			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
+			<h1 class="title">Народни представители</h1>
+			<button class="search-btn button button-icon" id="btnSearchAreas">
+				<img src="assets/img/search-icon.png" alt="ico" class="ico">
+			</button>
+		</div>
+		
+		<div class="row search-row">
+			<div class="col hidden" id="searchBoxAreas">
+				<div class="search-wrapper">
+					<input type="text" placeholder="Търси парламентарен контрол" class="search-field" id="txtSearchAreas" />
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col content-wrapper" id="scrollingContent">
+
+				<div class="row section-tabs">
+					<div class="col tab" id="mpTabAZ">
+						<div class="flag-active"></div>
+						А-Я
+					</div>
+					<div class="col tab" id="mpTabGroups">
+						<div class="flag-active"></div>
+						ПГ
+					</div>
+					<div class="col col-33 tab" id="mpTabComms">
+						<div class="flag-active"></div>
+						Комисии
+					</div>
+					<div class="col col-33 tab active" id="mpTabAreas">
+						<div class="flag-active"></div>
+						Район
+					</div>
+				</div>
+
+				{{#each areas}}
+					<div class="row short-preview">
+						<div class="col">
+							<div class="row">
+								<h2 class="name">{{areaName}}</h2>
+								<button class="button icon-left ion-eye preview-btn" onclick="openAppUrl('#mpAZList?areaId={{areaId}}');">
+									<span class="txt">Преглед</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				{{/each}}
+
+			</div>
+		</div>
+
+		<div class="bar bar-footer">
+			<button class="back-btn button button-icon" id="footerBackButton">
+				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
+			</button>
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
+		</div>
+	</div>
+</script>
+<!-- END mp-area-tpl -->
+
+
 
 
 
@@ -866,6 +1011,8 @@
 <script src="js/CommitteesListView.js"></script>
 <script src="js/NewsView.js"></script>
 <script src="js/BillsView.js"></script>
+<script src="js/MPsView.js"></script>
+<script src="js/VotingAreasView.js"></script>
 <script src="js/OptionsView.js"></script>
 
 <script src="lib/snap.js"></script>
