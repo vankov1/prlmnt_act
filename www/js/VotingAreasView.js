@@ -55,6 +55,7 @@ var VotingAreasView = function(template) {
 		
 		assignSliderOpenHandler();
 		assignFooterHandlers(backBtnUrl);
+		assignMPTabHandlers();
 		
 		$('#btnSearchPlenary').unbind().bind('click', function() {
 			$('#searchBoxPlenary').slideToggle(searchOpenDuration, function() {

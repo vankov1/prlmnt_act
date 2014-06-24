@@ -129,6 +129,7 @@
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/MPsView.js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/NewsView.js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/OptionsView.js \
+/Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/ParlamStructsView.js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/PlenaryView.js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/tools.js \
 /Users/mom/dev/cordova/parliament_act/platforms/android/assets/www/js/UpdateDataProcessor.js \

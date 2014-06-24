@@ -31,6 +31,10 @@ var MPsView = function(template) {
 				mpMatchesFilter = true;
 			} else if (filter[0] == 'areaId') {
 				mpMatchesFilter = this.filterByArea(mpsList[i], filter[1]);
+			} else if (filter[0] == 'groupId') {
+				mpMatchesFilter = this.filterByStructure(mpsList[i], filter[1], ParalmStructType_GROUPS);
+			} else if (filter[0] == 'committeeId') {
+				mpMatchesFilter = this.filterByStructure(mpsList[i], filter[1], ParalmStructType_COMMITTEES);
 			}
 			
 			if (!mpMatchesFilter) {
@@ -75,6 +79,31 @@ var MPsView = function(template) {
 		} else {
 			return false;
 		}
+	};
+	
+	this.filterByStructure = function(mpRec, toMatch, structType) {
+		//console.log(toMatch);
+		var structures = mpRec.getElementsByTagName('ParliamentaryStructure');
+		var type, endDate, groupId;
+		for (var i = 0; i < structures.length; i++) {
+			type = structures[i].getElementsByTagName('ParliamentaryStructureTypeID')[0].attributes.getNamedItem('value').value;
+			if (type != structType) {
+				continue;
+			}
+			
+			endDate = structures[i].getElementsByTagName('ParliamentaryStructurePeriod')[0].getElementsByTagName('To')[0].attributes.getNamedItem('value').value;
+			if (endDate.trim() != '') {
+				continue;
+			}
+			
+			groupId = structures[i].getElementsByTagName('ParliamentaryStructureID')[0].attributes.getNamedItem('value').value;
+			if (groupId == toMatch) {
+				return true;
+			} else {
+				return false;
+			}
+		}
+		return false;
 	};
 	
 	this.assignHandlers = function(backBtnUrl) {

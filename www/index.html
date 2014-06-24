@@ -951,17 +951,19 @@
 					</div>
 				</div>
 
-				{{#each groups}}
+				{{#each structs}}
 					<div class="row short-preview">
 						<div class="col">
 							<div class="row">
-								<h2 class="name">ПП ГЕРБ</h2>
+								<h2 class="name">{{structName}}</h2>
 							</div>
 							<div class="row">
 								<ul class="col info">
-									<li><span class="bold">93</span> народни представители</li>
+									<li><span class="bold">{{structMembers}}</span> народни представители</li>
 								</ul>
-								<button class="button icon-left ion-eye preview-btn"><span class="txt">Преглед</span></button>
+								<button class="button icon-left ion-eye preview-btn" onclick="openAppUrl('#mpAZList?groupId={{structId}}');">
+									<span class="txt">Преглед</span>
+								</button>
 							</div>
 						</div>
 					</div>
@@ -979,6 +981,80 @@
 	</div>
 </script>
 <!-- END mp-groups-tpl -->
+
+
+<!-- mp-committees-tpl -->
+<script id="mp-committees-tpl" type="text/x-handlebars-template">
+	<div class="mp-committees-tpl">
+
+		<div class="bar bar-header">
+			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
+			<h1 class="title">Народни представители</h1>
+			<button class="search-btn button button-icon" id="btnSearchGroups">
+				<img src="assets/img/search-icon.png" alt="ico" class="ico">
+			</button>
+		</div>
+		
+		<div class="row search-row">
+			<div class="col hidden" id="searchBoxGroups">
+				<div class="search-wrapper">
+					<input type="text" placeholder="Търси народни представители" class="search-field" id="txtSearchGroups" />
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col content-wrapper" id="scrollingContent">
+
+				<div class="row section-tabs">
+					<div class="col tab" id="mpTabAZ">
+						<div class="flag-active"></div>
+						А-Я
+					</div>
+					<div class="col tab" id="mpTabGroups">
+						<div class="flag-active"></div>
+						ПГ
+					</div>
+					<div class="col col-33 tab active" id="mpTabComms">
+						<div class="flag-active"></div>
+						Комисии
+					</div>
+					<div class="col col-33 tab" id="mpTabAreas">
+						<div class="flag-active"></div>
+						Район
+					</div>
+				</div>
+
+				{{#each structs}}
+					<div class="row short-preview">
+						<div class="col">
+							<div class="row">
+								<h2 class="name">{{structName}}</h2>
+							</div>
+							<div class="row">
+								<ul class="col info">
+									<li><span class="bold">{{structMembers}}</span> народни представители</li>
+								</ul>
+								<button class="button icon-left ion-eye preview-btn" onclick="openAppUrl('#mpAZList?committeeId={{structId}}');">
+									<span class="txt">Преглед</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				{{/each}}
+
+			</div>
+		</div>
+
+		<div class="bar bar-footer">
+			<button class="back-btn button button-icon" id="footerBackButton">
+				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
+			</button>
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
+		</div>
+	</div>
+</script>
+<!-- END mp-committees-tpl -->
 
 
 

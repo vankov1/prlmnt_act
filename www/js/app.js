@@ -9,7 +9,7 @@ var deputiesDataFile = 'deputies.xml';
 var votingAreasDataFile = 'voting_areas.xml';
 var structsDataFile = 'structures.xml'; //Parliament structures - political groups, committees, etc.
 var updatesDataFile = 'changelog.xml';
-var dataFiles = [updatesDataFile, plenaryDataFile, controllDataFile, committeeDataFile, committeesListFile, newsDataFile, billsDataFile, deputiesDataFile, votingAreasDataFile];
+var dataFiles = [updatesDataFile, plenaryDataFile, controllDataFile, committeeDataFile, committeesListFile, newsDataFile, billsDataFile, deputiesDataFile, votingAreasDataFile, structsDataFile];
 var adapters = [];
 var homePageNewItemsCounters = {
 	plenaries: '0',
@@ -156,6 +156,7 @@ function assignMainMenuHandlers() {
     var mpsAZTpl = Handlebars.compile($("#mps-tpl").html());
     var mpsAreasTpl = Handlebars.compile($("#mp-area-tpl").html());
     var mpsGroupsTpl = Handlebars.compile($("#mp-groups-tpl").html());
+    var mpsCommsTpl = Handlebars.compile($("#mp-committees-tpl").html());
 
 //    var slider = new PageSlider($('body'));
 
@@ -456,6 +457,18 @@ function assignMainMenuHandlers() {
 			return;
 		}
 		
+		match = hash.match(mpCommitteesUrl);
+		if (match) {
+			var comms = new ParlamStructsView(mpsCommsTpl);
+			comms.getData(ParalmStructType_COMMITTEES, function(tplData) {
+				$('#page-placeholder').html(comms.render(tplData).el);
+				comms.assignHandlers(homeUrl);
+				comms.updateInterface();
+			});
+			snapper.close();
+			return;
+		}
+				
 		match = hash.match(mpAreasUrl);
 		if (match) {
 			var areas = new VotingAreasView(mpsAreasTpl);
