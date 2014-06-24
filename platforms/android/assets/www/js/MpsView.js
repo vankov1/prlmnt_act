@@ -70,7 +70,6 @@ var MPsView = function(template) {
 	
 	this.filterByArea = function(mpRec, toMatch) {
 		var area = mpRec.getElementsByTagName('Constituency')[0].attributes.getNamedItem('value').value.split('-');
-		console.log(area[0]);
 		if (toMatch == area[0]) {
 			return true;
 		} else {

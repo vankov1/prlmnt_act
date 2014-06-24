@@ -1,0 +1,1098 @@
+<?xml version="1.0" ?>
+<schema>
+	<collections>
+		<collection>
+			<collection_id>2055</collection_id>
+			<collection_name>42-ро Народно събрание</collection_name>
+			<created>2013-05-16</created>
+			<typeID>1</typeID>
+			<type>Народно Събрание</type>
+		</collection>
+		<collection>
+			<collection_id>2056</collection_id>
+			<collection_name>Парламентарна група на Коалиция за България
+			</collection_name>
+			<created>2013-05-21</created>
+			<typeID>2</typeID>
+			<type>Парламентарни групи</type>
+		</collection>
+		<collection>
+			<collection_id>2057</collection_id>
+			<collection_name>Парламентарна група на ПП ГЕРБ</collection_name>
+			<created>2013-05-21</created>
+			<typeID>2</typeID>
+			<type>Парламентарни групи</type>
+		</collection>
+		<collection>
+			<collection_id>2058</collection_id>
+			<collection_name>Парламентарна група на Движение за права и свободи
+			</collection_name>
+			<created>2013-05-21</created>
+			<typeID>2</typeID>
+			<type>Парламентарни групи</type>
+		</collection>
+		<collection>
+			<collection_id>2059</collection_id>
+			<collection_name>Парламентарна група на партия АТАКА
+			</collection_name>
+			<created>2013-05-21</created>
+			<typeID>2</typeID>
+			<type>Парламентарни групи</type>
+		</collection>
+		<collection>
+			<collection_id>2248</collection_id>
+			<collection_name>Нечленуващи в ПГ</collection_name>
+			<created>2013-12-03</created>
+			<typeID>2</typeID>
+			<type>Парламентарни групи</type>
+		</collection>
+		<collection>
+			<collection_id>2064</collection_id>
+			<collection_name>Комисия по икономическата политика и туризъм
+			</collection_name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2065</collection_id>
+			<collection_name>Комисия по енергетика</collection_name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2066</collection_id>
+			<collection_name>Комисия по бюджет и финанси</collection_name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2067</collection_id>
+			<collection_name>Комисия по правни въпроси</collection_name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2068</collection_id>
+			<collection_name>Комисия по регионална политика и местно
+				самоуправление</collection_name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2069</collection_id>
+			<collection_name>Комисия по инвестиционно проектиране
+			</collection_name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2070</collection_id>
+			<collection_name>Комисия по външна политика
+</collection_name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2071</collection_id>
+			<collection_name>Комисия по отбрана
+</collection_name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2072</collection_id>
+			<collection_name>Комисия по вътрешна сигурност и обществен ред
+			</collection_name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2073</collection_id>
+			<collection_name>Комисия по земеделието и храните</collection_name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2074</collection_id>
+			<collection_name>Комисия по труда и социалната политика
+			</collection_name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2075</collection_id>
+			<collection_name>Комисия по образованието и науката</collection_name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2076</collection_id>
+			<collection_name>Комисия по въпросите на децата, младежта и спорта
+			</collection_name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2077</collection_id>
+			<collection_name>Комисия по здравеопазването</collection_name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2078</collection_id>
+			<collection_name>Комисия по околната среда и водите</collection_name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2079</collection_id>
+			<collection_name>Комисия по транспорт, информационни технологии и
+				съобщения</collection_name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2080</collection_id>
+			<collection_name>Комисия по културата и медиите</collection_name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2081</collection_id>
+			<collection_name>Комисия за взаимодействие с граждански организации и
+				движения</collection_name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2082</collection_id>
+			<collection_name>Комисия по правата на човека и жалбите на гражданите
+			</collection_name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2083</collection_id>
+			<collection_name>Комисия за борба с корупцията и конфликт на интереси
+			</collection_name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2084</collection_id>
+			<collection_name>Комисия за контрол над службите за сигурност,
+				използването и прилагането на специалните разузнавателни средства и
+				достъпа до данните по закона за електронните съобщения
+			</collection_name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2085</collection_id>
+			<collection_name>Комисия по европейските въпроси и контрол на
+				европейските фондове</collection_name>
+			<created>2013-06-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2118</collection_id>
+			<collection_name>Комисия по вероизповеданията и парламентарна етика
+			</collection_name>
+			<created>2013-07-12</created>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2254</collection_id>
+			<collection_name>Постоянно действаща подкомисия по усвояването на
+				средствата от Европейския съюз към Комисия по европейските въпроси и
+				контрол на европейските фондове</collection_name>
+			<created>2013-07-31</created>
+			<closed>2014-04-02</closed>
+			<typeID>3</typeID>
+			<type>Постоянни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2060</collection_id>
+			<collection_name>Временна комисия за изработване на проект за
+				Правилник за организацията и дейността на Народното събрание
+			</collection_name>
+			<created>2013-05-22</created>
+			<closed>2013-06-12</closed>
+			<typeID>4</typeID>
+			<type>Временни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2061</collection_id>
+			<collection_name>Временна комисия по правни въпроси</collection_name>
+			<created>2013-05-22</created>
+			<closed>2013-06-19</closed>
+			<typeID>4</typeID>
+			<type>Временни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2063</collection_id>
+			<collection_name>Временна анкетна комисия за проверка на всички
+				данни, факти и обстоятелства при ползването на правителствения
+				"Авиоотряд 28" и въздухоплавателни средства на Министерството на
+				отбраната в случаите на ползване не за цели на въоръжените сили за
+				периода август 2009 - март 2013 г. включително да провери кога, по
+				какви дестинации (в страната и чужбина), с каква цел, в какъв
+				състав, с какъв разход на финансови средства са били ползвани
+				въдухоплавателните средства на авиоотряда и Министерството на
+				отбраната</collection_name>
+			<created>2013-06-05</created>
+			<closed>2013-09-27</closed>
+			<typeID>4</typeID>
+			<type>Временни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2086</collection_id>
+			<collection_name>Временна комисия за изработване на проект на нов
+				Изборен кодекс</collection_name>
+			<created>2013-06-20</created>
+			<closed>2013-10-17</closed>
+			<typeID>4</typeID>
+			<type>Временни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2131</collection_id>
+			<collection_name>Временна анкетна комисия за проучване на
+				обстоятелствата по оповестените факти и данни за нарушения,
+				извършени в Комисията за предотвратяване и установяване на конфликт
+				на интереси</collection_name>
+			<created>2013-09-05</created>
+			<closed>2013-12-04</closed>
+			<typeID>4</typeID>
+			<type>Временни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2233</collection_id>
+			<collection_name>Временна анкетна комисия за проверка и установяване
+				на всички случаи на грубо партизирано кадруване в държавната
+				администрация и в други държавни структури и предприятия, извършено
+				в периода август 2009 - март 2013 г.</collection_name>
+			<created>2013-10-31</created>
+			<closed>2014-03-10</closed>
+			<typeID>4</typeID>
+			<type>Временни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2243</collection_id>
+			<collection_name>Временна анкетна комисия за проверка и установяване
+				на всички обстоятелства около публично огласения телефонен разговор
+				между бившия министър-председател Бойко Борисов и бившия директор на
+				Агенция "Митници" Ваньо Танов, в който се съдържат данни за грубо
+				склоняване към тежки престъпления и злоупотреба с власт
+			</collection_name>
+			<created>2013-11-21</created>
+			<typeID>4</typeID>
+			<type>Временни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2249</collection_id>
+			<collection_name>Временна анкетна комисия за проверка и установяване
+				на всички обстоятелства около сделката за продажбата на летище
+				"Божурище" през 2005 г., както и процедурата по обявяване на
+				летището за паметник на културата през 2008 г. и 2010 г.
+			</collection_name>
+			<created>2013-12-04</created>
+			<closed>2014-03-11</closed>
+			<typeID>4</typeID>
+			<type>Временни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2253</collection_id>
+			<collection_name>Временна комисия за обсъждане и приемане на нов
+				Изборен кодекс</collection_name>
+			<created>2013-12-20</created>
+			<closed>2014-03-04</closed>
+			<typeID>4</typeID>
+			<type>Временни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2257</collection_id>
+			<collection_name>Временна анкетна комисия за проверка и установяване
+				на всички факти и обстоятелства, довели до внезапното подаване на
+				оставка от Христо Дамянов Бисеров от всички заемани постове в
+				Народното събрание и политическата партия "Движение за права и
+				свободи", в резултат на негови действия, след които са образувани
+				наказателни производства за престъпления, свързани с изпиране на
+				пари, подаване на декларации с невярно съдържание и други, както и
+				потенциалното неправомерно изтичане на информация от българските
+				служби за сигурност към "Боянските сараи", както и всички факти и
+				обстоятелства, свързани с твърденията за скандална кореспонденция и
+				среща между председателя на ГЕРБ Бойко Борисов и Бисер Миланов,
+				известен като Петното</collection_name>
+			<created>2014-02-05</created>
+			<closed>2014-04-29</closed>
+			<typeID>4</typeID>
+			<type>Временни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2274</collection_id>
+			<collection_name>Временна анкетна комисия за изясняване на всички
+				факти и обстоятелства, свързани с дейността на фирмите лицензианти
+				на ДКЕВР за разпределение и снабдяване с електроенергия, а също и
+				дружества концесионери за добив на природни богатства, довела до
+				ощетяване на българските граждани и българската държава, както и
+				нерегламентираните им контакти с представители на държавата и
+				свързани с политически партии лица</collection_name>
+			<created>2014-05-08</created>
+			<typeID>4</typeID>
+			<type>Временни парламентарни комисии</type>
+		</collection>
+		<collection>
+			<collection_id>2116</collection_id>
+			<collection_name>Делегация в Парламентарната асамблея на
+				Черноморското икономическо сътрудничество</collection_name>
+			<created>2013-07-03</created>
+			<typeID>6</typeID>
+			<type>Делегации</type>
+		</collection>
+		<collection>
+			<collection_id>2117</collection_id>
+			<collection_name>Делегация в Парламентарната асамблея на Съвета на
+				Европа</collection_name>
+			<created>2013-07-10</created>
+			<typeID>6</typeID>
+			<type>Делегации</type>
+		</collection>
+		<collection>
+			<collection_id>2127</collection_id>
+			<collection_name>Делегация в Интерперламентарния съюз
+			</collection_name>
+			<created>2013-08-01</created>
+			<typeID>6</typeID>
+			<type>Делегации</type>
+		</collection>
+		<collection>
+			<collection_id>2128</collection_id>
+			<collection_name>Делегация в Парламентарната асамблея на Съюза за
+				Средиземноморието</collection_name>
+			<created>2013-08-01</created>
+			<typeID>6</typeID>
+			<type>Делегации</type>
+		</collection>
+		<collection>
+			<collection_id>2129</collection_id>
+			<collection_name>Делегация в Парламентарната асамблея по франкофония
+			</collection_name>
+			<created>2013-08-01</created>
+			<typeID>6</typeID>
+			<type>Делегации</type>
+		</collection>
+		<collection>
+			<collection_id>2130</collection_id>
+			<collection_name>Делегация в Парламентарната асамблея на
+				Организацията за сигурност и сътрудничество в Европа
+			</collection_name>
+			<created>2013-08-01</created>
+			<typeID>6</typeID>
+			<type>Делегации</type>
+		</collection>
+		<collection>
+			<collection_id>2149</collection_id>
+			<collection_name>Делегация в парламентарната асамблея на НАТО
+			</collection_name>
+			<created>2013-10-03</created>
+			<typeID>6</typeID>
+			<type>Делегации</type>
+		</collection>
+		<collection>
+			<collection_id>2150</collection_id>
+			<collection_name>Делегация в Парламентарното измерение на
+				Централноевропейската инициатива</collection_name>
+			<created>2013-10-03</created>
+			<typeID>6</typeID>
+			<type>Делегации</type>
+		</collection>
+		<collection>
+			<collection_id>2151</collection_id>
+			<collection_name>Делегация в Интерпарламентарната асамблея по
+				православие</collection_name>
+			<created>2013-10-03</created>
+			<typeID>6</typeID>
+			<type>Делегации</type>
+		</collection>
+		<collection>
+			<collection_id>2239</collection_id>
+			<collection_name>Постоянно действаща подкомисия по отчетност на
+				публичния сектор към Комисия по бюджет и финанси</collection_name>
+			<created>2013-10-24</created>
+			<typeID>9</typeID>
+			<type>Подкомисии</type>
+		</collection>
+		<collection>
+			<collection_id>2244</collection_id>
+			<collection_name>Постоянно действаща подкомисия за наблюдение на
+				дейността на ДКЕВР към Комисия по енергетика</collection_name>
+			<created>2013-11-22</created>
+			<typeID>9</typeID>
+			<type>Подкомисии</type>
+		</collection>
+		<collection>
+			<collection_id>2152</collection_id>
+			<collection_name>Група за приятелство България - Австрия
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2153</collection_id>
+			<collection_name>Група за приятелство България - Беларус
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2154</collection_id>
+			<collection_name>Група за приятелство България - Австралия
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2155</collection_id>
+			<collection_name>Група за приятелство България - Албания
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2156</collection_id>
+			<collection_name>Група за приятелство България - Алжир
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2157</collection_id>
+			<collection_name>Група за приятелство България - Аржентина
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2158</collection_id>
+			<collection_name>Група за приятелство България - Армения
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2159</collection_id>
+			<collection_name>Група за приятелство България - Азербайджан
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2160</collection_id>
+			<collection_name>Група за приятелство България - Великобритания
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2161</collection_id>
+			<collection_name>Група за приятелство България - Германия
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2162</collection_id>
+			<collection_name>Група за приятелство България - Виетнам
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2163</collection_id>
+			<collection_name>Група за приятелство България - Дания
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2164</collection_id>
+			<collection_name>Група за приятелство България - Гърция
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2165</collection_id>
+			<collection_name>Група за приятелство България - Египет
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2166</collection_id>
+			<collection_name>Група за приятелство България - Грузия
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2167</collection_id>
+			<collection_name>Група за приятелство България - Белгия
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2168</collection_id>
+			<collection_name>Група за приятелство България - Босна и Херцеговина
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2169</collection_id>
+			<collection_name>Група за приятелство България - Бразилия
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2170</collection_id>
+			<collection_name>Група за приятелство България - Венецуела
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2171</collection_id>
+			<collection_name>Група за приятелство България - Естония
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2173</collection_id>
+			<collection_name>Група за приятелство България - Индия
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2174</collection_id>
+			<collection_name>Група за приятелство България - Индонезия
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2175</collection_id>
+			<collection_name>Група за приятелство България - Ирак
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2176</collection_id>
+			<collection_name>Група за приятелство България - Иран
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2177</collection_id>
+			<collection_name>Група за приятелство България - Ирландия
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2178</collection_id>
+			<collection_name>Група за приятелство България - Йордания
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2179</collection_id>
+			<collection_name>Група за приятелство България - Канада
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2180</collection_id>
+			<collection_name>Група за приятелство България - Кипър
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2181</collection_id>
+			<collection_name>Група за приятелство България - КНДР
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2182</collection_id>
+			<collection_name>Група за приятелство България - Косово
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2183</collection_id>
+			<collection_name>Група за приятелство България - Куба
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2184</collection_id>
+			<collection_name>Група за приятелство България - Кувейт
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2185</collection_id>
+			<collection_name>Група за приятелство България - Латвия
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2186</collection_id>
+			<collection_name>Група за приятелство България - Либия
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2187</collection_id>
+			<collection_name>Група за приятелство България - Ливан
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2188</collection_id>
+			<collection_name>Група за приятелство България - Литва
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2189</collection_id>
+			<collection_name>Група за приятелство България - Китай
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2190</collection_id>
+			<collection_name>Група за приятелство България - Казахстан
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2191</collection_id>
+			<collection_name>Група за приятелство България - Македония
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2192</collection_id>
+			<collection_name>Група за приятелство България - Малта
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2193</collection_id>
+			<collection_name>Група за приятелство България - Мароко
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2194</collection_id>
+			<collection_name>Група за приятелство България - Мексико
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2195</collection_id>
+			<collection_name>Група за приятелство България - Монголия
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2196</collection_id>
+			<collection_name>Група за приятелство България - Норвегия
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2197</collection_id>
+			<collection_name>Група за приятелство България - Япония
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2198</collection_id>
+			<collection_name>Група за приятелство България - Палестина
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2199</collection_id>
+			<collection_name>Група за приятелство България - Чехия
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2200</collection_id>
+			<collection_name>Група за приятелство България - Пакистан
+			</collection_name>
+			<created>
+				2013-10-17created>
+				<typeID>11</typeID>
+				<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2201</collection_id>
+			<collection_name>Група за приятелство България - Полша
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2202</collection_id>
+			<collection_name>Група за приятелство България - Португалия
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2203</collection_id>
+			<collection_name>Група за приятелство България - Република Корея
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2204</collection_id>
+			<collection_name>Група за приятелство България - Швеция
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2205</collection_id>
+			<collection_name>Група за приятелство България - Република Южна
+				Африка</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2206</collection_id>
+			<collection_name>Група за приятелство България - Румъния
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2207</collection_id>
+			<collection_name>Група за приятелство България - Русия
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2208</collection_id>
+			<collection_name>Група за приятелство България - Черна гора
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2209</collection_id>
+			<collection_name>Група за приятелство България - Швейцария
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2210</collection_id>
+			<collection_name>Група за приятелство България - САЩ
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2211</collection_id>
+			<collection_name>Група за приятелство България - Хърватия
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2212</collection_id>
+			<collection_name>Група за приятелство България - Сирия
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2213</collection_id>
+			<collection_name>Група за приятелство България - Словакия
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2214</collection_id>
+			<collection_name>Група за приятелство България - Холандия
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2215</collection_id>
+			<collection_name>Група за приятелство България - Словения
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2216</collection_id>
+			<collection_name>Група за приятелство България - Чили
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2217</collection_id>
+			<collection_name>Група за приятелство България - Тайланд
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2218</collection_id>
+			<collection_name>Група за приятелство България - Тунис
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2219</collection_id>
+			<collection_name>Група за приятелство България - Узбекистан
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2220</collection_id>
+			<collection_name>Група за приятелство България - Израел
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2221</collection_id>
+			<collection_name>Група за приятелство България - Украйна
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2222</collection_id>
+			<collection_name>Група за приятелство България - Унгария
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2223</collection_id>
+			<collection_name>Група за приятелство България - Уругвай
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2224</collection_id>
+			<collection_name>Група за приятелство България - Финландия
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2225</collection_id>
+			<collection_name>Група за приятелство България - Турция
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2226</collection_id>
+			<collection_name>Група за приятелство България - Испания
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2227</collection_id>
+			<collection_name>Група за приятелство България - Италия
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2228</collection_id>
+			<collection_name>Група за приятелство България - Франция
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2232</collection_id>
+			<collection_name>Група за приятелство България - Молдова
+			</collection_name>
+			<created>2013-10-17</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2247</collection_id>
+			<collection_name>Група за приятелство България - Сърбия
+			</collection_name>
+			<created>2013-11-27</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2272</collection_id>
+			<collection_name>Група за приятелство България - Киргизка република
+			</collection_name>
+			<created>2014-03-06</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+		<collection>
+			<collection_id>2273</collection_id>
+			<collection_name>Група за приятелство България - Туркменистан
+			</collection_name>
+			<created>2014-03-06</created>
+			<typeID>11</typeID>
+			<type>Групи за приятелство</type>
+		</collection>
+	</collections>
+</schema>

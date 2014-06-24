@@ -7,6 +7,7 @@ var newsDataFile = 'news.xml';
 var billsDataFile = 'bills.xml';
 var deputiesDataFile = 'deputies.xml';
 var votingAreasDataFile = 'voting_areas.xml';
+var structsDataFile = 'structures.xml'; //Parliament structures - political groups, committees, etc.
 var updatesDataFile = 'changelog.xml';
 var dataFiles = [updatesDataFile, plenaryDataFile, controllDataFile, committeeDataFile, committeesListFile, newsDataFile, billsDataFile, deputiesDataFile, votingAreasDataFile];
 var adapters = [];
@@ -49,6 +50,8 @@ function getRssUrlByFileName(fileName) {
 		url = "http://parliament.bg/export/bg/xml/app_log/";
 	} else if (fileName == votingAreasDataFile) {
 		url = "http://parliament.bg/export/bg/xml/app_constituency/";
+	} else if (fileName == structsDataFile) {
+		url = "http://parliament.bg/export/bg/xml/app_collection_list/";
 	}
 	return url;
 }
@@ -84,6 +87,10 @@ var mpDetailUrl = "#mpDetail";
 var mpGroupsUrl = "#mpGroups";
 var mpCommitteesUrl = "#mpCommittees";
 var mpAreasUrl = "#mpAreas";
+
+
+var ParalmStructType_GROUPS = 2;
+var ParalmStructType_COMMITTEES = 3;
 
 assignMainMenuHandlers();
 
@@ -148,6 +155,7 @@ function assignMainMenuHandlers() {
     var billsDetailTpl = Handlebars.compile($("#bills-tpl-detail-preview").html());
     var mpsAZTpl = Handlebars.compile($("#mps-tpl").html());
     var mpsAreasTpl = Handlebars.compile($("#mp-area-tpl").html());
+    var mpsGroupsTpl = Handlebars.compile($("#mp-groups-tpl").html());
 
 //    var slider = new PageSlider($('body'));
 
@@ -431,6 +439,18 @@ function assignMainMenuHandlers() {
 				$('#page-placeholder').html(mps.render(tplData).el);
 				mps.assignHandlers(homeUrl);
 				mps.updateInterface();
+			});
+			snapper.close();
+			return;
+		}
+		
+		match = hash.match(mpGroupsUrl);
+		if (match) {
+			var groups = new ParlamStructsView(mpsGroupsTpl);
+			groups.getData(ParalmStructType_GROUPS, function(tplData) {
+				$('#page-placeholder').html(groups.render(tplData).el);
+				groups.assignHandlers(homeUrl);
+				groups.updateInterface();
 			});
 			snapper.close();
 			return;
