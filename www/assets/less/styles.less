@@ -422,6 +422,12 @@ body {
     float: left;
     position: relative;
 }
+
+.bar-footer {
+    border-top: 1px solid #cfcfcf;
+    background: #fafafa;
+}
+
 /*
 .bottom-tabs {
     position: fixed;
@@ -817,7 +823,9 @@ body {
 .mps-tpl,
 .mp-groups-tpl,
 .mp-committees-tpl,
-.mp-area-tpl {
+.mp-area-tpl,
+.bills-tpl-detail-preview,
+.mps-tpl-detail-preview {
     > .row,
     .content-wrapper {
         padding: 0px;
@@ -845,6 +853,7 @@ body {
             white-space: nowrap;
             text-transform: uppercase;
             font-weight: bold;
+            color: #5c5c5c;
 
         }
         .info {
@@ -853,6 +862,7 @@ body {
             padding-top: 0px;
             text-transform: uppercase;
             font-size: 10px;
+            color: #5c5c5c;
             li {
                 overflow: hidden;
                 text-align: left;
@@ -874,6 +884,8 @@ body {
 
 /* ===== END MPS Tabs Screens ===== */
 
+/* ===== mp-groups-tpl Screen ===== */
+
 .mp-groups-tpl {
     .short-preview {
         padding-bottom: 5px;
@@ -884,6 +896,11 @@ body {
     }
 }
 
+/* ===== END mp-groups-tpl Screen ===== */
+
+
+
+/* ===== mp-area-tpl Screen ===== */
 
 .mp-area-tpl {
     .short-preview {
@@ -899,6 +916,76 @@ body {
         margin-top: 0px !important;
     }
 }
+
+/* ===== END mp-area-tpl Screen ===== */
+
+
+/* ===== mps-tpl-detail-preview Screen ===== */
+
+.mps-tpl-detail-preview {
+
+    .short-preview {
+        padding-top: 5px !important;
+        .name {
+            font-size: 16px;
+            margin: 0px auto 12px auto;
+        }
+        .profile-image {
+            width: 95px;
+            height: 95px;
+            float: none !important;
+            background-size: 95px;
+            margin: 0 auto;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .detail-info {
+            color: #5c5c5c;
+            margin-top: 5px;
+            float: left;
+            padding-top: 0px;
+            text-transform: uppercase;
+            font-size: 12px;
+            li {
+                overflow: hidden;
+                text-align: left;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                line-height: 20px;
+                .label {
+                    margin-right: 5px;
+                }
+                .txt {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .info-section {
+        padding: 0px !important;
+        .name {
+            margin: 10px 5px !important;
+            font-size: 12px;
+            text-align: left;
+            text-overflow: inherit !important;
+            white-space: inherit !important;
+        }
+        .section-title {
+            padding: 5px;
+            margin: 0px;
+            width: 100%;
+            text-align: center;
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 20px;
+            text-transform: uppercase;
+            color: #fff;
+            background: #5c5c5c;
+        }
+    }
+}
+
+/* ===== END mps-tpl-detail-preview Screen ===== */
 
 /* ===== Options Screen ===== */
 
