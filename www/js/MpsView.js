@@ -35,6 +35,8 @@ var MPsView = function(template) {
 				mpMatchesFilter = this.filterByStructure(mpsList[i], filter[1], ParalmStructType_GROUPS);
 			} else if (filter[0] == 'committeeId') {
 				mpMatchesFilter = this.filterByStructure(mpsList[i], filter[1], ParalmStructType_COMMITTEES);
+			} else if (filter[0] == 'mpId') {
+				mpMatchesFilter = this.filterByMpId(mpsList[i], filter[1]);
 			}
 			
 			if (!mpMatchesFilter) {
@@ -56,6 +58,12 @@ var MPsView = function(template) {
 				pubDate: isoToBgDate(newsList[pi].getElementsByTagName('pubDate')[0].textContent),
 				link: newsList[pi].getElementsByTagName('item_link')[0].textContent*/
 			};
+			
+			if (filter[0] == 'mpId') {
+				mps[idx] = this.getDetailMPInfo(mps[idx], mpsList[i]);
+				break;
+			}
+			
 			idx++;
 		}
 		
@@ -105,6 +113,22 @@ var MPsView = function(template) {
 		}
 		return false;
 	};
+	
+	
+	this.filterByMpId = function(mpRec, toMatch) {
+		var mpId = mpRec.getElementsByTagName('item_ID')[0].textContent;
+		if (mpId == toMatch) {
+			return true;
+		}
+		return false;
+	};
+	
+	this.getDetailMPInfo = function(mpShortInfo, mpNode) {
+		mpShortInfo.dateOfBirth = mpNode.getElementsByTagName('DateOfBirth')[0].attributes.getNamedItem('value').value;
+		mpShortInfo.placeOfBirth = mpNode.getElementsByTagName('PlaceOfBirth')[0].attributes.getNamedItem('value').value;
+		return mpShortInfo;
+	};
+	
 	
 	this.assignHandlers = function(backBtnUrl) {
 		var self = this;

@@ -818,7 +818,7 @@
 									<li>{{politForce}}</li>
 									<li>{{izbRajon}}</li>
 								</ul>
-								<button class="button icon-left ion-eye preview-btn" onclick="openAppUrl('#mpDetailUrl?id={{mpId}}');">
+								<button class="button icon-left ion-eye preview-btn" onclick="openAppUrl('#mpDetailUrl?mpId={{mpId}}');">
 									<span class="txt">Преглед</span>
 								</button>
 							</div>
@@ -1055,6 +1055,96 @@
 	</div>
 </script>
 <!-- END mp-committees-tpl -->
+
+
+<!-- mps-tpl-detail-preview -->
+<script id="mps-tpl-detail-preview" type="text/x-handlebars-template">
+	<div class="mps-tpl-detail-preview">
+
+		<div class="bar bar-header">
+			<a href="javascript:void(0)" id="open-left" class="ion-navicon-round side-menu-btn"></a>
+			<h1 class="title">Народeн представител</h1>
+		</div>
+
+        <div class="row">
+            <div class="col content-wrapper">
+
+                <div class="row short-preview">
+                    <div class="col">
+                        <div class="row">
+                            <div class="profile-image" style="background-image: url(http://www.parliament.bg/images/Assembly/{{mpId}}.png)"></div>
+                        </div>
+                        <div class="row">
+                            <h2 class="name">{{mpFName}} {{mpSName}} {{mpFamily}}</h2>
+                        </div>
+                        <div class="row">
+                            <ul class="col detail-info">
+                                <li><span class="label">Дата на раждане:</span><span class="txt">{{dateOfBirth}}</span></li>
+                                <li><span class="label">Месторождение:</span><span class="txt">{{placeOfBirth}}</span></li>
+                                <li><span class="label">E-mail:</span><span class="txt">adrian.asenov@parliament.bg</span></li>
+                                <li><span class="txt">ПП „Атака“ 7.30%</span></li>
+                                <li><span class="label">Изборен район:</span><span class="txt">12-МОНТАНА</span></li>
+                                <li><span class="label">Eзици:</span><span class="txt">Английски, руски</span></li>
+                                <li><span class="label">професия:</span><span class="txt">икономист, юрист</span></li>
+                                <li><span class="label">семейно положение:</span><span class="txt">Женен</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row info-section">
+                    <h2 class="section-title">Парламентарна дейност</h2>
+                </div>
+                <div class="row short-preview info-section">
+                    <div class="col">
+                        <div class="row">
+                            <h2 class="name">42-ро Народно събрание</h2>
+                        </div>
+                        <div class="row">
+                            <ul class="col info">
+                                <li><span class="bold">член</span>21/05/2013 - 21/05/2013</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row short-preview info-section">
+                    <div class="col">
+                        <div class="row">
+                            <h2 class="name">Комисия по правни въпроси</h2>
+                        </div>
+                        <div class="row">
+                            <ul class="col info">
+                                <li><span class="bold">член</span>19/06/2013 - до момента</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row info-section">
+                    <h2 class="section-title">Внесени законопроекти</h2>
+                </div>
+                <div class="row short-preview info-section">
+                    <div class="col">
+                        <div class="row">
+                            <h2 class="name">Законопроект за допълнение на Закона за корпоративното
+подоходно облагане</h2>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+		<div class="bar bar-footer">
+			<button class="back-btn button button-icon" id="footerBackButton">
+				<img src="assets/img/back-arrow.png" alt="ico" class="ico">
+			</button>
+			<button class="button button-icon ion-ios7-gear" id="footerSettingsButton"></button>
+		</div>
+	</div>
+</script>
+<!-- END mps-tpl-detail-preview -->
 
 
 

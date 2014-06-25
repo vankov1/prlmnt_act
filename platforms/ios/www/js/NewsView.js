@@ -69,7 +69,7 @@ var NewsView = function(template) {
 				var needle = $.trim($(this).val());
 				var items = self.searchItems(needle);
 				if (!items || items.length == 0) {
-					console.log('no matches');
+					//console.log('no matches');
 					return;
 				}
 				

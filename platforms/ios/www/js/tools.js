@@ -156,3 +156,46 @@ function assignFooterHandlers(backBtnUrl) {
 		});
 	}
 }
+
+
+function assignMPTabHandlers() {
+	if ($('#mpTabAZ')) {
+		$('#mpTabAZ').unbind().bind('click', function() {
+			openAppUrl(mpAZListUrl);
+		});
+	}
+	if ($('#mpTabGroups')) {
+		$('#mpTabGroups').unbind().bind('click', function() {
+			openAppUrl(mpGroupsUrl);
+		});
+	}
+	if ($('#mpTabComms')) {
+		$('#mpTabComms').unbind().bind('click', function() {
+			openAppUrl(mpCommitteesUrl);
+		});
+	}
+	if ($('#mpTabAreas')) {
+		$('#mpTabAreas').unbind().bind('click', function() {
+			openAppUrl(mpAreasUrl);
+		});
+	}
+};
+
+
+function processUpdatesInfo(savedUpdatesHash) {
+	adapter = getAdapter(updatesDataFile);
+	if (!settings.loaded || !adapter.loaded) {
+		console.log('Not all files loaded');
+		return;
+	}
+	console.log('Both files loaded');
+	console.log('saved hash: ' + savedUpdatesHash);
+	console.log('adapter hash: ' + adapter.rssDataHash);
+	if (adapter.rssDataHash != savedUpdatesHash) {
+		console.log('Hashes do not match - we have new changelog');
+		settings.set('updatesHash', adapter.rssDataHash);
+		settings.saveToFile();
+		var updater = new UpdateDataProcessor();
+		updater.process();
+	}
+}
