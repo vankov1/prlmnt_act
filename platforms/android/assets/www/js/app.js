@@ -100,36 +100,54 @@ var searchOpenDuration = 200;
 function assignMainMenuHandlers() {
 	if ($('#mainMenuPlenary')) {
 		$('#mainMenuPlenary').unbind().bind('click', function() {
+			if ($('#liMainMenuPlenaries')) {
+				$('#liMainMenuPlenaries').removeClass('new');
+			}
 			openAppUrl(plenaryUrl);
 		});
 	}
 	
 	if ($('#mainMenuControll')) {
 		$('#mainMenuControll').unbind().bind('click', function() {
+			if ($('#liMainMenuControll')) {
+				$('#liMainMenuControll').removeClass('new');
+			}
 			openAppUrl(controllUrl);
 		});
 	}
 	
 	if ($('#mainMenuCommittee')) {
 		$('#mainMenuCommittee').unbind().bind('click', function() {
+			if ($('#liMainMenuCommittee')) {
+				$('#liMainMenuCommittee').removeClass('new');
+			}
 			openAppUrl(committeeUrl);
 		});
 	}
 	
 	if ($('#mainMenuBills')) {
 		$('#mainMenuBills').unbind().bind('click', function() {
+			if ($('#liMainMenuBills')) {
+				$('#liMainMenuBills').removeClass('new');
+			}
 			openAppUrl(billsListUrl);
 		});
 	}
 	
 	if ($('#mainMenuMPs')) {
 		$('#mainMenuMPs').unbind().bind('click', function() {
+			if ($('#liMainMenuMPs')) {
+				$('#liMainMenuMPs').removeClass('new');
+			}
 			openAppUrl(mpAZListUrl);
 		});
 	}
 	
 	if ($('#mainMenuNews')) {
 		$('#mainMenuNews').unbind().bind('click', function() {
+			if ($('#liMainMenuNews')) {
+				$('#liMainMenuNews').removeClass('new');
+			}
 			openAppUrl(newsUrl);
 		});
 	}

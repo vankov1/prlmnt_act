@@ -124,8 +124,60 @@ var MPsView = function(template) {
 	};
 	
 	this.getDetailMPInfo = function(mpShortInfo, mpNode) {
+		var tmp = [];
+		
+		//General info
 		mpShortInfo.dateOfBirth = mpNode.getElementsByTagName('DateOfBirth')[0].attributes.getNamedItem('value').value;
 		mpShortInfo.placeOfBirth = mpNode.getElementsByTagName('PlaceOfBirth')[0].attributes.getNamedItem('value').value;
+		mpShortInfo.email = mpNode.getElementsByTagName('E-mail')[0].attributes.getNamedItem('value').value;
+		mpShortInfo.politicalForce = mpNode.getElementsByTagName('PoliticalForce')[0].attributes.getNamedItem('value').value;
+		mpShortInfo.izbRajon = mpNode.getElementsByTagName('Constituency')[0].attributes.getNamedItem('value').value;
+		mpShortInfo.langs = '';
+		if (mpNode.getElementsByTagName('Language').length > 1) {
+			tmp = [];
+			for (var i = 1; i < mpNode.getElementsByTagName('Language').length; i++) {
+				tmp.push(mpNode.getElementsByTagName('Language')[i].attributes.getNamedItem('value').value);
+			}
+			mpShortInfo.langs = tmp.join(', ');
+		}
+		mpShortInfo.profession = '';
+		if (mpNode.getElementsByTagName('Profession').length > 1) {
+			tmp = [];
+			for (var i = 1; i < mpNode.getElementsByTagName('Profession').length; i++) {
+				tmp.push(mpNode.getElementsByTagName('Profession')[i].attributes.getNamedItem('value').value);
+			}
+			mpShortInfo.profession = tmp.join(', ');
+		}
+		mpShortInfo.maritalStatus = mpNode.getElementsByTagName('MaritalStatus')[0].attributes.getNamedItem('value').value;
+		
+		//ParliamentaryActivity
+		mpShortInfo.structs = [];
+		var activity = mpNode.getElementsByTagName('ParliamentaryActivity')[0];
+		if (activity) {
+			var structs = activity.getElementsByTagName('ParliamentaryStructure');
+			for (var i = 0; i < structs.length; i++) {
+				mpShortInfo.structs.push({
+					name: structs[i].getElementsByTagName('ParliamentaryStructureName')[0].attributes.getNamedItem('value').value,
+					position: structs[i].getElementsByTagName('ParliamentaryStructurePosition')[0].attributes.getNamedItem('value').value,
+					sdate: structs[i].getElementsByTagName('From')[0].attributes.getNamedItem('value').value,
+					edate: (structs[i].getElementsByTagName('To')[0].attributes.getNamedItem('value').value.trim() == '') ? 'до момента' : structs[i].getElementsByTagName('To')[0].attributes.getNamedItem('value').value.trim()
+				});
+			}
+		}
+		
+		//Bills
+		mpShortInfo.bills = [];
+		var billsNode = mpNode.getElementsByTagName('Bills')[0];
+		if (billsNode) {
+			var bills = billsNode.getElementsByTagName('Bill');
+			for (var i = 0; i < bills.length; i++) {
+				mpShortInfo.bills.push({
+					billName: bills[i].getElementsByTagName('Name')[0].attributes.getNamedItem('value').value,
+					link: bills[i].getElementsByTagName('ProfileURL')[0].attributes.getNamedItem('value').value
+				});
+			}
+		}
+		
 		return mpShortInfo;
 	};
 	
