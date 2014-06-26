@@ -108,7 +108,7 @@ var MPsView = function(template) {
 			if (groupId == toMatch) {
 				return true;
 			} else {
-				return false;
+				continue;
 			}
 		}
 		return false;

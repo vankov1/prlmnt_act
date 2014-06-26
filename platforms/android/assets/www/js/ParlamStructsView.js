@@ -29,7 +29,7 @@ var ParlamStructsView = function(template) {
 		//console.log('брой депутати: ' + mpsStructs.length);
 		
 		//We iterate mp's records to count mps in desired type
-		var structIds = [];
+		/*var structIds = [];
 		var structMembers = [];
 		var structNodes;
 		var endDate;
@@ -51,11 +51,11 @@ var ParlamStructsView = function(template) {
 				}
 				structMembers[idx]++;
 			}
-		}
+		}*/
 		
 		//get structures
 		var structs = [];
-		var pos = 0, cnt = 0;
+		//var pos = 0, cnt = 0;
 		idx = 0;
 		for (var pi = 0; pi < structList.length; pi++) {
 			
@@ -65,14 +65,13 @@ var ParlamStructsView = function(template) {
 			}
 			
 			structId = structList[pi].getElementsByTagName('collection_id')[0] ? structList[pi].getElementsByTagName('collection_id')[0].textContent : 0;
-			cnt = 'XX';
 			//get member's count
-			pos = structIds.indexOf(structId);
+			/*pos = structIds.indexOf(structId);
 			if (pos == -1) {
 				cnt = 0;
 			} else {
 				cnt = structMembers[pos];
-			}
+			}*/
 			
 			structs[idx] = {
 				gid: idx,
@@ -80,7 +79,7 @@ var ParlamStructsView = function(template) {
 				structId: structId,
 				structName: structList[pi].getElementsByTagName('collection_name')[0] ? structList[pi].getElementsByTagName('collection_name')[0].textContent : '',
 				structTypeName: structList[pi].getElementsByTagName('type')[0] ? structList[pi].getElementsByTagName('type')[0].textContent : '',
-				structMembers: cnt
+				structMembers: structList[pi].getElementsByTagName('members')[0] ? structList[pi].getElementsByTagName('members')[0].textContent : 0
 			};
 			idx++;
 		}
