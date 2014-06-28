@@ -88,6 +88,7 @@ var NewsView = function(template) {
 	};
 	
 	this.searchItems = function(needle) {
+		needle = needle.toLowerCase();
 		var adapter = getAdapter(newsDataFile);
 		console.log('got adapter: ' + adapter.dataFile);
 		var parser = new DOMParser();
@@ -98,7 +99,7 @@ var NewsView = function(template) {
 		var haystack = '';
 		for (var pi = 0; pi < newsList.length; pi++) {
 			haystack = newsList[pi].getElementsByTagName('description')[0].textContent;
-			if (haystack.indexOf(needle) !== -1) {
+			if (haystack.toLowerCase().indexOf(needle) !== -1) {
 				//console.log(pi + ' - position ' + haystack.indexOf(needle));
 				itemIds.push(pi);
 			}
