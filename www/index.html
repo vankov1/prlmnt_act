@@ -281,20 +281,20 @@
 			<button class="subscribe-list-btn button button-icon" id="committeesListButton">
 				<img src="assets/img/check-list-icon.png" alt="ico" class="ico">
 			</button>
-			<button class="search-btn button button-icon" id="btnSearchCommittee">
+			<!--<button class="search-btn button button-icon" id="btnSearchCommittee">
 				<img src="assets/img/search-icon.png" alt="ico" class="ico">
-			</button>
+			</button>-->
 		</div>
 		
 		<div class="row search-row">
-			<div class="col hidden" id="searchBoxCommittee">
+			<div class="col" id="searchBoxCommittee">
 				<div class="search-wrapper">
 					<input type="text" placeholder="Търси заседание" class="search-field" id="txtSearchCommittee" />
 				</div>
 			</div>
 		</div>
 
-		<div class="row">
+		<div class="row" style="margin-top: 50px;">
 			<div class="col content-wrapper" id="scrollingContent">
 				{{#each committee}}			
 				<div class="row short-preview committeeListItem" data-list-item-id="{{cid}}">

@@ -71,15 +71,17 @@ var CommitteeView = function(template) {
 		assignSliderOpenHandler();
 		assignFooterHandlers(backBtnUrl);
 
-		$('#btnSearchCommittee').unbind().bind('click', function() {
-			$('#searchBoxCommittee').slideToggle(searchOpenDuration, function() {
-				if ($('#scrollingContent').hasClass('search-opened')) {
-					$('#scrollingContent').removeClass('search-opened');
-				} else {
-					$('#scrollingContent').addClass('search-opened');
-				}
+		if ($('#btnSearchCommittee')) {
+			$('#btnSearchCommittee').unbind().bind('click', function() {
+				$('#searchBoxCommittee').slideToggle(searchOpenDuration, function() {
+					if ($('#scrollingContent').hasClass('search-opened')) {
+						$('#scrollingContent').removeClass('search-opened');
+					} else {
+						$('#scrollingContent').addClass('search-opened');
+					}
+				});
 			});
-		});
+		}
 		
 		$('#committeesListButton').unbind().bind('click', function() {
 			openAppUrl(committeesListUrl);
@@ -118,20 +120,35 @@ var CommitteeView = function(template) {
 	};
 	
 	this.searchItems = function(needle) {
+		needle = needle.toLowerCase();
 		var adapter = getAdapter(committeeDataFile);
 		console.log('got adapter: ' + adapter.dataFile);
 		var parser = new DOMParser();
 		var data = parser.parseFromString(adapter.rssData, "text/xml");
 		
 		var commList = data.getElementsByTagName('item');
+		var subscribedComms = settings.get('subscribedCommittees');
 		var itemIds = [];
-		var haystack = '';
+		var haystack1 = '';
+		var haystack2 = '';
+		var pos1 = -1; pos2 = -1;
+		var commId;
+		var index = 0;
 		for (var pi = 0; pi < commList.length; pi++) {
-			haystack = commList[pi].getElementsByTagName('agenda')[0].textContent + ' ' + commList[pi].getElementsByTagName('committee')[0].textContent;
-			if (haystack.indexOf(needle) !== -1) {
-				//console.log(pi + ' - position ' + haystack.indexOf(needle));
-				itemIds.push(pi);
+			commId = commList[pi].getElementsByTagName('commitee_id')[0].textContent;
+			if (subscribedComms && inArray(commId, subscribedComms) < 0) {
+				continue;
 			}
+			
+			haystack1 = commList[pi].getElementsByTagName('agenda')[0].textContent.toLowerCase();
+			haystack2 = commList[pi].getElementsByTagName('committee')[0].textContent.toLowerCase();
+			pos1 = haystack1.indexOf(needle);
+			pos2 = haystack2.indexOf(needle);
+			if (pos1 !== -1 || pos2 !== -1) {
+				//console.log(pi + ' - position ' + haystack.indexOf(needle));
+				itemIds.push(index);
+			}
+			index++;
 		}
 		return itemIds;
 	};

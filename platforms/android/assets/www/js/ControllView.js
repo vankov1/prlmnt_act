@@ -138,6 +138,7 @@ var ControllView = function(template) {
 	};
 	
 	this.searchItems = function(needle) {
+		needle = needle.toLowerCase();
 		var adapter = getAdapter(controllDataFile);
 		console.log('got adapter: ' + adapter.dataFile);
 		var parser = new DOMParser();
@@ -152,9 +153,9 @@ var ControllView = function(template) {
 		for (var pi = 0; pi < controllsList.length; pi++) {
 			agendaItemsNodes = controllsList[pi].getElementsByTagName('agenda_item');
 			for (var ai = 0; ai < agendaItemsNodes.length; ai++) {
-				haystack_q = agendaItemsNodes[ai].getElementsByTagName('question')[0].textContent;
-				haystack_qa = agendaItemsNodes[ai].getElementsByTagName('question_author')[0].textContent;
-				haystack_a = agendaItemsNodes[ai].getElementsByTagName('answerer')[0].textContent;
+				haystack_q = agendaItemsNodes[ai].getElementsByTagName('question')[0].textContent.toLowerCase();
+				haystack_qa = agendaItemsNodes[ai].getElementsByTagName('question_author')[0].textContent.toLowerCase();
+				haystack_a = agendaItemsNodes[ai].getElementsByTagName('answerer')[0].textContent.toLowerCase();
 				if (haystack_q.indexOf(needle) !== -1 || haystack_qa.indexOf(needle) !== -1 || haystack_a.indexOf(needle) !== -1) {
 					//console.log(pi + ' - position ' + haystack.indexOf(needle));
 					itemIds.push(pi);
