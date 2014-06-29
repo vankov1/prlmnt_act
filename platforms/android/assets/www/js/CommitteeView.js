@@ -156,6 +156,7 @@ var CommitteeView = function(template) {
 	this.updateInterface = function() {
 		$('.liMainMenuItem').removeClass('active');
 		$('#liMainMenuCommittee').addClass('active');
+		$('#page-placeholder').scrollTop(0);
 	};
 
 

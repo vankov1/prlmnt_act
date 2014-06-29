@@ -17,6 +17,7 @@ var HomeView = function (template) {
 		
 	this.updateInterface = function() {
 		$('.liMainMenuItem').removeClass('active');
+		$('#page-placeholder').scrollTop(0);
 	};
 
     this.initialize();

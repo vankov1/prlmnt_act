@@ -191,7 +191,13 @@ var MPsView = function(template) {
 		assignMPTabHandlers();
 
 		$('#btnSearchMPs').unbind().bind('click', function() {
-			$('#searchBoxMPs').slideToggle("slow");
+			$('#searchBoxMPs').slideToggle(searchOpenDuration, function() {
+				if ($('#scrollingContent').hasClass('search-opened')) {
+					$('#scrollingContent').removeClass('search-opened');
+				} else {
+					$('#scrollingContent').addClass('search-opened');
+				}
+			});
 		});
 		
 		if ($('#txtSearchMPs')) { 
@@ -254,7 +260,8 @@ var MPsView = function(template) {
 	
 	this.updateInterface = function() {
 		$('.liMainMenuItem').removeClass('active');
-		$('#liMainMenuBills').addClass('active');
+		$('#liMainMenuMPs').addClass('active');
+		$('#page-placeholder').scrollTop(0);
 	};
 
 

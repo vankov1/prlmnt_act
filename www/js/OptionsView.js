@@ -44,10 +44,15 @@ var OptionsView = function(template) {
 			}
 			settings.saveToFile();
 		});
+		$("#liNotifications").unbind().bind('click', function() {
+			$('#chkNotifications').click();
+		})
 	};
+	
 	
 	this.updateInterface = function() {
 		$('.liMainMenuItem').removeClass('active');
+		$('#page-placeholder').scrollTop(0);
 	};
 	
 

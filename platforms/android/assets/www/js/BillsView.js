@@ -137,7 +137,13 @@ var BillsView = function(template) {
 		assignFooterHandlers(backBtnUrl);
 		
 		$('#btnSearchBills').unbind().bind('click', function() {
-			$('#searchBoxBills').slideToggle("slow");
+			$('#searchBoxBills').slideToggle(searchOpenDuration, function() {
+				if ($('#scrollingContent').hasClass('search-opened')) {
+					$('#scrollingContent').removeClass('search-opened');
+				} else {
+					$('#scrollingContent').addClass('search-opened');
+				}
+			});
 		});
 		
 		if ($('#txtSearchBills')) { 
@@ -215,6 +221,7 @@ var BillsView = function(template) {
 	this.updateInterface = function() {
 		$('.liMainMenuItem').removeClass('active');
 		$('#liMainMenuBills').addClass('active');
+		$('#page-placeholder').scrollTop(0);
 	};
 
 

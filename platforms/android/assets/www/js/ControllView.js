@@ -170,6 +170,7 @@ var ControllView = function(template) {
 	this.updateInterface = function() {
 		$('.liMainMenuItem').removeClass('active');
 		$('#liMainMenuControll').addClass('active');
+		$('#page-placeholder').scrollTop(0);
 	};
 
 

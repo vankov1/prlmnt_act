@@ -125,7 +125,8 @@ var VotingAreasView = function(template) {
 	
 	this.updateInterface = function() {
 		$('.liMainMenuItem').removeClass('active');
-		$('#liMainMenuPlenaries').addClass('active');
+		$('#liMainMenuMPs').addClass('active');
+		$('#page-placeholder').scrollTop(0);
 	};
 
 	

@@ -110,6 +110,7 @@ var NewsView = function(template) {
 	this.updateInterface = function() {
 		$('.liMainMenuItem').removeClass('active');
 		$('#liMainMenuNews').addClass('active');
+		$('#page-placeholder').scrollTop(0);
 	};
 
 

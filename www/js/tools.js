@@ -147,7 +147,8 @@ function assignSliderOpenHandler() {
 function assignFooterHandlers(backBtnUrl) {
 	if ($('#footerBackButton')) {
 		$('#footerBackButton').unbind().bind('click', function() {
-			openAppUrl(backBtnUrl);
+			history.back(1);
+			//openAppUrl(backBtnUrl);
 		});
 	}
 	if ($('#footerSettingsButton')) {
