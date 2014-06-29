@@ -57,6 +57,7 @@ var VotingAreasView = function(template) {
 		assignFooterHandlers(backBtnUrl);
 		assignMPTabHandlers();
 		
+		/*
 		$('#btnSearchPlenary').unbind().bind('click', function() {
 			$('#searchBoxPlenary').slideToggle(searchOpenDuration, function() {
 				if ($('#scrollingContent').hasClass('search-opened')) {
@@ -94,7 +95,7 @@ var VotingAreasView = function(template) {
 				});
 			});
 		};
-		
+		*/
 	};
 	
 	this.searchItems = function(needle) {

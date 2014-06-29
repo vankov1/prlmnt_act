@@ -100,6 +100,7 @@ var ParlamStructsView = function(template) {
 		assignFooterHandlers(backBtnUrl);
 		assignMPTabHandlers();
 		
+		/*
 		$('#btnSearchPlenary').unbind().bind('click', function() {
 			$('#searchBoxPlenary').slideToggle(searchOpenDuration, function() {
 				if ($('#scrollingContent').hasClass('search-opened')) {
@@ -137,6 +138,7 @@ var ParlamStructsView = function(template) {
 				});
 			});
 		};
+		*/
 		
 	};
 	

@@ -199,3 +199,15 @@ function processUpdatesInfo(savedUpdatesHash) {
 		updater.process();
 	}
 }
+
+
+function myInArray(needle, haystack) {
+	var ret = -1;
+	for (var i = 0; i < haystack.length; i++) {
+		if (needle == haystack[i]) {
+			ret = i;
+			break;
+		}
+	}
+	return ret;
+}
