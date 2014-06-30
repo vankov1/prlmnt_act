@@ -16,7 +16,7 @@ var MPsView = function(template) {
 		console.log('got adapter: ' + adapter.dataFile);
 		var parser = new DOMParser();
 		var data = parser.parseFromString(adapter.rssData, "text/xml");
-				
+		
 		var mps = [];
 		var idx = 0;
 		
@@ -149,7 +149,7 @@ var MPsView = function(template) {
 			}
 			mpShortInfo.profession = tmp.join(', ');
 		}
-		mpShortInfo.maritalStatus = mpNode.getElementsByTagName('MaritalStatus')[0].attributes.getNamedItem('value').value;
+		//mpShortInfo.maritalStatus = mpNode.getElementsByTagName('MaritalStatus')[0].attributes.getNamedItem('value').value;
 		
 		//ParliamentaryActivity
 		mpShortInfo.structs = [];

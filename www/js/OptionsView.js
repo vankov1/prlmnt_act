@@ -46,7 +46,7 @@ var OptionsView = function(template) {
 		});
 		$("#liNotifications").unbind().bind('click', function() {
 			$('#chkNotifications').click();
-		})
+		});
 	};
 	
 	
