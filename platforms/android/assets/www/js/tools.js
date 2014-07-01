@@ -185,8 +185,13 @@ function assignMPTabHandlers() {
 
 function processUpdatesInfo(savedUpdatesHash) {
 	adapter = getAdapter(updatesDataFile);
-	if (!settings.loaded || !adapter.loaded) {
-		console.log('Not all files loaded');
+	
+	if (!settings.loaded) {
+		console.log('Settings not loaded');
+		return;
+	}
+	if (!adapter.loaded) {
+		console.log('changelog not loaded');
 		return;
 	}
 	console.log('Both files loaded');

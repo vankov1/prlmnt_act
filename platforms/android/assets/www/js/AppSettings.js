@@ -10,12 +10,12 @@ var AppSettings = function() {
 		//console.log('settingData: ' + xmlData);
 		if (jsonData) {
 			self.settings = JSON.parse(jsonData);
-			self.loaded = true;
 			//console.log("self.get('updatesHash')" + self.get('updatesHash'));
 			processUpdatesInfo(self.get('updatesHash'));
 		} else {
 			self.settings = {};
 		}
+		self.loaded = true;
 		//console.log(self.settings);
 	};
 

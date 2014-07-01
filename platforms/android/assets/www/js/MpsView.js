@@ -194,8 +194,10 @@ var MPsView = function(template) {
 			$('#searchBoxMPs').slideToggle(searchOpenDuration, function() {
 				if ($('#scrollingContent').hasClass('search-opened')) {
 					$('#scrollingContent').removeClass('search-opened');
+					//$('#scrollingContent').css({"padding-top": "130px !important"});
 				} else {
 					$('#scrollingContent').addClass('search-opened');
+					//$('#scrollingContent').css({"padding-top": "165px !important"});
 				}
 			});
 		});

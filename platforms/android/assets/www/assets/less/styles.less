@@ -259,7 +259,7 @@ body {
 }
 
 .search-row {
-    margin-top: 75px;
+    margin-top: 80px;
     padding: 0px !important;
     position: fixed;
     z-index: 2;
@@ -284,14 +284,23 @@ body {
 }
 
 .content-wrapper {
-    padding-top: 75px !important;
+    padding-top: 80px !important;
     padding-bottom: 35px !important;
     overflow-y: auto !important;
     transition-property: padding-top;
     transition-duration: 0.2s;
     transition-delay: 0s;
+    .section-tabs {
+        top: 75px;
+    }
     &.search-opened {
         padding-top: 125px !important;
+        .section-tabs {
+            position: fixed;
+            top: 115px;
+            left: 0px;
+            z-index: 2;
+        }
     }
 }
 
@@ -765,6 +774,9 @@ body {
 /* ===== Committee Screen ===== */
 
 .committee-tpl {
+    .content-wrapper {
+        padding-top: 125px !important;
+    }
     .bar.bar-header {
         .title {
             //text-align: left;
@@ -880,6 +892,19 @@ body {
             }
         }
     }
+}
+
+.mps-tpl,
+.mp-groups-tpl,
+.mp-committees-tpl,
+.mp-area-tpl {
+    > .row,
+    .content-wrapper {
+        padding: 0;
+        &.search-opened {
+            padding: 165px 0 0 0 !important;
+        }
+    } 
 }
 
 /* ===== END MPS Tabs Screens ===== */

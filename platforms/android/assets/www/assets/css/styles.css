@@ -238,7 +238,7 @@ body {
   color: #5c5c5c;
 }
 .search-row {
-  margin-top: 75px;
+  margin-top: 80px;
   padding: 0px !important;
   position: fixed;
   z-index: 2;
@@ -260,15 +260,24 @@ body {
   letter-spacing: 0.2px;
 }
 .content-wrapper {
-  padding-top: 75px !important;
+  padding-top: 80px !important;
   padding-bottom: 35px !important;
   overflow-y: auto !important;
   transition-property: padding-top;
   transition-duration: 0.2s;
   transition-delay: 0s;
 }
+.content-wrapper .section-tabs {
+  top: 75px;
+}
 .content-wrapper.search-opened {
   padding-top: 125px !important;
+}
+.content-wrapper.search-opened .section-tabs {
+  position: fixed;
+  top: 115px;
+  left: 0px;
+  z-index: 2;
 }
 .short-preview {
   width: 100%;
@@ -684,6 +693,9 @@ body {
 }
 /* ===== END News Screen ===== */
 /* ===== Committee Screen ===== */
+.committee-tpl .content-wrapper {
+  padding-top: 125px !important;
+}
 /* ===== END Committee Screen ===== */
 /* ===== Committee check-lsit Screen ===== */
 .committee-check-list-tpl .short-preview .title {
@@ -801,6 +813,26 @@ body {
 .bills-tpl-detail-preview .short-preview > .col > .row,
 .mps-tpl-detail-preview .short-preview > .col > .row {
   padding: 0px;
+}
+.mps-tpl > .row,
+.mp-groups-tpl > .row,
+.mp-committees-tpl > .row,
+.mp-area-tpl > .row,
+.mps-tpl .content-wrapper,
+.mp-groups-tpl .content-wrapper,
+.mp-committees-tpl .content-wrapper,
+.mp-area-tpl .content-wrapper {
+  padding: 0;
+}
+.mps-tpl > .row.search-opened,
+.mp-groups-tpl > .row.search-opened,
+.mp-committees-tpl > .row.search-opened,
+.mp-area-tpl > .row.search-opened,
+.mps-tpl .content-wrapper.search-opened,
+.mp-groups-tpl .content-wrapper.search-opened,
+.mp-committees-tpl .content-wrapper.search-opened,
+.mp-area-tpl .content-wrapper.search-opened {
+  padding: 165px 0 0 0 !important;
 }
 /* ===== END MPS Tabs Screens ===== */
 /* ===== mp-groups-tpl Screen ===== */
