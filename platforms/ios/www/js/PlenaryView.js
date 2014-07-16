@@ -179,6 +179,7 @@ var PlenaryView = function(template) {
 	this.updateInterface = function() {
 		$('.liMainMenuItem').removeClass('active');
 		$('#liMainMenuPlenaries').addClass('active');
+		$('#page-placeholder').scrollTop(0);
 	};
 
 	

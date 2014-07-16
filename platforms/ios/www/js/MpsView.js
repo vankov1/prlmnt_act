@@ -16,7 +16,7 @@ var MPsView = function(template) {
 		console.log('got adapter: ' + adapter.dataFile);
 		var parser = new DOMParser();
 		var data = parser.parseFromString(adapter.rssData, "text/xml");
-				
+		
 		var mps = [];
 		var idx = 0;
 		
@@ -35,11 +35,20 @@ var MPsView = function(template) {
 				mpMatchesFilter = this.filterByStructure(mpsList[i], filter[1], ParalmStructType_GROUPS);
 			} else if (filter[0] == 'committeeId') {
 				mpMatchesFilter = this.filterByStructure(mpsList[i], filter[1], ParalmStructType_COMMITTEES);
+			} else if (filter[0] == 'mpId') {
+				mpMatchesFilter = this.filterByMpId(mpsList[i], filter[1]);
 			}
 			
 			if (!mpMatchesFilter) {
 				continue;
 			}
+			
+			/*if (idx == 3 || idx == 73) {
+				console.log(
+						mpsList[i].getElementsByTagName('FirstName')[0].attributes.getNamedItem('value').value + ' ' + 
+						mpsList[i].getElementsByTagName('SirName')[0].attributes.getNamedItem('value').value + ' ' +
+						mpsList[i].getElementsByTagName('FamilyName')[0].attributes.getNamedItem('value').value);
+			}*/
 			
 			mps[idx] = {
 				mpi: idx,
@@ -49,13 +58,13 @@ var MPsView = function(template) {
 				mpFamily: mpsList[i].getElementsByTagName('FamilyName')[0].attributes.getNamedItem('value').value,
 				politForce: mpsList[i].getElementsByTagName('PoliticalForce')[0].attributes.getNamedItem('value').value,
 				izbRajon: mpsList[i].getElementsByTagName('Constituency')[0].attributes.getNamedItem('value').value
-				/*,
-				title: newsList[pi].getElementsByTagName('title')[0].textContent,
-				dscr: newsList[pi].getElementsByTagName('description')[0].textContent.replace('>>', '>'),
-				img: newsList[pi].getElementsByTagName('image')[0].textContent,
-				pubDate: isoToBgDate(newsList[pi].getElementsByTagName('pubDate')[0].textContent),
-				link: newsList[pi].getElementsByTagName('item_link')[0].textContent*/
 			};
+			
+			if (filter[0] == 'mpId') {
+				mps[idx] = this.getDetailMPInfo(mps[idx], mpsList[i]);
+				break;
+			}
+			
 			idx++;
 		}
 		
@@ -100,11 +109,79 @@ var MPsView = function(template) {
 			if (groupId == toMatch) {
 				return true;
 			} else {
-				return false;
+				continue;
 			}
 		}
 		return false;
 	};
+	
+	
+	this.filterByMpId = function(mpRec, toMatch) {
+		var mpId = mpRec.getElementsByTagName('item_ID')[0].textContent;
+		if (mpId == toMatch) {
+			return true;
+		}
+		return false;
+	};
+	
+	this.getDetailMPInfo = function(mpShortInfo, mpNode) {
+		var tmp = [];
+		
+		//General info
+		mpShortInfo.dateOfBirth = mpNode.getElementsByTagName('DateOfBirth')[0].attributes.getNamedItem('value').value;
+		mpShortInfo.placeOfBirth = mpNode.getElementsByTagName('PlaceOfBirth')[0].attributes.getNamedItem('value').value;
+		mpShortInfo.email = mpNode.getElementsByTagName('E-mail')[0].attributes.getNamedItem('value').value;
+		mpShortInfo.politicalForce = mpNode.getElementsByTagName('PoliticalForce')[0].attributes.getNamedItem('value').value;
+		mpShortInfo.izbRajon = mpNode.getElementsByTagName('Constituency')[0].attributes.getNamedItem('value').value;
+		mpShortInfo.langs = '';
+		if (mpNode.getElementsByTagName('Language').length > 1) {
+			tmp = [];
+			for (var i = 1; i < mpNode.getElementsByTagName('Language').length; i++) {
+				tmp.push(mpNode.getElementsByTagName('Language')[i].attributes.getNamedItem('value').value);
+			}
+			mpShortInfo.langs = tmp.join(', ');
+		}
+		mpShortInfo.profession = '';
+		if (mpNode.getElementsByTagName('Profession').length > 1) {
+			tmp = [];
+			for (var i = 1; i < mpNode.getElementsByTagName('Profession').length; i++) {
+				tmp.push(mpNode.getElementsByTagName('Profession')[i].attributes.getNamedItem('value').value);
+			}
+			mpShortInfo.profession = tmp.join(', ');
+		}
+		//mpShortInfo.maritalStatus = mpNode.getElementsByTagName('MaritalStatus')[0].attributes.getNamedItem('value').value;
+		
+		//ParliamentaryActivity
+		mpShortInfo.structs = [];
+		var activity = mpNode.getElementsByTagName('ParliamentaryActivity')[0];
+		if (activity) {
+			var structs = activity.getElementsByTagName('ParliamentaryStructure');
+			for (var i = 0; i < structs.length; i++) {
+				mpShortInfo.structs.push({
+					name: structs[i].getElementsByTagName('ParliamentaryStructureName')[0].attributes.getNamedItem('value').value,
+					position: structs[i].getElementsByTagName('ParliamentaryStructurePosition')[0].attributes.getNamedItem('value').value,
+					sdate: structs[i].getElementsByTagName('From')[0].attributes.getNamedItem('value').value,
+					edate: (structs[i].getElementsByTagName('To')[0].attributes.getNamedItem('value').value.trim() == '') ? 'до момента' : structs[i].getElementsByTagName('To')[0].attributes.getNamedItem('value').value.trim()
+				});
+			}
+		}
+		
+		//Bills
+		mpShortInfo.bills = [];
+		var billsNode = mpNode.getElementsByTagName('Bills')[0];
+		if (billsNode) {
+			var bills = billsNode.getElementsByTagName('Bill');
+			for (var i = 0; i < bills.length; i++) {
+				mpShortInfo.bills.push({
+					billName: bills[i].getElementsByTagName('Name')[0].attributes.getNamedItem('value').value,
+					link: bills[i].getElementsByTagName('ProfileURL')[0].attributes.getNamedItem('value').value
+				});
+			}
+		}
+		
+		return mpShortInfo;
+	};
+	
 	
 	this.assignHandlers = function(backBtnUrl) {
 		var self = this;
@@ -113,12 +190,20 @@ var MPsView = function(template) {
 		assignFooterHandlers(backBtnUrl);
 		assignMPTabHandlers();
 
-		$('#btnSearchBills').unbind().bind('click', function() {
-			$('#searchBoxBills').slideToggle("slow");
+		$('#btnSearchMPs').unbind().bind('click', function() {
+			$('#searchBoxMPs').slideToggle(searchOpenDuration, function() {
+				if ($('#scrollingContent').hasClass('search-opened')) {
+					$('#scrollingContent').removeClass('search-opened');
+					//$('#scrollingContent').css({"padding-top": "130px !important"});
+				} else {
+					$('#scrollingContent').addClass('search-opened');
+					//$('#scrollingContent').css({"padding-top": "165px !important"});
+				}
+			});
 		});
 		
-		if ($('#txtSearchBills')) { 
-			$('#txtSearchbills').unbind().bind('keyup', function() {
+		if ($('#txtSearchMPs')) { 
+			$('#txtSearchMPs').unbind().bind('keyup', function() {
 				//console.log('box val: ' + $(this).val() );
 				if ($(this).val().length < 3) {
 					//Make all items visible
@@ -136,12 +221,13 @@ var MPsView = function(template) {
 				}
 				
 				//Display results
-				$('.billListItem').each(function() {
-					//console.log($(this).data("listItemId"));
-					if ($.inArray($(this).data("listItemId"), items) !== -1) {
-						$(this).removeClass('hidden');
-					} else {
+				$('.mpsListItem').each(function() {
+					//console.log($(this).data("listItemId") + ' -> ' + items.indexOf($(this).data("listItemId")) );
+					
+					if (myInArray($(this).data("listItemId"), items) == -1) {
 						$(this).addClass('hidden');
+					} else {
+						$(this).removeClass('hidden');
 					}
 				});
 			});
@@ -150,19 +236,24 @@ var MPsView = function(template) {
 	};
 	
 	this.searchItems = function(needle) {
-		var adapter = getAdapter(newsDataFile);
+		needle = needle.toLowerCase();
+		var adapter = getAdapter(deputiesDataFile);
 		console.log('got adapter: ' + adapter.dataFile);
 		var parser = new DOMParser();
 		var data = parser.parseFromString(adapter.rssData, "text/xml");
 		
-		var billsList = data.getElementsByTagName('item');
+		var mpsList = data.getElementsByTagName('item');
 		var itemIds = [];
 		var haystack = '';
-		for (var pi = 0; pi < newsList.length; pi++) {
-			haystack = billList[pi].getElementsByTagName('billName')[0].textContent;
-			if (haystack.indexOf(needle) !== -1) {
-				//console.log(pi + ' - position ' + haystack.indexOf(needle));
-				itemIds.push(pi);
+		for (var i = 0; i < mpsList.length; i++) {
+			haystack = mpsList[i].getElementsByTagName('FirstName')[0].attributes.getNamedItem('value').value;
+			haystack += ' ' + mpsList[i].getElementsByTagName('SirName')[0].attributes.getNamedItem('value').value;
+			haystack += ' ' + mpsList[i].getElementsByTagName('FamilyName')[0].attributes.getNamedItem('value').value;
+			
+			//console.log('haystack: ' + haystack);
+						
+			if (haystack.toLowerCase().indexOf(needle) !== -1) {
+				itemIds.push(mpsList[i].getElementsByTagName('item_ID')[0].textContent);
 			}
 		}
 		return itemIds;
@@ -171,7 +262,8 @@ var MPsView = function(template) {
 	
 	this.updateInterface = function() {
 		$('.liMainMenuItem').removeClass('active');
-		$('#liMainMenuBills').addClass('active');
+		$('#liMainMenuMPs').addClass('active');
+		$('#page-placeholder').scrollTop(0);
 	};
 
 

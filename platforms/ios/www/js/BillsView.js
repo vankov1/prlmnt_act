@@ -137,11 +137,17 @@ var BillsView = function(template) {
 		assignFooterHandlers(backBtnUrl);
 		
 		$('#btnSearchBills').unbind().bind('click', function() {
-			$('#searchBoxBills').slideToggle("slow");
+			$('#searchBoxBills').slideToggle(searchOpenDuration, function() {
+				if ($('#scrollingContent').hasClass('search-opened')) {
+					$('#scrollingContent').removeClass('search-opened');
+				} else {
+					$('#scrollingContent').addClass('search-opened');
+				}
+			});
 		});
 		
 		if ($('#txtSearchBills')) { 
-			$('#txtSearchbills').unbind().bind('keyup', function() {
+			$('#txtSearchBills').unbind().bind('keyup', function() {
 				//console.log('box val: ' + $(this).val() );
 				if ($(this).val().length < 3) {
 					//Make all items visible
@@ -173,7 +179,8 @@ var BillsView = function(template) {
 	};
 	
 	this.searchItems = function(needle) {
-		var adapter = getAdapter(newsDataFile);
+		needle = needle.toLowerCase();
+		var adapter = getAdapter(billsDataFile);
 		console.log('got adapter: ' + adapter.dataFile);
 		var parser = new DOMParser();
 		var data = parser.parseFromString(adapter.rssData, "text/xml");
@@ -181,9 +188,28 @@ var BillsView = function(template) {
 		var billsList = data.getElementsByTagName('item');
 		var itemIds = [];
 		var haystack = '';
-		for (var pi = 0; pi < newsList.length; pi++) {
-			haystack = billList[pi].getElementsByTagName('billName')[0].textContent;
-			if (haystack.indexOf(needle) !== -1) {
+		var importerNodes, importersStr, pos;
+		var commNodes, commStr, pos1;
+		for (var pi = 0; pi < billsList.length; pi++) {
+			haystack = billsList[pi].getElementsByTagName('BillName')[0].textContent;
+			
+			importerNodes = billsList[pi].getElementsByTagName('Importer');
+			importersStr = '';
+			for (var i = 0; i < importerNodes.length; i++) {
+				importersStr += importerNodes[i].attributes.getNamedItem('value').value + ' ';
+			}
+			importersStr = importersStr.toLowerCase();
+			pos = importersStr.indexOf(needle);
+			
+			commNodes = billsList[pi].getElementsByTagName('CommitteeName');
+			commStr = '';
+			for (var i = 0; i < commNodes.length; i++) {
+				commStr += commNodes[i].textContent + ' ';
+			}
+			commStr = commStr.toLowerCase();
+			pos1 = commStr.indexOf(needle);
+			
+			if (haystack.toLowerCase().indexOf(needle) !== -1 || pos !== -1 || pos1 !== -1) {
 				//console.log(pi + ' - position ' + haystack.indexOf(needle));
 				itemIds.push(pi);
 			}
@@ -195,6 +221,7 @@ var BillsView = function(template) {
 	this.updateInterface = function() {
 		$('.liMainMenuItem').removeClass('active');
 		$('#liMainMenuBills').addClass('active');
+		$('#page-placeholder').scrollTop(0);
 	};
 
 

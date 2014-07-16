@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E1C330B5-DF26-4F40-94CD-E8FF5FED679B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Bulgarian Parliament</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>77C0BD38-4FF9-4726-BCE5-210F64EF4402</key>
+		<string>https://github.com/vankov1/prlmnt_act.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/Bulgarian Parliament.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>77C0BD38-4FF9-4726-BCE5-210F64EF4402</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vankov1/prlmnt_act.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>77C0BD38-4FF9-4726-BCE5-210F64EF4402</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>77C0BD38-4FF9-4726-BCE5-210F64EF4402</string>
+			<key>IDESourceControlWCCName</key>
+			<string>prlmnt_act</string>
+		</dict>
+	</array>
+</dict>
+</plist>

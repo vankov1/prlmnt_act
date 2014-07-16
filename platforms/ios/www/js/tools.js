@@ -147,7 +147,8 @@ function assignSliderOpenHandler() {
 function assignFooterHandlers(backBtnUrl) {
 	if ($('#footerBackButton')) {
 		$('#footerBackButton').unbind().bind('click', function() {
-			openAppUrl(backBtnUrl);
+			history.back(1);
+			//openAppUrl(backBtnUrl);
 		});
 	}
 	if ($('#footerSettingsButton')) {
@@ -184,8 +185,13 @@ function assignMPTabHandlers() {
 
 function processUpdatesInfo(savedUpdatesHash) {
 	adapter = getAdapter(updatesDataFile);
-	if (!settings.loaded || !adapter.loaded) {
-		console.log('Not all files loaded');
+	
+	if (!settings.loaded) {
+		console.log('Settings not loaded');
+		return;
+	}
+	if (!adapter.loaded) {
+		console.log('changelog not loaded');
 		return;
 	}
 	console.log('Both files loaded');
@@ -198,4 +204,16 @@ function processUpdatesInfo(savedUpdatesHash) {
 		var updater = new UpdateDataProcessor();
 		updater.process();
 	}
+}
+
+
+function myInArray(needle, haystack) {
+	var ret = -1;
+	for (var i = 0; i < haystack.length; i++) {
+		if (needle == haystack[i]) {
+			ret = i;
+			break;
+		}
+	}
+	return ret;
 }
